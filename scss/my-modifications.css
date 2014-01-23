@@ -1,0 +1,350 @@
+
+/* --- COLOURS
+   --- SECTIONS 
+   	---- top navigation
+   	---- global search
+   	---- secondary navigation
+   	---- dropdown element
+   	---- widget area
+   	--- MISCELLANEOUS
+   	---- web fonts
+
+
+/*COLOURS -- colour palette included for reference*/
+
+.nav-grey {
+	background-color: #393939;
+}
+
+.red {
+	background-color: #874646;
+}
+
+.green {
+	background-color: #afbda2;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.grey {
+	color: #dddddd ;
+}
+
+.hover-grey {
+	color:  ##464646;
+}
+
+
+#searchbtn {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  cursor: pointer;
+  zoom: 1;
+  filter: alpha(opacity=65);
+  opacity: 0.65;
+  background: transparent url('../images/search.png') top left no-repeat;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+#searchbtn:hover, #searchbtn:focus {
+	filter: alpha(opacity=90);
+	opacity: 0.9;  
+}
+
+
+
+
+/*SECTION -- secondary navigation */
+
+.nav-application {
+	width: 100%;
+}
+
+.nav-application ul li a {
+	color:  #fff;
+}
+
+.tabs {
+	padding-top: .9em;
+	margin: 1em;
+}
+
+.tabs ul {
+	list-style: none;
+}
+
+.tabs li {
+	display: inline;
+}
+
+@media screen and (max-width: 768px) {
+.tabs li a {
+	display: block;
+	font-size: .9em;
+	}
+}
+
+/*just an indication of how to handle the menu, not production worthy code by a long stretch */
+
+.tabs li a {
+	padding: 1em;
+	color: #7d929a;
+}
+
+.tabs li a:hover {
+	background: #464646;
+	color: #fff;
+}
+
+.tabs .active > a {
+color: #464646;
+background: #fff;
+}
+
+
+/*SECTION -- dropdown element */
+	form.custom {
+		margin-left: 20px;
+		}
+
+	form.custom .custom.dropdown {
+		height: 3em;
+		background-color: #ffffff;
+		border:  1px solid #393939;
+		}
+
+  
+  	form.custom .custom.dropdown .current {
+        line-height: 3em; /*positions text on dropdown */
+        color: #393939;
+        font-weight: 500;
+        }
+        
+        
+      form.custom .custom.dropdown .selector {
+        cursor: default;
+        position: absolute;
+        width: 2.5em; /*positions selector element */
+        height: 3em;
+        display: block;
+        right: 0;
+        top: 0; 
+        }
+        
+        /*styles the custom selector */
+     form.custom .custom.dropdown .selector:after {
+        content: "";
+        display: block;
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border: inset 5px;
+        border-color: #393939 transparent transparent transparent;
+        border-top-style: solid;
+        position: absolute;
+        left: 0.9375em;
+        top: 50%;
+        margin-top: -3px; 
+        }
+              
+    form.custom .custom.dropdown ul {
+      	position: absolute;
+      	width: auto;
+      	display: none;
+      	margin: 0;
+      	left: -1px;
+      	top: auto;
+      	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+      	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+      	margin: 0;
+      	padding: 0;
+      	background: white;
+      	border: solid 1px #cccccc;
+      	 }
+      
+      
+      form.custom .custom.dropdown ul li {
+        font-size: 0.875em;
+        cursor: default;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.375em;
+        padding-right: 2.375em;
+        min-height: 1.5em;
+        line-height: 1.5em;
+        margin: 0;
+        white-space: nowrap;
+        list-style: none; }
+        
+        form.custom .custom.dropdown ul li.selected {
+          background: #eeeeee;
+          color: black; }
+        form.custom .custom.dropdown ul li:hover {
+          background-color: #afbda2;
+          color: #fff; }
+        form.custom .custom.dropdown ul li.selected:hover {
+          background: #eeeeee;
+          cursor: default;
+          color: black; }
+      form.custom .custom.dropdown ul.show {
+        display: block; }
+    form.custom .custom.disabled {
+      background: #dddddd; }
+      
+      form.custom > label {
+      	color: #fff;
+      	font-size: .8em;
+      	padding: 10px 0 4px 0;
+      }
+
+
+/*SECTION - widget area*/
+
+.divider-left {
+	border-left:  1px solid #dddddd;
+}
+
+@media screen and (max-width: 768px) {
+.divider-left {
+	border-left:  0px solid #fff;
+	}
+}
+
+.side h4 {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.side p {
+	font-size: 0.95em;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+
+.comment {
+font-size: .8em;
+ 	background-color:  #f7f7f7;
+ 	padding: 5px 5px 5px 15px;
+ 	border:  1px solid #eeeeee;
+ }
+ 
+.reply {
+ 	font-size: .7em;
+ 	float: right;
+ 	margin-top: -10px;
+ }
+ 
+p.timestamp {
+ 	font-size: .75em;
+ 	color: #bbbbbb;
+ 	margin-top: -20px;
+ }
+ 
+
+.radius {
+	margin-right: 5px;
+}
+
+
+
+
+
+
+  
+  
+
+      
+  
+    
+
+
+
+
+
+
+/*MISCELLANOUS */
+
+.header {
+	margin-top: 60px;
+}
+
+
+
+
+
+
+/*MISCELLANOUS - typography */
+h2 {
+	margin-bottom: -20px;
+	font-weight: 500;
+	color: #393939;
+}
+
+h3 {
+	font-size: 18px;
+	color: gray;
+	margin-top: 20px;
+}
+
+.label {
+	font-size: .6em;
+	padding: 6px;
+}  
+
+.intro {
+	font-size: 1.4em;
+} 
+
+
+
+
+/*MISCELLANOUS - web fonts */
+/*using webfonts for icons as they scale without pixellation*/      
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bulb:before {
+	content: "\e600";
+}
+.icon-file:before {
+	content: "\e601";
+}
+.icon-home:before {
+	content: "\e602";
+}
+.icon-bubbles:before {
+	content: "\e607";
+}
+
+

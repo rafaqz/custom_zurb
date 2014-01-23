@@ -1,0 +1,34 @@
+ul.links.inline li, 
+ul.add-content-links li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.view-group-users .view-content {
+  @extend .row;
+  .views-row {
+     @extend .columns;
+     @extend .large-3;
+     @extend .small-3;
+  }
+}
+
+.view-recent-activity .message {
+  @extend .row;
+  .user-picture {
+    @extend .columns;
+    @extend .large-3;
+    @extend .small-3;
+  }
+  div {
+    @extend .columns;
+    @extend .large-9;
+    @extend .small-9;
+    .padding: 5px 0px; 
+  }
+}
+
+.posted .user-picture {
+  display: inline;
+}

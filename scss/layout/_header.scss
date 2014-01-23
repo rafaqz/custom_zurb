@@ -1,0 +1,64 @@
+// Non-modular or client styles for .l-header region.
+
+.l-header {}
+
+// Top Bar
+//--------------------------------------------------
+.top-bar {
+  .title-area {}
+}
+
+.top-bar-section {}
+.top-bar-section .left {}
+.top-bar-section .right {}
+
+.top-bar {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	font-size: 0.8em; 
+	font-style: normal;
+	font-weight: 400;
+	height: 6em;
+	margin-bottom: 0;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	width: 100%;
+}
+
+
+.top-bar-section li a:not(.button) {
+  color:  #393939; /*text colour */
+  background: none repeat scroll 0 0 #fff;
+  line-height: 45px;
+  padding: 0 15px;
+}
+
+.top-bar-section li a:hover:not(.button) {
+  background: none repeat scroll 0 0 #afbda2;
+}
+
+.top-bar ul > li > a {
+	background-color:  #fff;
+}
+
+.top-bar-section ul li.active > a {
+  background: none repeat scroll 0 0 #ffffff;
+  color: #FFFFFF;
+}
+
+.top-bar-section .divider {
+  border-bottom: solid 0 #dddddd;
+  border-top: solid 0 black;
+  clear: both;
+  height: 1px;
+  width: 100%;	
+}
+  
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+  border-bottom: none;
+  border-top: none;
+  clear: none;
+  height: 45px;
+  width: 0; 
+}
