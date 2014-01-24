@@ -63,8 +63,12 @@ function custom_zurb_links__topbar_groups($variables) {
  * Implements template_preprocess_node
  *
  */
-//function custom_zurb_preprocess_node(&$variables) {
-//}
+function custom_zurb_preprocess_node(&$variables) {
+  if (variable_get('node_submitted_' . $variables['node']->type, TRUE)) {
+    $date = format_date($variables['node']->created, 'medium');
+    $variables['submitted'] = t('!username !datetime', array('!username' => $variables['name'], '!datetime' => $date));
+  }
+}
 
 /**
  * Implements hook_preprocess_block()
