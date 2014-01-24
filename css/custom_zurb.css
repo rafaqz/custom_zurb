@@ -4831,7 +4831,7 @@ label.error {
 }
 /* line 275, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.hover > a {
-  background: #f7f7f7;
+  background: #f2f2f2;
   color: white;
 }
 /* line 281, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -5050,11 +5050,11 @@ label.error {
   }
   /* line 456, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li a {
-    color: white;
+    color: #393939;
     line-height: 1;
     white-space: nowrap;
     padding: 7px 15px;
-    background: white;
+    background: #f2f2f2;
   }
   /* line 464, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -5094,7 +5094,7 @@ label.error {
 
   /* line 510, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background: #f7f7f7;
+    background: #f2f2f2;
     color: white;
   }
   /* line 516, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
