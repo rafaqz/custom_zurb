@@ -24,7 +24,8 @@ ul.links.inline {
     @extend .large-3;
     @extend .small-3;
   }
-  .message .div {
+  .message-details {
+    padding: 0;
     @extend .columns;
     @extend .large-9;
     @extend .small-9;
@@ -48,7 +49,8 @@ ul.links.inline {
   .field-name-group-group {
     font-size: $small-font-size;
     float: right;
-    top: emCalc(10px);
+    top: 4em;
+    position: relative;
   }
 }
 

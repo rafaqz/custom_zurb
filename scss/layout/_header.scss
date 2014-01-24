@@ -13,22 +13,17 @@
 .top-bar-section .right {}
 
 .top-bar {
-	background: none repeat scroll 0 0 #FFFFFF;
-	border-radius: 0;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-	font-size: 0.8em; 
-	font-style: normal;
-	font-weight: 400;
-	height: 6em;
-	margin-bottom: 0;
-	padding-bottom: 12px;
-	padding-top: 12px;
-	width: 100%;
+  .title-area {
+    color:  #393939; 
+  }
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  height: 3em;
+  margin-bottom: 0;
 }
 
-
 .top-bar-section li a:not(.button) {
-  color:  #393939; /*text colour */
+  color:  #393939; /*[>text colour <]*/
   background: none repeat scroll 0 0 #fff;
   line-height: 45px;
   padding: 0 15px;
@@ -39,7 +34,7 @@
 }
 
 .top-bar ul > li > a {
-	background-color:  #fff;
+    background-color:  #fff;
 }
 
 .top-bar-section ul li.active > a {

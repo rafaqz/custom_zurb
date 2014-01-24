@@ -601,8 +601,8 @@ select {
 .view-group-users .view-content .row.collapse .views-row,
 .row.collapse .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row .row.collapse .user-picture,
-.row.collapse .view-recent-activity .views-row .message .div,
-.view-recent-activity .views-row .message .row.collapse .div {
+.row.collapse .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .row.collapse .message-details {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -649,7 +649,7 @@ select {
 .columns,
 .view-group-users .view-content .views-row,
 .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .message .div {
+.view-recent-activity .views-row .message-details {
   position: relative;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
@@ -663,7 +663,7 @@ select {
   .columns,
   .view-group-users .view-content .views-row,
   .view-recent-activity .views-row .user-picture,
-  .view-recent-activity .views-row .message .div {
+  .view-recent-activity .views-row .message-details {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -719,7 +719,7 @@ select {
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-9, .view-recent-activity .views-row .message .div {
+  .small-9, .view-recent-activity .views-row .message-details {
     position: relative;
     width: 75%;
   }
@@ -823,7 +823,7 @@ select {
   .columns.small-centered,
   .view-group-users .view-content .small-centered.views-row,
   .view-recent-activity .views-row .small-centered.user-picture,
-  .view-recent-activity .views-row .message .small-centered.div {
+  .view-recent-activity .views-row .small-centered.message-details {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -881,7 +881,7 @@ select {
   }
 
   /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-9, .view-recent-activity .views-row .message .div {
+  .large-9, .view-recent-activity .views-row .message-details {
     position: relative;
     width: 75%;
   }
@@ -1135,7 +1135,7 @@ select {
   .columns.large-centered,
   .view-group-users .view-content .large-centered.views-row,
   .view-recent-activity .views-row .large-centered.user-picture,
-  .view-recent-activity .views-row .message .large-centered.div {
+  .view-recent-activity .views-row .large-centered.message-details {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1147,7 +1147,7 @@ select {
   .columns.large-uncentered,
   .view-group-users .view-content .large-uncentered.views-row,
   .view-recent-activity .views-row .large-uncentered.user-picture,
-  .view-recent-activity .views-row .message .large-uncentered.div {
+  .view-recent-activity .views-row .large-uncentered.message-details {
     margin-left: 0;
     margin-right: 0;
     float: left !important;
@@ -1158,7 +1158,7 @@ select {
   .columns.large-uncentered.opposite,
   .view-group-users .view-content .large-uncentered.opposite.views-row,
   .view-recent-activity .views-row .large-uncentered.opposite.user-picture,
-  .view-recent-activity .views-row .message .large-uncentered.opposite.div {
+  .view-recent-activity .views-row .large-uncentered.opposite.message-details {
     float: right !important;
   }
 }
@@ -2732,8 +2732,8 @@ form .row .row .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row .views-row,
 form .row .row .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row form .row .row .user-picture,
-form .row .row .view-recent-activity .views-row .message .div,
-.view-recent-activity .views-row .message form .row .row .div {
+form .row .row .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .row .row .message-details {
   padding: 0 0.5em;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -2747,8 +2747,8 @@ form .row .row.collapse .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row.collapse .views-row,
 form .row .row.collapse .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row form .row .row.collapse .user-picture,
-form .row .row.collapse .view-recent-activity .views-row .message .div,
-.view-recent-activity .views-row .message form .row .row.collapse .div {
+form .row .row.collapse .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .row .row.collapse .message-details {
   padding: 0;
 }
 /* line 83, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -2758,16 +2758,16 @@ form .row .view-group-users .view-content input.views-row,
 .view-group-users .view-content form .row input.views-row,
 form .row .view-recent-activity .views-row input.user-picture,
 .view-recent-activity .views-row form .row input.user-picture,
-form .row .view-recent-activity .views-row .message input.div,
-.view-recent-activity .views-row .message form .row input.div,
+form .row .view-recent-activity .views-row input.message-details,
+.view-recent-activity .views-row form .row input.message-details,
 form .row textarea.column,
 form .row textarea.columns,
 form .row .view-group-users .view-content textarea.views-row,
 .view-group-users .view-content form .row textarea.views-row,
 form .row .view-recent-activity .views-row textarea.user-picture,
 .view-recent-activity .views-row form .row textarea.user-picture,
-form .row .view-recent-activity .views-row .message textarea.div,
-.view-recent-activity .views-row .message form .row textarea.div {
+form .row .view-recent-activity .views-row textarea.message-details,
+.view-recent-activity .views-row form .row textarea.message-details {
   padding-left: 0.5em;
 }
 
@@ -5479,8 +5479,8 @@ label.error {
 .view-group-users .view-content .reveal-modal .views-row,
 .reveal-modal .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row .reveal-modal .user-picture,
-.reveal-modal .view-recent-activity .views-row .message .div,
-.view-recent-activity .views-row .message .reveal-modal .div {
+.reveal-modal .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .reveal-modal .message-details {
   min-width: 0;
 }
 /* line 65, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
@@ -7341,44 +7341,41 @@ a.th {
 /* line 15, ../scss/layout/_header.scss */
 .top-bar {
   background: none repeat scroll 0 0 #FFFFFF;
-  border-radius: 0;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  font-size: 0.8em;
-  font-style: normal;
-  font-weight: 400;
-  height: 6em;
+  height: 3em;
   margin-bottom: 0;
-  padding-bottom: 12px;
-  padding-top: 12px;
-  width: 100%;
+}
+/* line 16, ../scss/layout/_header.scss */
+.top-bar .title-area {
+  color: #393939;
 }
 
-/* line 30, ../scss/layout/_header.scss */
+/* line 25, ../scss/layout/_header.scss */
 .top-bar-section li a:not(.button) {
   color: #393939;
-  /*text colour */
+  /*[>text colour <]*/
   background: none repeat scroll 0 0 #fff;
   line-height: 45px;
   padding: 0 15px;
 }
 
-/* line 37, ../scss/layout/_header.scss */
+/* line 32, ../scss/layout/_header.scss */
 .top-bar-section li a:hover:not(.button) {
   background: none repeat scroll 0 0 #afbda2;
 }
 
-/* line 41, ../scss/layout/_header.scss */
+/* line 36, ../scss/layout/_header.scss */
 .top-bar ul > li > a {
   background-color: #fff;
 }
 
-/* line 45, ../scss/layout/_header.scss */
+/* line 40, ../scss/layout/_header.scss */
 .top-bar-section ul li.active > a {
   background: none repeat scroll 0 0 #ffffff;
   color: #FFFFFF;
 }
 
-/* line 50, ../scss/layout/_header.scss */
+/* line 45, ../scss/layout/_header.scss */
 .top-bar-section .divider {
   border-bottom: solid 0 #dddddd;
   border-top: solid 0 black;
@@ -7387,7 +7384,7 @@ a.th {
   width: 100%;
 }
 
-/* line 58, ../scss/layout/_header.scss */
+/* line 53, ../scss/layout/_header.scss */
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
   border-bottom: none;
   border-top: none;
@@ -7584,30 +7581,35 @@ ul.links.inline li {
 .view-recent-activity .views-row .user-picture {
   padding: 0;
 }
+/* line 27, ../scss/theme/_drupal.scss */
+.view-recent-activity .views-row .message-details {
+  padding: 0;
+}
 
-/* line 34, ../scss/theme/_drupal.scss */
+/* line 35, ../scss/theme/_drupal.scss */
 .posted .user-picture {
   display: inline;
 }
 
-/* line 39, ../scss/theme/_drupal.scss */
+/* line 40, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header h1 {
   display: inline;
 }
-/* line 42, ../scss/theme/_drupal.scss */
+/* line 43, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .privacy-status {
   background-color: #874646;
   display: inline;
   top: -0.4375em;
 }
-/* line 48, ../scss/theme/_drupal.scss */
+/* line 49, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .field-name-group-group {
   font-size: 70%;
   float: right;
-  top: 0.625em;
+  top: 4em;
+  position: relative;
 }
 
-/* line 55, ../scss/theme/_drupal.scss */
+/* line 57, ../scss/theme/_drupal.scss */
 .add-content {
   border-style: solid;
   border-width: 1px;
@@ -7661,32 +7663,32 @@ ul.links.inline li {
   border-color: white transparent transparent transparent;
 }
 
-/* line 61, ../scss/theme/_drupal.scss */
+/* line 63, ../scss/theme/_drupal.scss */
 .add-content-links li {
   list-style-type: none;
 }
 
-/* line 70, ../scss/theme/_drupal.scss */
+/* line 72, ../scss/theme/_drupal.scss */
 .field {
   margin-bottom: 0.625em;
 }
 
-/* line 78, ../scss/theme/_drupal.scss */
+/* line 80, ../scss/theme/_drupal.scss */
 .accordion > section > .content {
   border: none !important;
 }
 
-/* line 82, ../scss/theme/_drupal.scss */
+/* line 84, ../scss/theme/_drupal.scss */
 .accordion > section.active > .content {
   display: block;
   position: relative;
 }
 
-/* line 97, ../scss/theme/_drupal.scss */
+/* line 99, ../scss/theme/_drupal.scss */
 #search-block-form .form-text {
   height: 3.75em;
 }
-/* line 100, ../scss/theme/_drupal.scss */
+/* line 102, ../scss/theme/_drupal.scss */
 #search-block-form button {
   position: absolute;
   right: 10px;
@@ -7703,7 +7705,7 @@ ul.links.inline li {
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 115, ../scss/theme/_drupal.scss */
+/* line 117, ../scss/theme/_drupal.scss */
 #search-block-form button :hover, #search-block-form button :focus {
   filter: alpha(opacity=90);
   opacity: 0.9;
