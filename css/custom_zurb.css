@@ -2472,7 +2472,7 @@ blockquote p {
   }
 }
 /* line 171, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button, .button, .add-content-links a {
+button, .button, .block-collabco-groups-feature-group-header .field-name-group-group a, .add-content-links a, .flag-idea-vote a {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -2494,57 +2494,57 @@ button, .button, .add-content-links a {
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, .add-content-links a:hover, .button:focus, .add-content-links a:focus {
+button:hover, button:focus, .button:hover, .block-collabco-groups-feature-group-header .field-name-group-group a:hover, .add-content-links a:hover, .flag-idea-vote a:hover, .button:focus, .block-collabco-groups-feature-group-header .field-name-group-group a:focus, .add-content-links a:focus, .flag-idea-vote a:focus {
   background-color: #95a884;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, .add-content-links a:hover, .button:focus, .add-content-links a:focus {
+button:hover, button:focus, .button:hover, .block-collabco-groups-feature-group-header .field-name-group-group a:hover, .add-content-links a:hover, .flag-idea-vote a:hover, .button:focus, .block-collabco-groups-feature-group-header .field-name-group-group a:focus, .add-content-links a:focus, .flag-idea-vote a:focus {
   color: white;
 }
 /* line 176, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary, .button.secondary, .add-content-links a.secondary {
+button.secondary, .button.secondary, .block-collabco-groups-feature-group-header .field-name-group-group a.secondary, .add-content-links a.secondary, .flag-idea-vote a.secondary {
   background-color: #e9e9e9;
   border-color: #d0d0d0;
   color: #333333;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .add-content-links a.secondary:hover, .button.secondary:focus, .add-content-links a.secondary:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.secondary:hover, .add-content-links a.secondary:hover, .flag-idea-vote a.secondary:hover, .button.secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.secondary:focus, .add-content-links a.secondary:focus, .flag-idea-vote a.secondary:focus {
   background-color: #d0d0d0;
 }
 /* line 128, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .add-content-links a.secondary:hover, .button.secondary:focus, .add-content-links a.secondary:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.secondary:hover, .add-content-links a.secondary:hover, .flag-idea-vote a.secondary:hover, .button.secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.secondary:focus, .add-content-links a.secondary:focus, .flag-idea-vote a.secondary:focus {
   color: #333333;
 }
 /* line 177, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success, .button.success, .add-content-links a.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+button.success, .button.success, .block-collabco-groups-feature-group-header .field-name-group-group a.success, .add-content-links a.success, .flag-idea-vote a {
+  background-color: #874646;
+  border-color: #653535;
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, .add-content-links a.success:hover, .button.success:focus, .add-content-links a.success:focus {
-  background-color: #457a1a;
+button.success:hover, button.success:focus, .button.success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.success:hover, .add-content-links a.success:hover, .flag-idea-vote a:hover, .button.success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.success:focus, .add-content-links a.success:focus, .flag-idea-vote a:focus {
+  background-color: #653535;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, .add-content-links a.success:hover, .button.success:focus, .add-content-links a.success:focus {
+button.success:hover, button.success:focus, .button.success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.success:hover, .add-content-links a.success:hover, .flag-idea-vote a:hover, .button.success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.success:focus, .add-content-links a.success:focus, .flag-idea-vote a:focus {
   color: white;
 }
 /* line 178, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert, .button.alert, .add-content-links a.alert {
+button.alert, .button.alert, .block-collabco-groups-feature-group-header .field-name-group-group a.alert, .add-content-links a.alert, .flag-idea-vote a.alert {
   background-color: #c60f13;
   border-color: #970b0e;
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, .add-content-links a.alert:hover, .button.alert:focus, .add-content-links a.alert:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.alert:hover, .add-content-links a.alert:hover, .flag-idea-vote a.alert:hover, .button.alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.alert:focus, .add-content-links a.alert:focus, .flag-idea-vote a.alert:focus {
   background-color: #970b0e;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, .add-content-links a.alert:hover, .button.alert:focus, .add-content-links a.alert:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.alert:hover, .add-content-links a.alert:hover, .flag-idea-vote a.alert:hover, .button.alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.alert:focus, .add-content-links a.alert:focus, .flag-idea-vote a.alert:focus {
   color: white;
 }
 /* line 180, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.large, .button.large, .add-content-links a.large {
+button.large, .button.large, .block-collabco-groups-feature-group-header .field-name-group-group a.large, .add-content-links a.large, .flag-idea-vote a.large {
   padding-top: 1em;
   padding-right: 2em;
   padding-bottom: 1.0625em;
@@ -2552,7 +2552,7 @@ button.large, .button.large, .add-content-links a.large {
   font-size: 1.25em;
 }
 /* line 181, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.small, .comment-form button, .button.small, .add-content-links a, .comment-form button.button {
+button.small, .comment-form button, .button.small, .block-collabco-groups-feature-group-header .field-name-group-group a.small, .add-content-links a, .comment-form button.button, .flag-idea-vote a {
   padding-top: 0.5625em;
   padding-right: 1.125em;
   padding-bottom: 0.625em;
@@ -2560,7 +2560,7 @@ button.small, .comment-form button, .button.small, .add-content-links a, .commen
   font-size: 0.8125em;
 }
 /* line 182, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.tiny, .button.tiny, .add-content-links a.tiny {
+button.tiny, .button.tiny, .block-collabco-groups-feature-group-header .field-name-group-group a.tiny, .add-content-links a.tiny, .flag-idea-vote a.tiny {
   padding-top: 0.4375em;
   padding-right: 0.875em;
   padding-bottom: 0.5em;
@@ -2568,23 +2568,23 @@ button.tiny, .button.tiny, .add-content-links a.tiny {
   font-size: 0.6875em;
 }
 /* line 183, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.expand, .button.expand, .add-content-links a.expand {
+button.expand, .button.expand, .block-collabco-groups-feature-group-header .field-name-group-group a.expand, .add-content-links a.expand, .flag-idea-vote a.expand {
   padding-right: 0px;
   padding-left: 0px;
   width: 100%;
 }
 /* line 185, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.left-align, .button.left-align, .add-content-links a.left-align {
+button.left-align, .button.left-align, .block-collabco-groups-feature-group-header .field-name-group-group a.left-align, .add-content-links a.left-align, .flag-idea-vote a.left-align {
   text-align: left;
   text-indent: 0.75em;
 }
 /* line 186, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.right-align, .button.right-align, .add-content-links a.right-align {
+button.right-align, .button.right-align, .block-collabco-groups-feature-group-header .field-name-group-group a.right-align, .add-content-links a.right-align, .flag-idea-vote a.right-align {
   text-align: right;
   padding-right: 0.75em;
 }
 /* line 188, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled, button[disabled], .button.disabled, .add-content-links a.disabled, .button[disabled], .add-content-links a[disabled] {
+button.disabled, button[disabled], .button.disabled, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled, .add-content-links a.disabled, .flag-idea-vote a.disabled, .button[disabled], .block-collabco-groups-feature-group-header .field-name-group-group a[disabled], .add-content-links a[disabled], .flag-idea-vote a[disabled] {
   background-color: #afbda2;
   border-color: #95a884;
   color: white;
@@ -2594,19 +2594,19 @@ button.disabled, button[disabled], .button.disabled, .add-content-links a.disabl
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:hover, .add-content-links a.disabled:hover, .flag-idea-vote a.disabled:hover, .button.disabled:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:focus, .add-content-links a.disabled:focus, .flag-idea-vote a.disabled:focus, .button[disabled]:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:hover, .add-content-links a[disabled]:hover, .flag-idea-vote a[disabled]:hover, .button[disabled]:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:focus, .add-content-links a[disabled]:focus, .flag-idea-vote a[disabled]:focus {
   background-color: #95a884;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:hover, .add-content-links a.disabled:hover, .flag-idea-vote a.disabled:hover, .button.disabled:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:focus, .add-content-links a.disabled:focus, .flag-idea-vote a.disabled:focus, .button[disabled]:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:hover, .add-content-links a[disabled]:hover, .flag-idea-vote a[disabled]:hover, .button[disabled]:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:focus, .add-content-links a[disabled]:focus, .flag-idea-vote a[disabled]:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:hover, .add-content-links a.disabled:hover, .flag-idea-vote a.disabled:hover, .button.disabled:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled:focus, .add-content-links a.disabled:focus, .flag-idea-vote a.disabled:focus, .button[disabled]:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:hover, .add-content-links a[disabled]:hover, .flag-idea-vote a[disabled]:hover, .button[disabled]:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled]:focus, .add-content-links a[disabled]:focus, .flag-idea-vote a[disabled]:focus {
   background-color: #afbda2;
 }
 /* line 189, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .add-content-links a.disabled.secondary, .button[disabled].secondary, .add-content-links a[disabled].secondary {
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary, .add-content-links a.disabled.secondary, .flag-idea-vote a.disabled.secondary, .button[disabled].secondary, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary, .add-content-links a[disabled].secondary, .flag-idea-vote a[disabled].secondary {
   background-color: #e9e9e9;
   border-color: #d0d0d0;
   color: #333333;
@@ -2616,21 +2616,21 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .flag-idea-vote a.disabled.secondary:hover, .button.disabled.secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .flag-idea-vote a.disabled.secondary:focus, .button[disabled].secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .flag-idea-vote a[disabled].secondary:hover, .button[disabled].secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus, .flag-idea-vote a[disabled].secondary:focus {
   background-color: #d0d0d0;
 }
 /* line 128, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .flag-idea-vote a.disabled.secondary:hover, .button.disabled.secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .flag-idea-vote a.disabled.secondary:focus, .button[disabled].secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .flag-idea-vote a[disabled].secondary:hover, .button[disabled].secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus, .flag-idea-vote a[disabled].secondary:focus {
   color: #333333;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .flag-idea-vote a.disabled.secondary:hover, .button.disabled.secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .flag-idea-vote a.disabled.secondary:focus, .button[disabled].secondary:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .flag-idea-vote a[disabled].secondary:hover, .button[disabled].secondary:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus, .flag-idea-vote a[disabled].secondary:focus {
   background-color: #e9e9e9;
 }
 /* line 190, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success, button[disabled].success, .button.disabled.success, .add-content-links a.disabled.success, .button[disabled].success, .add-content-links a[disabled].success {
-  background-color: #5da423;
-  border-color: #457a1a;
+button.disabled.success, button[disabled].success, .button.disabled.success, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success, .add-content-links a.disabled.success, .flag-idea-vote a.disabled, .button[disabled].success, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success, .add-content-links a[disabled].success, .flag-idea-vote a[disabled] {
+  background-color: #874646;
+  border-color: #653535;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2638,19 +2638,19 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .ad
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
-  background-color: #457a1a;
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:hover, .add-content-links a.disabled.success:hover, .flag-idea-vote a.disabled:hover, .button.disabled.success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:focus, .add-content-links a.disabled.success:focus, .flag-idea-vote a.disabled:focus, .button[disabled].success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:hover, .add-content-links a[disabled].success:hover, .flag-idea-vote a[disabled]:hover, .button[disabled].success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:focus, .add-content-links a[disabled].success:focus, .flag-idea-vote a[disabled]:focus {
+  background-color: #653535;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:hover, .add-content-links a.disabled.success:hover, .flag-idea-vote a.disabled:hover, .button.disabled.success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:focus, .add-content-links a.disabled.success:focus, .flag-idea-vote a.disabled:focus, .button[disabled].success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:hover, .add-content-links a[disabled].success:hover, .flag-idea-vote a[disabled]:hover, .button[disabled].success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:focus, .add-content-links a[disabled].success:focus, .flag-idea-vote a[disabled]:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
-  background-color: #5da423;
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:hover, .add-content-links a.disabled.success:hover, .flag-idea-vote a.disabled:hover, .button.disabled.success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.success:focus, .add-content-links a.disabled.success:focus, .flag-idea-vote a.disabled:focus, .button[disabled].success:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:hover, .add-content-links a[disabled].success:hover, .flag-idea-vote a[disabled]:hover, .button[disabled].success:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].success:focus, .add-content-links a[disabled].success:focus, .flag-idea-vote a[disabled]:focus {
+  background-color: #874646;
 }
 /* line 191, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert, button[disabled].alert, .button.disabled.alert, .add-content-links a.disabled.alert, .button[disabled].alert, .add-content-links a[disabled].alert {
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert, .add-content-links a.disabled.alert, .flag-idea-vote a.disabled.alert, .button[disabled].alert, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert, .add-content-links a[disabled].alert, .flag-idea-vote a[disabled].alert {
   background-color: #c60f13;
   border-color: #970b0e;
   color: white;
@@ -2660,38 +2660,38 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .add-cont
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .flag-idea-vote a.disabled.alert:hover, .button.disabled.alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .flag-idea-vote a.disabled.alert:focus, .button[disabled].alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .flag-idea-vote a[disabled].alert:hover, .button[disabled].alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:focus, .add-content-links a[disabled].alert:focus, .flag-idea-vote a[disabled].alert:focus {
   background-color: #970b0e;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .flag-idea-vote a.disabled.alert:hover, .button.disabled.alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .flag-idea-vote a.disabled.alert:focus, .button[disabled].alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .flag-idea-vote a[disabled].alert:hover, .button[disabled].alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:focus, .add-content-links a[disabled].alert:focus, .flag-idea-vote a[disabled].alert:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .flag-idea-vote a.disabled.alert:hover, .button.disabled.alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .flag-idea-vote a.disabled.alert:focus, .button[disabled].alert:hover, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .flag-idea-vote a[disabled].alert:hover, .button[disabled].alert:focus, .block-collabco-groups-feature-group-header .field-name-group-group a[disabled].alert:focus, .add-content-links a[disabled].alert:focus, .flag-idea-vote a[disabled].alert:focus {
   background-color: #c60f13;
 }
 
 /* line 196, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button, .button, .add-content-links a {
+button, .button, .block-collabco-groups-feature-group-header .field-name-group-group a, .add-content-links a, .flag-idea-vote a {
   padding-top: 0.8125em;
   padding-bottom: 0.75em;
   -webkit-appearance: none;
 }
 /* line 198, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.tiny, .button.tiny, .add-content-links a.tiny {
+button.tiny, .button.tiny, .block-collabco-groups-feature-group-header .field-name-group-group a.tiny, .add-content-links a.tiny, .flag-idea-vote a.tiny {
   padding-top: 0.5em;
   padding-bottom: 0.4375em;
   -webkit-appearance: none;
 }
 /* line 199, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.small, .comment-form button, .button.small, .add-content-links a, .comment-form button.button {
+button.small, .comment-form button, .button.small, .block-collabco-groups-feature-group-header .field-name-group-group a.small, .add-content-links a, .comment-form button.button, .flag-idea-vote a {
   padding-top: 0.625em;
   padding-bottom: 0.5625em;
   -webkit-appearance: none;
 }
 /* line 200, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.large, .button.large, .add-content-links a.large {
+button.large, .button.large, .block-collabco-groups-feature-group-header .field-name-group-group a.large, .add-content-links a.large, .flag-idea-vote a.large {
   padding-top: 1.03125em;
   padding-bottom: 1.03125em;
   -webkit-appearance: none;
@@ -2699,7 +2699,7 @@ button.large, .button.large, .add-content-links a.large {
 
 @media only screen {
   /* line 206, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button, .button, .add-content-links a {
+  button, .button, .block-collabco-groups-feature-group-header .field-name-group-group a, .add-content-links a, .flag-idea-vote a {
     -webkit-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
@@ -2707,24 +2707,24 @@ button.large, .button.large, .add-content-links a.large {
     transition: background-color 300ms ease-out;
   }
   /* line 68, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-  button:active, .button:active, .add-content-links a:active {
+  button:active, .button:active, .block-collabco-groups-feature-group-header .field-name-group-group a:active, .add-content-links a:active, .flag-idea-vote a:active {
     -webkit-box-shadow: 0 0px 0 rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 0px 0 rgba(0, 0, 0, 0.2) inset;
   }
   /* line 214, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button.radius, .button.radius, .add-content-links a.radius {
+  button.radius, .button.radius, .block-collabco-groups-feature-group-header .field-name-group-group a.radius, .add-content-links a.radius, .flag-idea-vote a {
     -webkit-border-radius: 3px;
     border-radius: 3px;
   }
   /* line 215, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button.round, .button.round, .add-content-links a.round {
+  button.round, .button.round, .block-collabco-groups-feature-group-header .field-name-group-group a.round, .add-content-links a.round, .flag-idea-vote a.round {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
   }
 }
 @media only screen and (min-width: 768px) {
   /* line 223, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button, .button, .add-content-links a {
+  button, .button, .block-collabco-groups-feature-group-header .field-name-group-group a, .add-content-links a, .flag-idea-vote a {
     display: inline-block;
   }
 }
@@ -3060,7 +3060,7 @@ label small {
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
 /* line 279, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button, .add-content-links a.postfix {
+.postfix.button, .block-collabco-groups-feature-group-header .field-name-group-group a.postfix, .add-content-links a.postfix, .flag-idea-vote a.postfix {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3070,7 +3070,7 @@ label small {
 }
 
 /* line 280, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button, .add-content-links a.prefix {
+.prefix.button, .block-collabco-groups-feature-group-header .field-name-group-group a.prefix, .add-content-links a.prefix, .flag-idea-vote a.prefix {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3080,7 +3080,7 @@ label small {
 }
 
 /* line 282, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button.radius, .add-content-links a.prefix.radius {
+.prefix.button.radius, .block-collabco-groups-feature-group-header .field-name-group-group a.prefix.radius, .add-content-links a.prefix.radius, .flag-idea-vote a.prefix {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
@@ -3092,7 +3092,7 @@ label small {
 }
 
 /* line 283, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button.radius, .add-content-links a.postfix.radius {
+.postfix.button.radius, .block-collabco-groups-feature-group-header .field-name-group-group a.postfix.radius, .add-content-links a.postfix.radius, .flag-idea-vote a.postfix {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
@@ -3104,7 +3104,7 @@ label small {
 }
 
 /* line 284, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button.round, .add-content-links a.prefix.round {
+.prefix.button.round, .block-collabco-groups-feature-group-header .field-name-group-group a.prefix.round, .add-content-links a.prefix.round, .flag-idea-vote a.prefix.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
@@ -3116,7 +3116,7 @@ label small {
 }
 
 /* line 285, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button.round, .add-content-links a.postfix.round {
+.postfix.button.round, .block-collabco-groups-feature-group-header .field-name-group-group a.postfix.round, .add-content-links a.postfix.round, .flag-idea-vote a.postfix.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
@@ -3168,7 +3168,7 @@ span.postfix.radius, label.postfix.radius {
 
 /* Input groups will automatically style first and last elements of the group */
 /* line 298, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.input-group.radius > *:first-child, .input-group.radius > *:first-child * {
+.input-group.radius > *:first-child, .flag-idea-vote a.input-group > *:first-child, .input-group.radius > *:first-child *, .flag-idea-vote a.input-group > *:first-child * {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
@@ -3177,7 +3177,7 @@ span.postfix.radius, label.postfix.radius {
   border-top-left-radius: 3px;
 }
 /* line 301, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.input-group.radius > *:last-child, .input-group.radius > *:last-child * {
+.input-group.radius > *:last-child, .flag-idea-vote a.input-group > *:last-child, .input-group.radius > *:last-child *, .flag-idea-vote a.input-group > *:last-child * {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3448,7 +3448,7 @@ label.error {
   margin-left: 0;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button, .add-content-links .button-group.radius > *:first-child > a {
+.button-group.radius > *:first-child, .flag-idea-vote a.button-group > *:first-child, .button-group.radius > *:first-child > a, .flag-idea-vote a.button-group > *:first-child > a, .button-group.radius > *:first-child > button, .flag-idea-vote a.button-group > *:first-child > button, .button-group.radius > *:first-child > .button, .flag-idea-vote a.button-group > *:first-child > .button, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.radius > *:first-child > a, .add-content-links .button-group.radius > *:first-child > a, .flag-idea-vote .button-group.radius > *:first-child > a, .flag-idea-vote a.button-group > *:first-child > a {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
@@ -3457,7 +3457,7 @@ label.error {
   border-top-left-radius: 3px;
 }
 /* line 57, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button, .add-content-links .button-group.radius > *:last-child > a {
+.button-group.radius > *:last-child, .flag-idea-vote a.button-group > *:last-child, .button-group.radius > *:last-child > a, .flag-idea-vote a.button-group > *:last-child > a, .button-group.radius > *:last-child > button, .flag-idea-vote a.button-group > *:last-child > button, .button-group.radius > *:last-child > .button, .flag-idea-vote a.button-group > *:last-child > .button, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.radius > *:last-child > a, .add-content-links .button-group.radius > *:last-child > a, .flag-idea-vote .button-group.radius > *:last-child > a, .flag-idea-vote a.button-group > *:last-child > a {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3466,7 +3466,7 @@ label.error {
   border-bottom-right-radius: 3px;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, .add-content-links .button-group.round > *:first-child > a {
+.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.round > *:first-child > a, .add-content-links .button-group.round > *:first-child > a, .flag-idea-vote .button-group.round > *:first-child > a {
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
   -webkit-border-bottom-left-radius: 1000px;
@@ -3475,7 +3475,7 @@ label.error {
   border-top-left-radius: 1000px;
 }
 /* line 57, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button, .add-content-links .button-group.round > *:last-child > a {
+.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.round > *:last-child > a, .add-content-links .button-group.round > *:last-child > a, .flag-idea-vote .button-group.round > *:last-child > a {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -3488,7 +3488,7 @@ label.error {
   width: 50%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li .add-content-links a, .add-content-links .button-group.even-2 li a {
+.button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-2 li a, .button-group.even-2 li .add-content-links a, .add-content-links .button-group.even-2 li a, .button-group.even-2 li .flag-idea-vote a, .flag-idea-vote .button-group.even-2 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3496,7 +3496,7 @@ label.error {
   width: 33.33333%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li .add-content-links a, .add-content-links .button-group.even-3 li a {
+.button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-3 li a, .button-group.even-3 li .add-content-links a, .add-content-links .button-group.even-3 li a, .button-group.even-3 li .flag-idea-vote a, .flag-idea-vote .button-group.even-3 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3504,7 +3504,7 @@ label.error {
   width: 25%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li .add-content-links a, .add-content-links .button-group.even-4 li a {
+.button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-4 li a, .button-group.even-4 li .add-content-links a, .add-content-links .button-group.even-4 li a, .button-group.even-4 li .flag-idea-vote a, .flag-idea-vote .button-group.even-4 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3512,7 +3512,7 @@ label.error {
   width: 20%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li .add-content-links a, .add-content-links .button-group.even-5 li a {
+.button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-5 li a, .button-group.even-5 li .add-content-links a, .add-content-links .button-group.even-5 li a, .button-group.even-5 li .flag-idea-vote a, .flag-idea-vote .button-group.even-5 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3520,7 +3520,7 @@ label.error {
   width: 16.66667%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li .add-content-links a, .add-content-links .button-group.even-6 li a {
+.button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-6 li a, .button-group.even-6 li .add-content-links a, .add-content-links .button-group.even-6 li a, .button-group.even-6 li .flag-idea-vote a, .flag-idea-vote .button-group.even-6 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3528,7 +3528,7 @@ label.error {
   width: 14.28571%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li .add-content-links a, .add-content-links .button-group.even-7 li a {
+.button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-7 li a, .button-group.even-7 li .add-content-links a, .add-content-links .button-group.even-7 li a, .button-group.even-7 li .flag-idea-vote a, .flag-idea-vote .button-group.even-7 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3536,7 +3536,7 @@ label.error {
   width: 12.5%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li .add-content-links a, .add-content-links .button-group.even-8 li a {
+.button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .button-group.even-8 li a, .button-group.even-8 li .add-content-links a, .add-content-links .button-group.even-8 li a, .button-group.even-8 li .flag-idea-vote a, .flag-idea-vote .button-group.even-8 li a {
   width: 100%;
 }
 
@@ -3565,12 +3565,12 @@ label.error {
 
 /* Dropdown Button */
 /* line 108, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button, .add-content-links a.dropdown {
+.dropdown.button, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown, .add-content-links a.dropdown, .flag-idea-vote a.dropdown {
   position: relative;
   padding-right: 3.1875em;
 }
 /* line 46, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, .add-content-links a.dropdown:before {
+.dropdown.button:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown:before, .add-content-links a.dropdown:before, .flag-idea-vote a.dropdown:before {
   position: absolute;
   content: "";
   width: 0;
@@ -3581,70 +3581,70 @@ label.error {
   top: 50%;
 }
 /* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, .add-content-links a.dropdown:before {
+.dropdown.button:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown:before, .add-content-links a.dropdown:before, .flag-idea-vote a.dropdown:before {
   border-width: 0.5625em;
   right: 1.5em;
   margin-top: -0.25em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, .add-content-links a.dropdown:before {
+.dropdown.button:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown:before, .add-content-links a.dropdown:before, .flag-idea-vote a.dropdown:before {
   border-color: white transparent transparent transparent;
 }
 /* line 109, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny, .add-content-links a.dropdown.tiny {
+.dropdown.button.tiny, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.tiny, .add-content-links a.dropdown.tiny, .flag-idea-vote a.dropdown.tiny {
   padding-right: 2.1875em;
 }
 /* line 61, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before, .add-content-links a.dropdown.tiny:before {
+.dropdown.button.tiny:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.tiny:before, .add-content-links a.dropdown.tiny:before, .flag-idea-vote a.dropdown.tiny:before {
   border-width: 0.4375em;
   right: 0.875em;
   margin-top: -0.15625em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before, .add-content-links a.dropdown.tiny:before {
+.dropdown.button.tiny:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.tiny:before, .add-content-links a.dropdown.tiny:before, .flag-idea-vote a.dropdown.tiny:before {
   border-color: white transparent transparent transparent;
 }
 /* line 110, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small, .add-content-links a.dropdown, .comment-form button.dropdown.button {
+.dropdown.button.small, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.small, .add-content-links a.dropdown, .comment-form button.dropdown.button, .flag-idea-vote a.dropdown {
   padding-right: 2.8125em;
 }
 /* line 71, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before {
+.dropdown.button.small:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before, .flag-idea-vote a.dropdown:before {
   border-width: 0.5625em;
   right: 1.125em;
   margin-top: -0.21875em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before {
+.dropdown.button.small:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before, .flag-idea-vote a.dropdown:before {
   border-color: white transparent transparent transparent;
 }
 /* line 111, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large, .add-content-links a.dropdown.large {
+.dropdown.button.large, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.large, .add-content-links a.dropdown.large, .flag-idea-vote a.dropdown.large {
   padding-right: 4em;
 }
 /* line 91, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before, .add-content-links a.dropdown.large:before {
+.dropdown.button.large:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.large:before, .add-content-links a.dropdown.large:before, .flag-idea-vote a.dropdown.large:before {
   border-width: 0.625em;
   right: 1.75em;
   margin-top: -0.3125em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before, .add-content-links a.dropdown.large:before {
+.dropdown.button.large:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.large:before, .add-content-links a.dropdown.large:before, .flag-idea-vote a.dropdown.large:before {
   border-color: white transparent transparent transparent;
 }
 /* line 112, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.secondary:before, .add-content-links a.dropdown.secondary:before {
+.dropdown.button.secondary:before, .block-collabco-groups-feature-group-header .field-name-group-group a.dropdown.secondary:before, .add-content-links a.dropdown.secondary:before, .flag-idea-vote a.dropdown.secondary:before {
   border-color: #333333 transparent transparent transparent;
 }
 
 /* Split Buttons */
 /* line 150, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button, .add-content-links a.split {
+.split.button, .block-collabco-groups-feature-group-header .field-name-group-group a.split, .add-content-links a.split, .flag-idea-vote a.split {
   position: relative;
   padding-right: 4.8em;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span, .add-content-links a.split span {
+.split.button span, .block-collabco-groups-feature-group-header .field-name-group-group a.split span, .add-content-links a.split span, .flag-idea-vote a.split span {
   display: block;
   height: 100%;
   position: absolute;
@@ -3653,7 +3653,7 @@ label.error {
   border-left: solid 1px;
 }
 /* line 62, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, .add-content-links a.split span:before {
+.split.button span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split span:before, .add-content-links a.split span:before, .flag-idea-vote a.split span:before {
   position: absolute;
   content: "";
   width: 0;
@@ -3663,99 +3663,99 @@ label.error {
   left: 50%;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:active, .add-content-links a.split span:active {
+.split.button span:active, .block-collabco-groups-feature-group-header .field-name-group-group a.split span:active, .add-content-links a.split span:active, .flag-idea-vote a.split span:active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span, .add-content-links a.split span {
+.split.button span, .block-collabco-groups-feature-group-header .field-name-group-group a.split span, .add-content-links a.split span, .flag-idea-vote a.split span {
   border-left-color: #899d75;
 }
 /* line 116, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span, .add-content-links a.split span {
+.split.button span, .block-collabco-groups-feature-group-header .field-name-group-group a.split span, .add-content-links a.split span, .flag-idea-vote a.split span {
   width: 3em;
 }
 /* line 117, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, .add-content-links a.split span:before {
+.split.button span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split span:before, .add-content-links a.split span:before, .flag-idea-vote a.split span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 1.125em;
   margin-left: -0.5625em;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, .add-content-links a.split span:before {
+.split.button span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split span:before, .add-content-links a.split span:before, .flag-idea-vote a.split span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span, .add-content-links a.split.secondary span {
+.split.button.secondary span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.secondary span, .add-content-links a.split.secondary span, .flag-idea-vote a.split.secondary span {
   border-left-color: #c3c3c3;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before, .add-content-links a.split.secondary span:before {
+.split.button.secondary span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split.secondary span:before, .add-content-links a.split.secondary span:before, .flag-idea-vote a.split.secondary span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.alert span, .add-content-links a.split.alert span {
+.split.button.alert span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.alert span, .add-content-links a.split.alert span, .flag-idea-vote a.split.alert span {
   border-left-color: #7f0a0c;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.success span, .add-content-links a.split.success span {
-  border-left-color: #396516;
+.split.button.success span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.success span, .add-content-links a.split.success span, .flag-idea-vote a.split span {
+  border-left-color: #552c2c;
 }
 /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny, .add-content-links a.split.tiny {
+.split.button.tiny, .block-collabco-groups-feature-group-header .field-name-group-group a.split.tiny, .add-content-links a.split.tiny, .flag-idea-vote a.split.tiny {
   padding-right: 3.9375em;
 }
 /* line 88, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span, .add-content-links a.split.tiny span {
+.split.button.tiny span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.tiny span, .add-content-links a.split.tiny span, .flag-idea-vote a.split.tiny span {
   width: 2.84375em;
 }
 /* line 89, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span:before, .add-content-links a.split.tiny span:before {
+.split.button.tiny span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split.tiny span:before, .add-content-links a.split.tiny span:before, .flag-idea-vote a.split.tiny span:before {
   border-top-style: solid;
   border-width: 0.4375em;
   top: 0.875em;
   margin-left: -0.3125em;
 }
 /* line 157, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small, .add-content-links a.split, .comment-form button.split.button {
+.split.button.small, .block-collabco-groups-feature-group-header .field-name-group-group a.split.small, .add-content-links a.split, .comment-form button.split.button, .flag-idea-vote a.split {
   padding-right: 3.9375em;
 }
 /* line 102, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small span, .add-content-links a.split span, .comment-form button.split.button span {
+.split.button.small span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.small span, .add-content-links a.split span, .comment-form button.split.button span, .flag-idea-vote a.split span {
   width: 2.8125em;
 }
 /* line 103, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small span:before, .add-content-links a.split span:before, .comment-form button.split.button span:before {
+.split.button.small span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split.small span:before, .add-content-links a.split span:before, .comment-form button.split.button span:before, .flag-idea-vote a.split span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 0.84375em;
   margin-left: -0.5625em;
 }
 /* line 158, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large, .add-content-links a.split.large {
+.split.button.large, .block-collabco-groups-feature-group-header .field-name-group-group a.split.large, .add-content-links a.split.large, .flag-idea-vote a.split.large {
   padding-right: 6em;
 }
 /* line 130, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large span, .add-content-links a.split.large span {
+.split.button.large span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.large span, .add-content-links a.split.large span, .flag-idea-vote a.split.large span {
   width: 3.75em;
 }
 /* line 131, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large span:before, .add-content-links a.split.large span:before {
+.split.button.large span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split.large span:before, .add-content-links a.split.large span:before, .flag-idea-vote a.split.large span:before {
   border-top-style: solid;
   border-width: 0.625em;
   top: 1.3125em;
   margin-left: -0.5625em;
 }
 /* line 159, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.expand, .add-content-links a.split.expand {
+.split.button.expand, .block-collabco-groups-feature-group-header .field-name-group-group a.split.expand, .add-content-links a.split.expand, .flag-idea-vote a.split.expand {
   padding-left: 2em;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before, .add-content-links a.split.secondary span:before {
+.split.button.secondary span:before, .block-collabco-groups-feature-group-header .field-name-group-group a.split.secondary span:before, .add-content-links a.split.secondary span:before, .flag-idea-vote a.split.secondary span:before {
   border-color: #333333 transparent transparent transparent;
 }
 /* line 163, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.radius span, .add-content-links a.split.radius span {
+.split.button.radius span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.radius span, .add-content-links a.split.radius span, .flag-idea-vote a.split span {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3764,7 +3764,7 @@ label.error {
   border-bottom-right-radius: 3px;
 }
 /* line 164, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.round span, .add-content-links a.split.round span {
+.split.button.round span, .block-collabco-groups-feature-group-header .field-name-group-group a.split.round span, .add-content-links a.split.round span, .flag-idea-vote a.split.round span {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -4906,7 +4906,7 @@ label.error {
   height: 2.45em;
 }
 /* line 104, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar .button, .top-bar .add-content-links a, .add-content-links .top-bar a {
+.top-bar .button, .top-bar .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar a, .top-bar .add-content-links a, .add-content-links .top-bar a, .top-bar .flag-idea-vote a, .flag-idea-vote .top-bar a {
   padding-top: .5em;
   padding-bottom: .5em;
   margin-bottom: 0;
@@ -5038,36 +5038,36 @@ label.error {
   background: #222222;
 }
 /* line 246, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button, .top-bar-section ul .add-content-links li > a, .add-content-links .top-bar-section ul li > a {
+.top-bar-section ul li > a.button, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a, .top-bar-section ul .add-content-links li > a, .add-content-links .top-bar-section ul li > a, .top-bar-section ul .flag-idea-vote li > a, .flag-idea-vote .top-bar-section ul li > a {
   background: #afbda2;
   font-size: 0.8125em;
 }
 /* line 249, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.hover, .top-bar-section ul .add-content-links li > a.hover, .add-content-links .top-bar-section ul li > a.hover {
+.top-bar-section ul li > a.button.hover, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.hover, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.hover, .top-bar-section ul .add-content-links li > a.hover, .add-content-links .top-bar-section ul li > a.hover, .top-bar-section ul .flag-idea-vote li > a.hover, .flag-idea-vote .top-bar-section ul li > a.hover {
   background: #95a884;
 }
 /* line 253, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary, .top-bar-section ul .add-content-links li > a.secondary, .add-content-links .top-bar-section ul li > a.secondary {
+.top-bar-section ul li > a.button.secondary, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.secondary, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.secondary, .top-bar-section ul .add-content-links li > a.secondary, .add-content-links .top-bar-section ul li > a.secondary, .top-bar-section ul .flag-idea-vote li > a.secondary, .flag-idea-vote .top-bar-section ul li > a.secondary {
   background: #e9e9e9;
 }
 /* line 255, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary.hover, .top-bar-section ul .add-content-links li > a.secondary.hover, .add-content-links .top-bar-section ul li > a.secondary.hover {
+.top-bar-section ul li > a.button.secondary.hover, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.secondary.hover, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.secondary.hover, .top-bar-section ul .add-content-links li > a.secondary.hover, .add-content-links .top-bar-section ul li > a.secondary.hover, .top-bar-section ul .flag-idea-vote li > a.secondary.hover, .flag-idea-vote .top-bar-section ul li > a.secondary.hover {
   background: #d0d0d0;
 }
 /* line 259, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success, .top-bar-section ul .add-content-links li > a.success, .add-content-links .top-bar-section ul li > a.success {
-  background: #5da423;
+.top-bar-section ul li > a.button.success, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.success, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.success, .top-bar-section ul .add-content-links li > a.success, .add-content-links .top-bar-section ul li > a.success, .top-bar-section ul .flag-idea-vote li > a, .flag-idea-vote .top-bar-section ul li > a {
+  background: #874646;
 }
 /* line 261, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success.hover, .top-bar-section ul .add-content-links li > a.success.hover, .add-content-links .top-bar-section ul li > a.success.hover {
-  background: #457a1a;
+.top-bar-section ul li > a.button.success.hover, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.success.hover, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.success.hover, .top-bar-section ul .add-content-links li > a.success.hover, .add-content-links .top-bar-section ul li > a.success.hover, .top-bar-section ul .flag-idea-vote li > a.hover, .flag-idea-vote .top-bar-section ul li > a.hover {
+  background: #653535;
 }
 /* line 265, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert, .top-bar-section ul .add-content-links li > a.alert, .add-content-links .top-bar-section ul li > a.alert {
+.top-bar-section ul li > a.button.alert, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.alert, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.alert, .top-bar-section ul .add-content-links li > a.alert, .add-content-links .top-bar-section ul li > a.alert, .top-bar-section ul .flag-idea-vote li > a.alert, .flag-idea-vote .top-bar-section ul li > a.alert {
   background: #c60f13;
 }
 /* line 267, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert.hover, .top-bar-section ul .add-content-links li > a.alert.hover, .add-content-links .top-bar-section ul li > a.alert.hover {
+.top-bar-section ul li > a.button.alert.hover, .top-bar-section ul .block-collabco-groups-feature-group-header .field-name-group-group li > a.alert.hover, .block-collabco-groups-feature-group-header .field-name-group-group .top-bar-section ul li > a.alert.hover, .top-bar-section ul .add-content-links li > a.alert.hover, .add-content-links .top-bar-section ul li > a.alert.hover, .top-bar-section ul .flag-idea-vote li > a.alert.hover, .flag-idea-vote .top-bar-section ul li > a.alert.hover {
   background: #970b0e;
 }
 /* line 275, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -5195,8 +5195,12 @@ label.error {
   /* line 373, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar input,
   .top-bar .button,
+  .top-bar .block-collabco-groups-feature-group-header .field-name-group-group a,
+  .block-collabco-groups-feature-group-header .field-name-group-group .top-bar a,
   .top-bar .add-content-links a,
-  .add-content-links .top-bar a {
+  .add-content-links .top-bar a,
+  .top-bar .flag-idea-vote a,
+  .flag-idea-vote .top-bar a {
     line-height: 2em;
     font-size: 0.875em;
     height: 2em;
@@ -5756,7 +5760,7 @@ label.error {
     width: 30%;
   }
   /* line 125, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
-  .reveal-modal.small, .add-content-links a.reveal-modal, .comment-form button.reveal-modal {
+  .reveal-modal.small, .add-content-links a.reveal-modal, .comment-form button.reveal-modal, .flag-idea-vote a.reveal-modal {
     margin-left: -20%;
     width: 40%;
   }
@@ -5816,7 +5820,7 @@ label.error {
   padding: 1.125em 1.25em 1.5em;
 }
 /* line 68, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_joyride.scss */
-.joyride-content-wrapper .button, .joyride-content-wrapper .add-content-links a, .add-content-links .joyride-content-wrapper a {
+.joyride-content-wrapper .button, .joyride-content-wrapper .block-collabco-groups-feature-group-header .field-name-group-group a, .block-collabco-groups-feature-group-header .field-name-group-group .joyride-content-wrapper a, .joyride-content-wrapper .add-content-links a, .add-content-links .joyride-content-wrapper a, .joyride-content-wrapper .flag-idea-vote a, .flag-idea-vote .joyride-content-wrapper a {
   margin-bottom: 0 !important;
 }
 
@@ -6237,7 +6241,7 @@ label.error {
   opacity: 0.5;
 }
 /* line 99, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_alert-boxes.scss */
-.alert-box.radius {
+.alert-box.radius, .flag-idea-vote a.alert-box {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -6247,9 +6251,9 @@ label.error {
   border-radius: 1000px;
 }
 /* line 102, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_alert-boxes.scss */
-.alert-box.success {
-  background-color: #5da423;
-  border-color: #457a1a;
+.alert-box.success, .flag-idea-vote a.alert-box {
+  background-color: #874646;
+  border-color: #653535;
   color: white;
 }
 /* line 103, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_alert-boxes.scss */
@@ -6500,7 +6504,7 @@ form.custom .custom.dropdown.open ul {
   box-sizing: content-box;
 }
 /* line 201, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
-form.custom .custom.dropdown.small, form.custom .add-content-links a.custom.dropdown, .add-content-links form.custom a.custom.dropdown, form.custom .comment-form button.custom.dropdown, .comment-form form.custom button.custom.dropdown {
+form.custom .custom.dropdown.small, form.custom .add-content-links a.custom.dropdown, .add-content-links form.custom a.custom.dropdown, form.custom .comment-form button.custom.dropdown, .comment-form form.custom button.custom.dropdown, form.custom .flag-idea-vote a.custom.dropdown, .flag-idea-vote form.custom a.custom.dropdown {
   max-width: 134px;
 }
 /* line 202, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
@@ -6516,7 +6520,7 @@ form.custom .custom.dropdown.expand {
   width: 100% !important;
 }
 /* line 206, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
-form.custom .custom.dropdown.open.small ul, form.custom .add-content-links a.custom.dropdown.open ul, .add-content-links form.custom a.custom.dropdown.open ul, form.custom .comment-form button.custom.dropdown.open ul, .comment-form form.custom button.custom.dropdown.open ul {
+form.custom .custom.dropdown.open.small ul, form.custom .add-content-links a.custom.dropdown.open ul, .add-content-links form.custom a.custom.dropdown.open ul, form.custom .comment-form button.custom.dropdown.open ul, .comment-form form.custom button.custom.dropdown.open ul, form.custom .flag-idea-vote a.custom.dropdown.open ul, .flag-idea-vote form.custom a.custom.dropdown.open ul {
   min-width: 134px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6641,7 +6645,7 @@ kbd {
   color: white;
 }
 /* line 77, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.radius, .block-collabco-groups-feature-group-header .radius.privacy-status {
+.label.radius, .block-collabco-groups-feature-group-header .radius.privacy-status, .block-collabco-groups-feature-group-header .flag-idea-vote a.privacy-status, .flag-idea-vote .block-collabco-groups-feature-group-header a.privacy-status, .flag-idea-vote a.label {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -6656,8 +6660,8 @@ kbd {
   color: white;
 }
 /* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.success, .block-collabco-groups-feature-group-header .success.privacy-status {
-  background-color: #5da423;
+.label.success, .block-collabco-groups-feature-group-header .success.privacy-status, .block-collabco-groups-feature-group-header .flag-idea-vote a.privacy-status, .flag-idea-vote .block-collabco-groups-feature-group-header a.privacy-status, .flag-idea-vote a.label {
+  background-color: #874646;
   color: white;
 }
 /* line 82, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
@@ -6814,7 +6818,7 @@ ul.pagination li {
   line-height: 1.4;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.radius {
+.panel.radius, .flag-idea-vote a.panel {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -6899,8 +6903,8 @@ ul.pagination li {
   display: block;
 }
 /* line 58, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_progress-bars.scss */
-.progress.success .meter {
-  background: #5da423;
+.progress.success .meter, .flag-idea-vote a.progress .meter {
+  background: #874646;
   height: 100%;
   display: block;
 }
@@ -6911,12 +6915,12 @@ ul.pagination li {
   display: block;
 }
 /* line 61, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_progress-bars.scss */
-.progress.radius {
+.progress.radius, .flag-idea-vote a.progress {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 62, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_progress-bars.scss */
-.progress.radius .meter {
+.progress.radius .meter, .flag-idea-vote a.progress .meter {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
@@ -7131,8 +7135,8 @@ ul.pagination li {
     background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: -webkit-linear-gradient(top, white 0%, #f2f2f2 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
-    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #eedede, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
+    box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #eedede, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   }
   /* line 196, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_switch.scss */
   div.switch:hover span:last-child, div.switch:focus span:last-child {
@@ -7320,7 +7324,7 @@ table tfoot tr td {
   box-shadow: 0 0 6px 1px rgba(175, 189, 162, 0.5);
 }
 /* line 49, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_thumbs.scss */
-.th.radius {
+.th.radius, .flag-idea-vote a.th {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -7539,7 +7543,7 @@ a.th {
   max-width: 200px;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown.scss */
-.f-dropdown.small, .add-content-links a.f-dropdown, .comment-form button.f-dropdown {
+.f-dropdown.small, .add-content-links a.f-dropdown, .comment-form button.f-dropdown, .flag-idea-vote a.f-dropdown {
   max-width: 300px;
 }
 /* line 147, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown.scss */
@@ -7830,7 +7834,7 @@ ul.links.inline li {
   position: relative;
 }
 
-/* line 67, ../scss/theme/_drupal.scss */
+/* line 71, ../scss/theme/_drupal.scss */
 .add-content {
   border-style: solid;
   border-width: 1px;
@@ -7884,32 +7888,32 @@ ul.links.inline li {
   border-color: white transparent transparent transparent;
 }
 
-/* line 73, ../scss/theme/_drupal.scss */
+/* line 77, ../scss/theme/_drupal.scss */
 .add-content-links li {
   list-style-type: none;
 }
 
-/* line 82, ../scss/theme/_drupal.scss */
+/* line 86, ../scss/theme/_drupal.scss */
 .field {
   margin-bottom: 0.625em;
 }
 
-/* line 90, ../scss/theme/_drupal.scss */
+/* line 94, ../scss/theme/_drupal.scss */
 .accordion > section > .content {
   border: none !important;
 }
 
-/* line 94, ../scss/theme/_drupal.scss */
+/* line 98, ../scss/theme/_drupal.scss */
 .accordion > section.active > .content {
   display: block;
   position: relative;
 }
 
-/* line 109, ../scss/theme/_drupal.scss */
+/* line 113, ../scss/theme/_drupal.scss */
 #search-block-form .form-text {
   height: 3.75em;
 }
-/* line 112, ../scss/theme/_drupal.scss */
+/* line 116, ../scss/theme/_drupal.scss */
 #search-block-form button {
   position: absolute;
   right: 10px;
@@ -7926,18 +7930,18 @@ ul.links.inline li {
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 127, ../scss/theme/_drupal.scss */
+/* line 131, ../scss/theme/_drupal.scss */
 #search-block-form button :hover, #search-block-form button :focus {
   filter: alpha(opacity=90);
   opacity: 0.9;
 }
 
-/* line 135, ../scss/theme/_drupal.scss */
+/* line 139, ../scss/theme/_drupal.scss */
 ul.button-group a.secondary.active {
   background-color: #c3c3c3;
 }
 
-/* line 140, ../scss/theme/_drupal.scss */
+/* line 144, ../scss/theme/_drupal.scss */
 article.node {
   float: none;
   clear: both;

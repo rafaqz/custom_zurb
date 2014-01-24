@@ -61,6 +61,10 @@ ul.links.inline {
     float: right;
     top: 4em;
     position: relative;
+
+    a {
+      @extend .button;
+    }
   }
 }
 
@@ -145,4 +149,11 @@ article.node {
 
 .comment-wrapper {
   @extend .divider-top;
+}
+
+.flag-idea-vote a {
+  @extend .button;
+  @extend .small;
+  @extend .success;
+  @extend .radius;
 }
