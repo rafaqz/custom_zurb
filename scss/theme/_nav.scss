@@ -3,89 +3,12 @@
 
 /*SECTION -- secondary navigation */
 
-.block-collabco-groups-feature-group-content-tab {
-  background-color: #393939;
-  width: 100%;
-  margin-bottom: 1em;
-
-  .item-list {
-    @extend .row;
-
-    ul {
-      padding-top: .3em;
-      margin: 1em;
-      list-style: none;
-
-      li {
-        display: inline;
-
-        a {
-          padding: 1em;
-          color: #7d929a;
-        }
-
-        a:hover {
-          background: #464646;
-          color: #fff;
-        }
-      }
-
-      li.active > a {
-        color: #464646;
-        background: #fff;
-      }
-    }
-  }
-}
-
 @media screen and (max-width: 768px) {
   .tabs li a {
     display: block;
     font-size: .9em;
   }
 }
-
-/*just an indication of how to handle the menu, not production worthy code by a long stretch */
-
-
-/*SECTION - widget area*/
-
-$border: 1px solid #dddddd;
-.divider-left {
-  border-left: $border; 
-}
-
-.divider-right {
-  border-right: $border; 
-}
-
-.divider-top {
-  border-top: $border;
-}
-
-.divider-bottom {
-  border-bottom: $border;
-  padding-bottom: emCalc(5px);
-  margin-bottom: emCalc(15px);
-}
-
-@media screen and (max-width: 768px) {
-.divider-left {
-    border-left:  0px solid #fff;
-  }
-}
-
-.side h4 {
-	font-size: 1.2em;
-	font-weight: 500;
-}
-
-.side p {
-	font-size: 0.95em;
-	font-weight: 500;
-	margin-top: 15px;
-}
-
 
 .comment {
 font-size: .8em;
@@ -105,30 +28,6 @@ p.timestamp {
  	color: #bbbbbb;
  	margin-top: -20px;
 }
-
-/*MISCELLANOUS - typography */
-h2 {
-	font-weight: 500;
-	color: #393939;
-}
-
-h3 {
-	font-size: 18px;
-	color: gray;
-	margin-top: 20px;
-}
-
-.label {
-	font-size: .6em;
-	padding: 6px;
-}  
-
-.intro {
-	font-size: 1.4em;
-} 
-
-
-
 
 /*MISCELLANOUS - web fonts */
 /*using webfonts for icons as they scale without pixellation*/      

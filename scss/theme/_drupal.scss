@@ -97,16 +97,16 @@ ul.links.inline {
 
 .accordion > section.active > .content { 
   display: block; 
+  width: 100%;
   position: relative;
 }
 
-
 .sidebar {
-  @extend .divider-left;
+  @extend %divider-left;
 }
 
 .sidebar section.block {
-  @extend .divider-bottom;
+  @extend %divider-bottom;
 }
 
 #search-block-form {
@@ -142,18 +142,86 @@ ul.button-group {
 }
 
 article.node {
-  @extend .divider-bottom;
+  @extend %divider-bottom;
   float: none;
   clear: both;
 }
 
 .comment-wrapper {
-  @extend .divider-top;
+  @extend %divider-top;
 }
 
 .flag-idea-vote a {
   @extend .button;
-  @extend .small;
+  @extend .tiny;
   @extend .success;
   @extend .radius;
+}
+
+.view-idea-votes {
+  @extend .panel;
+}
+
+$border: 1px solid #dddddd;
+%divider-left {
+  border-left: $border; 
+}
+
+%divider-right {
+  border-right: $border; 
+}
+
+%divider-top {
+  border-top: $border;
+}
+
+%divider-bottom {
+  border-bottom: $border;
+  padding-bottom: emCalc(5px);
+  margin-bottom: emCalc(15px);
+}
+
+p.timestamp {
+ 	font-size: .75em;
+ 	color: #bbbbbb;
+ 	margin-top: -20px;
+}
+
+.block-collabco-groups-feature-group-content-tab {
+  background-color: #393939;
+  width: 100%;
+  margin-bottom: 1em;
+
+  .item-list {
+    @extend .row;
+
+    ul {
+      padding-top: .3em;
+      margin: 1em;
+      list-style: none;
+
+      li {
+        display: inline;
+
+        a {
+          padding: 1em;
+          color: #7d929a;
+        }
+
+        a:hover {
+          background: #464646;
+          color: #fff;
+        }
+      }
+
+      li.active > a {
+        color: #464646;
+        background: #fff;
+      }
+    }
+  }
+}
+
+.book-explorer li {
+  font-size: $small-font-size;
 }
