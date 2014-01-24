@@ -1,34 +1,85 @@
-ul.links.inline li, 
-ul.add-content-links li {
-  display: inline;
-  list-style-type: none;
-  padding-right: 10px;
-}
-
-.view-group-users .view-content {
-  @extend .row;
-  .views-row {
-     @extend .columns;
-     @extend .large-3;
-     @extend .small-3;
+ul.links.inline {
+  float: right;
+  font-size: $small-font-size;
+  li {
+    display: inline;
+    list-style-type: none;
   }
 }
 
-.view-recent-activity .message {
-  @extend .row;
+.view-group-users .view-content {
+  .views-row {
+     padding: 0;
+     @extend .columns;
+     @extend .large-3;
+     @extend .small-2;
+  }
+}
+
+.view-recent-activity .views-row {
+  margin-bottom: emCalc(10px);
   .user-picture {
+    padding: 0;
     @extend .columns;
     @extend .large-3;
     @extend .small-3;
   }
-  div {
+  .message .div {
     @extend .columns;
     @extend .large-9;
     @extend .small-9;
-    .padding: 5px 0px; 
   }
 }
 
 .posted .user-picture {
   display: inline;
+}
+
+.block-collabco-groups-feature-group-header {
+  h1 {
+    display: inline;
+  }
+  .privacy-status {
+    @extend .label;
+    background-color: #874646;
+    display: inline;
+    top: emCalc(-7px);
+  }
+  .field-name-group-group {
+    font-size: $small-font-size;
+    float: right;
+    top: emCalc(10px);
+  }
+}
+
+.add-content {
+  @include button;
+  @include dropdown-button;
+}
+
+.add-content-links {
+  li {
+    list-style-type: none;
+  }
+  a {
+    @extend .small;
+    @extend .button;
+  }
+}
+ 
+.field {
+  margin-bottom: emCalc(10px);
+}
+
+.comment-form button {
+  @extend .small;
+}
+
+.accordion > section > .content { 
+  border: none !important; 
+} 
+
+.accordion > section.active > .content { 
+  display: block; 
+  position: relative;
 }

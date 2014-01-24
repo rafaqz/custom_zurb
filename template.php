@@ -16,8 +16,38 @@
  * Implements template_preprocess_page
  *
  */
-//function custom_zurb_preprocess_page(&$variables) {
-//}
+function custom_zurb_preprocess_page(&$variables) {
+  $variables['top_bar_groups'] = '';
+  $list = collabco_groups_feature_build_user_groups_list();
+  if (!empty($list)) {
+    $variables['top_bar_groups'] = theme('links__topbar_groups', array(
+      'links' => $list,
+      'attributes' => array(
+        'id'    => 'user-groups-menu',
+        'class' => array('secondary', 'link-list'),
+      ),
+      'heading' => array(
+        'text' => t('Groups'),
+        'level' => 'h2',
+        'class' => array('element-invisible'),
+      ),
+    ));
+  }
+}
+
+/**
+ * Implements theme_links() targeting the main menu specifically.
+ * Formats links for Top Bar http://foundation.zurb.com/docs/components/top-bar.html
+ */
+function custom_zurb_links__topbar_groups($variables) {
+  // We need to fetch the links ourselves because we need the entire tree.
+  $links = $variables['links'];
+  $output = _zurb_foundation_links($links);
+  $variables['attributes']['class'][] = 'left';
+
+  return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
+}
+
 
 /**
  * Implements template_preprocess_node

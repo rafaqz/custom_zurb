@@ -576,7 +576,7 @@ select {
 
 /* Grid HTML Classes */
 /* line 116, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row, .view-group-users .view-content, .view-recent-activity .message {
+.row {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -586,41 +586,30 @@ select {
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row:before, .view-group-users .view-content:before, .view-recent-activity .message:before, .row:after, .view-group-users .view-content:after, .view-recent-activity .message:after {
+.row:before, .row:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row:after, .view-group-users .view-content:after, .view-recent-activity .message:after {
+.row:after {
   clear: both;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row.collapse .column, .view-group-users .collapse.view-content .column, .view-recent-activity .collapse.message .column,
+.row.collapse .column,
 .row.collapse .columns,
-.view-group-users .collapse.view-content .columns,
-.view-recent-activity .collapse.message .columns,
 .row.collapse .view-group-users .view-content .views-row,
 .view-group-users .view-content .row.collapse .views-row,
-.view-group-users .collapse.view-content .views-row,
-.view-recent-activity .collapse.message .view-group-users .view-content .views-row,
-.view-group-users .view-content .view-recent-activity .collapse.message .views-row,
-.row.collapse .view-recent-activity .message .user-picture,
-.view-recent-activity .message .row.collapse .user-picture,
-.view-group-users .collapse.view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .message .view-group-users .collapse.view-content .user-picture,
-.view-recent-activity .collapse.message .user-picture,
-.row.collapse .view-recent-activity .message div,
-.view-recent-activity .message .row.collapse div,
-.view-group-users .collapse.view-content .view-recent-activity .message div,
-.view-recent-activity .message .view-group-users .collapse.view-content div,
-.view-recent-activity .collapse.message div {
+.row.collapse .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .row.collapse .user-picture,
+.row.collapse .view-recent-activity .views-row .message .div,
+.view-recent-activity .views-row .message .row.collapse .div {
   position: relative;
   padding-left: 0;
   padding-right: 0;
   float: left;
 }
 /* line 124, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row .row, .view-group-users .view-content .row, .view-recent-activity .message .row, .row .view-group-users .view-content, .view-group-users .row .view-content, .view-group-users .view-content .view-content, .view-recent-activity .message .view-group-users .view-content, .view-group-users .view-recent-activity .message .view-content, .row .view-recent-activity .message, .view-recent-activity .row .message, .view-group-users .view-content .view-recent-activity .message, .view-recent-activity .view-group-users .view-content .message, .view-recent-activity .message .message {
+.row .row {
   width: auto;
   margin-left: -0.9375em;
   margin-right: -0.9375em;
@@ -630,28 +619,28 @@ select {
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row:before, .view-group-users .view-content .row:before, .view-recent-activity .message .row:before, .row .view-group-users .view-content:before, .view-group-users .row .view-content:before, .view-group-users .view-content .view-content:before, .view-recent-activity .message .view-group-users .view-content:before, .view-group-users .view-recent-activity .message .view-content:before, .row .view-recent-activity .message:before, .view-recent-activity .row .message:before, .view-group-users .view-content .view-recent-activity .message:before, .view-recent-activity .view-group-users .view-content .message:before, .view-recent-activity .message .message:before, .row .row:after, .view-group-users .view-content .row:after, .view-recent-activity .message .row:after, .row .view-group-users .view-content:after, .view-group-users .row .view-content:after, .view-group-users .view-content .view-content:after, .view-recent-activity .message .view-group-users .view-content:after, .view-group-users .view-recent-activity .message .view-content:after, .row .view-recent-activity .message:after, .view-recent-activity .row .message:after, .view-group-users .view-content .view-recent-activity .message:after, .view-recent-activity .view-group-users .view-content .message:after, .view-recent-activity .message .message:after {
+.row .row:before, .row .row:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row:after, .view-group-users .view-content .row:after, .view-recent-activity .message .row:after, .row .view-group-users .view-content:after, .view-group-users .row .view-content:after, .view-group-users .view-content .view-content:after, .view-recent-activity .message .view-group-users .view-content:after, .view-group-users .view-recent-activity .message .view-content:after, .row .view-recent-activity .message:after, .view-recent-activity .row .message:after, .view-group-users .view-content .view-recent-activity .message:after, .view-recent-activity .view-group-users .view-content .message:after, .view-recent-activity .message .message:after {
+.row .row:after {
   clear: both;
 }
 /* line 125, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row .row.collapse, .view-group-users .view-content .row.collapse, .view-recent-activity .message .row.collapse, .row .view-group-users .collapse.view-content, .view-group-users .row .collapse.view-content, .view-group-users .view-content .collapse.view-content, .view-recent-activity .message .view-group-users .collapse.view-content, .view-group-users .view-recent-activity .message .collapse.view-content, .row .view-recent-activity .collapse.message, .view-recent-activity .row .collapse.message, .view-group-users .view-content .view-recent-activity .collapse.message, .view-recent-activity .view-group-users .view-content .collapse.message, .view-recent-activity .message .collapse.message {
+.row .row.collapse {
   width: auto;
   margin: 0;
   max-width: none;
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row.collapse:before, .view-group-users .view-content .row.collapse:before, .view-recent-activity .message .row.collapse:before, .row .view-group-users .collapse.view-content:before, .view-group-users .row .collapse.view-content:before, .view-group-users .view-content .collapse.view-content:before, .view-recent-activity .message .view-group-users .collapse.view-content:before, .view-group-users .view-recent-activity .message .collapse.view-content:before, .row .view-recent-activity .collapse.message:before, .view-recent-activity .row .collapse.message:before, .view-group-users .view-content .view-recent-activity .collapse.message:before, .view-recent-activity .view-group-users .view-content .collapse.message:before, .view-recent-activity .message .collapse.message:before, .row .row.collapse:after, .view-group-users .view-content .row.collapse:after, .view-recent-activity .message .row.collapse:after, .row .view-group-users .collapse.view-content:after, .view-group-users .row .collapse.view-content:after, .view-group-users .view-content .collapse.view-content:after, .view-recent-activity .message .view-group-users .collapse.view-content:after, .view-group-users .view-recent-activity .message .collapse.view-content:after, .row .view-recent-activity .collapse.message:after, .view-recent-activity .row .collapse.message:after, .view-group-users .view-content .view-recent-activity .collapse.message:after, .view-recent-activity .view-group-users .view-content .collapse.message:after, .view-recent-activity .message .collapse.message:after {
+.row .row.collapse:before, .row .row.collapse:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row.collapse:after, .view-group-users .view-content .row.collapse:after, .view-recent-activity .message .row.collapse:after, .row .view-group-users .collapse.view-content:after, .view-group-users .row .collapse.view-content:after, .view-group-users .view-content .collapse.view-content:after, .view-recent-activity .message .view-group-users .collapse.view-content:after, .view-group-users .view-recent-activity .message .collapse.view-content:after, .row .view-recent-activity .collapse.message:after, .view-recent-activity .row .collapse.message:after, .view-group-users .view-content .view-recent-activity .collapse.message:after, .view-recent-activity .view-group-users .view-content .collapse.message:after, .view-recent-activity .message .collapse.message:after {
+.row .row.collapse:after {
   clear: both;
 }
 
@@ -659,8 +648,8 @@ select {
 .column,
 .columns,
 .view-group-users .view-content .views-row,
-.view-recent-activity .message .user-picture,
-.view-recent-activity .message div {
+.view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .message .div {
   position: relative;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
@@ -673,8 +662,8 @@ select {
   .column,
   .columns,
   .view-group-users .view-content .views-row,
-  .view-recent-activity .message .user-picture,
-  .view-recent-activity .message div {
+  .view-recent-activity .views-row .user-picture,
+  .view-recent-activity .views-row .message .div {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -688,13 +677,13 @@ select {
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-2 {
+  .small-2, .view-group-users .view-content .views-row {
     position: relative;
     width: 16.66667%;
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-3, .view-group-users .view-content .views-row, .view-recent-activity .message .user-picture {
+  .small-3, .view-recent-activity .views-row .user-picture {
     position: relative;
     width: 25%;
   }
@@ -730,7 +719,7 @@ select {
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-9, .view-recent-activity .message div {
+  .small-9, .view-recent-activity .views-row .message .div {
     position: relative;
     width: 75%;
   }
@@ -833,8 +822,8 @@ select {
   .column.small-centered,
   .columns.small-centered,
   .view-group-users .view-content .small-centered.views-row,
-  .view-recent-activity .message .small-centered.user-picture,
-  .view-recent-activity .message div.small-centered {
+  .view-recent-activity .views-row .small-centered.user-picture,
+  .view-recent-activity .views-row .message .small-centered.div {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -856,7 +845,7 @@ select {
   }
 
   /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-3, .view-group-users .view-content .views-row, .view-recent-activity .message .user-picture {
+  .large-3, .view-group-users .view-content .views-row, .view-recent-activity .views-row .user-picture {
     position: relative;
     width: 25%;
   }
@@ -892,7 +881,7 @@ select {
   }
 
   /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-9, .view-recent-activity .message div {
+  .large-9, .view-recent-activity .views-row .message .div {
     position: relative;
     width: 75%;
   }
@@ -916,73 +905,73 @@ select {
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-0, .view-group-users .view-content .large-offset-0, .view-recent-activity .message .large-offset-0 {
+  .row .large-offset-0 {
     position: relative;
     margin-left: 0%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-1, .view-group-users .view-content .large-offset-1, .view-recent-activity .message .large-offset-1 {
+  .row .large-offset-1 {
     position: relative;
     margin-left: 8.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-2, .view-group-users .view-content .large-offset-2, .view-recent-activity .message .large-offset-2 {
+  .row .large-offset-2 {
     position: relative;
     margin-left: 16.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-3, .view-group-users .view-content .large-offset-3, .view-recent-activity .message .large-offset-3 {
+  .row .large-offset-3 {
     position: relative;
     margin-left: 25%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-4, .view-group-users .view-content .large-offset-4, .view-recent-activity .message .large-offset-4 {
+  .row .large-offset-4 {
     position: relative;
     margin-left: 33.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-5, .view-group-users .view-content .large-offset-5, .view-recent-activity .message .large-offset-5 {
+  .row .large-offset-5 {
     position: relative;
     margin-left: 41.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-6, .view-group-users .view-content .large-offset-6, .view-recent-activity .message .large-offset-6 {
+  .row .large-offset-6 {
     position: relative;
     margin-left: 50%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-7, .view-group-users .view-content .large-offset-7, .view-recent-activity .message .large-offset-7 {
+  .row .large-offset-7 {
     position: relative;
     margin-left: 58.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-8, .view-group-users .view-content .large-offset-8, .view-recent-activity .message .large-offset-8 {
+  .row .large-offset-8 {
     position: relative;
     margin-left: 66.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-9, .view-group-users .view-content .large-offset-9, .view-recent-activity .message .large-offset-9 {
+  .row .large-offset-9 {
     position: relative;
     margin-left: 75%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-10, .view-group-users .view-content .large-offset-10, .view-recent-activity .message .large-offset-10 {
+  .row .large-offset-10 {
     position: relative;
     margin-left: 83.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-11, .view-group-users .view-content .large-offset-11, .view-recent-activity .message .large-offset-11 {
+  .row .large-offset-11 {
     position: relative;
     margin-left: 91.66667%;
   }
@@ -1145,8 +1134,8 @@ select {
   .column.large-centered,
   .columns.large-centered,
   .view-group-users .view-content .large-centered.views-row,
-  .view-recent-activity .message .large-centered.user-picture,
-  .view-recent-activity .message div.large-centered {
+  .view-recent-activity .views-row .large-centered.user-picture,
+  .view-recent-activity .views-row .message .large-centered.div {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1157,8 +1146,8 @@ select {
   .column.large-uncentered,
   .columns.large-uncentered,
   .view-group-users .view-content .large-uncentered.views-row,
-  .view-recent-activity .message .large-uncentered.user-picture,
-  .view-recent-activity .message div.large-uncentered {
+  .view-recent-activity .views-row .large-uncentered.user-picture,
+  .view-recent-activity .views-row .message .large-uncentered.div {
     margin-left: 0;
     margin-right: 0;
     float: left !important;
@@ -1168,8 +1157,8 @@ select {
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
   .view-group-users .view-content .large-uncentered.opposite.views-row,
-  .view-recent-activity .message .large-uncentered.opposite.user-picture,
-  .view-recent-activity .message div.large-uncentered.opposite {
+  .view-recent-activity .views-row .large-uncentered.opposite.user-picture,
+  .view-recent-activity .views-row .message .large-uncentered.opposite.div {
     float: right !important;
   }
 }
@@ -2120,7 +2109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 191, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-size: 60%;
+  font-size: 70%;
   color: #6f6f6f;
   line-height: 0;
 }
@@ -2181,7 +2170,7 @@ b {
 
 /* line 228, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 small {
-  font-size: 60%;
+  font-size: 70%;
   line-height: inherit;
 }
 
@@ -2469,7 +2458,7 @@ blockquote p {
   }
 }
 /* line 171, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button, .button {
+button, .button, .add-content-links a {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -2491,57 +2480,57 @@ button, .button {
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover, button:focus, .button:hover, .add-content-links a:hover, .button:focus, .add-content-links a:focus {
   background-color: #95a884;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover, button:focus, .button:hover, .add-content-links a:hover, .button:focus, .add-content-links a:focus {
   color: white;
 }
 /* line 176, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary, .button.secondary {
+button.secondary, .button.secondary, .add-content-links a.secondary {
   background-color: #e9e9e9;
   border-color: #d0d0d0;
   color: #333333;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .add-content-links a.secondary:hover, .button.secondary:focus, .add-content-links a.secondary:focus {
   background-color: #d0d0d0;
 }
 /* line 128, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .add-content-links a.secondary:hover, .button.secondary:focus, .add-content-links a.secondary:focus {
   color: #333333;
 }
 /* line 177, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success, .button.success {
+button.success, .button.success, .add-content-links a.success {
   background-color: #5da423;
   border-color: #457a1a;
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+button.success:hover, button.success:focus, .button.success:hover, .add-content-links a.success:hover, .button.success:focus, .add-content-links a.success:focus {
   background-color: #457a1a;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+button.success:hover, button.success:focus, .button.success:hover, .add-content-links a.success:hover, .button.success:focus, .add-content-links a.success:focus {
   color: white;
 }
 /* line 178, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert, .button.alert {
+button.alert, .button.alert, .add-content-links a.alert {
   background-color: #c60f13;
   border-color: #970b0e;
   color: white;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .add-content-links a.alert:hover, .button.alert:focus, .add-content-links a.alert:focus {
   background-color: #970b0e;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .add-content-links a.alert:hover, .button.alert:focus, .add-content-links a.alert:focus {
   color: white;
 }
 /* line 180, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.large, .button.large {
+button.large, .button.large, .add-content-links a.large {
   padding-top: 1em;
   padding-right: 2em;
   padding-bottom: 1.0625em;
@@ -2549,7 +2538,7 @@ button.large, .button.large {
   font-size: 1.25em;
 }
 /* line 181, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.small, .button.small {
+button.small, .comment-form button, .button.small, .add-content-links a, .comment-form button.button {
   padding-top: 0.5625em;
   padding-right: 1.125em;
   padding-bottom: 0.625em;
@@ -2557,7 +2546,7 @@ button.small, .button.small {
   font-size: 0.8125em;
 }
 /* line 182, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.tiny, .button.tiny {
+button.tiny, .button.tiny, .add-content-links a.tiny {
   padding-top: 0.4375em;
   padding-right: 0.875em;
   padding-bottom: 0.5em;
@@ -2565,23 +2554,23 @@ button.tiny, .button.tiny {
   font-size: 0.6875em;
 }
 /* line 183, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.expand, .button.expand {
+button.expand, .button.expand, .add-content-links a.expand {
   padding-right: 0px;
   padding-left: 0px;
   width: 100%;
 }
 /* line 185, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.left-align, .button.left-align {
+button.left-align, .button.left-align, .add-content-links a.left-align {
   text-align: left;
   text-indent: 0.75em;
 }
 /* line 186, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.right-align, .button.right-align {
+button.right-align, .button.right-align, .add-content-links a.right-align {
   text-align: right;
   padding-right: 0.75em;
 }
 /* line 188, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled, button[disabled], .button.disabled, .button[disabled] {
+button.disabled, button[disabled], .button.disabled, .add-content-links a.disabled, .button[disabled], .add-content-links a[disabled] {
   background-color: #afbda2;
   border-color: #95a884;
   color: white;
@@ -2591,19 +2580,19 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
   background-color: #95a884;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .add-content-links a.disabled:hover, .button.disabled:focus, .add-content-links a.disabled:focus, .button[disabled]:hover, .add-content-links a[disabled]:hover, .button[disabled]:focus, .add-content-links a[disabled]:focus {
   background-color: #afbda2;
 }
 /* line 189, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .add-content-links a.disabled.secondary, .button[disabled].secondary, .add-content-links a[disabled].secondary {
   background-color: #e9e9e9;
   border-color: #d0d0d0;
   color: #333333;
@@ -2613,19 +2602,19 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
   background-color: #d0d0d0;
 }
 /* line 128, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
   color: #333333;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .add-content-links a.disabled.secondary:hover, .button.disabled.secondary:focus, .add-content-links a.disabled.secondary:focus, .button[disabled].secondary:hover, .add-content-links a[disabled].secondary:hover, .button[disabled].secondary:focus, .add-content-links a[disabled].secondary:focus {
   background-color: #e9e9e9;
 }
 /* line 190, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
+button.disabled.success, button[disabled].success, .button.disabled.success, .add-content-links a.disabled.success, .button[disabled].success, .add-content-links a[disabled].success {
   background-color: #5da423;
   border-color: #457a1a;
   color: white;
@@ -2635,19 +2624,19 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
   background-color: #457a1a;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .add-content-links a.disabled.success:hover, .button.disabled.success:focus, .add-content-links a.disabled.success:focus, .button[disabled].success:hover, .add-content-links a[disabled].success:hover, .button[disabled].success:focus, .add-content-links a[disabled].success:focus {
   background-color: #5da423;
 }
 /* line 191, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .add-content-links a.disabled.alert, .button[disabled].alert, .add-content-links a[disabled].alert {
   background-color: #c60f13;
   border-color: #970b0e;
   color: white;
@@ -2657,38 +2646,38 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
   background-color: #970b0e;
 }
 /* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .add-content-links a.disabled.alert:hover, .button.disabled.alert:focus, .add-content-links a.disabled.alert:focus, .button[disabled].alert:hover, .add-content-links a[disabled].alert:hover, .button[disabled].alert:focus, .add-content-links a[disabled].alert:focus {
   background-color: #c60f13;
 }
 
 /* line 196, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button, .button {
+button, .button, .add-content-links a {
   padding-top: 0.8125em;
   padding-bottom: 0.75em;
   -webkit-appearance: none;
 }
 /* line 198, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.tiny, .button.tiny {
+button.tiny, .button.tiny, .add-content-links a.tiny {
   padding-top: 0.5em;
   padding-bottom: 0.4375em;
   -webkit-appearance: none;
 }
 /* line 199, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.small, .button.small {
+button.small, .comment-form button, .button.small, .add-content-links a, .comment-form button.button {
   padding-top: 0.625em;
   padding-bottom: 0.5625em;
   -webkit-appearance: none;
 }
 /* line 200, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-button.large, .button.large {
+button.large, .button.large, .add-content-links a.large {
   padding-top: 1.03125em;
   padding-bottom: 1.03125em;
   -webkit-appearance: none;
@@ -2696,7 +2685,7 @@ button.large, .button.large {
 
 @media only screen {
   /* line 206, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button, .button {
+  button, .button, .add-content-links a {
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
@@ -2704,24 +2693,24 @@ button.large, .button.large {
     transition: background-color 300ms ease-out;
   }
   /* line 68, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-  button:active, .button:active {
+  button:active, .button:active, .add-content-links a:active {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
   }
   /* line 214, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button.radius, .button.radius {
+  button.radius, .button.radius, .add-content-links a.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px;
   }
   /* line 215, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button.round, .button.round {
+  button.round, .button.round, .add-content-links a.round {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
   }
 }
 @media only screen and (min-width: 768px) {
   /* line 223, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
-  button, .button {
+  button, .button, .add-content-links a {
     display: inline-block;
   }
 }
@@ -2733,247 +2722,52 @@ form {
 
 /* Using forms within rows, we need to set some defaults */
 /* line 67, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row, form .view-group-users .view-content .row, .view-group-users form .view-content .row, form .view-recent-activity .message .row, .view-recent-activity form .message .row, form .row .view-group-users .view-content, .view-group-users form .row .view-content, form .view-group-users .view-content .view-content, .view-group-users form .view-content .view-content, form .view-recent-activity .message .view-group-users .view-content, .view-group-users form .view-recent-activity .message .view-content, .view-recent-activity form .message .view-group-users .view-content, .view-group-users .view-recent-activity form .message .view-content, form .row .view-recent-activity .message, .view-recent-activity form .row .message, form .view-group-users .view-content .view-recent-activity .message, .view-recent-activity form .view-group-users .view-content .message, .view-group-users form .view-content .view-recent-activity .message, .view-recent-activity .view-group-users form .view-content .message, form .view-recent-activity .message .message, .view-recent-activity form .message .message {
+form .row .row {
   margin: 0 -0.5em;
 }
 /* line 70, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row .column, form .view-group-users .view-content .row .column, .view-group-users form .view-content .row .column, form .view-recent-activity .message .row .column, .view-recent-activity form .message .row .column, form .row .view-group-users .view-content .column, .view-group-users form .row .view-content .column, form .view-group-users .view-content .view-content .column, .view-group-users form .view-content .view-content .column, form .view-recent-activity .message .view-group-users .view-content .column, .view-group-users form .view-recent-activity .message .view-content .column, .view-recent-activity form .message .view-group-users .view-content .column, .view-group-users .view-recent-activity form .message .view-content .column, form .row .view-recent-activity .message .column, .view-recent-activity form .row .message .column, form .view-group-users .view-content .view-recent-activity .message .column, .view-recent-activity form .view-group-users .view-content .message .column, .view-group-users form .view-content .view-recent-activity .message .column, .view-recent-activity .view-group-users form .view-content .message .column, form .view-recent-activity .message .message .column, .view-recent-activity form .message .message .column,
+form .row .row .column,
 form .row .row .columns,
-form .view-group-users .view-content .row .columns,
-.view-group-users form .view-content .row .columns,
-form .view-recent-activity .message .row .columns,
-.view-recent-activity form .message .row .columns,
-form .row .view-group-users .view-content .columns,
-.view-group-users form .row .view-content .columns,
-form .view-group-users .view-content .view-content .columns,
-.view-group-users form .view-content .view-content .columns,
-form .view-recent-activity .message .view-group-users .view-content .columns,
-.view-group-users form .view-recent-activity .message .view-content .columns,
-.view-recent-activity form .message .view-group-users .view-content .columns,
-.view-group-users .view-recent-activity form .message .view-content .columns,
-form .row .view-recent-activity .message .columns,
-.view-recent-activity form .row .message .columns,
-form .view-group-users .view-content .view-recent-activity .message .columns,
-.view-recent-activity form .view-group-users .view-content .message .columns,
-.view-group-users form .view-content .view-recent-activity .message .columns,
-.view-recent-activity .view-group-users form .view-content .message .columns,
-form .view-recent-activity .message .message .columns,
-.view-recent-activity form .message .message .columns,
+form .row .row .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row .views-row,
-form .view-group-users .view-content .row .views-row,
-.view-group-users form .view-content .row .views-row,
-.view-group-users .view-content form .view-recent-activity .message .row .views-row,
-.view-group-users .view-content .view-recent-activity form .message .row .views-row,
-form .row .view-group-users .view-content .views-row,
-.view-group-users form .row .view-content .views-row,
-form .view-group-users .view-content .view-content .views-row,
-.view-group-users form .view-content .view-content .views-row,
-form .view-recent-activity .message .view-group-users .view-content .views-row,
-.view-group-users form .view-recent-activity .message .view-content .views-row,
-.view-recent-activity form .message .view-group-users .view-content .views-row,
-.view-group-users .view-recent-activity form .message .view-content .views-row,
-.view-group-users .view-content form .row .view-recent-activity .message .views-row,
-.view-group-users .view-content .view-recent-activity form .row .message .views-row,
-form .view-group-users .view-content .view-recent-activity .message .views-row,
-.view-recent-activity form .view-group-users .view-content .message .views-row,
-.view-group-users form .view-content .view-recent-activity .message .views-row,
-.view-recent-activity .view-group-users form .view-content .message .views-row,
-.view-group-users .view-content form .view-recent-activity .message .message .views-row,
-.view-group-users .view-content .view-recent-activity form .message .message .views-row,
-.view-recent-activity .message form .row .row .user-picture,
-.view-recent-activity .message form .view-group-users .view-content .row .user-picture,
-.view-recent-activity .message .view-group-users form .view-content .row .user-picture,
-form .view-recent-activity .message .row .user-picture,
-.view-recent-activity form .message .row .user-picture,
-.view-recent-activity .message form .row .view-group-users .view-content .user-picture,
-.view-recent-activity .message .view-group-users form .row .view-content .user-picture,
-.view-recent-activity .message form .view-group-users .view-content .view-content .user-picture,
-.view-recent-activity .message .view-group-users form .view-content .view-content .user-picture,
-form .view-recent-activity .message .view-group-users .view-content .user-picture,
-.view-group-users form .view-recent-activity .message .view-content .user-picture,
-.view-recent-activity form .message .view-group-users .view-content .user-picture,
-.view-group-users .view-recent-activity form .message .view-content .user-picture,
-form .row .view-recent-activity .message .user-picture,
-.view-recent-activity form .row .message .user-picture,
-form .view-group-users .view-content .view-recent-activity .message .user-picture,
-.view-recent-activity form .view-group-users .view-content .message .user-picture,
-.view-group-users form .view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .view-group-users form .view-content .message .user-picture,
-form .view-recent-activity .message .message .user-picture,
-.view-recent-activity form .message .message .user-picture,
-.view-recent-activity .message form .row .row div,
-.view-recent-activity .message form .view-group-users .view-content .row div,
-.view-recent-activity .message .view-group-users form .view-content .row div,
-form .view-recent-activity .message .row div,
-.view-recent-activity form .message .row div,
-.view-recent-activity .message form .row .view-group-users .view-content div,
-.view-recent-activity .message .view-group-users form .row .view-content div,
-.view-recent-activity .message form .view-group-users .view-content .view-content div,
-.view-recent-activity .message .view-group-users form .view-content .view-content div,
-form .view-recent-activity .message .view-group-users .view-content div,
-.view-group-users form .view-recent-activity .message .view-content div,
-.view-recent-activity form .message .view-group-users .view-content div,
-.view-group-users .view-recent-activity form .message .view-content div,
-form .row .view-recent-activity .message div,
-.view-recent-activity form .row .message div,
-form .view-group-users .view-content .view-recent-activity .message div,
-.view-recent-activity form .view-group-users .view-content .message div,
-.view-group-users form .view-content .view-recent-activity .message div,
-.view-recent-activity .view-group-users form .view-content .message div,
-form .view-recent-activity .message .message div,
-.view-recent-activity form .message .message div {
+form .row .row .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .row .row .user-picture,
+form .row .row .view-recent-activity .views-row .message .div,
+.view-recent-activity .views-row .message form .row .row .div {
   padding: 0 0.5em;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row.collapse, form .view-group-users .view-content .row.collapse, .view-group-users form .view-content .row.collapse, form .view-recent-activity .message .row.collapse, .view-recent-activity form .message .row.collapse, form .row .view-group-users .collapse.view-content, .view-group-users form .row .collapse.view-content, form .view-group-users .view-content .collapse.view-content, .view-group-users form .view-content .collapse.view-content, form .view-recent-activity .message .view-group-users .collapse.view-content, .view-group-users form .view-recent-activity .message .collapse.view-content, .view-recent-activity form .message .view-group-users .collapse.view-content, .view-group-users .view-recent-activity form .message .collapse.view-content, form .row .view-recent-activity .collapse.message, .view-recent-activity form .row .collapse.message, form .view-group-users .view-content .view-recent-activity .collapse.message, .view-recent-activity form .view-group-users .view-content .collapse.message, .view-group-users form .view-content .view-recent-activity .collapse.message, .view-recent-activity .view-group-users form .view-content .collapse.message, form .view-recent-activity .message .collapse.message, .view-recent-activity form .message .collapse.message {
+form .row .row.collapse {
   margin: 0;
 }
 /* line 76, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row.collapse .column, form .view-group-users .view-content .row.collapse .column, .view-group-users form .view-content .row.collapse .column, form .view-recent-activity .message .row.collapse .column, .view-recent-activity form .message .row.collapse .column, form .row .view-group-users .collapse.view-content .column, .view-group-users form .row .collapse.view-content .column, form .view-group-users .view-content .collapse.view-content .column, .view-group-users form .view-content .collapse.view-content .column, form .view-recent-activity .message .view-group-users .collapse.view-content .column, .view-group-users form .view-recent-activity .message .collapse.view-content .column, .view-recent-activity form .message .view-group-users .collapse.view-content .column, .view-group-users .view-recent-activity form .message .collapse.view-content .column, form .row .view-recent-activity .collapse.message .column, .view-recent-activity form .row .collapse.message .column, form .view-group-users .view-content .view-recent-activity .collapse.message .column, .view-recent-activity form .view-group-users .view-content .collapse.message .column, .view-group-users form .view-content .view-recent-activity .collapse.message .column, .view-recent-activity .view-group-users form .view-content .collapse.message .column, form .view-recent-activity .message .collapse.message .column, .view-recent-activity form .message .collapse.message .column,
+form .row .row.collapse .column,
 form .row .row.collapse .columns,
-form .view-group-users .view-content .row.collapse .columns,
-.view-group-users form .view-content .row.collapse .columns,
-form .view-recent-activity .message .row.collapse .columns,
-.view-recent-activity form .message .row.collapse .columns,
-form .row .view-group-users .collapse.view-content .columns,
-.view-group-users form .row .collapse.view-content .columns,
-form .view-group-users .view-content .collapse.view-content .columns,
-.view-group-users form .view-content .collapse.view-content .columns,
-form .view-recent-activity .message .view-group-users .collapse.view-content .columns,
-.view-group-users form .view-recent-activity .message .collapse.view-content .columns,
-.view-recent-activity form .message .view-group-users .collapse.view-content .columns,
-.view-group-users .view-recent-activity form .message .collapse.view-content .columns,
-form .row .view-recent-activity .collapse.message .columns,
-.view-recent-activity form .row .collapse.message .columns,
-form .view-group-users .view-content .view-recent-activity .collapse.message .columns,
-.view-recent-activity form .view-group-users .view-content .collapse.message .columns,
-.view-group-users form .view-content .view-recent-activity .collapse.message .columns,
-.view-recent-activity .view-group-users form .view-content .collapse.message .columns,
-form .view-recent-activity .message .collapse.message .columns,
-.view-recent-activity form .message .collapse.message .columns,
 form .row .row.collapse .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row.collapse .views-row,
-form .view-group-users .view-content .row.collapse .views-row,
-.view-group-users form .view-content .row.collapse .views-row,
-form .view-recent-activity .message .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content form .view-recent-activity .message .row.collapse .views-row,
-.view-recent-activity form .message .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content .view-recent-activity form .message .row.collapse .views-row,
-form .row .view-group-users .collapse.view-content .views-row,
-.view-group-users form .row .collapse.view-content .views-row,
-form .view-group-users .collapse.view-content .collapse.view-content .views-row,
-.view-group-users form .collapse.view-content .collapse.view-content .views-row,
-form .view-recent-activity .message .view-group-users .collapse.view-content .views-row,
-.view-group-users form .view-recent-activity .message .collapse.view-content .views-row,
-.view-recent-activity form .message .view-group-users .collapse.view-content .views-row,
-.view-group-users .view-recent-activity form .message .collapse.view-content .views-row,
-form .row .view-recent-activity .collapse.message .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .view-recent-activity .collapse.message .views-row,
-.view-recent-activity form .row .collapse.message .view-group-users .view-content .views-row,
-.view-group-users .view-content .view-recent-activity form .row .collapse.message .views-row,
-form .view-group-users .view-content .view-recent-activity .collapse.message .views-row,
-.view-recent-activity form .view-group-users .view-content .collapse.message .views-row,
-.view-group-users form .view-content .view-recent-activity .collapse.message .views-row,
-.view-recent-activity .view-group-users form .view-content .collapse.message .views-row,
-form .view-recent-activity .message .collapse.message .view-group-users .view-content .views-row,
-.view-group-users .view-content form .view-recent-activity .message .collapse.message .views-row,
-.view-recent-activity form .message .collapse.message .view-group-users .view-content .views-row,
-.view-group-users .view-content .view-recent-activity form .message .collapse.message .views-row,
-form .row .row.collapse .view-recent-activity .message .user-picture,
-.view-recent-activity .message form .row .row.collapse .user-picture,
-form .view-group-users .view-content .row.collapse .view-recent-activity .message .user-picture,
-.view-recent-activity .message form .view-group-users .view-content .row.collapse .user-picture,
-.view-group-users form .view-content .row.collapse .view-recent-activity .message .user-picture,
-.view-recent-activity .message .view-group-users form .view-content .row.collapse .user-picture,
-form .view-recent-activity .message .row.collapse .user-picture,
-.view-recent-activity form .message .row.collapse .user-picture,
-form .row .view-group-users .collapse.view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .message form .row .view-group-users .collapse.view-content .user-picture,
-.view-group-users form .row .collapse.view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .message .view-group-users form .row .collapse.view-content .user-picture,
-form .view-group-users .view-content .collapse.view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .message form .view-group-users .view-content .collapse.view-content .user-picture,
-.view-group-users form .view-content .collapse.view-content .view-recent-activity .message .user-picture,
-.view-recent-activity .message .view-group-users form .view-content .collapse.view-content .user-picture,
-form .view-recent-activity .message .view-group-users .collapse.view-content .user-picture,
-.view-group-users form .view-recent-activity .message .collapse.view-content .user-picture,
-.view-recent-activity form .message .view-group-users .collapse.view-content .user-picture,
-.view-group-users .view-recent-activity form .message .collapse.view-content .user-picture,
-form .row .view-recent-activity .collapse.message .user-picture,
-.view-recent-activity form .row .collapse.message .user-picture,
-form .view-group-users .view-content .view-recent-activity .collapse.message .user-picture,
-.view-recent-activity form .view-group-users .view-content .collapse.message .user-picture,
-.view-group-users form .view-content .view-recent-activity .collapse.message .user-picture,
-.view-recent-activity .view-group-users form .view-content .collapse.message .user-picture,
-form .view-recent-activity .collapse.message .collapse.message .user-picture,
-.view-recent-activity form .collapse.message .collapse.message .user-picture,
-form .row .row.collapse .view-recent-activity .message div,
-.view-recent-activity .message form .row .row.collapse div,
-form .view-group-users .view-content .row.collapse .view-recent-activity .message div,
-.view-recent-activity .message form .view-group-users .view-content .row.collapse div,
-.view-group-users form .view-content .row.collapse .view-recent-activity .message div,
-.view-recent-activity .message .view-group-users form .view-content .row.collapse div,
-form .view-recent-activity .message .row.collapse div,
-.view-recent-activity form .message .row.collapse div,
-form .row .view-group-users .collapse.view-content .view-recent-activity .message div,
-.view-recent-activity .message form .row .view-group-users .collapse.view-content div,
-.view-group-users form .row .collapse.view-content .view-recent-activity .message div,
-.view-recent-activity .message .view-group-users form .row .collapse.view-content div,
-form .view-group-users .view-content .collapse.view-content .view-recent-activity .message div,
-.view-recent-activity .message form .view-group-users .view-content .collapse.view-content div,
-.view-group-users form .view-content .collapse.view-content .view-recent-activity .message div,
-.view-recent-activity .message .view-group-users form .view-content .collapse.view-content div,
-form .view-recent-activity .message .view-group-users .collapse.view-content div,
-.view-group-users form .view-recent-activity .message .collapse.view-content div,
-.view-recent-activity form .message .view-group-users .collapse.view-content div,
-.view-group-users .view-recent-activity form .message .collapse.view-content div,
-form .row .view-recent-activity .collapse.message div,
-.view-recent-activity form .row .collapse.message div,
-form .view-group-users .view-content .view-recent-activity .collapse.message div,
-.view-recent-activity form .view-group-users .view-content .collapse.message div,
-.view-group-users form .view-content .view-recent-activity .collapse.message div,
-.view-recent-activity .view-group-users form .view-content .collapse.message div,
-form .view-recent-activity .collapse.message .collapse.message div,
-.view-recent-activity form .collapse.message .collapse.message div {
+form .row .row.collapse .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .row .row.collapse .user-picture,
+form .row .row.collapse .view-recent-activity .views-row .message .div,
+.view-recent-activity .views-row .message form .row .row.collapse .div {
   padding: 0;
 }
 /* line 83, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row input.column, form .view-group-users .view-content input.column, .view-group-users form .view-content input.column, form .view-recent-activity .message input.column, .view-recent-activity form .message input.column,
+form .row input.column,
 form .row input.columns,
-form .view-group-users .view-content input.columns,
-.view-group-users form .view-content input.columns,
-form .view-recent-activity .message input.columns,
-.view-recent-activity form .message input.columns,
+form .row .view-group-users .view-content input.views-row,
 .view-group-users .view-content form .row input.views-row,
-form .view-group-users .view-content input.views-row,
-.view-group-users form .view-content input.views-row,
-.view-group-users .view-content form .view-recent-activity .message input.views-row,
-.view-group-users .view-content .view-recent-activity form .message input.views-row,
-.view-recent-activity .message form .row input.user-picture,
-.view-recent-activity .message form .view-group-users .view-content input.user-picture,
-.view-recent-activity .message .view-group-users form .view-content input.user-picture,
-form .view-recent-activity .message input.user-picture,
-.view-recent-activity form .message input.user-picture,
+form .row .view-recent-activity .views-row input.user-picture,
+.view-recent-activity .views-row form .row input.user-picture,
+form .row .view-recent-activity .views-row .message input.div,
+.view-recent-activity .views-row .message form .row input.div,
 form .row textarea.column,
-form .view-group-users .view-content textarea.column,
-.view-group-users form .view-content textarea.column,
-form .view-recent-activity .message textarea.column,
-.view-recent-activity form .message textarea.column,
 form .row textarea.columns,
-form .view-group-users .view-content textarea.columns,
-.view-group-users form .view-content textarea.columns,
-form .view-recent-activity .message textarea.columns,
-.view-recent-activity form .message textarea.columns,
+form .row .view-group-users .view-content textarea.views-row,
 .view-group-users .view-content form .row textarea.views-row,
-form .view-group-users .view-content textarea.views-row,
-.view-group-users form .view-content textarea.views-row,
-.view-group-users .view-content form .view-recent-activity .message textarea.views-row,
-.view-group-users .view-content .view-recent-activity form .message textarea.views-row,
-.view-recent-activity .message form .row textarea.user-picture,
-.view-recent-activity .message form .view-group-users .view-content textarea.user-picture,
-.view-recent-activity .message .view-group-users form .view-content textarea.user-picture,
-form .view-recent-activity .message textarea.user-picture,
-.view-recent-activity form .message textarea.user-picture {
+form .row .view-recent-activity .views-row textarea.user-picture,
+.view-recent-activity .views-row form .row textarea.user-picture,
+form .row .view-recent-activity .views-row .message textarea.div,
+.view-recent-activity .views-row .message form .row textarea.div {
   padding-left: 0.5em;
 }
 
@@ -3025,7 +2819,7 @@ label small {
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
 /* line 279, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button {
+.postfix.button, .add-content-links a.postfix {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3035,7 +2829,7 @@ label small {
 }
 
 /* line 280, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button {
+.prefix.button, .add-content-links a.prefix {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3045,7 +2839,7 @@ label small {
 }
 
 /* line 282, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button.radius {
+.prefix.button.radius, .add-content-links a.prefix.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
@@ -3057,7 +2851,7 @@ label small {
 }
 
 /* line 283, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button.radius {
+.postfix.button.radius, .add-content-links a.postfix.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
@@ -3069,7 +2863,7 @@ label small {
 }
 
 /* line 284, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.prefix.button.round {
+.prefix.button.round, .add-content-links a.prefix.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
@@ -3081,7 +2875,7 @@ label small {
 }
 
 /* line 285, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-.postfix.button.round {
+.postfix.button.round, .add-content-links a.postfix.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
@@ -3413,7 +3207,7 @@ label.error {
   margin-left: 0;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
+.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button, .add-content-links .button-group.radius > *:first-child > a {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
@@ -3422,7 +3216,7 @@ label.error {
   border-top-left-radius: 3px;
 }
 /* line 57, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
+.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button, .add-content-links .button-group.radius > *:last-child > a {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3431,7 +3225,7 @@ label.error {
   border-bottom-right-radius: 3px;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
+.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, .add-content-links .button-group.round > *:first-child > a {
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
   -webkit-border-bottom-left-radius: 1000px;
@@ -3440,7 +3234,7 @@ label.error {
   border-top-left-radius: 1000px;
 }
 /* line 57, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
+.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button, .add-content-links .button-group.round > *:last-child > a {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -3453,7 +3247,7 @@ label.error {
   width: 50%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-2 li button, .button-group.even-2 li .button {
+.button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li .add-content-links a, .add-content-links .button-group.even-2 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3461,7 +3255,7 @@ label.error {
   width: 33.33333%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-3 li button, .button-group.even-3 li .button {
+.button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li .add-content-links a, .add-content-links .button-group.even-3 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3469,7 +3263,7 @@ label.error {
   width: 25%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-4 li button, .button-group.even-4 li .button {
+.button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li .add-content-links a, .add-content-links .button-group.even-4 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3477,7 +3271,7 @@ label.error {
   width: 20%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-5 li button, .button-group.even-5 li .button {
+.button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li .add-content-links a, .add-content-links .button-group.even-5 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3485,7 +3279,7 @@ label.error {
   width: 16.66667%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-6 li button, .button-group.even-6 li .button {
+.button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li .add-content-links a, .add-content-links .button-group.even-6 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3493,7 +3287,7 @@ label.error {
   width: 14.28571%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-7 li button, .button-group.even-7 li .button {
+.button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li .add-content-links a, .add-content-links .button-group.even-7 li a {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
@@ -3501,7 +3295,7 @@ label.error {
   width: 12.5%;
 }
 /* line 63, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_button-groups.scss */
-.button-group.even-8 li button, .button-group.even-8 li .button {
+.button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li .add-content-links a, .add-content-links .button-group.even-8 li a {
   width: 100%;
 }
 
@@ -3530,12 +3324,12 @@ label.error {
 
 /* Dropdown Button */
 /* line 108, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button {
+.dropdown.button, .add-content-links a.dropdown {
   position: relative;
   padding-right: 3.1875em;
 }
 /* line 46, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before {
+.dropdown.button:before, .add-content-links a.dropdown:before {
   position: absolute;
   content: "";
   width: 0;
@@ -3546,70 +3340,70 @@ label.error {
   top: 50%;
 }
 /* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before {
+.dropdown.button:before, .add-content-links a.dropdown:before {
   border-width: 0.5625em;
   right: 1.5em;
   margin-top: -0.25em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before {
+.dropdown.button:before, .add-content-links a.dropdown:before {
   border-color: white transparent transparent transparent;
 }
 /* line 109, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny {
+.dropdown.button.tiny, .add-content-links a.dropdown.tiny {
   padding-right: 2.1875em;
 }
 /* line 61, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before {
+.dropdown.button.tiny:before, .add-content-links a.dropdown.tiny:before {
   border-width: 0.4375em;
   right: 0.875em;
   margin-top: -0.15625em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before {
+.dropdown.button.tiny:before, .add-content-links a.dropdown.tiny:before {
   border-color: white transparent transparent transparent;
 }
 /* line 110, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small {
+.dropdown.button.small, .add-content-links a.dropdown, .comment-form button.dropdown.button {
   padding-right: 2.8125em;
 }
 /* line 71, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before {
+.dropdown.button.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before {
   border-width: 0.5625em;
   right: 1.125em;
   margin-top: -0.21875em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before {
+.dropdown.button.small:before, .add-content-links a.dropdown:before, .comment-form button.dropdown.button:before {
   border-color: white transparent transparent transparent;
 }
 /* line 111, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large {
+.dropdown.button.large, .add-content-links a.dropdown.large {
   padding-right: 4em;
 }
 /* line 91, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before {
+.dropdown.button.large:before, .add-content-links a.dropdown.large:before {
   border-width: 0.625em;
   right: 1.75em;
   margin-top: -0.3125em;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before {
+.dropdown.button.large:before, .add-content-links a.dropdown.large:before {
   border-color: white transparent transparent transparent;
 }
 /* line 112, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.secondary:before {
+.dropdown.button.secondary:before, .add-content-links a.dropdown.secondary:before {
   border-color: #333333 transparent transparent transparent;
 }
 
 /* Split Buttons */
 /* line 150, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button {
+.split.button, .add-content-links a.split {
   position: relative;
   padding-right: 4.8em;
 }
 /* line 53, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span {
+.split.button span, .add-content-links a.split span {
   display: block;
   height: 100%;
   position: absolute;
@@ -3618,7 +3412,7 @@ label.error {
   border-left: solid 1px;
 }
 /* line 62, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before {
+.split.button span:before, .add-content-links a.split span:before {
   position: absolute;
   content: "";
   width: 0;
@@ -3628,99 +3422,99 @@ label.error {
   left: 50%;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:active {
+.split.button span:active, .add-content-links a.split span:active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span {
+.split.button span, .add-content-links a.split span {
   border-left-color: #899d75;
 }
 /* line 116, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span {
+.split.button span, .add-content-links a.split span {
   width: 3em;
 }
 /* line 117, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before {
+.split.button span:before, .add-content-links a.split span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 1.125em;
   margin-left: -0.5625em;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button span:before {
+.split.button span:before, .add-content-links a.split span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span {
+.split.button.secondary span, .add-content-links a.split.secondary span {
   border-left-color: #c3c3c3;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before {
+.split.button.secondary span:before, .add-content-links a.split.secondary span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.alert span {
+.split.button.alert span, .add-content-links a.split.alert span {
   border-left-color: #7f0a0c;
 }
 /* line 79, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.success span {
+.split.button.success span, .add-content-links a.split.success span {
   border-left-color: #396516;
 }
 /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny {
+.split.button.tiny, .add-content-links a.split.tiny {
   padding-right: 3.9375em;
 }
 /* line 88, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span {
+.split.button.tiny span, .add-content-links a.split.tiny span {
   width: 2.84375em;
 }
 /* line 89, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span:before {
+.split.button.tiny span:before, .add-content-links a.split.tiny span:before {
   border-top-style: solid;
   border-width: 0.4375em;
   top: 0.875em;
   margin-left: -0.3125em;
 }
 /* line 157, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small {
+.split.button.small, .add-content-links a.split, .comment-form button.split.button {
   padding-right: 3.9375em;
 }
 /* line 102, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small span {
+.split.button.small span, .add-content-links a.split span, .comment-form button.split.button span {
   width: 2.8125em;
 }
 /* line 103, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.small span:before {
+.split.button.small span:before, .add-content-links a.split span:before, .comment-form button.split.button span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 0.84375em;
   margin-left: -0.5625em;
 }
 /* line 158, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large {
+.split.button.large, .add-content-links a.split.large {
   padding-right: 6em;
 }
 /* line 130, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large span {
+.split.button.large span, .add-content-links a.split.large span {
   width: 3.75em;
 }
 /* line 131, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.large span:before {
+.split.button.large span:before, .add-content-links a.split.large span:before {
   border-top-style: solid;
   border-width: 0.625em;
   top: 1.3125em;
   margin-left: -0.5625em;
 }
 /* line 159, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.expand {
+.split.button.expand, .add-content-links a.split.expand {
   padding-left: 2em;
 }
 /* line 142, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before {
+.split.button.secondary span:before, .add-content-links a.split.secondary span:before {
   border-color: #333333 transparent transparent transparent;
 }
 /* line 163, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.radius span {
+.split.button.radius span, .add-content-links a.split.radius span {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3729,7 +3523,7 @@ label.error {
   border-bottom-right-radius: 3px;
 }
 /* line 164, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_split-buttons.scss */
-.split.button.round span {
+.split.button.round span, .add-content-links a.split.round span {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -4858,7 +4652,7 @@ label.error {
   list-style: none;
 }
 /* line 97, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar .row, .top-bar .view-group-users .view-content, .view-group-users .top-bar .view-content, .top-bar .view-recent-activity .message, .view-recent-activity .top-bar .message {
+.top-bar .row {
   max-width: none;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -4871,7 +4665,7 @@ label.error {
   height: 2.45em;
 }
 /* line 104, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar .button {
+.top-bar .button, .top-bar .add-content-links a, .add-content-links .top-bar a {
   padding-top: .5em;
   padding-bottom: .5em;
   margin-bottom: 0;
@@ -5003,36 +4797,36 @@ label.error {
   background: #222222;
 }
 /* line 246, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button {
+.top-bar-section ul li > a.button, .top-bar-section ul .add-content-links li > a, .add-content-links .top-bar-section ul li > a {
   background: #afbda2;
   font-size: 0.8125em;
 }
 /* line 249, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.hover {
+.top-bar-section ul li > a.button.hover, .top-bar-section ul .add-content-links li > a.hover, .add-content-links .top-bar-section ul li > a.hover {
   background: #95a884;
 }
 /* line 253, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary {
+.top-bar-section ul li > a.button.secondary, .top-bar-section ul .add-content-links li > a.secondary, .add-content-links .top-bar-section ul li > a.secondary {
   background: #e9e9e9;
 }
 /* line 255, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary.hover {
+.top-bar-section ul li > a.button.secondary.hover, .top-bar-section ul .add-content-links li > a.secondary.hover, .add-content-links .top-bar-section ul li > a.secondary.hover {
   background: #d0d0d0;
 }
 /* line 259, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success {
+.top-bar-section ul li > a.button.success, .top-bar-section ul .add-content-links li > a.success, .add-content-links .top-bar-section ul li > a.success {
   background: #5da423;
 }
 /* line 261, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success.hover {
+.top-bar-section ul li > a.button.success.hover, .top-bar-section ul .add-content-links li > a.success.hover, .add-content-links .top-bar-section ul li > a.success.hover {
   background: #457a1a;
 }
 /* line 265, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert {
+.top-bar-section ul li > a.button.alert, .top-bar-section ul .add-content-links li > a.alert, .add-content-links .top-bar-section ul li > a.alert {
   background: #c60f13;
 }
 /* line 267, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert.hover {
+.top-bar-section ul li > a.button.alert.hover, .top-bar-section ul .add-content-links li > a.alert.hover, .add-content-links .top-bar-section ul li > a.alert.hover {
   background: #970b0e;
 }
 /* line 275, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -5159,7 +4953,9 @@ label.error {
   }
   /* line 373, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .top-bar input,
-  .top-bar .button {
+  .top-bar .button,
+  .top-bar .add-content-links a,
+  .add-content-links .top-bar a {
     line-height: 2em;
     font-size: 0.875em;
     height: 2em;
@@ -5681,10 +5477,10 @@ label.error {
 .reveal-modal .columns,
 .reveal-modal .view-group-users .view-content .views-row,
 .view-group-users .view-content .reveal-modal .views-row,
-.reveal-modal .view-recent-activity .message .user-picture,
-.view-recent-activity .message .reveal-modal .user-picture,
-.reveal-modal .view-recent-activity .message div,
-.view-recent-activity .message .reveal-modal div {
+.reveal-modal .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .reveal-modal .user-picture,
+.reveal-modal .view-recent-activity .views-row .message .div,
+.view-recent-activity .views-row .message .reveal-modal .div {
   min-width: 0;
 }
 /* line 65, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
@@ -5719,7 +5515,7 @@ label.error {
     width: 30%;
   }
   /* line 125, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
-  .reveal-modal.small {
+  .reveal-modal.small, .add-content-links a.reveal-modal, .comment-form button.reveal-modal {
     margin-left: -20%;
     width: 40%;
   }
@@ -5779,7 +5575,7 @@ label.error {
   padding: 1.125em 1.25em 1.5em;
 }
 /* line 68, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_joyride.scss */
-.joyride-content-wrapper .button {
+.joyride-content-wrapper .button, .joyride-content-wrapper .add-content-links a, .add-content-links .joyride-content-wrapper a {
   margin-bottom: 0 !important;
 }
 
@@ -6463,7 +6259,7 @@ form.custom .custom.dropdown.open ul {
   box-sizing: content-box;
 }
 /* line 201, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
-form.custom .custom.dropdown.small {
+form.custom .custom.dropdown.small, form.custom .add-content-links a.custom.dropdown, .add-content-links form.custom a.custom.dropdown, form.custom .comment-form button.custom.dropdown, .comment-form form.custom button.custom.dropdown {
   max-width: 134px;
 }
 /* line 202, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
@@ -6479,7 +6275,7 @@ form.custom .custom.dropdown.expand {
   width: 100% !important;
 }
 /* line 206, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_custom-forms.scss */
-form.custom .custom.dropdown.open.small ul {
+form.custom .custom.dropdown.open.small ul, form.custom .add-content-links a.custom.dropdown.open ul, .add-content-links form.custom a.custom.dropdown.open ul, form.custom .comment-form button.custom.dropdown.open ul, .comment-form form.custom button.custom.dropdown.open ul {
   min-width: 134px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6590,7 +6386,7 @@ kbd {
 
 /* Labels */
 /* line 71, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label {
+.label, .block-collabco-groups-feature-group-header .privacy-status {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -6604,27 +6400,27 @@ kbd {
   color: white;
 }
 /* line 77, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.radius {
+.label.radius, .block-collabco-groups-feature-group-header .radius.privacy-status {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 78, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.round {
+.label.round, .block-collabco-groups-feature-group-header .round.privacy-status {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.alert {
+.label.alert, .block-collabco-groups-feature-group-header .alert.privacy-status {
   background-color: #c60f13;
   color: white;
 }
 /* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.success {
+.label.success, .block-collabco-groups-feature-group-header .success.privacy-status {
   background-color: #5da423;
   color: white;
 }
 /* line 82, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.secondary {
+.label.secondary, .block-collabco-groups-feature-group-header .secondary.privacy-status {
   background-color: #e9e9e9;
   color: #333333;
 }
@@ -7502,7 +7298,7 @@ a.th {
   max-width: 200px;
 }
 /* line 146, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown.scss */
-.f-dropdown.small {
+.f-dropdown.small, .add-content-links a.f-dropdown, .comment-form button.f-dropdown {
   max-width: 300px;
 }
 /* line 147, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown.scss */
@@ -7832,7 +7628,7 @@ h3 {
 }
 
 /* line 202, ../scss/theme/_nav.scss */
-.label {
+.label, .block-collabco-groups-feature-group-header .privacy-status {
   font-size: .6em;
   padding: 6px;
 }
@@ -7885,20 +7681,124 @@ h3 {
   content: "\e607";
 }
 
-/* line 2, ../scss/theme/_drupal.scss */
-ul.links.inline li,
-ul.add-content-links li {
+/* line 1, ../scss/theme/_drupal.scss */
+ul.links.inline {
+  float: right;
+  font-size: 70%;
+}
+/* line 4, ../scss/theme/_drupal.scss */
+ul.links.inline li {
   display: inline;
   list-style-type: none;
-  padding-right: 10px;
 }
 
-/* line 24, ../scss/theme/_drupal.scss */
-.view-recent-activity .message div {
-  .padding: 5px 0px;
+/* line 11, ../scss/theme/_drupal.scss */
+.view-group-users .view-content .views-row {
+  padding: 0;
 }
 
-/* line 32, ../scss/theme/_drupal.scss */
+/* line 19, ../scss/theme/_drupal.scss */
+.view-recent-activity .views-row {
+  margin-bottom: 0.625em;
+}
+/* line 21, ../scss/theme/_drupal.scss */
+.view-recent-activity .views-row .user-picture {
+  padding: 0;
+}
+
+/* line 34, ../scss/theme/_drupal.scss */
 .posted .user-picture {
   display: inline;
+}
+
+/* line 39, ../scss/theme/_drupal.scss */
+.block-collabco-groups-feature-group-header h1 {
+  display: inline;
+}
+/* line 42, ../scss/theme/_drupal.scss */
+.block-collabco-groups-feature-group-header .privacy-status {
+  background-color: #874646;
+  display: inline;
+  top: -0.4375em;
+}
+/* line 48, ../scss/theme/_drupal.scss */
+.block-collabco-groups-feature-group-header .field-name-group-group {
+  font-size: 70%;
+  float: right;
+  top: 0.625em;
+}
+
+/* line 55, ../scss/theme/_drupal.scss */
+.add-content {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 1.25em;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.75em;
+  padding-right: 1.5em;
+  padding-bottom: 0.8125em;
+  padding-left: 1.5em;
+  font-size: 1em;
+  background-color: #afbda2;
+  border-color: #95a884;
+  color: white;
+  position: relative;
+  padding-right: 3.1875em;
+}
+/* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+.add-content:hover, .add-content:focus {
+  background-color: #95a884;
+}
+/* line 133, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
+.add-content:hover, .add-content:focus {
+  color: white;
+}
+/* line 46, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
+.add-content:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  top: 50%;
+}
+/* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
+.add-content:before {
+  border-width: 0.5625em;
+  right: 1.5em;
+  margin-top: -0.25em;
+}
+/* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_dropdown-buttons.scss */
+.add-content:before {
+  border-color: white transparent transparent transparent;
+}
+
+/* line 61, ../scss/theme/_drupal.scss */
+.add-content-links li {
+  list-style-type: none;
+}
+
+/* line 70, ../scss/theme/_drupal.scss */
+.field {
+  margin-bottom: 0.625em;
+}
+
+/* line 78, ../scss/theme/_drupal.scss */
+.accordion > section > .content {
+  border: none !important;
+}
+
+/* line 82, ../scss/theme/_drupal.scss */
+.accordion > section.active > .content {
+  display: block;
+  position: relative;
 }

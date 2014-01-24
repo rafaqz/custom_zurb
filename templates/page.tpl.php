@@ -18,6 +18,9 @@
             <?php if ($top_bar_main_menu) :?>
               <?php print $top_bar_main_menu; ?>
             <?php endif; ?>
+            <?php if ($top_bar_groups) :?>
+              <?php print $top_bar_groups; ?>
+            <?php endif; ?>
             <?php if ($top_bar_secondary_menu) :?>
               <?php print $top_bar_secondary_menu; ?>
             <?php endif; ?>
@@ -122,7 +125,7 @@
 
       <a id="main-content"></a>
 
-      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+      <?php /*if ($breadcrumb): print $breadcrumb; endif; */ ?>
 
       <?php if ($title && !$is_front): ?>
         <?php print render($title_prefix); ?>
