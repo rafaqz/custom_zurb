@@ -7671,3 +7671,8 @@ ul.links.inline li {
   filter: alpha(opacity=90);
   opacity: 0.9;
 }
+
+/* line 129, ../scss/theme/_drupal.scss */
+ul.button-group a.secondary.active {
+  background-color: #c3c3c3;
+}

@@ -124,3 +124,9 @@ ul.links.inline {
     }
   }
 }
+
+ul.button-group {
+  a.secondary.active {
+    background-color: darken($secondary-color,15%);
+  }
+}
