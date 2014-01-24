@@ -34,7 +34,7 @@
 
     <!-- Title, slogan and menu -->
     <?php if ($alt_header): ?>
-    <section class="row <?php print $alt_header_classes; ?>">
+    <section class="<?php print $alt_header_classes; ?>">
 
       <?php if ($linked_logo): print $linked_logo; endif; ?>
 
@@ -74,10 +74,8 @@
 
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
-      <section class="l-header-region row">
-        <div class="large-12 columns">
+      <section class="l-header-region">
           <?php print render($page['header']); ?>
-        </div>
       </section>
       <!--/.l-header-region -->
     <?php endif; ?>
