@@ -576,7 +576,7 @@ select {
 
 /* Grid HTML Classes */
 /* line 116, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row {
+.row, .block-collabco-groups-feature-group-content-tab .item-list {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -586,30 +586,37 @@ select {
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row:before, .row:after {
+.row:before, .block-collabco-groups-feature-group-content-tab .item-list:before, .row:after, .block-collabco-groups-feature-group-content-tab .item-list:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row:after {
+.row:after, .block-collabco-groups-feature-group-content-tab .item-list:after {
   clear: both;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row.collapse .column,
+.row.collapse .column, .block-collabco-groups-feature-group-content-tab .collapse.item-list .column,
 .row.collapse .columns,
+.block-collabco-groups-feature-group-content-tab .collapse.item-list .columns,
 .row.collapse .view-group-users .view-content .views-row,
 .view-group-users .view-content .row.collapse .views-row,
+.block-collabco-groups-feature-group-content-tab .collapse.item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab .collapse.item-list .views-row,
 .row.collapse .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row .row.collapse .user-picture,
+.block-collabco-groups-feature-group-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab .collapse.item-list .user-picture,
 .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .row.collapse .message-details {
+.view-recent-activity .views-row .row.collapse .message-details,
+.block-collabco-groups-feature-group-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab .collapse.item-list .message-details {
   position: relative;
   padding-left: 0;
   padding-right: 0;
   float: left;
 }
 /* line 124, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row .row {
+.row .row, .block-collabco-groups-feature-group-content-tab .item-list .row, .row .block-collabco-groups-feature-group-content-tab .item-list, .block-collabco-groups-feature-group-content-tab .row .item-list, .block-collabco-groups-feature-group-content-tab .item-list .item-list {
   width: auto;
   margin-left: -0.9375em;
   margin-right: -0.9375em;
@@ -619,28 +626,28 @@ select {
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row:before, .row .row:after {
+.row .row:before, .block-collabco-groups-feature-group-content-tab .item-list .row:before, .row .block-collabco-groups-feature-group-content-tab .item-list:before, .block-collabco-groups-feature-group-content-tab .row .item-list:before, .block-collabco-groups-feature-group-content-tab .item-list .item-list:before, .row .row:after, .block-collabco-groups-feature-group-content-tab .item-list .row:after, .row .block-collabco-groups-feature-group-content-tab .item-list:after, .block-collabco-groups-feature-group-content-tab .row .item-list:after, .block-collabco-groups-feature-group-content-tab .item-list .item-list:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row:after {
+.row .row:after, .block-collabco-groups-feature-group-content-tab .item-list .row:after, .row .block-collabco-groups-feature-group-content-tab .item-list:after, .block-collabco-groups-feature-group-content-tab .row .item-list:after, .block-collabco-groups-feature-group-content-tab .item-list .item-list:after {
   clear: both;
 }
 /* line 125, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-.row .row.collapse {
+.row .row.collapse, .block-collabco-groups-feature-group-content-tab .item-list .row.collapse, .row .block-collabco-groups-feature-group-content-tab .collapse.item-list, .block-collabco-groups-feature-group-content-tab .row .collapse.item-list, .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list {
   width: auto;
   margin: 0;
   max-width: none;
   *zoom: 1;
 }
 /* line 121, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row.collapse:before, .row .row.collapse:after {
+.row .row.collapse:before, .block-collabco-groups-feature-group-content-tab .item-list .row.collapse:before, .row .block-collabco-groups-feature-group-content-tab .collapse.item-list:before, .block-collabco-groups-feature-group-content-tab .row .collapse.item-list:before, .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list:before, .row .row.collapse:after, .block-collabco-groups-feature-group-content-tab .item-list .row.collapse:after, .row .block-collabco-groups-feature-group-content-tab .collapse.item-list:after, .block-collabco-groups-feature-group-content-tab .row .collapse.item-list:after, .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list:after {
   content: " ";
   display: table;
 }
 /* line 122, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
-.row .row.collapse:after {
+.row .row.collapse:after, .block-collabco-groups-feature-group-content-tab .item-list .row.collapse:after, .row .block-collabco-groups-feature-group-content-tab .collapse.item-list:after, .block-collabco-groups-feature-group-content-tab .row .collapse.item-list:after, .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list:after {
   clear: both;
 }
 
@@ -905,73 +912,73 @@ select {
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-0 {
+  .row .large-offset-0, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-0 {
     position: relative;
     margin-left: 0%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-1 {
+  .row .large-offset-1, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-1 {
     position: relative;
     margin-left: 8.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-2 {
+  .row .large-offset-2, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-2 {
     position: relative;
     margin-left: 16.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-3 {
+  .row .large-offset-3, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-3 {
     position: relative;
     margin-left: 25%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-4 {
+  .row .large-offset-4, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-4 {
     position: relative;
     margin-left: 33.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-5 {
+  .row .large-offset-5, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-5 {
     position: relative;
     margin-left: 41.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-6 {
+  .row .large-offset-6, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-6 {
     position: relative;
     margin-left: 50%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-7 {
+  .row .large-offset-7, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-7 {
     position: relative;
     margin-left: 58.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-8 {
+  .row .large-offset-8, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-8 {
     position: relative;
     margin-left: 66.66667%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-9 {
+  .row .large-offset-9, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-9 {
     position: relative;
     margin-left: 75%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-10 {
+  .row .large-offset-10, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-10 {
     position: relative;
     margin-left: 83.33333%;
   }
 
   /* line 160, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .row .large-offset-11 {
+  .row .large-offset-11, .block-collabco-groups-feature-group-content-tab .item-list .large-offset-11 {
     position: relative;
     margin-left: 91.66667%;
   }
@@ -2722,52 +2729,166 @@ form {
 
 /* Using forms within rows, we need to set some defaults */
 /* line 67, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row {
+form .row .row, form .block-collabco-groups-feature-group-content-tab .item-list .row, .block-collabco-groups-feature-group-content-tab form .item-list .row, form .row .block-collabco-groups-feature-group-content-tab .item-list, .block-collabco-groups-feature-group-content-tab form .row .item-list, form .block-collabco-groups-feature-group-content-tab .item-list .item-list, .block-collabco-groups-feature-group-content-tab form .item-list .item-list {
   margin: 0 -0.5em;
 }
 /* line 70, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row .column,
+form .row .row .column, form .block-collabco-groups-feature-group-content-tab .item-list .row .column, .block-collabco-groups-feature-group-content-tab form .item-list .row .column, form .row .block-collabco-groups-feature-group-content-tab .item-list .column, .block-collabco-groups-feature-group-content-tab form .row .item-list .column, form .block-collabco-groups-feature-group-content-tab .item-list .item-list .column, .block-collabco-groups-feature-group-content-tab form .item-list .item-list .column,
 form .row .row .columns,
+form .block-collabco-groups-feature-group-content-tab .item-list .row .columns,
+.block-collabco-groups-feature-group-content-tab form .item-list .row .columns,
+form .row .block-collabco-groups-feature-group-content-tab .item-list .columns,
+.block-collabco-groups-feature-group-content-tab form .row .item-list .columns,
+form .block-collabco-groups-feature-group-content-tab .item-list .item-list .columns,
+.block-collabco-groups-feature-group-content-tab form .item-list .item-list .columns,
 form .row .row .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row .views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .row .view-group-users .view-content .views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list .row .views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .row .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list .row .views-row,
+form .row .block-collabco-groups-feature-group-content-tab .item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content form .row .block-collabco-groups-feature-group-content-tab .item-list .views-row,
+.block-collabco-groups-feature-group-content-tab form .row .item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .row .item-list .views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list .item-list .views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list .item-list .views-row,
 form .row .row .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row form .row .row .user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .row .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .row .user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .row .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .row .user-picture,
+form .row .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .row .block-collabco-groups-feature-group-content-tab .item-list .user-picture,
+.block-collabco-groups-feature-group-content-tab form .row .item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .row .item-list .user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .item-list .user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .item-list .user-picture,
 form .row .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .row .message-details {
+.view-recent-activity .views-row form .row .row .message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .row .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .row .message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .row .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .row .message-details,
+form .row .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .row .block-collabco-groups-feature-group-content-tab .item-list .message-details,
+.block-collabco-groups-feature-group-content-tab form .row .item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .row .item-list .message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .item-list .message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .item-list .message-details {
   padding: 0 0.5em;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row.collapse {
+form .row .row.collapse, form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse, .block-collabco-groups-feature-group-content-tab form .item-list .row.collapse, form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list, .block-collabco-groups-feature-group-content-tab form .row .collapse.item-list, form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list, .block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list {
   margin: 0;
 }
 /* line 76, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row .row.collapse .column,
+form .row .row.collapse .column, form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .column, .block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .column, form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .column, .block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .column, form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .column, .block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .column,
 form .row .row.collapse .columns,
+form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .columns,
+.block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .columns,
+form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .columns,
+.block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .columns,
+form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .columns,
+.block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .columns,
 form .row .row.collapse .view-group-users .view-content .views-row,
 .view-group-users .view-content form .row .row.collapse .views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .view-group-users .view-content .views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .views-row,
+form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .views-row,
+.block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .view-group-users .view-content .views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .views-row,
 form .row .row.collapse .view-recent-activity .views-row .user-picture,
 .view-recent-activity .views-row form .row .row.collapse .user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .user-picture,
+form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .user-picture,
+.block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .view-recent-activity .views-row .user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .user-picture,
 form .row .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .row.collapse .message-details {
+.view-recent-activity .views-row form .row .row.collapse .message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .row.collapse .message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .row.collapse .message-details,
+form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .row .block-collabco-groups-feature-group-content-tab .collapse.item-list .message-details,
+.block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .row .collapse.item-list .message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list .collapse.item-list .message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .view-recent-activity .views-row .message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list .collapse.item-list .message-details {
   padding: 0;
 }
 /* line 83, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
-form .row input.column,
+form .row input.column, form .block-collabco-groups-feature-group-content-tab .item-list input.column, .block-collabco-groups-feature-group-content-tab form .item-list input.column,
 form .row input.columns,
+form .block-collabco-groups-feature-group-content-tab .item-list input.columns,
+.block-collabco-groups-feature-group-content-tab form .item-list input.columns,
 form .row .view-group-users .view-content input.views-row,
 .view-group-users .view-content form .row input.views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-group-users .view-content input.views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list input.views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-group-users .view-content input.views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list input.views-row,
 form .row .view-recent-activity .views-row input.user-picture,
 .view-recent-activity .views-row form .row input.user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row input.user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list input.user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-recent-activity .views-row input.user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list input.user-picture,
 form .row .view-recent-activity .views-row input.message-details,
 .view-recent-activity .views-row form .row input.message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row input.message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list input.message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-recent-activity .views-row input.message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list input.message-details,
 form .row textarea.column,
+form .block-collabco-groups-feature-group-content-tab .item-list textarea.column,
+.block-collabco-groups-feature-group-content-tab form .item-list textarea.column,
 form .row textarea.columns,
+form .block-collabco-groups-feature-group-content-tab .item-list textarea.columns,
+.block-collabco-groups-feature-group-content-tab form .item-list textarea.columns,
 form .row .view-group-users .view-content textarea.views-row,
 .view-group-users .view-content form .row textarea.views-row,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-group-users .view-content textarea.views-row,
+.view-group-users .view-content form .block-collabco-groups-feature-group-content-tab .item-list textarea.views-row,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-group-users .view-content textarea.views-row,
+.view-group-users .view-content .block-collabco-groups-feature-group-content-tab form .item-list textarea.views-row,
 form .row .view-recent-activity .views-row textarea.user-picture,
 .view-recent-activity .views-row form .row textarea.user-picture,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row textarea.user-picture,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list textarea.user-picture,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-recent-activity .views-row textarea.user-picture,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list textarea.user-picture,
 form .row .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row form .row textarea.message-details {
+.view-recent-activity .views-row form .row textarea.message-details,
+form .block-collabco-groups-feature-group-content-tab .item-list .view-recent-activity .views-row textarea.message-details,
+.view-recent-activity .views-row form .block-collabco-groups-feature-group-content-tab .item-list textarea.message-details,
+.block-collabco-groups-feature-group-content-tab form .item-list .view-recent-activity .views-row textarea.message-details,
+.view-recent-activity .views-row .block-collabco-groups-feature-group-content-tab form .item-list textarea.message-details {
   padding-left: 0.5em;
 }
 
@@ -4652,7 +4773,7 @@ label.error {
   list-style: none;
 }
 /* line 97, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-.top-bar .row {
+.top-bar .row, .top-bar .block-collabco-groups-feature-group-content-tab .item-list, .block-collabco-groups-feature-group-content-tab .top-bar .item-list {
   max-width: none;
 }
 /* line 100, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
@@ -6427,7 +6548,7 @@ kbd {
 
 /* Inline Lists */
 /* line 49, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_inline-lists.scss */
-.inline-list {
+.inline-list, ul.links.inline li {
   margin: 0 auto 1.0625em auto;
   margin-left: -1.375em;
   margin-right: 0;
@@ -6436,14 +6557,14 @@ kbd {
   overflow: hidden;
 }
 /* line 36, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_inline-lists.scss */
-.inline-list > li {
+.inline-list > li, ul.links.inline li > li {
   list-style: none;
   float: left;
   margin-left: 1.375em;
   display: block;
 }
 /* line 41, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_inline-lists.scss */
-.inline-list > li > * {
+.inline-list > li > *, ul.links.inline li > li > * {
   display: block;
 }
 
@@ -7349,55 +7470,53 @@ a.th {
   background: none repeat scroll 0 0 #afbda2;
 }
 
-/* line 4, ../scss/theme/_nav.scss */
-.tabs {
-  padding-top: .9em;
-  margin: 1em;
+/*SECTION -- secondary navigation */
+/* line 6, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab {
+  background-color: #393939;
+  width: 100%;
 }
-
-/* line 9, ../scss/theme/_nav.scss */
-.tabs ul {
+/* line 13, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab .item-list ul {
+  padding-top: .3em;
+  margin: 1em;
   list-style: none;
 }
-
-/* line 13, ../scss/theme/_nav.scss */
-.tabs li {
+/* line 18, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab .item-list ul li {
   display: inline;
+}
+/* line 21, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab .item-list ul li a {
+  padding: 1em;
+  color: #7d929a;
+}
+/* line 26, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab .item-list ul li a:hover {
+  background: #464646;
+  color: #fff;
+}
+/* line 32, ../scss/theme/_nav.scss */
+.block-collabco-groups-feature-group-content-tab .item-list ul li.active > a {
+  color: #464646;
+  background: #fff;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 18, ../scss/theme/_nav.scss */
+  /* line 41, ../scss/theme/_nav.scss */
   .tabs li a {
     display: block;
     font-size: .9em;
   }
 }
 /*just an indication of how to handle the menu, not production worthy code by a long stretch */
-/* line 26, ../scss/theme/_nav.scss */
-.tabs li a {
-  padding: 1em;
-  color: #7d929a;
-}
-
-/* line 31, ../scss/theme/_nav.scss */
-.tabs li a:hover {
-  background: #464646;
-  color: #fff;
-}
-
-/* line 36, ../scss/theme/_nav.scss */
-.tabs .active > a {
-  color: #464646;
-  background: #fff;
-}
-
 /*SECTION - widget area*/
-/* line 43, ../scss/theme/_nav.scss */
+/* line 52, ../scss/theme/_nav.scss */
 .divider-left, .sidebar-second {
   border-left: 1px solid #dddddd;
 }
 
-/* line 47, ../scss/theme/_nav.scss */
+/* line 56, ../scss/theme/_nav.scss */
 .divider-bottom, .sidebar-second section.block {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 0.3125em;
@@ -7405,25 +7524,25 @@ a.th {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 54, ../scss/theme/_nav.scss */
+  /* line 63, ../scss/theme/_nav.scss */
   .divider-left, .sidebar-second {
     border-left: 0px solid #fff;
   }
 }
-/* line 59, ../scss/theme/_nav.scss */
+/* line 68, ../scss/theme/_nav.scss */
 .side h4 {
   font-size: 1.2em;
   font-weight: 500;
 }
 
-/* line 64, ../scss/theme/_nav.scss */
+/* line 73, ../scss/theme/_nav.scss */
 .side p {
   font-size: 0.95em;
   font-weight: 500;
   margin-top: 15px;
 }
 
-/* line 71, ../scss/theme/_nav.scss */
+/* line 80, ../scss/theme/_nav.scss */
 .comment {
   font-size: .8em;
   background-color: #f7f7f7;
@@ -7431,14 +7550,14 @@ a.th {
   border: 1px solid #eeeeee;
 }
 
-/* line 78, ../scss/theme/_nav.scss */
+/* line 87, ../scss/theme/_nav.scss */
 .reply {
   font-size: .7em;
   float: right;
   margin-top: -10px;
 }
 
-/* line 84, ../scss/theme/_nav.scss */
+/* line 93, ../scss/theme/_nav.scss */
 p.timestamp {
   font-size: .75em;
   color: #bbbbbb;
@@ -7446,26 +7565,26 @@ p.timestamp {
 }
 
 /*MISCELLANOUS - typography */
-/* line 91, ../scss/theme/_nav.scss */
+/* line 100, ../scss/theme/_nav.scss */
 h2 {
   font-weight: 500;
   color: #393939;
 }
 
-/* line 96, ../scss/theme/_nav.scss */
+/* line 105, ../scss/theme/_nav.scss */
 h3 {
   font-size: 18px;
   color: gray;
   margin-top: 20px;
 }
 
-/* line 102, ../scss/theme/_nav.scss */
+/* line 111, ../scss/theme/_nav.scss */
 .label, .block-collabco-groups-feature-group-header .privacy-status {
   font-size: .6em;
   padding: 6px;
 }
 
-/* line 107, ../scss/theme/_nav.scss */
+/* line 116, ../scss/theme/_nav.scss */
 .intro {
   font-size: 1.4em;
 }
@@ -7480,7 +7599,7 @@ h3 {
   font-style: normal;
 }
 
-/* line 127, ../scss/theme/_nav.scss */
+/* line 136, ../scss/theme/_nav.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -7493,22 +7612,22 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 141, ../scss/theme/_nav.scss */
+/* line 150, ../scss/theme/_nav.scss */
 .icon-bulb:before {
   content: "\e600";
 }
 
-/* line 144, ../scss/theme/_nav.scss */
+/* line 153, ../scss/theme/_nav.scss */
 .icon-file:before {
   content: "\e601";
 }
 
-/* line 147, ../scss/theme/_nav.scss */
+/* line 156, ../scss/theme/_nav.scss */
 .icon-home:before {
   content: "\e602";
 }
 
-/* line 150, ../scss/theme/_nav.scss */
+/* line 159, ../scss/theme/_nav.scss */
 .icon-bubbles:before {
   content: "\e607";
 }
@@ -7518,51 +7637,46 @@ ul.links.inline {
   float: right;
   font-size: 70%;
 }
-/* line 4, ../scss/theme/_drupal.scss */
-ul.links.inline li {
-  display: inline;
-  list-style-type: none;
-}
 
-/* line 11, ../scss/theme/_drupal.scss */
+/* line 10, ../scss/theme/_drupal.scss */
 .view-group-users .view-content .views-row {
   padding: 0 0 0.625em;
 }
 
-/* line 19, ../scss/theme/_drupal.scss */
+/* line 18, ../scss/theme/_drupal.scss */
 .view-recent-activity .views-row {
   margin-bottom: 0.625em;
 }
-/* line 21, ../scss/theme/_drupal.scss */
+/* line 20, ../scss/theme/_drupal.scss */
 .view-recent-activity .views-row .user-picture {
   padding: 0;
 }
-/* line 27, ../scss/theme/_drupal.scss */
+/* line 26, ../scss/theme/_drupal.scss */
 .view-recent-activity .views-row .message-details {
   padding: 0;
 }
 
-/* line 35, ../scss/theme/_drupal.scss */
+/* line 34, ../scss/theme/_drupal.scss */
 .view-subgroups li {
   list-style-type: none;
 }
 
-/* line 39, ../scss/theme/_drupal.scss */
+/* line 38, ../scss/theme/_drupal.scss */
 .posted .user-picture {
   display: inline;
 }
 
-/* line 44, ../scss/theme/_drupal.scss */
+/* line 43, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header h1 {
   display: inline;
 }
-/* line 47, ../scss/theme/_drupal.scss */
+/* line 46, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .privacy-status {
   background-color: #874646;
   display: inline;
   top: -0.4375em;
 }
-/* line 53, ../scss/theme/_drupal.scss */
+/* line 52, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .field-name-group-group {
   font-size: 70%;
   float: right;
@@ -7570,7 +7684,7 @@ ul.links.inline li {
   position: relative;
 }
 
-/* line 61, ../scss/theme/_drupal.scss */
+/* line 60, ../scss/theme/_drupal.scss */
 .add-content {
   border-style: solid;
   border-width: 1px;
@@ -7624,32 +7738,32 @@ ul.links.inline li {
   border-color: white transparent transparent transparent;
 }
 
-/* line 67, ../scss/theme/_drupal.scss */
+/* line 66, ../scss/theme/_drupal.scss */
 .add-content-links li {
   list-style-type: none;
 }
 
-/* line 76, ../scss/theme/_drupal.scss */
+/* line 75, ../scss/theme/_drupal.scss */
 .field {
   margin-bottom: 0.625em;
 }
 
-/* line 84, ../scss/theme/_drupal.scss */
+/* line 83, ../scss/theme/_drupal.scss */
 .accordion > section > .content {
   border: none !important;
 }
 
-/* line 88, ../scss/theme/_drupal.scss */
+/* line 87, ../scss/theme/_drupal.scss */
 .accordion > section.active > .content {
   display: block;
   position: relative;
 }
 
-/* line 103, ../scss/theme/_drupal.scss */
+/* line 102, ../scss/theme/_drupal.scss */
 #search-block-form .form-text {
   height: 3.75em;
 }
-/* line 106, ../scss/theme/_drupal.scss */
+/* line 105, ../scss/theme/_drupal.scss */
 #search-block-form button {
   position: absolute;
   right: 10px;
@@ -7666,13 +7780,13 @@ ul.links.inline li {
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 121, ../scss/theme/_drupal.scss */
+/* line 120, ../scss/theme/_drupal.scss */
 #search-block-form button :hover, #search-block-form button :focus {
   filter: alpha(opacity=90);
   opacity: 0.9;
 }
 
-/* line 129, ../scss/theme/_drupal.scss */
+/* line 128, ../scss/theme/_drupal.scss */
 ul.button-group a.secondary.active {
   background-color: #c3c3c3;
 }

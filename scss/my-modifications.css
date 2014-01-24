@@ -53,6 +53,7 @@
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
+
 #searchbtn:hover, #searchbtn:focus {
 	filter: alpha(opacity=90);
 	opacity: 0.9;  
@@ -63,12 +64,13 @@
 
 /*SECTION -- secondary navigation */
 
-.nav-application {
+.block-collabco-groups-feature-group-content-tab {
+	background-color: #393939;
 	width: 100%;
-}
-
-.nav-application ul li a {
-	color:  #fff;
+  ul li {
+    a {
+      color:  #fff;
+    }
 }
 
 .tabs {

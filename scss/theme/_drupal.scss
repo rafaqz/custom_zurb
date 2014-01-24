@@ -2,8 +2,7 @@ ul.links.inline {
   float: right;
   font-size: $small-font-size;
   li {
-    display: inline;
-    list-style-type: none;
+    @extend .inline-list;
   }
 }
 

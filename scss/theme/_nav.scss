@@ -1,42 +1,51 @@
 // Theme or skin specific modifiers.
 //
 
-.tabs {
-  padding-top: .9em;
-  margin: 1em;
-}
+/*SECTION -- secondary navigation */
 
-.tabs ul {
-  list-style: none;
-}
+.block-collabco-groups-feature-group-content-tab {
+  background-color: #393939;
+  width: 100%;
 
-.tabs li {
-  display: inline;
+  .item-list {
+    @extend .row;
+
+    ul {
+      padding-top: .3em;
+      margin: 1em;
+      list-style: none;
+
+      li {
+        display: inline;
+
+        a {
+          padding: 1em;
+          color: #7d929a;
+        }
+
+        a:hover {
+          background: #464646;
+          color: #fff;
+        }
+      }
+
+      li.active > a {
+        color: #464646;
+        background: #fff;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-.tabs li a {
-	display: block;
-	font-size: .9em;
-	}
+  .tabs li a {
+    display: block;
+    font-size: .9em;
+  }
 }
 
 /*just an indication of how to handle the menu, not production worthy code by a long stretch */
 
-.tabs li a {
-	padding: 1em;
-	color: #7d929a;
-}
-
-.tabs li a:hover {
-	background: #464646;
-	color: #fff;
-}
-
-.tabs .active > a {
-color: #464646;
-background: #fff;
-}
 
 /*SECTION - widget area*/
 
@@ -52,8 +61,8 @@ background: #fff;
 
 @media screen and (max-width: 768px) {
 .divider-left {
-	border-left:  0px solid #fff;
-	}
+    border-left:  0px solid #fff;
+  }
 }
 
 .side h4 {
