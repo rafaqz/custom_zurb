@@ -7587,21 +7587,26 @@ ul.links.inline li {
 }
 
 /* line 35, ../scss/theme/_drupal.scss */
+.view-subgroups li {
+  list-style-type: none;
+}
+
+/* line 39, ../scss/theme/_drupal.scss */
 .posted .user-picture {
   display: inline;
 }
 
-/* line 40, ../scss/theme/_drupal.scss */
+/* line 44, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header h1 {
   display: inline;
 }
-/* line 43, ../scss/theme/_drupal.scss */
+/* line 47, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .privacy-status {
   background-color: #874646;
   display: inline;
   top: -0.4375em;
 }
-/* line 49, ../scss/theme/_drupal.scss */
+/* line 53, ../scss/theme/_drupal.scss */
 .block-collabco-groups-feature-group-header .field-name-group-group {
   font-size: 70%;
   float: right;
@@ -7609,7 +7614,7 @@ ul.links.inline li {
   position: relative;
 }
 
-/* line 57, ../scss/theme/_drupal.scss */
+/* line 61, ../scss/theme/_drupal.scss */
 .add-content {
   border-style: solid;
   border-width: 1px;
@@ -7663,32 +7668,32 @@ ul.links.inline li {
   border-color: white transparent transparent transparent;
 }
 
-/* line 63, ../scss/theme/_drupal.scss */
+/* line 67, ../scss/theme/_drupal.scss */
 .add-content-links li {
   list-style-type: none;
 }
 
-/* line 72, ../scss/theme/_drupal.scss */
+/* line 76, ../scss/theme/_drupal.scss */
 .field {
   margin-bottom: 0.625em;
 }
 
-/* line 80, ../scss/theme/_drupal.scss */
+/* line 84, ../scss/theme/_drupal.scss */
 .accordion > section > .content {
   border: none !important;
 }
 
-/* line 84, ../scss/theme/_drupal.scss */
+/* line 88, ../scss/theme/_drupal.scss */
 .accordion > section.active > .content {
   display: block;
   position: relative;
 }
 
-/* line 99, ../scss/theme/_drupal.scss */
+/* line 103, ../scss/theme/_drupal.scss */
 #search-block-form .form-text {
   height: 3.75em;
 }
-/* line 102, ../scss/theme/_drupal.scss */
+/* line 106, ../scss/theme/_drupal.scss */
 #search-block-form button {
   position: absolute;
   right: 10px;
@@ -7705,7 +7710,7 @@ ul.links.inline li {
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 117, ../scss/theme/_drupal.scss */
+/* line 121, ../scss/theme/_drupal.scss */
 #search-block-form button :hover, #search-block-form button :focus {
   filter: alpha(opacity=90);
   opacity: 0.9;
