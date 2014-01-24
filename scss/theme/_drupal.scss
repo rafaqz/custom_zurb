@@ -9,7 +9,7 @@ ul.links.inline {
 
 .view-group-users .view-content {
   .views-row {
-     padding: 0;
+     padding: 0 0 emCalc(10px);
      @extend .columns;
      @extend .large-3;
      @extend .small-2;
@@ -82,4 +82,39 @@ ul.links.inline {
 .accordion > section.active > .content { 
   display: block; 
   position: relative;
+}
+
+
+.sidebar-second {
+  @extend .divider-left;
+}
+
+.sidebar-second section.block {
+  @extend .divider-bottom;
+}
+
+#search-block-form {
+  .form-text {
+    height: emCalc(60px);
+  }
+  button {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 32px;
+    width: 32px;
+    border: 0;
+    cursor: pointer;
+    zoom: 1;
+    filter: alpha(opacity=65);
+    opacity: 0.65;
+    background: transparent url('../images/search.png') top left no-repeat;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    :hover, :focus {
+      filter: alpha(opacity=90);
+      opacity: 0.9;  
+    }
+  }
 }

@@ -7397,201 +7397,80 @@ a.th {
 }
 
 /* line 4, ../scss/theme/_nav.scss */
-.nav-application {
-  width: 100%;
-}
-
-/* line 8, ../scss/theme/_nav.scss */
-.nav-application ul li a {
-  color: #fff;
-}
-
-/* line 12, ../scss/theme/_nav.scss */
 .tabs {
   padding-top: .9em;
   margin: 1em;
 }
 
-/* line 17, ../scss/theme/_nav.scss */
+/* line 9, ../scss/theme/_nav.scss */
 .tabs ul {
   list-style: none;
 }
 
-/* line 21, ../scss/theme/_nav.scss */
+/* line 13, ../scss/theme/_nav.scss */
 .tabs li {
   display: inline;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 26, ../scss/theme/_nav.scss */
+  /* line 18, ../scss/theme/_nav.scss */
   .tabs li a {
     display: block;
     font-size: .9em;
   }
 }
 /*just an indication of how to handle the menu, not production worthy code by a long stretch */
-/* line 34, ../scss/theme/_nav.scss */
+/* line 26, ../scss/theme/_nav.scss */
 .tabs li a {
   padding: 1em;
   color: #7d929a;
 }
 
-/* line 39, ../scss/theme/_nav.scss */
+/* line 31, ../scss/theme/_nav.scss */
 .tabs li a:hover {
   background: #464646;
   color: #fff;
 }
 
-/* line 44, ../scss/theme/_nav.scss */
+/* line 36, ../scss/theme/_nav.scss */
 .tabs .active > a {
   color: #464646;
   background: #fff;
 }
 
-/*SECTION -- dropdown element */
-/* line 51, ../scss/theme/_nav.scss */
-form.custom {
-  margin-left: 20px;
-}
-
-/* line 55, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown {
-  height: 3em;
-  background-color: #ffffff;
-  border: 1px solid #393939;
-}
-
-/* line 62, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown .current {
-  line-height: 3em;
-  /*positions text on dropdown */
-  color: #393939;
-  font-weight: 500;
-}
-
-/* line 69, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown .selector {
-  cursor: default;
-  position: absolute;
-  width: 2.5em;
-  /*positions selector element */
-  height: 3em;
-  display: block;
-  right: 0;
-  top: 0;
-}
-
-/*styles the custom selector */
-/* line 80, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown .selector:after {
-  content: "";
-  display: block;
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 5px;
-  border-color: #393939 transparent transparent transparent;
-  border-top-style: solid;
-  position: absolute;
-  left: 0.9375em;
-  top: 50%;
-  margin-top: -3px;
-}
-
-/* line 96, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul {
-  position: absolute;
-  width: auto;
-  display: none;
-  margin: 0;
-  left: -1px;
-  top: auto;
-  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
-  margin: 0;
-  padding: 0;
-  background: white;
-  border: solid 1px #cccccc;
-}
-
-/* line 112, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul li {
-  font-size: 0.875em;
-  cursor: default;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.375em;
-  padding-right: 2.375em;
-  min-height: 1.5em;
-  line-height: 1.5em;
-  margin: 0;
-  white-space: nowrap;
-  list-style: none;
-}
-
-/* line 125, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul li.selected {
-  background: #eeeeee;
-  color: black;
-}
-
-/* line 128, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul li:hover {
-  background-color: #afbda2;
-  color: #fff;
-}
-
-/* line 131, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul li.selected:hover {
-  background: #eeeeee;
-  cursor: default;
-  color: black;
-}
-
-/* line 135, ../scss/theme/_nav.scss */
-form.custom .custom.dropdown ul.show {
-  display: block;
-}
-
-/* line 137, ../scss/theme/_nav.scss */
-form.custom .custom.disabled {
-  background: #dddddd;
-}
-
-/* line 140, ../scss/theme/_nav.scss */
-form.custom > label {
-  color: #fff;
-  font-size: .8em;
-  padding: 10px 0 4px 0;
-}
-
 /*SECTION - widget area*/
-/* line 149, ../scss/theme/_nav.scss */
-.divider-left {
+/* line 43, ../scss/theme/_nav.scss */
+.divider-left, .sidebar-second {
   border-left: 1px solid #dddddd;
 }
 
+/* line 47, ../scss/theme/_nav.scss */
+.divider-bottom, .sidebar-second section.block {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.3125em;
+  margin-bottom: 0.9375em;
+}
+
 @media screen and (max-width: 768px) {
-  /* line 154, ../scss/theme/_nav.scss */
-  .divider-left {
+  /* line 54, ../scss/theme/_nav.scss */
+  .divider-left, .sidebar-second {
     border-left: 0px solid #fff;
   }
 }
-/* line 159, ../scss/theme/_nav.scss */
+/* line 59, ../scss/theme/_nav.scss */
 .side h4 {
   font-size: 1.2em;
   font-weight: 500;
 }
 
-/* line 164, ../scss/theme/_nav.scss */
+/* line 64, ../scss/theme/_nav.scss */
 .side p {
   font-size: 0.95em;
   font-weight: 500;
   margin-top: 15px;
 }
 
-/* line 171, ../scss/theme/_nav.scss */
+/* line 71, ../scss/theme/_nav.scss */
 .comment {
   font-size: .8em;
   background-color: #f7f7f7;
@@ -7599,14 +7478,14 @@ form.custom > label {
   border: 1px solid #eeeeee;
 }
 
-/* line 178, ../scss/theme/_nav.scss */
+/* line 78, ../scss/theme/_nav.scss */
 .reply {
   font-size: .7em;
   float: right;
   margin-top: -10px;
 }
 
-/* line 184, ../scss/theme/_nav.scss */
+/* line 84, ../scss/theme/_nav.scss */
 p.timestamp {
   font-size: .75em;
   color: #bbbbbb;
@@ -7614,26 +7493,26 @@ p.timestamp {
 }
 
 /*MISCELLANOUS - typography */
-/* line 191, ../scss/theme/_nav.scss */
+/* line 91, ../scss/theme/_nav.scss */
 h2 {
   font-weight: 500;
   color: #393939;
 }
 
-/* line 196, ../scss/theme/_nav.scss */
+/* line 96, ../scss/theme/_nav.scss */
 h3 {
   font-size: 18px;
   color: gray;
   margin-top: 20px;
 }
 
-/* line 202, ../scss/theme/_nav.scss */
+/* line 102, ../scss/theme/_nav.scss */
 .label, .block-collabco-groups-feature-group-header .privacy-status {
   font-size: .6em;
   padding: 6px;
 }
 
-/* line 207, ../scss/theme/_nav.scss */
+/* line 107, ../scss/theme/_nav.scss */
 .intro {
   font-size: 1.4em;
 }
@@ -7648,7 +7527,7 @@ h3 {
   font-style: normal;
 }
 
-/* line 227, ../scss/theme/_nav.scss */
+/* line 127, ../scss/theme/_nav.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -7661,22 +7540,22 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 241, ../scss/theme/_nav.scss */
+/* line 141, ../scss/theme/_nav.scss */
 .icon-bulb:before {
   content: "\e600";
 }
 
-/* line 244, ../scss/theme/_nav.scss */
+/* line 144, ../scss/theme/_nav.scss */
 .icon-file:before {
   content: "\e601";
 }
 
-/* line 247, ../scss/theme/_nav.scss */
+/* line 147, ../scss/theme/_nav.scss */
 .icon-home:before {
   content: "\e602";
 }
 
-/* line 250, ../scss/theme/_nav.scss */
+/* line 150, ../scss/theme/_nav.scss */
 .icon-bubbles:before {
   content: "\e607";
 }
@@ -7694,7 +7573,7 @@ ul.links.inline li {
 
 /* line 11, ../scss/theme/_drupal.scss */
 .view-group-users .view-content .views-row {
-  padding: 0;
+  padding: 0 0 0.625em;
 }
 
 /* line 19, ../scss/theme/_drupal.scss */
@@ -7801,4 +7680,31 @@ ul.links.inline li {
 .accordion > section.active > .content {
   display: block;
   position: relative;
+}
+
+/* line 97, ../scss/theme/_drupal.scss */
+#search-block-form .form-text {
+  height: 3.75em;
+}
+/* line 100, ../scss/theme/_drupal.scss */
+#search-block-form button {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  cursor: pointer;
+  zoom: 1;
+  filter: alpha(opacity=65);
+  opacity: 0.65;
+  background: transparent url("../images/search.png") top left no-repeat;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+/* line 115, ../scss/theme/_drupal.scss */
+#search-block-form button :hover, #search-block-form button :focus {
+  filter: alpha(opacity=90);
+  opacity: 0.9;
 }
