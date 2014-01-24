@@ -2,7 +2,8 @@ ul.links.inline {
   float: right;
   font-size: $small-font-size;
   li {
-    @extend .inline-list;
+    display: inline;
+    list-style-type: none;
   }
 }
 
@@ -39,7 +40,13 @@ ul.links.inline {
   display: inline;
 }
 
+.l-header-region {
+  background-color: #F4EBE6;
+}
+
 .block-collabco-groups-feature-group-header {
+  padding-top: 2em;
+  @extend .row;
   h1 {
     display: inline;
   }
@@ -90,11 +97,11 @@ ul.links.inline {
 }
 
 
-.sidebar-second {
+.sidebar {
   @extend .divider-left;
 }
 
-.sidebar-second section.block {
+.sidebar section.block {
   @extend .divider-bottom;
 }
 
@@ -128,4 +135,14 @@ ul.button-group {
   a.secondary.active {
     background-color: darken($secondary-color,15%);
   }
+}
+
+article.node {
+  @extend .divider-bottom;
+  float: none;
+  clear: both;
+}
+
+.comment-wrapper {
+  @extend .divider-top;
 }

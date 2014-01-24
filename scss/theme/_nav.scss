@@ -6,6 +6,7 @@
 .block-collabco-groups-feature-group-content-tab {
   background-color: #393939;
   width: 100%;
+  margin-bottom: 1em;
 
   .item-list {
     @extend .row;
@@ -49,12 +50,21 @@
 
 /*SECTION - widget area*/
 
+$border: 1px solid #dddddd;
 .divider-left {
-  border-left:  1px solid #dddddd;
+  border-left: $border; 
+}
+
+.divider-right {
+  border-right: $border; 
+}
+
+.divider-top {
+  border-top: $border;
 }
 
 .divider-bottom {
-  border-bottom:  1px solid #dddddd;
+  border-bottom: $border;
   padding-bottom: emCalc(5px);
   margin-bottom: emCalc(15px);
 }
@@ -94,7 +104,7 @@ p.timestamp {
  	font-size: .75em;
  	color: #bbbbbb;
  	margin-top: -20px;
- }
+}
 
 /*MISCELLANOUS - typography */
 h2 {
