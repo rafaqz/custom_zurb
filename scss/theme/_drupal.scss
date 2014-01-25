@@ -45,7 +45,7 @@ ul.links.inline {
   background-color: #F4EBE6;
 }
 
-.block-collabco-groups-feature-group-header {
+.header-banner {
 
   .header-details {
     padding-top: 2em;
@@ -53,6 +53,19 @@ ul.links.inline {
     h1 {
       display: inline;
     }
+
+    .header-details-side {
+      @extend .columns;
+      @extend .large-4;
+      @extend .small-4;
+    }
+
+    .header-details-main {
+      @extend .columns;
+      @extend .large-8;
+      @extend .small-8;
+    }
+
     .privacy-status {
       @extend .label;
       background-color: #874646;
@@ -60,10 +73,8 @@ ul.links.inline {
       top: emCalc(-7px);
     }
     .field-name-group-group {
+      padding-top: 2em;
       font-size: $small-font-size;
-      float: right;
-      top: 4em;
-      position: relative;
 
       a {
         @extend .button;
