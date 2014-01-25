@@ -3,32 +3,26 @@
 
 /*SECTION -- secondary navigation */
 
-@media screen and (max-width: 768px) {
-  .tabs li a {
-    display: block;
-    font-size: .9em;
-  }
-}
+/*@media screen and (max-width: 768px) {*/
+  /*.tabs li a {*/
+    /*display: block;*/
+    /*font-size: .9em;*/
+  /*}*/
+/*}*/
 
-.comment {
-font-size: .8em;
- 	background-color:  #f7f7f7;
- 	padding: 5px 5px 5px 15px;
- 	border:  1px solid #eeeeee;
- }
+/*.comment {*/
+/*font-size: .8em;*/
+     /*background-color:  #f7f7f7;*/
+     /*padding: 5px 5px 5px 15px;*/
+     /*border:  1px solid #eeeeee;*/
+ /*}*/
  
-.reply {
- 	font-size: .7em;
- 	float: right;
- 	margin-top: -10px;
- }
+/*.reply {*/
+     /*font-size: .7em;*/
+     /*float: right;*/
+     /*margin-top: -10px;*/
+ /*}*/
  
-p.timestamp {
- 	font-size: .75em;
- 	color: #bbbbbb;
- 	margin-top: -20px;
-}
-
 /*MISCELLANOUS - web fonts */
 /*using webfonts for icons as they scale without pixellation*/      
 @font-face {
