@@ -106,7 +106,9 @@
     </div>
   <?php endif; ?>
 
-  <?php print render($content['links']); ?>
+  <div class="clearfix">
+    <?php print render($content['links']); ?>
+  </div>
   <?php print render($content['comments']); ?>
 
 </article>
