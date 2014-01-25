@@ -235,6 +235,13 @@ p.timestamp {
  	margin-top: -20px;
 }
 
-.book-explorer li {
+.book-explorer {
   font-size: $small-font-size;
+  a.active {
+    @extend .label;
+  }
+}
+
+.new {
+  @extend .label;
 }
