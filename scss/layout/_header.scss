@@ -17,3 +17,81 @@
 .top-bar-section li a:hover:not(.button) {
   background: none repeat scroll 0 0 #afbda2;
 }
+
+
+.l-header-region {
+  background-color: #F4EBE6;
+}
+
+.header-banner {
+
+  .header-details {
+    padding-top: 2em;
+    @extend .row;
+    h1 {
+      display: inline;
+    }
+
+    .header-details-side {
+      @extend .columns;
+      @extend .large-4;
+      @extend .small-4;
+    }
+
+    .header-details-main {
+      @extend .columns;
+      @extend .large-8;
+      @extend .small-8;
+    }
+
+    .privacy-status {
+      @extend .label;
+      background-color: #874646;
+      display: inline;
+      top: emCalc(-7px);
+    }
+    .field-name-group-group {
+      padding-top: 2em;
+      font-size: $small-font-size;
+
+      a {
+        @extend .button;
+      }
+    }
+  }
+
+  .header-content-tab {
+    background-color: #393939;
+    width: 100%;
+    margin-bottom: 1em;
+
+    .item-list {
+      @extend .row;
+
+      ul {
+        padding-top: .3em;
+        margin: 1em;
+        list-style: none;
+
+        li {
+          display: inline;
+
+          a {
+            padding: 1em;
+            color: #7d929a;
+          }
+
+          a:hover {
+            background: #464646;
+            color: #fff;
+          }
+        }
+
+        li.active > a {
+          color: #464646;
+          background: #fff;
+        }
+      }
+    }
+  }
+}

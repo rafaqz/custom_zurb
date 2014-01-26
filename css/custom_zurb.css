@@ -599,24 +599,6 @@ select {
 .row.collapse .columns,
 .header-banner .collapse.header-details .columns,
 .header-banner .header-content-tab .collapse.item-list .columns,
-.row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content .row.collapse .views-row,
-.header-banner .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .collapse.header-details .views-row,
-.header-banner .header-content-tab .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab .collapse.item-list .views-row,
-.row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .row.collapse .user-picture,
-.header-banner .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .collapse.header-details .user-picture,
-.header-banner .header-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab .collapse.item-list .user-picture,
-.row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .row.collapse .message-details,
-.header-banner .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .collapse.header-details .message-details,
-.header-banner .header-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab .collapse.item-list .message-details,
 .row.collapse .header-banner .header-details .header-details-side,
 .header-banner .header-details .row.collapse .header-details-side,
 .header-banner .collapse.header-details .header-details-side,
@@ -626,7 +608,25 @@ select {
 .header-banner .header-details .row.collapse .header-details-main,
 .header-banner .collapse.header-details .header-details-main,
 .header-banner .header-content-tab .collapse.item-list .header-details .header-details-main,
-.header-banner .header-details .header-content-tab .collapse.item-list .header-details-main {
+.header-banner .header-details .header-content-tab .collapse.item-list .header-details-main,
+.row.collapse .view-group-users .views-row,
+.view-group-users .row.collapse .views-row,
+.header-banner .collapse.header-details .view-group-users .views-row,
+.view-group-users .header-banner .collapse.header-details .views-row,
+.header-banner .header-content-tab .collapse.item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab .collapse.item-list .views-row,
+.row.collapse .message .user-picture,
+.message .row.collapse .user-picture,
+.header-banner .collapse.header-details .message .user-picture,
+.message .header-banner .collapse.header-details .user-picture,
+.header-banner .header-content-tab .collapse.item-list .message .user-picture,
+.message .header-banner .header-content-tab .collapse.item-list .user-picture,
+.row.collapse .message .message-details,
+.message .row.collapse .message-details,
+.header-banner .collapse.header-details .message .message-details,
+.message .header-banner .collapse.header-details .message-details,
+.header-banner .header-content-tab .collapse.item-list .message .message-details,
+.message .header-banner .header-content-tab .collapse.item-list .message-details {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -671,11 +671,11 @@ select {
 /* line 130, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
 .column,
 .columns,
-.view-group-users .view-content .views-row,
-.view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .message-details,
 .header-banner .header-details .header-details-side,
-.header-banner .header-details .header-details-main {
+.header-banner .header-details .header-details-main,
+.view-group-users .views-row,
+.message .user-picture,
+.message .message-details {
   position: relative;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
@@ -687,11 +687,11 @@ select {
   /* line 135, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
   .column,
   .columns,
-  .view-group-users .view-content .views-row,
-  .view-recent-activity .views-row .user-picture,
-  .view-recent-activity .views-row .message-details,
   .header-banner .header-details .header-details-side,
-  .header-banner .header-details .header-details-main {
+  .header-banner .header-details .header-details-main,
+  .view-group-users .views-row,
+  .message .user-picture,
+  .message .message-details {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
@@ -705,13 +705,13 @@ select {
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-2, .view-group-users .view-content .views-row {
+  .small-2, .view-group-users .views-row {
     position: relative;
     width: 16.66667%;
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-3, .view-recent-activity .views-row .user-picture {
+  .small-3, .message .user-picture {
     position: relative;
     width: 25%;
   }
@@ -747,7 +747,7 @@ select {
   }
 
   /* line 138, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-9, .view-recent-activity .views-row .message-details {
+  .small-9, .message .message-details {
     position: relative;
     width: 75%;
   }
@@ -849,11 +849,11 @@ select {
   /* line 149, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
   .column.small-centered,
   .columns.small-centered,
-  .view-group-users .view-content .small-centered.views-row,
-  .view-recent-activity .views-row .small-centered.user-picture,
-  .view-recent-activity .views-row .small-centered.message-details,
   .header-banner .header-details .small-centered.header-details-side,
-  .header-banner .header-details .small-centered.header-details-main {
+  .header-banner .header-details .small-centered.header-details-main,
+  .view-group-users .small-centered.views-row,
+  .message .small-centered.user-picture,
+  .message .small-centered.message-details {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -875,7 +875,7 @@ select {
   }
 
   /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-3, .view-group-users .view-content .views-row, .view-recent-activity .views-row .user-picture {
+  .large-3, .view-group-users .views-row, .message .user-picture {
     position: relative;
     width: 25%;
   }
@@ -911,7 +911,7 @@ select {
   }
 
   /* line 156, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-9, .view-recent-activity .views-row .message-details {
+  .large-9, .message .message-details {
     position: relative;
     width: 75%;
   }
@@ -1163,11 +1163,11 @@ select {
   /* line 169, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
   .column.large-centered,
   .columns.large-centered,
-  .view-group-users .view-content .large-centered.views-row,
-  .view-recent-activity .views-row .large-centered.user-picture,
-  .view-recent-activity .views-row .large-centered.message-details,
   .header-banner .header-details .large-centered.header-details-side,
-  .header-banner .header-details .large-centered.header-details-main {
+  .header-banner .header-details .large-centered.header-details-main,
+  .view-group-users .large-centered.views-row,
+  .message .large-centered.user-picture,
+  .message .large-centered.message-details {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1177,11 +1177,11 @@ select {
   /* line 172, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
   .column.large-uncentered,
   .columns.large-uncentered,
-  .view-group-users .view-content .large-uncentered.views-row,
-  .view-recent-activity .views-row .large-uncentered.user-picture,
-  .view-recent-activity .views-row .large-uncentered.message-details,
   .header-banner .header-details .large-uncentered.header-details-side,
-  .header-banner .header-details .large-uncentered.header-details-main {
+  .header-banner .header-details .large-uncentered.header-details-main,
+  .view-group-users .large-uncentered.views-row,
+  .message .large-uncentered.user-picture,
+  .message .large-uncentered.message-details {
     margin-left: 0;
     margin-right: 0;
     float: left !important;
@@ -1190,11 +1190,11 @@ select {
   /* line 179, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite,
-  .view-group-users .view-content .large-uncentered.opposite.views-row,
-  .view-recent-activity .views-row .large-uncentered.opposite.user-picture,
-  .view-recent-activity .views-row .large-uncentered.opposite.message-details,
   .header-banner .header-details .large-uncentered.opposite.header-details-side,
-  .header-banner .header-details .large-uncentered.opposite.header-details-main {
+  .header-banner .header-details .large-uncentered.opposite.header-details-main,
+  .view-group-users .large-uncentered.opposite.views-row,
+  .message .large-uncentered.opposite.user-picture,
+  .message .large-uncentered.opposite.message-details {
     float: right !important;
   }
 }
@@ -2145,7 +2145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 191, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-size: 75%;
+  font-size: 80%;
   color: #6f6f6f;
   line-height: 0;
 }
@@ -2206,7 +2206,7 @@ b {
 
 /* line 228, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 small {
-  font-size: 75%;
+  font-size: 80%;
   line-height: inherit;
 }
 
@@ -2782,120 +2782,6 @@ form .header-banner .header-content-tab .header-details .item-list .columns,
 .header-banner .header-content-tab form .header-details .item-list .columns,
 form .header-banner .header-content-tab .item-list .item-list .columns,
 .header-banner .header-content-tab form .item-list .item-list .columns,
-form .row .row .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .row .views-row,
-form .header-banner .header-details .row .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .row .views-row,
-.header-banner form .header-details .row .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .row .views-row,
-form .header-banner .header-content-tab .item-list .row .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .row .views-row,
-.header-banner .header-content-tab form .item-list .row .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .row .views-row,
-form .row .header-banner .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .header-banner .header-details .views-row,
-.header-banner form .row .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .row .header-details .views-row,
-form .header-banner .header-details .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .header-details .views-row,
-.header-banner form .header-details .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .header-details .views-row,
-form .header-banner .header-content-tab .item-list .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .header-details .views-row,
-.header-banner .header-content-tab form .item-list .header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .header-details .views-row,
-form .row .header-banner .header-content-tab .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .header-banner .header-content-tab .item-list .views-row,
-.header-banner .header-content-tab form .row .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .row .item-list .views-row,
-form .header-banner .header-details .header-content-tab .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .header-content-tab .item-list .views-row,
-form .header-banner .header-content-tab .header-details .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .header-details .item-list .views-row,
-.header-banner form .header-details .header-content-tab .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .header-content-tab .item-list .views-row,
-.header-banner .header-content-tab form .header-details .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .header-details .item-list .views-row,
-form .header-banner .header-content-tab .item-list .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .item-list .views-row,
-.header-banner .header-content-tab form .item-list .item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .item-list .views-row,
-form .row .row .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .row .user-picture,
-form .header-banner .header-details .row .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .row .user-picture,
-.header-banner form .header-details .row .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .row .user-picture,
-form .header-banner .header-content-tab .item-list .row .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .row .user-picture,
-.header-banner .header-content-tab form .item-list .row .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .row .user-picture,
-form .row .header-banner .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .header-banner .header-details .user-picture,
-.header-banner form .row .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .row .header-details .user-picture,
-form .header-banner .header-details .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .header-details .user-picture,
-.header-banner form .header-details .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .header-details .user-picture,
-form .header-banner .header-content-tab .item-list .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .header-details .user-picture,
-.header-banner .header-content-tab form .item-list .header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .header-details .user-picture,
-form .row .header-banner .header-content-tab .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .header-banner .header-content-tab .item-list .user-picture,
-.header-banner .header-content-tab form .row .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .row .item-list .user-picture,
-form .header-banner .header-details .header-content-tab .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .header-content-tab .item-list .user-picture,
-form .header-banner .header-content-tab .header-details .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .header-details .item-list .user-picture,
-.header-banner form .header-details .header-content-tab .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .header-content-tab .item-list .user-picture,
-.header-banner .header-content-tab form .header-details .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .header-details .item-list .user-picture,
-form .header-banner .header-content-tab .item-list .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .item-list .user-picture,
-.header-banner .header-content-tab form .item-list .item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .item-list .user-picture,
-form .row .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .row .message-details,
-form .header-banner .header-details .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .row .message-details,
-.header-banner form .header-details .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .row .message-details,
-form .header-banner .header-content-tab .item-list .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .row .message-details,
-.header-banner .header-content-tab form .item-list .row .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .row .message-details,
-form .row .header-banner .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .header-banner .header-details .message-details,
-.header-banner form .row .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .row .header-details .message-details,
-form .header-banner .header-details .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .header-details .message-details,
-.header-banner form .header-details .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .header-details .message-details,
-form .header-banner .header-content-tab .item-list .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .header-details .message-details,
-.header-banner .header-content-tab form .item-list .header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .header-details .message-details,
-form .row .header-banner .header-content-tab .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .header-banner .header-content-tab .item-list .message-details,
-.header-banner .header-content-tab form .row .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .row .item-list .message-details,
-form .header-banner .header-details .header-content-tab .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .header-content-tab .item-list .message-details,
-form .header-banner .header-content-tab .header-details .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .header-details .item-list .message-details,
-.header-banner form .header-details .header-content-tab .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .header-content-tab .item-list .message-details,
-.header-banner .header-content-tab form .header-details .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .header-details .item-list .message-details,
-form .header-banner .header-content-tab .item-list .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .item-list .message-details,
-.header-banner .header-content-tab form .item-list .item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .item-list .message-details,
 .header-banner .header-details form .row .row .header-details-side,
 form .header-banner .header-details .row .header-details-side,
 .header-banner form .header-details .row .header-details-side,
@@ -2927,7 +2813,121 @@ form .header-banner .header-details .header-content-tab .item-list .header-detai
 form .header-banner .header-content-tab .header-details .item-list .header-details-main,
 .header-banner form .header-details .header-content-tab .item-list .header-details-main,
 .header-banner .header-content-tab form .header-details .item-list .header-details-main,
-.header-banner .header-details .header-content-tab form .item-list .item-list .header-details-main {
+.header-banner .header-details .header-content-tab form .item-list .item-list .header-details-main,
+form .row .row .view-group-users .views-row,
+.view-group-users form .row .row .views-row,
+form .header-banner .header-details .row .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .row .views-row,
+.header-banner form .header-details .row .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .row .views-row,
+form .header-banner .header-content-tab .item-list .row .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .row .views-row,
+.header-banner .header-content-tab form .item-list .row .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .row .views-row,
+form .row .header-banner .header-details .view-group-users .views-row,
+.view-group-users form .row .header-banner .header-details .views-row,
+.header-banner form .row .header-details .view-group-users .views-row,
+.view-group-users .header-banner form .row .header-details .views-row,
+form .header-banner .header-details .header-details .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .header-details .views-row,
+.header-banner form .header-details .header-details .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .header-details .views-row,
+form .header-banner .header-content-tab .item-list .header-details .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .header-details .views-row,
+.header-banner .header-content-tab form .item-list .header-details .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .header-details .views-row,
+form .row .header-banner .header-content-tab .item-list .view-group-users .views-row,
+.view-group-users form .row .header-banner .header-content-tab .item-list .views-row,
+.header-banner .header-content-tab form .row .item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .row .item-list .views-row,
+form .header-banner .header-details .header-content-tab .item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .header-content-tab .item-list .views-row,
+form .header-banner .header-content-tab .header-details .item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .header-details .item-list .views-row,
+.header-banner form .header-details .header-content-tab .item-list .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .header-content-tab .item-list .views-row,
+.header-banner .header-content-tab form .header-details .item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .header-details .item-list .views-row,
+form .header-banner .header-content-tab .item-list .item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .item-list .views-row,
+.header-banner .header-content-tab form .item-list .item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .item-list .views-row,
+form .row .row .message .user-picture,
+.message form .row .row .user-picture,
+form .header-banner .header-details .row .message .user-picture,
+.message form .header-banner .header-details .row .user-picture,
+.header-banner form .header-details .row .message .user-picture,
+.message .header-banner form .header-details .row .user-picture,
+form .header-banner .header-content-tab .item-list .row .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .row .user-picture,
+.header-banner .header-content-tab form .item-list .row .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .row .user-picture,
+form .row .header-banner .header-details .message .user-picture,
+.message form .row .header-banner .header-details .user-picture,
+.header-banner form .row .header-details .message .user-picture,
+.message .header-banner form .row .header-details .user-picture,
+form .header-banner .header-details .header-details .message .user-picture,
+.message form .header-banner .header-details .header-details .user-picture,
+.header-banner form .header-details .header-details .message .user-picture,
+.message .header-banner form .header-details .header-details .user-picture,
+form .header-banner .header-content-tab .item-list .header-details .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .header-details .user-picture,
+.header-banner .header-content-tab form .item-list .header-details .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .header-details .user-picture,
+form .row .header-banner .header-content-tab .item-list .message .user-picture,
+.message form .row .header-banner .header-content-tab .item-list .user-picture,
+.header-banner .header-content-tab form .row .item-list .message .user-picture,
+.message .header-banner .header-content-tab form .row .item-list .user-picture,
+form .header-banner .header-details .header-content-tab .item-list .message .user-picture,
+.message form .header-banner .header-details .header-content-tab .item-list .user-picture,
+form .header-banner .header-content-tab .header-details .item-list .message .user-picture,
+.message form .header-banner .header-content-tab .header-details .item-list .user-picture,
+.header-banner form .header-details .header-content-tab .item-list .message .user-picture,
+.message .header-banner form .header-details .header-content-tab .item-list .user-picture,
+.header-banner .header-content-tab form .header-details .item-list .message .user-picture,
+.message .header-banner .header-content-tab form .header-details .item-list .user-picture,
+form .header-banner .header-content-tab .item-list .item-list .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .item-list .user-picture,
+.header-banner .header-content-tab form .item-list .item-list .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .item-list .user-picture,
+form .row .row .message .message-details,
+.message form .row .row .message-details,
+form .header-banner .header-details .row .message .message-details,
+.message form .header-banner .header-details .row .message-details,
+.header-banner form .header-details .row .message .message-details,
+.message .header-banner form .header-details .row .message-details,
+form .header-banner .header-content-tab .item-list .row .message .message-details,
+.message form .header-banner .header-content-tab .item-list .row .message-details,
+.header-banner .header-content-tab form .item-list .row .message .message-details,
+.message .header-banner .header-content-tab form .item-list .row .message-details,
+form .row .header-banner .header-details .message .message-details,
+.message form .row .header-banner .header-details .message-details,
+.header-banner form .row .header-details .message .message-details,
+.message .header-banner form .row .header-details .message-details,
+form .header-banner .header-details .header-details .message .message-details,
+.message form .header-banner .header-details .header-details .message-details,
+.header-banner form .header-details .header-details .message .message-details,
+.message .header-banner form .header-details .header-details .message-details,
+form .header-banner .header-content-tab .item-list .header-details .message .message-details,
+.message form .header-banner .header-content-tab .item-list .header-details .message-details,
+.header-banner .header-content-tab form .item-list .header-details .message .message-details,
+.message .header-banner .header-content-tab form .item-list .header-details .message-details,
+form .row .header-banner .header-content-tab .item-list .message .message-details,
+.message form .row .header-banner .header-content-tab .item-list .message-details,
+.header-banner .header-content-tab form .row .item-list .message .message-details,
+.message .header-banner .header-content-tab form .row .item-list .message-details,
+form .header-banner .header-details .header-content-tab .item-list .message .message-details,
+.message form .header-banner .header-details .header-content-tab .item-list .message-details,
+form .header-banner .header-content-tab .header-details .item-list .message .message-details,
+.message form .header-banner .header-content-tab .header-details .item-list .message-details,
+.header-banner form .header-details .header-content-tab .item-list .message .message-details,
+.message .header-banner form .header-details .header-content-tab .item-list .message-details,
+.header-banner .header-content-tab form .header-details .item-list .message .message-details,
+.message .header-banner .header-content-tab form .header-details .item-list .message-details,
+form .header-banner .header-content-tab .item-list .item-list .message .message-details,
+.message form .header-banner .header-content-tab .item-list .item-list .message-details,
+.header-banner .header-content-tab form .item-list .item-list .message .message-details,
+.message .header-banner .header-content-tab form .item-list .item-list .message-details {
   padding: 0 0.5em;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -2955,120 +2955,6 @@ form .header-banner .header-content-tab .header-details .collapse.item-list .col
 .header-banner .header-content-tab form .header-details .collapse.item-list .columns,
 form .header-banner .header-content-tab .item-list .collapse.item-list .columns,
 .header-banner .header-content-tab form .item-list .collapse.item-list .columns,
-form .row .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .row.collapse .views-row,
-form .header-banner .header-details .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .row.collapse .views-row,
-.header-banner form .header-details .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .row.collapse .views-row,
-form .header-banner .header-content-tab .item-list .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .row.collapse .views-row,
-.header-banner .header-content-tab form .item-list .row.collapse .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .row.collapse .views-row,
-form .row .header-banner .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .header-banner .collapse.header-details .views-row,
-.header-banner form .row .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .row .collapse.header-details .views-row,
-form .header-banner .header-details .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .collapse.header-details .views-row,
-.header-banner form .header-details .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .collapse.header-details .views-row,
-form .header-banner .header-content-tab .item-list .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .collapse.header-details .views-row,
-.header-banner .header-content-tab form .item-list .collapse.header-details .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .collapse.header-details .views-row,
-form .row .header-banner .header-content-tab .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .row .header-banner .header-content-tab .collapse.item-list .views-row,
-.header-banner .header-content-tab form .row .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .row .collapse.item-list .views-row,
-form .header-banner .header-details .header-content-tab .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-details .header-content-tab .collapse.item-list .views-row,
-form .header-banner .header-content-tab .header-details .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .header-details .collapse.item-list .views-row,
-.header-banner form .header-details .header-content-tab .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner form .header-details .header-content-tab .collapse.item-list .views-row,
-.header-banner .header-content-tab form .header-details .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .header-details .collapse.item-list .views-row,
-form .header-banner .header-content-tab .item-list .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list .collapse.item-list .views-row,
-.header-banner .header-content-tab form .item-list .collapse.item-list .view-group-users .view-content .views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list .collapse.item-list .views-row,
-form .row .row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .row.collapse .user-picture,
-form .header-banner .header-details .row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .row.collapse .user-picture,
-.header-banner form .header-details .row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .row.collapse .user-picture,
-form .header-banner .header-content-tab .item-list .row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .row.collapse .user-picture,
-.header-banner .header-content-tab form .item-list .row.collapse .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .row.collapse .user-picture,
-form .row .header-banner .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .header-banner .collapse.header-details .user-picture,
-.header-banner form .row .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .row .collapse.header-details .user-picture,
-form .header-banner .header-details .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .collapse.header-details .user-picture,
-.header-banner form .header-details .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .collapse.header-details .user-picture,
-form .header-banner .header-content-tab .item-list .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .collapse.header-details .user-picture,
-.header-banner .header-content-tab form .item-list .collapse.header-details .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .collapse.header-details .user-picture,
-form .row .header-banner .header-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .row .header-banner .header-content-tab .collapse.item-list .user-picture,
-.header-banner .header-content-tab form .row .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .row .collapse.item-list .user-picture,
-form .header-banner .header-details .header-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-details .header-content-tab .collapse.item-list .user-picture,
-form .header-banner .header-content-tab .header-details .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .header-details .collapse.item-list .user-picture,
-.header-banner form .header-details .header-content-tab .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner form .header-details .header-content-tab .collapse.item-list .user-picture,
-.header-banner .header-content-tab form .header-details .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .header-details .collapse.item-list .user-picture,
-form .header-banner .header-content-tab .item-list .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .collapse.item-list .user-picture,
-.header-banner .header-content-tab form .item-list .collapse.item-list .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .collapse.item-list .user-picture,
-form .row .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .row.collapse .message-details,
-form .header-banner .header-details .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .row.collapse .message-details,
-.header-banner form .header-details .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .row.collapse .message-details,
-form .header-banner .header-content-tab .item-list .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .row.collapse .message-details,
-.header-banner .header-content-tab form .item-list .row.collapse .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .row.collapse .message-details,
-form .row .header-banner .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .header-banner .collapse.header-details .message-details,
-.header-banner form .row .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .row .collapse.header-details .message-details,
-form .header-banner .header-details .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .collapse.header-details .message-details,
-.header-banner form .header-details .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .collapse.header-details .message-details,
-form .header-banner .header-content-tab .item-list .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .collapse.header-details .message-details,
-.header-banner .header-content-tab form .item-list .collapse.header-details .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .collapse.header-details .message-details,
-form .row .header-banner .header-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .row .header-banner .header-content-tab .collapse.item-list .message-details,
-.header-banner .header-content-tab form .row .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .row .collapse.item-list .message-details,
-form .header-banner .header-details .header-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-details .header-content-tab .collapse.item-list .message-details,
-form .header-banner .header-content-tab .header-details .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .header-details .collapse.item-list .message-details,
-.header-banner form .header-details .header-content-tab .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner form .header-details .header-content-tab .collapse.item-list .message-details,
-.header-banner .header-content-tab form .header-details .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .header-details .collapse.item-list .message-details,
-form .header-banner .header-content-tab .item-list .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list .collapse.item-list .message-details,
-.header-banner .header-content-tab form .item-list .collapse.item-list .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list .collapse.item-list .message-details,
 form .row .row.collapse .header-banner .header-details .header-details-side,
 .header-banner .header-details form .row .row.collapse .header-details-side,
 form .header-banner .header-details .row.collapse .header-details-side,
@@ -3114,7 +3000,121 @@ form .header-banner .header-content-tab .header-details .collapse.item-list .hea
 .header-banner .header-content-tab form .header-details .collapse.item-list .header-details-main,
 form .header-banner .header-content-tab .item-list .collapse.item-list .header-details .header-details-main,
 .header-banner .header-content-tab form .item-list .collapse.item-list .header-details .header-details-main,
-.header-banner .header-details .header-content-tab form .item-list .collapse.item-list .header-details-main {
+.header-banner .header-details .header-content-tab form .item-list .collapse.item-list .header-details-main,
+form .row .row.collapse .view-group-users .views-row,
+.view-group-users form .row .row.collapse .views-row,
+form .header-banner .header-details .row.collapse .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .row.collapse .views-row,
+.header-banner form .header-details .row.collapse .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .row.collapse .views-row,
+form .header-banner .header-content-tab .item-list .row.collapse .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .row.collapse .views-row,
+.header-banner .header-content-tab form .item-list .row.collapse .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .row.collapse .views-row,
+form .row .header-banner .collapse.header-details .view-group-users .views-row,
+.view-group-users form .row .header-banner .collapse.header-details .views-row,
+.header-banner form .row .collapse.header-details .view-group-users .views-row,
+.view-group-users .header-banner form .row .collapse.header-details .views-row,
+form .header-banner .header-details .collapse.header-details .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .collapse.header-details .views-row,
+.header-banner form .header-details .collapse.header-details .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .collapse.header-details .views-row,
+form .header-banner .header-content-tab .item-list .collapse.header-details .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .collapse.header-details .views-row,
+.header-banner .header-content-tab form .item-list .collapse.header-details .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .collapse.header-details .views-row,
+form .row .header-banner .header-content-tab .collapse.item-list .view-group-users .views-row,
+.view-group-users form .row .header-banner .header-content-tab .collapse.item-list .views-row,
+.header-banner .header-content-tab form .row .collapse.item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .row .collapse.item-list .views-row,
+form .header-banner .header-details .header-content-tab .collapse.item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-details .header-content-tab .collapse.item-list .views-row,
+form .header-banner .header-content-tab .header-details .collapse.item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .header-details .collapse.item-list .views-row,
+.header-banner form .header-details .header-content-tab .collapse.item-list .view-group-users .views-row,
+.view-group-users .header-banner form .header-details .header-content-tab .collapse.item-list .views-row,
+.header-banner .header-content-tab form .header-details .collapse.item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .header-details .collapse.item-list .views-row,
+form .header-banner .header-content-tab .item-list .collapse.item-list .view-group-users .views-row,
+.view-group-users form .header-banner .header-content-tab .item-list .collapse.item-list .views-row,
+.header-banner .header-content-tab form .item-list .collapse.item-list .view-group-users .views-row,
+.view-group-users .header-banner .header-content-tab form .item-list .collapse.item-list .views-row,
+form .row .row.collapse .message .user-picture,
+.message form .row .row.collapse .user-picture,
+form .header-banner .header-details .row.collapse .message .user-picture,
+.message form .header-banner .header-details .row.collapse .user-picture,
+.header-banner form .header-details .row.collapse .message .user-picture,
+.message .header-banner form .header-details .row.collapse .user-picture,
+form .header-banner .header-content-tab .item-list .row.collapse .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .row.collapse .user-picture,
+.header-banner .header-content-tab form .item-list .row.collapse .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .row.collapse .user-picture,
+form .row .header-banner .collapse.header-details .message .user-picture,
+.message form .row .header-banner .collapse.header-details .user-picture,
+.header-banner form .row .collapse.header-details .message .user-picture,
+.message .header-banner form .row .collapse.header-details .user-picture,
+form .header-banner .header-details .collapse.header-details .message .user-picture,
+.message form .header-banner .header-details .collapse.header-details .user-picture,
+.header-banner form .header-details .collapse.header-details .message .user-picture,
+.message .header-banner form .header-details .collapse.header-details .user-picture,
+form .header-banner .header-content-tab .item-list .collapse.header-details .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .collapse.header-details .user-picture,
+.header-banner .header-content-tab form .item-list .collapse.header-details .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .collapse.header-details .user-picture,
+form .row .header-banner .header-content-tab .collapse.item-list .message .user-picture,
+.message form .row .header-banner .header-content-tab .collapse.item-list .user-picture,
+.header-banner .header-content-tab form .row .collapse.item-list .message .user-picture,
+.message .header-banner .header-content-tab form .row .collapse.item-list .user-picture,
+form .header-banner .header-details .header-content-tab .collapse.item-list .message .user-picture,
+.message form .header-banner .header-details .header-content-tab .collapse.item-list .user-picture,
+form .header-banner .header-content-tab .header-details .collapse.item-list .message .user-picture,
+.message form .header-banner .header-content-tab .header-details .collapse.item-list .user-picture,
+.header-banner form .header-details .header-content-tab .collapse.item-list .message .user-picture,
+.message .header-banner form .header-details .header-content-tab .collapse.item-list .user-picture,
+.header-banner .header-content-tab form .header-details .collapse.item-list .message .user-picture,
+.message .header-banner .header-content-tab form .header-details .collapse.item-list .user-picture,
+form .header-banner .header-content-tab .item-list .collapse.item-list .message .user-picture,
+.message form .header-banner .header-content-tab .item-list .collapse.item-list .user-picture,
+.header-banner .header-content-tab form .item-list .collapse.item-list .message .user-picture,
+.message .header-banner .header-content-tab form .item-list .collapse.item-list .user-picture,
+form .row .row.collapse .message .message-details,
+.message form .row .row.collapse .message-details,
+form .header-banner .header-details .row.collapse .message .message-details,
+.message form .header-banner .header-details .row.collapse .message-details,
+.header-banner form .header-details .row.collapse .message .message-details,
+.message .header-banner form .header-details .row.collapse .message-details,
+form .header-banner .header-content-tab .item-list .row.collapse .message .message-details,
+.message form .header-banner .header-content-tab .item-list .row.collapse .message-details,
+.header-banner .header-content-tab form .item-list .row.collapse .message .message-details,
+.message .header-banner .header-content-tab form .item-list .row.collapse .message-details,
+form .row .header-banner .collapse.header-details .message .message-details,
+.message form .row .header-banner .collapse.header-details .message-details,
+.header-banner form .row .collapse.header-details .message .message-details,
+.message .header-banner form .row .collapse.header-details .message-details,
+form .header-banner .header-details .collapse.header-details .message .message-details,
+.message form .header-banner .header-details .collapse.header-details .message-details,
+.header-banner form .header-details .collapse.header-details .message .message-details,
+.message .header-banner form .header-details .collapse.header-details .message-details,
+form .header-banner .header-content-tab .item-list .collapse.header-details .message .message-details,
+.message form .header-banner .header-content-tab .item-list .collapse.header-details .message-details,
+.header-banner .header-content-tab form .item-list .collapse.header-details .message .message-details,
+.message .header-banner .header-content-tab form .item-list .collapse.header-details .message-details,
+form .row .header-banner .header-content-tab .collapse.item-list .message .message-details,
+.message form .row .header-banner .header-content-tab .collapse.item-list .message-details,
+.header-banner .header-content-tab form .row .collapse.item-list .message .message-details,
+.message .header-banner .header-content-tab form .row .collapse.item-list .message-details,
+form .header-banner .header-details .header-content-tab .collapse.item-list .message .message-details,
+.message form .header-banner .header-details .header-content-tab .collapse.item-list .message-details,
+form .header-banner .header-content-tab .header-details .collapse.item-list .message .message-details,
+.message form .header-banner .header-content-tab .header-details .collapse.item-list .message-details,
+.header-banner form .header-details .header-content-tab .collapse.item-list .message .message-details,
+.message .header-banner form .header-details .header-content-tab .collapse.item-list .message-details,
+.header-banner .header-content-tab form .header-details .collapse.item-list .message .message-details,
+.message .header-banner .header-content-tab form .header-details .collapse.item-list .message-details,
+form .header-banner .header-content-tab .item-list .collapse.item-list .message .message-details,
+.message form .header-banner .header-content-tab .item-list .collapse.item-list .message-details,
+.header-banner .header-content-tab form .item-list .collapse.item-list .message .message-details,
+.message .header-banner .header-content-tab form .item-list .collapse.item-list .message-details {
   padding: 0;
 }
 /* line 83, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_forms.scss */
@@ -3124,36 +3124,6 @@ form .header-banner .header-details input.columns,
 .header-banner form .header-details input.columns,
 form .header-banner .header-content-tab .item-list input.columns,
 .header-banner .header-content-tab form .item-list input.columns,
-form .row .view-group-users .view-content input.views-row,
-.view-group-users .view-content form .row input.views-row,
-form .header-banner .header-details .view-group-users .view-content input.views-row,
-.view-group-users .view-content form .header-banner .header-details input.views-row,
-.header-banner form .header-details .view-group-users .view-content input.views-row,
-.view-group-users .view-content .header-banner form .header-details input.views-row,
-form .header-banner .header-content-tab .item-list .view-group-users .view-content input.views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list input.views-row,
-.header-banner .header-content-tab form .item-list .view-group-users .view-content input.views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list input.views-row,
-form .row .view-recent-activity .views-row input.user-picture,
-.view-recent-activity .views-row form .row input.user-picture,
-form .header-banner .header-details .view-recent-activity .views-row input.user-picture,
-.view-recent-activity .views-row form .header-banner .header-details input.user-picture,
-.header-banner form .header-details .view-recent-activity .views-row input.user-picture,
-.view-recent-activity .views-row .header-banner form .header-details input.user-picture,
-form .header-banner .header-content-tab .item-list .view-recent-activity .views-row input.user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list input.user-picture,
-.header-banner .header-content-tab form .item-list .view-recent-activity .views-row input.user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list input.user-picture,
-form .row .view-recent-activity .views-row input.message-details,
-.view-recent-activity .views-row form .row input.message-details,
-form .header-banner .header-details .view-recent-activity .views-row input.message-details,
-.view-recent-activity .views-row form .header-banner .header-details input.message-details,
-.header-banner form .header-details .view-recent-activity .views-row input.message-details,
-.view-recent-activity .views-row .header-banner form .header-details input.message-details,
-form .header-banner .header-content-tab .item-list .view-recent-activity .views-row input.message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list input.message-details,
-.header-banner .header-content-tab form .item-list .view-recent-activity .views-row input.message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list input.message-details,
 .header-banner .header-details form .row input.header-details-side,
 form .header-banner .header-details input.header-details-side,
 .header-banner form .header-details input.header-details-side,
@@ -3162,6 +3132,36 @@ form .header-banner .header-details input.header-details-side,
 form .header-banner .header-details input.header-details-main,
 .header-banner form .header-details input.header-details-main,
 .header-banner .header-details .header-content-tab form .item-list input.header-details-main,
+form .row .view-group-users input.views-row,
+.view-group-users form .row input.views-row,
+form .header-banner .header-details .view-group-users input.views-row,
+.view-group-users form .header-banner .header-details input.views-row,
+.header-banner form .header-details .view-group-users input.views-row,
+.view-group-users .header-banner form .header-details input.views-row,
+form .header-banner .header-content-tab .item-list .view-group-users input.views-row,
+.view-group-users form .header-banner .header-content-tab .item-list input.views-row,
+.header-banner .header-content-tab form .item-list .view-group-users input.views-row,
+.view-group-users .header-banner .header-content-tab form .item-list input.views-row,
+form .row .message input.user-picture,
+.message form .row input.user-picture,
+form .header-banner .header-details .message input.user-picture,
+.message form .header-banner .header-details input.user-picture,
+.header-banner form .header-details .message input.user-picture,
+.message .header-banner form .header-details input.user-picture,
+form .header-banner .header-content-tab .item-list .message input.user-picture,
+.message form .header-banner .header-content-tab .item-list input.user-picture,
+.header-banner .header-content-tab form .item-list .message input.user-picture,
+.message .header-banner .header-content-tab form .item-list input.user-picture,
+form .row .message input.message-details,
+.message form .row input.message-details,
+form .header-banner .header-details .message input.message-details,
+.message form .header-banner .header-details input.message-details,
+.header-banner form .header-details .message input.message-details,
+.message .header-banner form .header-details input.message-details,
+form .header-banner .header-content-tab .item-list .message input.message-details,
+.message form .header-banner .header-content-tab .item-list input.message-details,
+.header-banner .header-content-tab form .item-list .message input.message-details,
+.message .header-banner .header-content-tab form .item-list input.message-details,
 form .row textarea.column,
 form .header-banner .header-details textarea.column,
 .header-banner form .header-details textarea.column,
@@ -3172,36 +3172,6 @@ form .header-banner .header-details textarea.columns,
 .header-banner form .header-details textarea.columns,
 form .header-banner .header-content-tab .item-list textarea.columns,
 .header-banner .header-content-tab form .item-list textarea.columns,
-form .row .view-group-users .view-content textarea.views-row,
-.view-group-users .view-content form .row textarea.views-row,
-form .header-banner .header-details .view-group-users .view-content textarea.views-row,
-.view-group-users .view-content form .header-banner .header-details textarea.views-row,
-.header-banner form .header-details .view-group-users .view-content textarea.views-row,
-.view-group-users .view-content .header-banner form .header-details textarea.views-row,
-form .header-banner .header-content-tab .item-list .view-group-users .view-content textarea.views-row,
-.view-group-users .view-content form .header-banner .header-content-tab .item-list textarea.views-row,
-.header-banner .header-content-tab form .item-list .view-group-users .view-content textarea.views-row,
-.view-group-users .view-content .header-banner .header-content-tab form .item-list textarea.views-row,
-form .row .view-recent-activity .views-row textarea.user-picture,
-.view-recent-activity .views-row form .row textarea.user-picture,
-form .header-banner .header-details .view-recent-activity .views-row textarea.user-picture,
-.view-recent-activity .views-row form .header-banner .header-details textarea.user-picture,
-.header-banner form .header-details .view-recent-activity .views-row textarea.user-picture,
-.view-recent-activity .views-row .header-banner form .header-details textarea.user-picture,
-form .header-banner .header-content-tab .item-list .view-recent-activity .views-row textarea.user-picture,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list textarea.user-picture,
-.header-banner .header-content-tab form .item-list .view-recent-activity .views-row textarea.user-picture,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list textarea.user-picture,
-form .row .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row form .row textarea.message-details,
-form .header-banner .header-details .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row form .header-banner .header-details textarea.message-details,
-.header-banner form .header-details .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row .header-banner form .header-details textarea.message-details,
-form .header-banner .header-content-tab .item-list .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row form .header-banner .header-content-tab .item-list textarea.message-details,
-.header-banner .header-content-tab form .item-list .view-recent-activity .views-row textarea.message-details,
-.view-recent-activity .views-row .header-banner .header-content-tab form .item-list textarea.message-details,
 .header-banner .header-details form .row textarea.header-details-side,
 form .header-banner .header-details textarea.header-details-side,
 .header-banner form .header-details textarea.header-details-side,
@@ -3209,7 +3179,37 @@ form .header-banner .header-details textarea.header-details-side,
 .header-banner .header-details form .row textarea.header-details-main,
 form .header-banner .header-details textarea.header-details-main,
 .header-banner form .header-details textarea.header-details-main,
-.header-banner .header-details .header-content-tab form .item-list textarea.header-details-main {
+.header-banner .header-details .header-content-tab form .item-list textarea.header-details-main,
+form .row .view-group-users textarea.views-row,
+.view-group-users form .row textarea.views-row,
+form .header-banner .header-details .view-group-users textarea.views-row,
+.view-group-users form .header-banner .header-details textarea.views-row,
+.header-banner form .header-details .view-group-users textarea.views-row,
+.view-group-users .header-banner form .header-details textarea.views-row,
+form .header-banner .header-content-tab .item-list .view-group-users textarea.views-row,
+.view-group-users form .header-banner .header-content-tab .item-list textarea.views-row,
+.header-banner .header-content-tab form .item-list .view-group-users textarea.views-row,
+.view-group-users .header-banner .header-content-tab form .item-list textarea.views-row,
+form .row .message textarea.user-picture,
+.message form .row textarea.user-picture,
+form .header-banner .header-details .message textarea.user-picture,
+.message form .header-banner .header-details textarea.user-picture,
+.header-banner form .header-details .message textarea.user-picture,
+.message .header-banner form .header-details textarea.user-picture,
+form .header-banner .header-content-tab .item-list .message textarea.user-picture,
+.message form .header-banner .header-content-tab .item-list textarea.user-picture,
+.header-banner .header-content-tab form .item-list .message textarea.user-picture,
+.message .header-banner .header-content-tab form .item-list textarea.user-picture,
+form .row .message textarea.message-details,
+.message form .row textarea.message-details,
+form .header-banner .header-details .message textarea.message-details,
+.message form .header-banner .header-details textarea.message-details,
+.header-banner form .header-details .message textarea.message-details,
+.message .header-banner form .header-details textarea.message-details,
+form .header-banner .header-content-tab .item-list .message textarea.message-details,
+.message form .header-banner .header-content-tab .item-list textarea.message-details,
+.header-banner .header-content-tab form .item-list .message textarea.message-details,
+.message .header-banner .header-content-tab form .item-list textarea.message-details {
   padding-left: 0.5em;
 }
 
@@ -5921,16 +5921,16 @@ label.error {
 /* line 62, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
 .reveal-modal .column,
 .reveal-modal .columns,
-.reveal-modal .view-group-users .view-content .views-row,
-.view-group-users .view-content .reveal-modal .views-row,
-.reveal-modal .view-recent-activity .views-row .user-picture,
-.view-recent-activity .views-row .reveal-modal .user-picture,
-.reveal-modal .view-recent-activity .views-row .message-details,
-.view-recent-activity .views-row .reveal-modal .message-details,
 .reveal-modal .header-banner .header-details .header-details-side,
 .header-banner .header-details .reveal-modal .header-details-side,
 .reveal-modal .header-banner .header-details .header-details-main,
-.header-banner .header-details .reveal-modal .header-details-main {
+.header-banner .header-details .reveal-modal .header-details-main,
+.reveal-modal .view-group-users .views-row,
+.view-group-users .reveal-modal .views-row,
+.reveal-modal .message .user-picture,
+.message .reveal-modal .user-picture,
+.reveal-modal .message .message-details,
+.message .reveal-modal .message-details {
   min-width: 0;
 }
 /* line 65, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_reveal.scss */
@@ -6836,7 +6836,7 @@ kbd {
 
 /* Labels */
 /* line 71, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label, .header-banner .header-details .privacy-status, .book-explorer a.active, .new {
+.label, .header-banner .header-details .privacy-status, .new, .book-explorer a.active {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -6850,27 +6850,27 @@ kbd {
   color: white;
 }
 /* line 77, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.radius, .header-banner .header-details .radius.privacy-status, .header-banner .header-details .flag-idea-vote a.privacy-status, .flag-idea-vote .header-banner .header-details a.privacy-status, .flag-idea-vote a.label, .flag-idea-vote .book-explorer a.active, .book-explorer .flag-idea-vote a.active, .flag-idea-vote a.new, .book-explorer a.radius.active, .radius.new {
+.label.radius, .header-banner .header-details .radius.privacy-status, .header-banner .header-details .flag-idea-vote a.privacy-status, .flag-idea-vote .header-banner .header-details a.privacy-status, .radius.new, .flag-idea-vote a.new, .flag-idea-vote a.label, .flag-idea-vote .book-explorer a.active, .book-explorer .flag-idea-vote a.active, .book-explorer a.radius.active {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 78, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.round, .header-banner .header-details .round.privacy-status, .book-explorer a.round.active, .round.new {
+.label.round, .header-banner .header-details .round.privacy-status, .round.new, .book-explorer a.round.active {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 80, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.alert, .header-banner .header-details .alert.privacy-status, .book-explorer a.alert.active, .alert.new {
+.label.alert, .header-banner .header-details .alert.privacy-status, .alert.new, .book-explorer a.alert.active {
   background-color: #c60f13;
   color: white;
 }
 /* line 81, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.success, .header-banner .header-details .success.privacy-status, .header-banner .header-details .flag-idea-vote a.privacy-status, .flag-idea-vote .header-banner .header-details a.privacy-status, .flag-idea-vote a.label, .flag-idea-vote .book-explorer a.active, .book-explorer .flag-idea-vote a.active, .flag-idea-vote a.new, .book-explorer a.success.active, .success.new {
+.label.success, .header-banner .header-details .success.privacy-status, .header-banner .header-details .flag-idea-vote a.privacy-status, .flag-idea-vote .header-banner .header-details a.privacy-status, .success.new, .flag-idea-vote a.new, .flag-idea-vote a.label, .flag-idea-vote .book-explorer a.active, .book-explorer .flag-idea-vote a.active, .book-explorer a.success.active {
   background-color: #874646;
   color: white;
 }
 /* line 82, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_labels.scss */
-.label.secondary, .header-banner .header-details .secondary.privacy-status, .book-explorer a.secondary.active, .secondary.new {
+.label.secondary, .header-banner .header-details .secondary.privacy-status, .secondary.new, .book-explorer a.secondary.active {
   background-color: #e9e9e9;
   color: #333333;
 }
@@ -7761,6 +7761,23 @@ a.th {
 }
 
 /* Each individual part that can be added in */
+/* line 11, ../scss/base/_common.scss */
+.sidebar {
+  border-left: 1px solid #dddddd;
+}
+
+/* line 19, ../scss/base/_common.scss */
+.comment-wrapper {
+  border-top: 1px solid #dddddd;
+}
+
+/* line 23, ../scss/base/_common.scss */
+.node, .sidebar section.block {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.3125em;
+  margin-bottom: 0.9375em;
+}
+
 /* line 4, ../scss/base/_drupal.scss */
 .admin-menu .fixed {
   top: 1.8125em;
@@ -7800,165 +7817,65 @@ a.th {
   background: none repeat scroll 0 0 #afbda2;
 }
 
-/*SECTION -- secondary navigation */
-/*@media screen and (max-width: 768px) {*/
-/*.tabs li a {*/
-/*display: block;*/
-/*font-size: .9em;*/
-/*}*/
-/*}*/
-/*.comment {*/
-/*font-size: .8em;*/
-/*background-color:  #f7f7f7;*/
-/*padding: 5px 5px 5px 15px;*/
-/*border:  1px solid #eeeeee;*/
-/*}*/
-/*.reply {*/
-/*font-size: .7em;*/
-/*float: right;*/
-/*margin-top: -10px;*/
-/*}*/
-/*MISCELLANOUS - web fonts */
-/*using webfonts for icons as they scale without pixellation*/
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot");
-  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* line 39, ../scss/theme/_nav.scss */
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* line 53, ../scss/theme/_nav.scss */
-.icon-bulb:before {
-  content: "\e600";
-}
-
-/* line 56, ../scss/theme/_nav.scss */
-.icon-file:before {
-  content: "\e601";
-}
-
-/* line 59, ../scss/theme/_nav.scss */
-.icon-home:before {
-  content: "\e602";
-}
-
-/* line 62, ../scss/theme/_nav.scss */
-.icon-bubbles:before {
-  content: "\e607";
-}
-
-/* line 1, ../scss/theme/_drupal.scss */
-ul.links.inline {
-  float: right;
-  font-size: 75%;
-}
-/* line 4, ../scss/theme/_drupal.scss */
-ul.links.inline li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 1em;
-}
-
-/* line 12, ../scss/theme/_drupal.scss */
-.view-group-users .view-content .views-row {
-  padding: 0 0 0.625em;
-}
-
-/* line 20, ../scss/theme/_drupal.scss */
-.view-recent-activity .views-row {
-  margin-bottom: 0.625em;
-}
-/* line 22, ../scss/theme/_drupal.scss */
-.view-recent-activity .views-row .user-picture {
-  padding: 0;
-}
-/* line 28, ../scss/theme/_drupal.scss */
-.view-recent-activity .views-row .message-details {
-  padding: 0;
-}
-
-/* line 36, ../scss/theme/_drupal.scss */
-.view-subgroups li {
-  list-style-type: none;
-}
-
-/* line 40, ../scss/theme/_drupal.scss */
-.posted .user-picture {
-  display: inline;
-}
-
-/* line 44, ../scss/theme/_drupal.scss */
+/* line 22, ../scss/layout/_header.scss */
 .l-header-region {
   background-color: #F4EBE6;
 }
 
-/* line 50, ../scss/theme/_drupal.scss */
+/* line 28, ../scss/layout/_header.scss */
 .header-banner .header-details {
   padding-top: 2em;
 }
-/* line 53, ../scss/theme/_drupal.scss */
+/* line 31, ../scss/layout/_header.scss */
 .header-banner .header-details h1 {
   display: inline;
 }
-/* line 69, ../scss/theme/_drupal.scss */
+/* line 47, ../scss/layout/_header.scss */
 .header-banner .header-details .privacy-status {
   background-color: #874646;
   display: inline;
   top: -0.4375em;
 }
-/* line 75, ../scss/theme/_drupal.scss */
+/* line 53, ../scss/layout/_header.scss */
 .header-banner .header-details .field-name-group-group {
   padding-top: 2em;
-  font-size: 75%;
+  font-size: 80%;
 }
-/* line 85, ../scss/theme/_drupal.scss */
+/* line 63, ../scss/layout/_header.scss */
 .header-banner .header-content-tab {
   background-color: #393939;
   width: 100%;
   margin-bottom: 1em;
 }
-/* line 93, ../scss/theme/_drupal.scss */
+/* line 71, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul {
   padding-top: .3em;
   margin: 1em;
   list-style: none;
 }
-/* line 98, ../scss/theme/_drupal.scss */
+/* line 76, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li {
   display: inline;
 }
-/* line 101, ../scss/theme/_drupal.scss */
+/* line 79, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a {
   padding: 1em;
   color: #7d929a;
 }
-/* line 106, ../scss/theme/_drupal.scss */
+/* line 84, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a:hover {
   background: #464646;
   color: #fff;
 }
-/* line 112, ../scss/theme/_drupal.scss */
+/* line 90, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li.active > a {
   color: #464646;
   background: #fff;
 }
 
-/* line 121, ../scss/theme/_drupal.scss */
+/* line 8, ../scss/components/_buttons.scss */
 .add-content {
+  margin-bottom: 0;
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -8011,33 +7928,21 @@ ul.links.inline li {
   border-color: white transparent transparent transparent;
 }
 
-/* line 127, ../scss/theme/_drupal.scss */
+/* line 15, ../scss/components/_buttons.scss */
 .add-content-links li {
   list-style-type: none;
 }
 
-/* line 136, ../scss/theme/_drupal.scss */
-.field {
-  margin-bottom: 0.625em;
+/* line 29, ../scss/components/_buttons.scss */
+ul.button-group a.secondary.active {
+  background-color: #c3c3c3;
 }
 
-/* line 144, ../scss/theme/_drupal.scss */
-.accordion > section > .content {
-  border: none !important;
-}
-
-/* line 148, ../scss/theme/_drupal.scss */
-.accordion > section.active > .content {
-  display: block;
-  width: 100%;
-  position: relative;
-}
-
-/* line 163, ../scss/theme/_drupal.scss */
+/* line 9, ../scss/components/_forms.scss */
 #search-block-form .form-text {
   height: 3.75em;
 }
-/* line 166, ../scss/theme/_drupal.scss */
+/* line 12, ../scss/components/_forms.scss */
 #search-block-form button {
   position: absolute;
   right: 10px;
@@ -8054,42 +7959,84 @@ ul.links.inline li {
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 181, ../scss/theme/_drupal.scss */
+/* line 27, ../scss/components/_forms.scss */
 #search-block-form button :hover, #search-block-form button :focus {
   filter: alpha(opacity=90);
   opacity: 0.9;
 }
 
-/* line 189, ../scss/theme/_drupal.scss */
-ul.button-group a.secondary.active {
-  background-color: #c3c3c3;
+/* line 3, ../scss/theme/_drupal.scss */
+.posted .user-picture {
+  display: inline;
 }
 
-/* line 214, ../scss/theme/_drupal.scss */
-.sidebar {
-  border-left: 1px solid #dddddd;
+/* line 11, ../scss/theme/_drupal.scss */
+.field {
+  margin-bottom: 0.625em;
 }
 
-/* line 222, ../scss/theme/_drupal.scss */
-.comment-wrapper {
-  border-top: 1px solid #dddddd;
+/* line 15, ../scss/theme/_drupal.scss */
+ul.links.inline {
+  float: right;
+  font-size: 80%;
+}
+/* line 18, ../scss/theme/_drupal.scss */
+ul.links.inline li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1em;
 }
 
-/* line 226, ../scss/theme/_drupal.scss */
-.sidebar section.block, article.node {
-  border-bottom: 1px solid #dddddd;
-  padding-bottom: 0.3125em;
-  margin-bottom: 0.9375em;
+/* line 28, ../scss/theme/_drupal.scss */
+.view-group-users .views-row {
+  padding: 0 0 0.625em;
 }
 
-/* line 232, ../scss/theme/_drupal.scss */
-p.timestamp {
+/* line 36, ../scss/theme/_drupal.scss */
+.view-subgroups li {
+  list-style-type: none;
+}
+
+/* line 42, ../scss/theme/_drupal.scss */
+.message {
+  font-size: 80%;
+}
+/* line 44, ../scss/theme/_drupal.scss */
+.message p {
+  margin: 0;
+}
+/* line 47, ../scss/theme/_drupal.scss */
+.message .user-picture {
+  padding: 0;
+}
+/* line 53, ../scss/theme/_drupal.scss */
+.message .message-details {
+  padding: 0;
+}
+/* line 59, ../scss/theme/_drupal.scss */
+.message .timestamp {
   font-size: .75em;
   color: #bbbbbb;
-  margin-top: -20px;
 }
 
-/* line 238, ../scss/theme/_drupal.scss */
+/* line 65, ../scss/theme/_drupal.scss */
+.l-header-region {
+  background-color: #F4EBE6;
+}
+
+/* line 71, ../scss/theme/_drupal.scss */
+.accordion > section > .content {
+  border: none !important;
+}
+
+/* line 75, ../scss/theme/_drupal.scss */
+.accordion > section.active > .content {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+/* line 96, ../scss/theme/_drupal.scss */
 .book-explorer {
-  font-size: 75%;
+  font-size: 80%;
 }

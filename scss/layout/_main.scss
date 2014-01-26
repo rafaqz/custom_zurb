@@ -2,7 +2,14 @@
 
 .l-main {}
 
-.node {}
+.node {
+  @extend %divider-bottom;
+}
 .body {}
 .image {}
 .breadcrumb {}
+
+.comment-wrapper {
+  @extend %divider-top;
+}
+

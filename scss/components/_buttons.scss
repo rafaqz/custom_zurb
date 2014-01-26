@@ -4,3 +4,30 @@
 // "scss/_variables.scss" file.
 
 .button {}
+
+.add-content {
+  margin-bottom: 0;
+  @include button;
+  @include dropdown-button;
+}
+
+.add-content-links {
+  li {
+    list-style-type: none;
+  }
+  a {
+    @extend .small;
+    @extend .button;
+  }
+}
+ 
+.comment-form button {
+  @extend .small;
+}
+
+ul.button-group {
+  a.secondary.active {
+    background-color: darken($secondary-color,15%);
+  }
+}
+

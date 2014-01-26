@@ -2,6 +2,14 @@
 
 .l-sidebar {}
 
-.sidebar {}
-.sidebar-first {}
+.sidebar {
+  @extend %divider-left;
+
+  section.block {
+    @extend %divider-bottom;
+  }
+}
+.sidebar-first {
+}
 .sidebar-second {}
+

@@ -56,12 +56,13 @@
 @import "layout/footer";
 
 // Components
-// @import "components/buttons";
+@import "components/buttons";
+@import "components/blocks";
 // @import "components/type";
-// @import "components/forms";
+@import "components/forms";
 //@import "components/foundation-icons";
 
 // Themes
 // @import "theme/button-light";
- @import "theme/nav";
+// @import "theme/nav";
  @import "theme/drupal";

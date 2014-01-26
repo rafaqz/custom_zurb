@@ -1,3 +1,17 @@
+// General.
+
+.posted .user-picture {
+  display: inline;
+}
+
+.new {
+  @extend .label;
+}
+
+.field {
+  margin-bottom: emCalc(10px);
+}
+
 ul.links.inline {
   float: right;
   font-size: $small-font-size;
@@ -8,7 +22,9 @@ ul.links.inline {
   }
 }
 
-.view-group-users .view-content {
+// Groups Feature.
+
+.view-group-users {
   .views-row {
      padding: 0 0 emCalc(10px);
      @extend .columns;
@@ -17,8 +33,17 @@ ul.links.inline {
   }
 }
 
-.view-recent-activity .views-row {
-  margin-bottom: emCalc(10px);
+.view-subgroups li {
+  list-style-type: none;
+}
+
+// Message Feature.
+
+.message {
+  font-size: $small-font-size;
+  p {
+    margin: 0;
+  }
   .user-picture {
     padding: 0;
     @extend .columns;
@@ -31,115 +56,17 @@ ul.links.inline {
     @extend .large-9;
     @extend .small-9;
   }
-}
-
-.view-subgroups li {
-  list-style-type: none;
-}
-
-.posted .user-picture {
-  display: inline;
+  .timestamp {
+    font-size: .75em;
+    color: #bbbbbb;
+  }
 }
 
 .l-header-region {
   background-color: #F4EBE6;
 }
 
-.header-banner {
-
-  .header-details {
-    padding-top: 2em;
-    @extend .row;
-    h1 {
-      display: inline;
-    }
-
-    .header-details-side {
-      @extend .columns;
-      @extend .large-4;
-      @extend .small-4;
-    }
-
-    .header-details-main {
-      @extend .columns;
-      @extend .large-8;
-      @extend .small-8;
-    }
-
-    .privacy-status {
-      @extend .label;
-      background-color: #874646;
-      display: inline;
-      top: emCalc(-7px);
-    }
-    .field-name-group-group {
-      padding-top: 2em;
-      font-size: $small-font-size;
-
-      a {
-        @extend .button;
-      }
-    }
-  }
-
-  .header-content-tab {
-    background-color: #393939;
-    width: 100%;
-    margin-bottom: 1em;
-
-    .item-list {
-      @extend .row;
-
-      ul {
-        padding-top: .3em;
-        margin: 1em;
-        list-style: none;
-
-        li {
-          display: inline;
-
-          a {
-            padding: 1em;
-            color: #7d929a;
-          }
-
-          a:hover {
-            background: #464646;
-            color: #fff;
-          }
-        }
-
-        li.active > a {
-          color: #464646;
-          background: #fff;
-        }
-      }
-    }
-  }
-}
-
-.add-content {
-  @include button;
-  @include dropdown-button;
-}
-
-.add-content-links {
-  li {
-    list-style-type: none;
-  }
-  a {
-    @extend .small;
-    @extend .button;
-  }
-}
- 
-.field {
-  margin-bottom: emCalc(10px);
-}
-
-.comment-form button {
-  @extend .small;
-}
+// Project Feature.
 
 .accordion > section > .content { 
   border: none !important; 
@@ -151,53 +78,7 @@ ul.links.inline {
   position: relative;
 }
 
-.sidebar {
-  @extend %divider-left;
-}
-
-.sidebar section.block {
-  @extend %divider-bottom;
-}
-
-#search-block-form {
-  .form-text {
-    height: emCalc(60px);
-  }
-  button {
-    position: absolute;
-    right: 10px;
-    top: 15px;
-    height: 32px;
-    width: 32px;
-    border: 0;
-    cursor: pointer;
-    zoom: 1;
-    filter: alpha(opacity=65);
-    opacity: 0.65;
-    background: transparent url('../images/search.png') top left no-repeat;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    :hover, :focus {
-      filter: alpha(opacity=90);
-      opacity: 0.9;  
-    }
-  }
-}
-
-ul.button-group {
-  a.secondary.active {
-    background-color: darken($secondary-color,15%);
-  }
-}
-
-article.node {
-  @extend %divider-bottom;
-}
-
-.comment-wrapper {
-  @extend %divider-top;
-}
+// Idea Feature.
 
 .flag-idea-vote a {
   @extend .button;
@@ -210,38 +91,11 @@ article.node {
   @extend .panel;
 }
 
-$border: 1px solid #dddddd;
-%divider-left {
-  border-left: $border; 
-}
-
-%divider-right {
-  border-right: $border; 
-}
-
-%divider-top {
-  border-top: $border;
-}
-
-%divider-bottom {
-  border-bottom: $border;
-  padding-bottom: emCalc(5px);
-  margin-bottom: emCalc(15px);
-}
-
-p.timestamp {
- 	font-size: .75em;
- 	color: #bbbbbb;
- 	margin-top: -20px;
-}
+// Wiki Feature. 
 
 .book-explorer {
   font-size: $small-font-size;
   a.active {
     @extend .label;
   }
-}
-
-.new {
-  @extend .label;
 }
