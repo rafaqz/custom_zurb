@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'AvenirBla_IE';
+  src: url("fonts/AvenirLTStd/AveniBla.eot") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirBla';
+  src: url("fonts/AvenirLTStd/AvenirLTStd-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirMed_IE';
+  src: url("fonts/AvenirLTStd/AveniMed.eot") format("opentype");
+}
+
+@font-face {
+  font-family: 'AvenirMed';
+  src: url("fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
+}
+        
 // General.
 
 .posted .user-picture {
@@ -60,10 +80,6 @@ ul.links.inline {
     font-size: .75em;
     color: #bbbbbb;
   }
-}
-
-.l-header-region {
-  background-color: #F4EBE6;
 }
 
 // Project Feature.
