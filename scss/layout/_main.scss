@@ -2,6 +2,10 @@
 
 .l-main {}
 
+.main {
+  overflow: auto;
+}
+
 .node {
   @extend %divider-bottom;
 }

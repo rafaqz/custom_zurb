@@ -48,7 +48,7 @@ ul.links.inline {
 
 .view-group-users {
   .views-row {
-     padding: 0 0 emCalc(10px);
+     padding: 0 0 emCalc(5px);
      @extend .columns;
      @extend .large-3;
      @extend .small-2;
@@ -62,6 +62,7 @@ ul.links.inline {
 // Message Feature.
 
 .message {
+  margin-bottom: emCalc(5px);
   p {
     margin: 0;
   }
@@ -110,9 +111,29 @@ ul.links.inline {
 
 // Wiki Feature. 
 
-.book-explorer {
-  font-size: $small-font-size;
-  a.active {
-    @extend .label;
+.block-book-explorer {
+  .book-explorer {
+    a.active {
+      @extend .label;
+    }
   }
 }
+
+.block-table-of-contents {
+  @extend .panel;
+  float: right;
+  margin-left: 1em;
+}
+
+.book-navigation .page-links {
+  border: 0px;
+}
+
+.book-navigation .page-links {
+  .page-previous, .page-next {
+    @extend .button;
+    @extend .small;
+    /*width: auto;*/
+  }
+}
+

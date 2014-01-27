@@ -17,6 +17,8 @@ $divider: 1px solid #dddddd;
 }
 
 %divider-top {
+  padding-top: emCalc(5px);
+  margin-top: emCalc(5px);
   border-top: $divider;
 }
 
