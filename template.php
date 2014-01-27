@@ -70,6 +70,11 @@ function custom_zurb_preprocess_node(&$variables) {
   }
 }
 
+function custom_zurb_preprocess_comment(&$variables) {
+  $date = format_date($variables['comment']->created, 'medium');
+  $variables['submitted'] = t('!username !datetime', array('!username' => $variables['author'], '!datetime' => $date));
+}
+
 /**
  * Implements hook_preprocess_block()
  */
