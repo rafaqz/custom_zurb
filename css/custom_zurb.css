@@ -2510,7 +2510,7 @@ button, .button, .header-banner .header-details .field-name-group-group a, .add-
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 0.875em;
+  font-size: 0.9375em;
   background-color: #afbda2;
   border-color: #95a884;
   color: white;
@@ -2579,7 +2579,7 @@ button.small, .comment-form button, .button.small, .header-banner .header-detail
   padding-right: 1.125em;
   padding-bottom: 0.625em;
   padding-left: 1.125em;
-  font-size: 0.75em;
+  font-size: 0.8125em;
 }
 /* line 182, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.tiny, .button.tiny, .header-banner .header-details .field-name-group-group a.tiny, .add-content-links a.tiny, .flag-idea-vote a {
@@ -2587,7 +2587,7 @@ button.tiny, .button.tiny, .header-banner .header-details .field-name-group-grou
   padding-right: 0.875em;
   padding-bottom: 0.5em;
   padding-left: 0.875em;
-  font-size: 0.625em;
+  font-size: 0.6875em;
 }
 /* line 183, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_buttons.scss */
 button.expand, .button.expand, .header-banner .header-details .field-name-group-group a.expand, .add-content-links a.expand, .flag-idea-vote a.expand {
@@ -7832,42 +7832,43 @@ a.th {
 }
 /* line 47, ../scss/layout/_header.scss */
 .header-banner .header-details .privacy-status {
+  font-size: 80%;
   background-color: #874646;
   display: inline;
   top: -0.4375em;
 }
-/* line 53, ../scss/layout/_header.scss */
+/* line 54, ../scss/layout/_header.scss */
 .header-banner .header-details .field-name-group-group {
   padding-top: 2em;
   font-size: 80%;
 }
-/* line 63, ../scss/layout/_header.scss */
+/* line 64, ../scss/layout/_header.scss */
 .header-banner .header-content-tab {
   background-color: #393939;
   width: 100%;
   margin-bottom: 1em;
 }
-/* line 71, ../scss/layout/_header.scss */
+/* line 72, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul {
   padding-top: .3em;
   margin: 1em;
   list-style: none;
 }
-/* line 76, ../scss/layout/_header.scss */
+/* line 77, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li {
   display: inline;
 }
-/* line 79, ../scss/layout/_header.scss */
+/* line 80, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a {
   padding: 1em;
   color: #7d929a;
 }
-/* line 84, ../scss/layout/_header.scss */
+/* line 85, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a:hover {
   background: #464646;
   color: #fff;
 }
-/* line 90, ../scss/layout/_header.scss */
+/* line 91, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li.active > a {
   color: #464646;
   background: #fff;
@@ -7891,7 +7892,7 @@ a.th {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 0.875em;
+  font-size: 0.9375em;
   background-color: #afbda2;
   border-color: #95a884;
   color: white;
@@ -7985,69 +7986,69 @@ ul.button-group a.secondary.active {
   src: url("fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
 
-/* line 23, ../scss/theme/_drupal.scss */
-.posted .user-picture {
+/* line 24, ../scss/theme/_drupal.scss */
+.posted .user-picture, .submitted .user-picture {
   display: inline;
 }
 
-/* line 31, ../scss/theme/_drupal.scss */
+/* line 33, ../scss/theme/_drupal.scss */
 .field {
   margin-bottom: 0.625em;
 }
 
-/* line 35, ../scss/theme/_drupal.scss */
+/* line 37, ../scss/theme/_drupal.scss */
 ul.links.inline {
   float: right;
   font-size: 80%;
 }
-/* line 38, ../scss/theme/_drupal.scss */
+/* line 40, ../scss/theme/_drupal.scss */
 ul.links.inline li {
   display: inline;
   list-style-type: none;
   margin-right: 1em;
 }
 
-/* line 48, ../scss/theme/_drupal.scss */
+/* line 50, ../scss/theme/_drupal.scss */
 .view-group-users .views-row {
   padding: 0 0 0.625em;
 }
 
-/* line 56, ../scss/theme/_drupal.scss */
+/* line 58, ../scss/theme/_drupal.scss */
 .view-subgroups li {
   list-style-type: none;
 }
 
-/* line 63, ../scss/theme/_drupal.scss */
+/* line 65, ../scss/theme/_drupal.scss */
 .message p {
   margin: 0;
 }
-/* line 66, ../scss/theme/_drupal.scss */
+/* line 68, ../scss/theme/_drupal.scss */
 .message .user-picture {
   padding: 0;
 }
-/* line 72, ../scss/theme/_drupal.scss */
+/* line 74, ../scss/theme/_drupal.scss */
 .message .message-details {
   padding: 0;
 }
-/* line 78, ../scss/theme/_drupal.scss */
+/* line 80, ../scss/theme/_drupal.scss */
 .message .timestamp {
   font-size: .75em;
   color: #bbbbbb;
 }
 
-/* line 86, ../scss/theme/_drupal.scss */
+/* line 88, ../scss/theme/_drupal.scss */
 .accordion > section > .content {
   border: none !important;
 }
 
-/* line 90, ../scss/theme/_drupal.scss */
+/* line 92, ../scss/theme/_drupal.scss */
 .accordion > section.active > .content {
   display: block;
   width: 100%;
   position: relative;
 }
 
-/* line 111, ../scss/theme/_drupal.scss */
+/* line 113, ../scss/theme/_drupal.scss */
 .book-explorer {
   font-size: 80%;
 }
