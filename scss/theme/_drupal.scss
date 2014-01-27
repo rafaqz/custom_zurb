@@ -8,15 +8,15 @@
 //  src: url("../fonts/AvenirLTStd/AvenirLTStd-Black.otf") format("opentype");
 //}
 
-@font-face {
-  font-family: 'AvenirMed_IE';
-  src: url("../fonts/AvenirLTStd/AveniMed.eot") format("opentype");
-}
-
 //@font-face {
-//  font-family: 'AvenirMed';
-//  src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
+//  font-family: 'AvenirMed_IE';
+//  src: url("../fonts/AvenirLTStd/AveniMed.eot") format("opentype");
 //}
+
+@font-face {
+  font-family: 'AvenirMed';
+  src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
+}
         
 // General.
 
