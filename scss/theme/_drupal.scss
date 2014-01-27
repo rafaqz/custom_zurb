@@ -20,8 +20,10 @@
         
 // General.
 
-.posted .user-picture {
-  display: inline;
+.posted, .submitted {
+  .user-picture {
+    display: inline;
+  }
 }
 
 .new {

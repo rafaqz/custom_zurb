@@ -46,7 +46,8 @@
 
     .privacy-status {
       @extend .label;
-      background-color: #874646;
+      font-size: $small-font-size;
+      background-color: $success-color; 
       display: inline;
       top: emCalc(-7px);
     }
