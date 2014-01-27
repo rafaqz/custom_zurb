@@ -2134,7 +2134,7 @@ p aside {
 /* Default header styles */
 /* line 181, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "AvenirMed_IE";
+  font-family: "AvenirMed";
   font-weight: normal;
   font-style: normal;
   color: #333333;
@@ -7967,8 +7967,8 @@ ul.button-group a.secondary.active {
 }
 
 @font-face {
-  font-family: 'AvenirMed_IE';
-  src: url("../fonts/AvenirLTStd/AveniMed.eot") format("opentype");
+  font-family: 'AvenirMed';
+  src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
 
 /* line 24, ../scss/theme/_drupal.scss */
