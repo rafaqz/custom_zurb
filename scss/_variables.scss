@@ -28,7 +28,7 @@
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
-$base-font-size: 100% !default;
+$base-font-size: 93.75% !default;
 
 // $base-line-height is 24px while $base-font-size is 16px
 // $base-line-height: 150%;
@@ -38,7 +38,7 @@ $base-font-size: 100% !default;
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be a different size and not have it effect grid size too,
 // set the value of $em-base to $base-font-size ($em-base: $base-font-size;)
-$em-base: 16 !default;
+$em-base: 15 !default;
 
 // It strips the unit of measure and returns it
 @function strip-unit($num) {
@@ -103,7 +103,7 @@ $success-color: #874646;
 
 // Inset shadow shiny edges and depressions.
 
-$shiny-edge-size: 0 0px 0;
+$shiny-edge-size: 0 0 0;
 // $shiny-edge-color: rgba(#fff, .5);
 // $shiny-edge-active-color: rgba(#000, .2);
 
@@ -219,7 +219,7 @@ $small-font-size: 80%;
 
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-$paragraph-font-size: emCalc(13);
+// $paragraph-font-size: emCalc(13);
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: emCalc(20);
 // $paragraph-aside-font-size: emCalc(14);
@@ -1262,7 +1262,7 @@ $topbar-bg: #fff;
 
 // Height and margin
 
-$topbar-height: 45px;
+$topbar-height: emCalc(45);
 $topbar-margin-bottom: emCalc(30);
 
 // Control Input height for top bar
@@ -1271,7 +1271,7 @@ $topbar-margin-bottom: emCalc(30);
 
 // Controlling the styles for the title in the top bar
 
-$topbar-title-weight: bold;
+$topbar-title-weight: normal;
 $topbar-title-font-size: emCalc(16);
 
 // Style the top bar dropdown elements

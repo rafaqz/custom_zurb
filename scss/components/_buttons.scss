@@ -31,3 +31,14 @@ ul.button-group {
   }
 }
 
+.flag-idea-vote {
+  a {
+    @extend .button;
+    @extend .small;
+    @extend .success;
+    @extend .radius;
+  }
+  a.unflag-action {
+    @extend .secondary;
+  }
+}

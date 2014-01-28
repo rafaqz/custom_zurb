@@ -18,37 +18,11 @@
   src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
         
-// General.
-
-.posted, .submitted {
-  .user-picture {
-    display: inline;
-  }
-}
-
-.new {
-  @extend .label;
-}
-
-.field {
-  margin-bottom: emCalc(10px);
-}
-
-ul.links.inline {
-  float: right;
-  font-size: $small-font-size;
-  li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 1em;
-  }
-}
-
 // Groups Feature.
 
 .view-group-users {
   .views-row {
-     padding: 0 0 emCalc(5px);
+     padding: 0 0 emCalc(5);
      @extend .columns;
      @extend .large-3;
      @extend .small-2;
@@ -62,51 +36,48 @@ ul.links.inline {
 // Message Feature.
 
 .message {
-  margin-bottom: emCalc(5px);
+  margin-bottom: emCalc(5);
   p {
     margin: 0;
   }
   .user-picture {
     padding: 0;
-    @extend .columns;
-    @extend .large-3;
-    @extend .small-3;
+    margin-right: .3em;
+    float:left;
   }
   .message-details {
     padding: 0;
-    @extend .columns;
-    @extend .large-9;
-    @extend .small-9;
+    overflow: hidden;
   }
   .timestamp {
-    font-size: .75em;
-    color: #bbbbbb;
+    font-size: $small-font-size;
   }
-}
-
-// Project Feature.
-
-.accordion > section > .content { 
-  border: none !important; 
-} 
-
-.accordion > section.active > .content { 
-  display: block; 
-  width: 100%;
-  position: relative;
 }
 
 // Idea Feature.
 
-.flag-idea-vote a {
-  @extend .button;
-  @extend .tiny;
-  @extend .success;
-  @extend .radius;
+article.node-idea {
+  .flag-outer.flag-outer-idea-vote {
+    float: right;
+    clear: none;
+  }
+}
+
+article.node-idea.node-teaser {
+  .node-title {
+    float: left;
+  }
+  .body {
+    clear: both;
+  }
 }
 
 .view-idea-votes {
   @extend .panel;
+  ol {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
 }
 
 // Wiki Feature. 
@@ -120,13 +91,13 @@ ul.links.inline {
 }
 
 .block-table-of-contents {
-  @extend .panel;
-  float: right;
-  margin-left: 1em;
+  /*@extend .panel;*/
+  /*float: right;*/
+  /*margin-left: 1em;*/
 }
 
 .book-navigation .page-links {
-  border: 0px;
+  border: 0;
 }
 
 .book-navigation .page-links {
@@ -137,3 +108,12 @@ ul.links.inline {
   }
 }
 
+.pager li a {
+  @extend .button;
+  @extend .tiny;
+}
+
+.field.field-name-field-project-type h2 {
+  @extend h3;
+  font-weight:bold;
+}

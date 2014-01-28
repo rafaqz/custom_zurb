@@ -6,14 +6,74 @@
   overflow: auto;
 }
 
-.node {
+// Facebook style layout with picture alone in left column.
+article.node {
   @extend %divider-bottom;
+  div.user-picture {
+    float: left;
+    margin-right: .5em;
+  }
+  div.node-content {
+    overflow:hidden;
+    clear:none;
+  }
 }
+
 .body {}
 .image {}
 .breadcrumb {}
 
+.field {
+  margin-bottom: emCalc(10);
+}
+
+// Inline links small, lower right.
+ul.links.inline {
+  float: right;
+  font-size: $small-font-size;
+  li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+  }
+}
+
+// Small, tight comment layout.
+.comment {
+  /*margin-bottom:1em;*/
+  .user-picture {
+    float: left;
+    margin-right: .3em;
+    img {
+      width: 40px;
+      vertical-align: top;
+    }
+  }
+  .content {
+    display: inline;
+    clear: right;
+  }
+}
+
+// Divider between content and comments.
 .comment-wrapper {
   @extend %divider-top;
+}
+
+// Node and comment submitted/posted string.
+.posted, .submitted {
+  span {
+    font-size: $small-font-size;
+  }
+  a.username {
+    border-right: 1px solid;
+    padding: 0 .3em;
+  }
+}
+
+// New comment label.
+.new {
+  @extend .label;
+  @extend .success;
 }
 
