@@ -65,10 +65,7 @@
     <span class="new"><?php print $new ?></span>
   <?php endif; ?>
 
-  <?php print render($title_prefix); ?>
-  <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
-  <?php print render($title_suffix); ?>
-
+  <?php print $picture ?>
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
@@ -80,12 +77,11 @@
       <?php print $signature ?>
     </div>
     <?php endif; ?>
+    <div class="submitted">
+      <?php print $submitted; ?>
+    </div>
   </div>
 
-  <div class="submitted">
-    <?php print $picture ?>
-    <?php print $submitted; ?>
-  </div>
 
   <?php print render($content['links']) ?>
 </div>
