@@ -6752,7 +6752,7 @@ ul.pagination li {
 
 /* Panels */
 /* line 66, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel, .view-idea-votes {
+.panel, .view-idea-votes, .block-table-of-contents {
   border-style: solid;
   border-width: 1px;
   border-color: #d9d9d9;
@@ -6761,28 +6761,28 @@ ul.pagination li {
   background: #f2f2f2;
 }
 /* line 44, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel > :first-child, .view-idea-votes > :first-child {
+.panel > :first-child, .view-idea-votes > :first-child, .block-table-of-contents > :first-child {
   margin-top: 0;
 }
 /* line 45, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel > :last-child, .view-idea-votes > :last-child {
+.panel > :last-child, .view-idea-votes > :last-child, .block-table-of-contents > :last-child {
   margin-bottom: 0;
 }
 /* line 50, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel h1, .view-idea-votes h1, .panel h2, .view-idea-votes h2, .panel h3, .view-idea-votes h3, .panel .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel h2, .view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .view-idea-votes h2, .panel h4, .view-idea-votes h4, .panel h5, .view-idea-votes h5, .panel h6, .view-idea-votes h6, .panel p, .view-idea-votes p {
+.panel h1, .view-idea-votes h1, .block-table-of-contents h1, .panel h2, .view-idea-votes h2, .block-table-of-contents h2, .panel h3, .view-idea-votes h3, .block-table-of-contents h3, .panel .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel h2, .view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .view-idea-votes h2, .block-table-of-contents .field.field-name-field-project-type h2, .field.field-name-field-project-type .block-table-of-contents h2, .panel h4, .view-idea-votes h4, .block-table-of-contents h4, .panel h5, .view-idea-votes h5, .block-table-of-contents h5, .panel h6, .view-idea-votes h6, .block-table-of-contents h6, .panel p, .view-idea-votes p, .block-table-of-contents p {
   color: #333333;
 }
 /* line 54, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel h1, .view-idea-votes h1, .panel h2, .view-idea-votes h2, .panel h3, .view-idea-votes h3, .panel .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel h2, .view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .view-idea-votes h2, .panel h4, .view-idea-votes h4, .panel h5, .view-idea-votes h5, .panel h6, .view-idea-votes h6 {
+.panel h1, .view-idea-votes h1, .block-table-of-contents h1, .panel h2, .view-idea-votes h2, .block-table-of-contents h2, .panel h3, .view-idea-votes h3, .block-table-of-contents h3, .panel .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel h2, .view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .view-idea-votes h2, .block-table-of-contents .field.field-name-field-project-type h2, .field.field-name-field-project-type .block-table-of-contents h2, .panel h4, .view-idea-votes h4, .block-table-of-contents h4, .panel h5, .view-idea-votes h5, .block-table-of-contents h5, .panel h6, .view-idea-votes h6, .block-table-of-contents h6 {
   line-height: 1;
   margin-bottom: 0.66667em;
 }
 /* line 56, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel h1.subheader, .view-idea-votes h1.subheader, .panel h2.subheader, .view-idea-votes h2.subheader, .panel h3.subheader, .view-idea-votes h3.subheader, .panel .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .panel h2.subheader, .view-idea-votes .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .view-idea-votes h2.subheader, .panel h4.subheader, .view-idea-votes h4.subheader, .panel h5.subheader, .view-idea-votes h5.subheader, .panel h6.subheader, .view-idea-votes h6.subheader {
+.panel h1.subheader, .view-idea-votes h1.subheader, .block-table-of-contents h1.subheader, .panel h2.subheader, .view-idea-votes h2.subheader, .block-table-of-contents h2.subheader, .panel h3.subheader, .view-idea-votes h3.subheader, .block-table-of-contents h3.subheader, .panel .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .panel h2.subheader, .view-idea-votes .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .view-idea-votes h2.subheader, .block-table-of-contents .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .block-table-of-contents h2.subheader, .panel h4.subheader, .view-idea-votes h4.subheader, .block-table-of-contents h4.subheader, .panel h5.subheader, .view-idea-votes h5.subheader, .block-table-of-contents h5.subheader, .panel h6.subheader, .view-idea-votes h6.subheader, .block-table-of-contents h6.subheader {
   line-height: 1.4;
 }
 /* line 68, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout, .callout.view-idea-votes {
+.panel.callout, .callout.view-idea-votes, .callout.block-table-of-contents {
   border-style: solid;
   border-width: 1px;
   border-color: #95a884;
@@ -6793,28 +6793,28 @@ ul.pagination li {
   box-shadow: 0 0 0 rgba(255, 255, 255, 0.5) inset;
 }
 /* line 44, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout > :first-child, .callout.view-idea-votes > :first-child {
+.panel.callout > :first-child, .callout.view-idea-votes > :first-child, .callout.block-table-of-contents > :first-child {
   margin-top: 0;
 }
 /* line 45, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout > :last-child, .callout.view-idea-votes > :last-child {
+.panel.callout > :last-child, .callout.view-idea-votes > :last-child, .callout.block-table-of-contents > :last-child {
   margin-bottom: 0;
 }
 /* line 50, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout h1, .callout.view-idea-votes h1, .panel.callout h2, .callout.view-idea-votes h2, .panel.callout h3, .callout.view-idea-votes h3, .panel.callout .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel.callout h2, .callout.view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.view-idea-votes h2, .panel.callout h4, .callout.view-idea-votes h4, .panel.callout h5, .callout.view-idea-votes h5, .panel.callout h6, .callout.view-idea-votes h6, .panel.callout p, .callout.view-idea-votes p {
+.panel.callout h1, .callout.view-idea-votes h1, .callout.block-table-of-contents h1, .panel.callout h2, .callout.view-idea-votes h2, .callout.block-table-of-contents h2, .panel.callout h3, .callout.view-idea-votes h3, .callout.block-table-of-contents h3, .panel.callout .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel.callout h2, .callout.view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.view-idea-votes h2, .callout.block-table-of-contents .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.block-table-of-contents h2, .panel.callout h4, .callout.view-idea-votes h4, .callout.block-table-of-contents h4, .panel.callout h5, .callout.view-idea-votes h5, .callout.block-table-of-contents h5, .panel.callout h6, .callout.view-idea-votes h6, .callout.block-table-of-contents h6, .panel.callout p, .callout.view-idea-votes p, .callout.block-table-of-contents p {
   color: #333333;
 }
 /* line 54, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout h1, .callout.view-idea-votes h1, .panel.callout h2, .callout.view-idea-votes h2, .panel.callout h3, .callout.view-idea-votes h3, .panel.callout .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel.callout h2, .callout.view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.view-idea-votes h2, .panel.callout h4, .callout.view-idea-votes h4, .panel.callout h5, .callout.view-idea-votes h5, .panel.callout h6, .callout.view-idea-votes h6 {
+.panel.callout h1, .callout.view-idea-votes h1, .callout.block-table-of-contents h1, .panel.callout h2, .callout.view-idea-votes h2, .callout.block-table-of-contents h2, .panel.callout h3, .callout.view-idea-votes h3, .callout.block-table-of-contents h3, .panel.callout .field.field-name-field-project-type h2, .field.field-name-field-project-type .panel.callout h2, .callout.view-idea-votes .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.view-idea-votes h2, .callout.block-table-of-contents .field.field-name-field-project-type h2, .field.field-name-field-project-type .callout.block-table-of-contents h2, .panel.callout h4, .callout.view-idea-votes h4, .callout.block-table-of-contents h4, .panel.callout h5, .callout.view-idea-votes h5, .callout.block-table-of-contents h5, .panel.callout h6, .callout.view-idea-votes h6, .callout.block-table-of-contents h6 {
   line-height: 1;
   margin-bottom: 0.66667em;
 }
 /* line 56, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.callout h1.subheader, .callout.view-idea-votes h1.subheader, .panel.callout h2.subheader, .callout.view-idea-votes h2.subheader, .panel.callout h3.subheader, .callout.view-idea-votes h3.subheader, .panel.callout .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .panel.callout h2.subheader, .callout.view-idea-votes .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .callout.view-idea-votes h2.subheader, .panel.callout h4.subheader, .callout.view-idea-votes h4.subheader, .panel.callout h5.subheader, .callout.view-idea-votes h5.subheader, .panel.callout h6.subheader, .callout.view-idea-votes h6.subheader {
+.panel.callout h1.subheader, .callout.view-idea-votes h1.subheader, .callout.block-table-of-contents h1.subheader, .panel.callout h2.subheader, .callout.view-idea-votes h2.subheader, .callout.block-table-of-contents h2.subheader, .panel.callout h3.subheader, .callout.view-idea-votes h3.subheader, .callout.block-table-of-contents h3.subheader, .panel.callout .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .panel.callout h2.subheader, .callout.view-idea-votes .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .callout.view-idea-votes h2.subheader, .callout.block-table-of-contents .field.field-name-field-project-type h2.subheader, .field.field-name-field-project-type .callout.block-table-of-contents h2.subheader, .panel.callout h4.subheader, .callout.view-idea-votes h4.subheader, .callout.block-table-of-contents h4.subheader, .panel.callout h5.subheader, .callout.view-idea-votes h5.subheader, .callout.block-table-of-contents h5.subheader, .panel.callout h6.subheader, .callout.view-idea-votes h6.subheader, .callout.block-table-of-contents h6.subheader {
   line-height: 1.4;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.0.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
-.panel.radius, .flag-idea-vote a.panel, .flag-idea-vote a.view-idea-votes, .radius.view-idea-votes {
+.panel.radius, .flag-idea-vote a.panel, .flag-idea-vote a.view-idea-votes, .flag-idea-vote a.block-table-of-contents, .radius.view-idea-votes, .radius.block-table-of-contents {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -7673,7 +7673,7 @@ article.node, .sidebar section.block {
 }
 
 /* line 12, ../scss/layout/_main.scss */
-article.node div.user-picture {
+article.node div.user-picture, article.node form.comment-form div.form-item, form.comment-form article.node div.form-item {
   float: left;
   margin-right: .5em;
 }
@@ -7704,27 +7704,21 @@ ul.links.inline li {
 .comment {
   /*margin-bottom:1em;*/
 }
-/* line 44, ../scss/layout/_main.scss */
-.comment .user-picture {
-  float: left;
-  margin-right: .3em;
-}
-/* line 47, ../scss/layout/_main.scss */
-.comment .user-picture img {
+/* line 45, ../scss/layout/_main.scss */
+.comment .user-picture img, .comment form.comment-form .form-item img, form.comment-form .comment .form-item img {
   width: 40px;
-  vertical-align: top;
 }
-/* line 52, ../scss/layout/_main.scss */
+/* line 49, ../scss/layout/_main.scss */
 .comment .content {
-  display: inline;
   clear: right;
+  overflow: hidden;
 }
 
-/* line 65, ../scss/layout/_main.scss */
+/* line 62, ../scss/layout/_main.scss */
 .posted span, .submitted span {
   font-size: 80%;
 }
-/* line 68, ../scss/layout/_main.scss */
+/* line 65, ../scss/layout/_main.scss */
 .posted a.username, .submitted a.username {
   border-right: 1px solid;
   padding: 0 .3em;
@@ -7822,84 +7816,140 @@ ul.button-group a.secondary.active, ul.button-group .flag-idea-vote a.active.unf
   opacity: 0.9;
 }
 
+/* line 35, ../scss/components/_forms.scss */
+form.comment-form .form-item {
+  margin-top: 0;
+}
+/* line 37, ../scss/components/_forms.scss */
+form.comment-form .form-item img {
+  width: 40px;
+}
+/* line 42, ../scss/components/_forms.scss */
+form.comment-form .field-name-comment-body {
+  overflow: hidden;
+}
+/* line 43, ../scss/components/_forms.scss */
+form.comment-form .field-name-comment-body .form-type-textarea {
+  width: 100%;
+}
+/* line 45, ../scss/components/_forms.scss */
+form.comment-form .field-name-comment-body .form-type-textarea label {
+  display: none;
+}
+
 @font-face {
   font-family: 'AvenirMed';
   src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
 
-/* line 24, ../scss/theme/_drupal.scss */
+/* line 23, ../scss/theme/_drupal.scss */
+.social-share {
+  position: relative;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/* line 28, ../scss/theme/_drupal.scss */
+.social-share a {
+  position: absolute;
+  top: 0px;
+  height: 19px;
+  /* be sure to set height & width */
+  width: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 38, ../scss/theme/_drupal.scss */
+.social-share a.social-share-facebook {
+  left: 0px;
+  padding-left: 12px;
+  background: url(../images/facebook.png) no-repeat;
+}
+/* line 44, ../scss/theme/_drupal.scss */
+.social-share a.social-share-googleplus {
+  left: 25px;
+  padding-left: 20px;
+  background: url(../images/googleplus.png) no-repeat;
+}
+/* line 50, ../scss/theme/_drupal.scss */
+.social-share a.social-share-twitter {
+  left: 54px;
+  top: 2px;
+  padding-left: 18px;
+  background: url(../images/twitter.png) no-repeat;
+}
+
+/* line 63, ../scss/theme/_drupal.scss */
 .view-group-users .views-row {
   padding: 0 0 0.33333em;
 }
 
-/* line 32, ../scss/theme/_drupal.scss */
+/* line 71, ../scss/theme/_drupal.scss */
 .view-subgroups li {
   list-style-type: none;
 }
 
-/* line 38, ../scss/theme/_drupal.scss */
+/* line 77, ../scss/theme/_drupal.scss */
 .message {
   margin-bottom: 0.33333em;
 }
-/* line 40, ../scss/theme/_drupal.scss */
+/* line 79, ../scss/theme/_drupal.scss */
 .message p {
   margin: 0;
 }
-/* line 43, ../scss/theme/_drupal.scss */
-.message .user-picture {
+/* line 82, ../scss/theme/_drupal.scss */
+.message .user-picture, .message form.comment-form .form-item, form.comment-form .message .form-item {
   padding: 0;
   margin-right: .3em;
   float: left;
 }
-/* line 48, ../scss/theme/_drupal.scss */
+/* line 87, ../scss/theme/_drupal.scss */
 .message .message-details {
   padding: 0;
   overflow: hidden;
 }
-/* line 52, ../scss/theme/_drupal.scss */
+/* line 91, ../scss/theme/_drupal.scss */
 .message .timestamp {
   font-size: 80%;
 }
 
-/* line 60, ../scss/theme/_drupal.scss */
+/* line 99, ../scss/theme/_drupal.scss */
 article.node-idea .flag-outer.flag-outer-idea-vote {
   float: right;
   clear: none;
 }
 
-/* line 67, ../scss/theme/_drupal.scss */
+/* line 106, ../scss/theme/_drupal.scss */
 article.node-idea.node-teaser .node-title {
   float: left;
 }
-/* line 70, ../scss/theme/_drupal.scss */
+/* line 109, ../scss/theme/_drupal.scss */
 article.node-idea.node-teaser .body {
   clear: both;
 }
 
-/* line 77, ../scss/theme/_drupal.scss */
+/* line 116, ../scss/theme/_drupal.scss */
 .view-idea-votes ol {
   margin-left: 2em;
   margin-top: 1em;
 }
 
-/* line 93, ../scss/theme/_drupal.scss */
+/* line 132, ../scss/theme/_drupal.scss */
 .block-table-of-contents {
-  /*@extend .panel;*/
   /*float: right;*/
   /*margin-left: 1em;*/
 }
 
-/* line 99, ../scss/theme/_drupal.scss */
+/* line 138, ../scss/theme/_drupal.scss */
 .book-navigation .page-links {
   border: 0;
 }
 
-/* line 104, ../scss/theme/_drupal.scss */
+/* line 143, ../scss/theme/_drupal.scss */
 .book-navigation .page-links .page-previous, .book-navigation .page-links .page-next {
   /*width: auto;*/
 }
 
-/* line 116, ../scss/theme/_drupal.scss */
+/* line 155, ../scss/theme/_drupal.scss */
 .field.field-name-field-project-type h2 {
   font-weight: bold;
 }
