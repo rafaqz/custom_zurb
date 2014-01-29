@@ -176,8 +176,7 @@ function custom_zurb_preprocess_comment(&$variables) {
 //}
   
 /**
- * Implements hook_form_alter()
- * Example of using foundation sexy buttons
+ * Implements hook_form_comment_form_alter()
  */
 function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
   global $user;
