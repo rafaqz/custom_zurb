@@ -164,16 +164,11 @@ function custom_zurb_preprocess_comment(&$variables) {
  * Implements hook_form_alter()
  * Example of using foundation sexy buttons
  */
-//function custom_zurb_form_alter(&$form, &$form_state, $form_id) {
-// sexy submit buttons
-//  if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
-//    $form['actions']['submit']['#attributes'] = array('class' => array('primary', 'button', 'radius'));
-//  }
-  
-// Sexy preview buttons
-//function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
-//  $form['actions']['preview']['#attributes']['class'][] = array('class' => array('secondary', 'button', 'radius'));
-//}
+function custom_zurb_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') { 
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search...'); 
+  }  
+}
   
 /**
  * Implements hook_form_comment_form_alter()
@@ -182,12 +177,13 @@ function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
   global $user;
   $label = t('new label');
   if (isset($form['author']['_author'])) {
+    $language = $form['comment_body']['und']['#language'];
     $form['author']['_author']['#markup'] = collabco_profile_feature_load_user_picture($user);
     $form['author']['_author']['#title'] = '';
+    $form['comment_body'][$language][0]['value']['#attributes']['placeholder'] = 'Add your comment';
 
     // Why don't these work??
     //$form['author']['_author']['#attributes']['class'][] = 'user-picture';
-    //$language = $form['comment_body']['und']['#language'];
     //unset($form['comment_body'][$language][0]['#title']);
     //unset($form['comment_body'][$language]['#title']);
   }
