@@ -31,3 +31,22 @@
   }
 }
 
+form.comment-form {
+  .form-item {
+    @extend .user-picture;
+    img {
+      width: $comment-pic-width;
+    }
+    margin-top: 0;
+  }
+  .field-name-comment-body {
+    .form-type-textarea {
+      width: 100%;
+      label {
+        display: none;
+      }
+    }
+    overflow: hidden;
+  }
+}
+

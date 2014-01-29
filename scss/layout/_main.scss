@@ -42,16 +42,13 @@ ul.links.inline {
 .comment {
   /*margin-bottom:1em;*/
   .user-picture {
-    float: left;
-    margin-right: .3em;
     img {
-      width: 40px;
-      vertical-align: top;
+      width: $comment-pic-width;
     }
   }
   .content {
-    display: inline;
     clear: right;
+    overflow: hidden;
   }
 }
 

@@ -18,6 +18,45 @@
   src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
         
+// Share icons
+
+.social-share { 
+  position:relative;
+  margin-bottom: emCalc(15px);
+  margin-top: emCalc(15px);
+
+  a {
+    // Ugly absolute positioning to keep them behaved...
+    position:absolute;
+    top: 0px;
+    height: 19px;                        /* be sure to set height & width */
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  a.social-share-facebook {
+    left: 0px;
+    padding-left: 12px;
+    background: url(../images/facebook.png) no-repeat;
+  }
+
+  a.social-share-googleplus {
+    left: 25px;
+    padding-left: 20px;
+    background: url(../images/googleplus.png) no-repeat;
+  }
+
+  a.social-share-twitter {
+    left: 54px;
+    top: 2px;
+    padding-left: 18px;
+    background: url(../images/twitter.png) no-repeat;
+  }
+}
+
+
+
 // Groups Feature.
 
 .view-group-users {
@@ -91,7 +130,7 @@ article.node-idea.node-teaser {
 }
 
 .block-table-of-contents {
-  /*@extend .panel;*/
+  @extend .panel;
   /*float: right;*/
   /*margin-left: 1em;*/
 }
@@ -117,3 +156,4 @@ article.node-idea.node-teaser {
   @extend h3;
   font-weight:bold;
 }
+
