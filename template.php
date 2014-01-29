@@ -18,30 +18,31 @@
  */
 function custom_zurb_preprocess_page(&$variables) {
   $variables['top_bar_groups'] = '';
-  $group_links = collabco_groups_feature_build_user_groups_list();
-  $group_menu = array(
-    array(
-      '#theme' => 'link',
-      '#below' => $group_links['#items'],
-      '#localized_options' => array(),
-      '#attributes' => array(),
-      '#title' => 'My Groups (' . count($group_links['#items']) . ')', 
-      '#href' => '<nolink>',
-    ),
-  );
-  if (!empty($group_menu)) {
-    $variables['top_bar_groups'] = theme('links__topbar_groups', array(
-      'links' => $group_menu,
-      'attributes' => array(
-        'id'    => 'user-groups-menu',
-        'class' => array('secondary', 'link-list'),
+  if ($group_links = collabco_groups_feature_build_user_groups_list()) {
+    $group_menu = array(
+      array(
+        '#theme' => 'link',
+        '#below' => $group_links['#items'],
+        '#localized_options' => array(),
+        '#attributes' => array(),
+        '#title' => 'My Groups (' . count($group_links['#items']) . ')', 
+        '#href' => '<nolink>',
       ),
-      'heading' => array(
-        'text' => t('Groups'),
-        'level' => 'h2',
-        'class' => array('element-invisible'),
-      ),
-    ));
+    );
+    if (!empty($group_menu)) {
+      $variables['top_bar_groups'] = theme('links__topbar_groups', array(
+        'links' => $group_menu,
+        'attributes' => array(
+          'id'    => 'user-groups-menu',
+          'class' => array('secondary', 'link-list'),
+        ),
+        'heading' => array(
+          'text' => t('Groups'),
+          'level' => 'h2',
+          'class' => array('element-invisible'),
+        ),
+      ));
+    }
   }
 }
 
@@ -164,17 +165,34 @@ function custom_zurb_preprocess_comment(&$variables) {
  * Example of using foundation sexy buttons
  */
 //function custom_zurb_form_alter(&$form, &$form_state, $form_id) {
-//  // Sexy submit buttons
+// sexy submit buttons
 //  if (!empty($form['actions']) && !empty($form['actions']['submit'])) {
 //    $form['actions']['submit']['#attributes'] = array('class' => array('primary', 'button', 'radius'));
 //  }
-//}
-
+  
 // Sexy preview buttons
 //function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
 //  $form['actions']['preview']['#attributes']['class'][] = array('class' => array('secondary', 'button', 'radius'));
 //}
+  
+/**
+ * Implements hook_form_alter()
+ * Example of using foundation sexy buttons
+ */
+function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
+  global $user;
+  $label = t('new label');
+  if (isset($form['author']['_author'])) {
+    $form['author']['_author']['#markup'] = collabco_profile_feature_load_user_picture($user);
+    $form['author']['_author']['#title'] = '';
 
+    // Why don't these work??
+    //$form['author']['_author']['#attributes']['class'][] = 'user-picture';
+    //$language = $form['comment_body']['und']['#language'];
+    //unset($form['comment_body'][$language][0]['#title']);
+    //unset($form['comment_body'][$language]['#title']);
+  }
+}
 
 /**
  * Implements template_preprocess_panels_pane().
