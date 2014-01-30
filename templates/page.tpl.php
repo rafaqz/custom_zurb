@@ -163,16 +163,22 @@
   </main>
   <!--/.main-->
 
-  <?php if (!empty($page['split_first'])): ?>
-    <aside role="complementary" class="<?php print $split_first_grid; ?> split-first columns split">
-      <?php print render($page['split_first']); ?>
-    </aside>
-  <?php endif; ?>
+  <?php if (!empty($page['split_first']) || !empty($page['split_second'])): ?>
+    <!--.split-->
+    <section class="l-split row">
+      <?php if (!empty($page['split_first'])): ?>
+        <div class="split-first large-6 columns">
+          <?php print render($page['split_first']); ?>
+        </div>
+      <?php endif; ?>
 
-  <?php if (!empty($page['split_second'])): ?>
-    <aside role="complementary" class="<?php print $split_sec_grid; ?> split-second columns split">
-      <?php print render($page['split_second']); ?>
-    </aside>
+      <?php if (!empty($page['split_second'])): ?>
+        <div class="split-first large-6 columns">
+          <?php print render($page['split_second']); ?>
+        </div>
+      <?php endif; ?>
+    </section>
+    <!--/.split -->
   <?php endif; ?>
 
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
