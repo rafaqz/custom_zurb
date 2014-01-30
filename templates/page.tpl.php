@@ -163,6 +163,18 @@
   </main>
   <!--/.main-->
 
+  <?php if (!empty($page['split_first'])): ?>
+    <aside role="complementary" class="<?php print $split_first_grid; ?> split-first columns split">
+      <?php print render($page['split_first']); ?>
+    </aside>
+  <?php endif; ?>
+
+  <?php if (!empty($page['split_second'])): ?>
+    <aside role="complementary" class="<?php print $split_sec_grid; ?> split-second columns split">
+      <?php print render($page['split_second']); ?>
+    </aside>
+  <?php endif; ?>
+
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
     <!--.triptych-->
     <section class="l-triptych row">
