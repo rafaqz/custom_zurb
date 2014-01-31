@@ -77,8 +77,10 @@
 ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 
-  <?php if ($user_picture): ?>
-    <?php print $user_picture; ?>
+  <?php if ($display_submitted): ?>
+    <?php if ($user_picture): ?>
+      <?php print $user_picture; ?>
+    <?php endif; ?>
   <?php endif; ?>
   <div class='node-content'> 
     <?php print render($title_prefix); ?>
@@ -101,11 +103,12 @@
       <?php print render($content['field_tags']) ?>
     <?php endif; ?>
 
-    <?php if ($display_submitted): ?>
-      <div class="posted">
-        <?php print $submitted; ?>
+      <div class="submitted">
+        <?php if ($display_submitted): ?>
+          <?php print $name; ?>
+        <?php endif; ?>
+        <?php print $date; ?>
       </div>
-    <?php endif; ?>
 
     <div class="clearfix">
       <?php print render($content['links']); ?>
