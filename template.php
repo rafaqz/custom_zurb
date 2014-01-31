@@ -65,10 +65,7 @@ function custom_zurb_links__topbar_groups($variables) {
  *
  */
 function custom_zurb_preprocess_node(&$variables) {
-  if (variable_get('node_submitted_' . $variables['node']->type, TRUE)) {
-    $date = format_date($variables['node']->created, 'medium');
-    $variables['submitted'] = t('!username !datetime', array('!username' => $variables['name'], '!datetime' => $date));
-  }
+  $variables['submitted_date'] = format_date($variables['node']->created, 'medium');
 }
 
 function custom_zurb_preprocess_comment(&$variables) {
@@ -250,3 +247,48 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //    }
 //  }
 //}
+
+/**
+ * Implements theme_field__field_type().
+ *
+ * Override taxonomy specific changes from the zurb theme, we dont need them.
+ */
+function custom_zurb_field__taxonomy_term_reference($variables) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$variables['label_hidden']) {
+    //$output .= '<h2 class="field-label">' . $variables['label'] . ': </h2>';
+    $output .= '<div ' . $variables['title_attributes'] . '>' . $variables['label'] . ':&nbsp;</div>';
+  }
+
+  // Render the items.
+  //$output .= ($variables['element']['#label_display'] == 'inline') ? '<ul class="links inline">' : '<ul class="links">';
+  //foreach ($variables['items'] as $delta => $item) {
+    //$output .= '<li class="taxonomy-term-reference-' . $delta . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+  //}
+  //$output .= '</ul>';
+
+  // Edit module requires some extra wrappers to work.
+  if (module_exists('edit')) {
+    $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
+    foreach ($variables['items'] as $delta => $item) {
+      $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+      $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+    }
+    $output .= '</div>';
+  }
+  else {
+    foreach ($variables['items'] as $item) {
+      $output .= drupal_render($item);
+    }
+  }
+
+  // Render the top-level DIV.
+  //$output = '<div class="' . $variables['classes'] . (!in_array('clearfix', $variables['classes_array']) ? ' clearfix' : '') . '">' . $output . '</div>';
+  $output = '<div class="' . $variables['classes'] . '"' . $variables['attributes'] . '>' . $output . '</div>';
+
+  return $output;
+}
+
+
