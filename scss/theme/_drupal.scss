@@ -17,8 +17,13 @@
   font-family: 'AvenirMed';
   src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
+
+.pager li a {
+  @extend .button;
+  @extend .tiny;
+}
         
-// Share icons
+// Share Feature.
 
 .social-share { 
   position:relative;
@@ -54,8 +59,6 @@
     background: url(../images/twitter.png) no-repeat;
   }
 }
-
-
 
 // Groups Feature.
 
@@ -147,13 +150,9 @@ article.node-idea.node-teaser {
   }
 }
 
-.pager li a {
+// Featured feature.
+
+.flag-featured.flag-edit {
   @extend .button;
-  @extend .tiny;
+  @extend .small;
 }
-
-.field.field-name-field-project-type h2 {
-  @extend h3;
-  font-weight:bold;
-}
-
