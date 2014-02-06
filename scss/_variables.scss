@@ -5,6 +5,8 @@
 // Custom Variables
 // ------------------------------------------------------
 $comment-pic-width: 40px;
+$header-background: #F4EBE6;//darken($header-background, 15%);
+$header-bar-background: #393939;
 
 // Optionally, you can add your colors here.
 // ******************************************************
@@ -200,11 +202,11 @@ $header-bottom-margin: .2em;
 // Control header font sizes
 
 $h1-font-size: emCalc(36);
-$h2-font-size: emCalc(24);
-$h3-font-size: emCalc(16);
-$h4-font-size: emCalc(14);
-$h5-font-size: emCalc(12);
-$h6-font-size: emCalc(10);
+$h2-font-size: emCalc(30);
+$h3-font-size: emCalc(26);
+$h4-font-size: emCalc(21);
+$h5-font-size: emCalc(18);
+$h6-font-size: emCalc(16);
 
 // Control how subheaders are styled.
 
