@@ -4,23 +4,26 @@
 
 // Top Bar
 //--------------------------------------------------
-.top-bar-section {}
+.top-bar-section {
+  .has-dropdown > a {
+    padding: 0 1em !important;
+  }
+}
 .top-bar-section .left {}
 .top-bar-section .right {}
 
 .top-bar {
   /*background: none repeat scroll 0 0 #FFFFFF;*/
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 0;
 }
 
-.top-bar-section li a:hover:not(.button) {
-  background: none repeat scroll 0 0 #afbda2;
-}
+/*.top-bar-section li a:hover:not(.button) {*/
+  /*background: none repeat scroll 0 0 #afbda2;*/
+/*}*/
 
 
 .l-header-region {
-  background-color: #F4EBE6;
+  background-color: $header-background;
 }
 
 .header-banner {
@@ -62,7 +65,7 @@
   }
 
   .header-content-tab {
-    background-color: #393939;
+    background-color: $header-bar-background;
     width: 100%;
     margin-bottom: 1em;
 
