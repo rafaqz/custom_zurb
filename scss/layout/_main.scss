@@ -37,14 +37,17 @@ article.node {
 ul.links.inline {
   float: right;
   clear: both;
-  @extend .button;
-  @extend .tiny;
   font-size: $small-font-size;
   margin-bottom: emCalc(4);
   li {
     display: inline;
     list-style-type: none;
     margin-left: emCalc(15);
+
+    /*a {*/
+      /*@extend .button;*/
+      /*@extend .tiny;*/
+    /*}*/
   }
 }
 
