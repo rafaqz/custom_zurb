@@ -9,13 +9,19 @@
 // Facebook style layout with picture alone in left column.
 article.node {
   @extend %divider-bottom;
+
   div.user-picture {
     float: left;
     margin-right: .5em;
   }
+
   div.node-content {
     overflow:hidden;
     clear:none;
+  }
+
+  .body p {
+    margin-bottom: emCalc(4);
   }
 }
 
@@ -24,19 +30,27 @@ article.node {
 .breadcrumb {}
 
 .field {
-  margin-bottom: emCalc(10);
+  margin-bottom: $vertical-spacer;
 }
 
 // Inline links small, lower right.
 ul.links.inline {
   float: right;
+  clear: both;
+  @extend .button;
+  @extend .tiny;
   font-size: $small-font-size;
+  margin-bottom: emCalc(4);
   li {
     display: inline;
     list-style-type: none;
-    margin-right: 1em;
+    margin-left: emCalc(15);
   }
 }
+
+//////////////////////
+// Comments
+//////////////////////
 
 // Small, tight comment layout.
 .comment {

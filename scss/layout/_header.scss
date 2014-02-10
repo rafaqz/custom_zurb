@@ -10,7 +10,13 @@
   }
 }
 .top-bar-section .left {}
-.top-bar-section .right {}
+.top-bar-section .right {
+  font-size: $small-font-size;
+  ul {
+    vertical-align: middle;
+  }
+}
+
 
 .top-bar {
   /*background: none repeat scroll 0 0 #FFFFFF;*/

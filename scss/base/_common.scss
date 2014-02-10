@@ -17,14 +17,12 @@ $divider: 1px solid #dddddd;
 }
 
 %divider-top {
-  padding-top: emCalc(5px);
   margin-top: emCalc(5px);
   border-top: $divider;
 }
 
 %divider-bottom {
   border-bottom: $divider;
-  padding-bottom: emCalc(5px);
-  margin-bottom: emCalc(15px);
+  margin-bottom: $vertical-spacer;
 }
 

@@ -2,12 +2,6 @@
  * Theme specific variables.
  */
 
-// Custom Variables
-// ------------------------------------------------------
-$comment-pic-width: 40px;
-$header-background: #F4EBE6;//darken($header-background, 15%);
-$header-bar-background: #393939;
-
 // Optionally, you can add your colors here.
 // ******************************************************
 // $primary-color: #000;
@@ -73,6 +67,15 @@ $em-base: 15 !default;
   }
   @return $emValues;
 }
+
+// Custom Variables
+// ------------------------------------------------------
+$comment-pic-width: 40px;
+$header-background: #F4EBE6;//darken($header-background, 15%);
+$header-bar-background: #393939;
+
+$vertical-spacer: emCalc(8);
+
 
 // Change whether or not you include browser prefixes
 // $experimental: true;
@@ -195,18 +198,18 @@ $header-font-weight: normal;
 // $header-font-style: normal;
 $header-font-color: #333333;
 // $header-line-height: 1.4;
-$header-top-margin: .2em;
-$header-bottom-margin: .2em;
+$header-top-margin: 0;
+$header-bottom-margin: 0;
 // $header-text-rendering: optimizeLegibility;
 
 // Control header font sizes
 
 $h1-font-size: emCalc(36);
-$h2-font-size: emCalc(30);
-$h3-font-size: emCalc(26);
-$h4-font-size: emCalc(21);
-$h5-font-size: emCalc(18);
-$h6-font-size: emCalc(16);
+$h2-font-size: emCalc(29);
+$h3-font-size: emCalc(24);
+$h4-font-size: emCalc(20);
+$h5-font-size: emCalc(17);
+$h6-font-size: emCalc(15);
 
 // Control how subheaders are styled.
 
