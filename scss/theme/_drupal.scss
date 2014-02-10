@@ -18,17 +18,23 @@
   src: url("../fonts/AvenirLTStd/AvenirLTStd-Medium.otf") format("opentype");
 }
 
-.pager li a {
-  @extend .button;
-  @extend .tiny;
+.pager {
+  font-size: $small-font-size;
+
+  li a {
+    @extend .button;
+    @extend .tiny;
+  }
 }
         
 // Share Feature.
 
 .social-share { 
-  position:relative;
-  margin-bottom: emCalc(15px);
-  margin-top: emCalc(15px);
+  
+  float: right;
+  width: 72px;
+  position: relative;
+  margin-bottom: emCalc(15);
 
   a {
     // Ugly absolute positioning to keep them behaved...
@@ -39,17 +45,23 @@
     display: inline-block;
     overflow: hidden;
   }
-
+  
   a.social-share-facebook {
     left: 0px;
     padding-left: 12px;
     background: url(../images/facebook.png) no-repeat;
+    &:hover {
+      background: url(../images/facebook-hover.png) no-repeat;
+    }
   }
 
   a.social-share-googleplus {
     left: 25px;
     padding-left: 20px;
     background: url(../images/googleplus.png) no-repeat;
+    &:hover {
+      background: url(../images/googleplus-hover.png) no-repeat;
+    }
   }
 
   a.social-share-twitter {
@@ -57,6 +69,9 @@
     top: 2px;
     padding-left: 18px;
     background: url(../images/twitter.png) no-repeat;
+    &:hover {
+      background: url(../images/twitter-hover.png) no-repeat;
+    }
   }
 }
 
@@ -64,7 +79,7 @@
 
 .view-group-users {
   .views-row {
-     padding: 0 0 emCalc(5);
+     padding: 0 0 $vertical-spacer;
      @extend .columns;
      @extend .large-3;
      @extend .small-2;
@@ -78,7 +93,8 @@
 // Message Feature.
 
 .message {
-  margin-bottom: emCalc(5);
+  font-size: $small-font-size;
+  margin-bottom: $vertical-spacer;
   p {
     margin: 0;
   }
@@ -92,7 +108,6 @@
     overflow: hidden;
   }
   .timestamp {
-    font-size: $small-font-size;
   }
 }
 
@@ -132,27 +147,17 @@ article.node-idea.node-teaser {
   }
 }
 
-.block-table-of-contents {
-  @extend .panel;
-  /*float: right;*/
-  /*margin-left: 1em;*/
-}
+.book-navigation {
+  clear: both;
 
-.book-navigation .page-links {
-  border: 0;
-}
+  .page-links {
+    border: 0;
 
-.book-navigation .page-links {
-  .page-previous, .page-next {
-    @extend .button;
-    @extend .small;
-    /*width: auto;*/
+    .page-previous, .page-next {
+      @extend .button;
+      @extend .small;
+      /*width: auto;*/
+    }
   }
 }
 
-// Featured feature.
-
-.flag-featured.flag-edit {
-  @extend .button;
-  @extend .small;
-}
