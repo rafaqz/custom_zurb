@@ -6,7 +6,7 @@
 //--------------------------------------------------
 .top-bar-section {
   .has-dropdown > a {
-    padding: 0 1em !important;
+    padding: 0 2em 0 1em !important;
   }
 }
 .top-bar-section .left {}
@@ -16,20 +16,13 @@
   }
 }
 
-
 .top-bar {
-  /*background: none repeat scroll 0 0 #FFFFFF;*/
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
   li.name h1 {
     line-height: emCalc(45);
   }
 }
-
-/*.top-bar-section li a:hover:not(.button) {*/
-  /*background: none repeat scroll 0 0 #afbda2;*/
-/*}*/
-
 
 .l-header-region {
   background-color: $header-background;
