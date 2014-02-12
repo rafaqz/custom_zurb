@@ -26,7 +26,7 @@
     @extend .tiny;
   }
 }
-        
+
 // Share Feature.
 
 .social-share { 
@@ -161,3 +161,19 @@ article.node-idea.node-teaser {
   }
 }
 
+span.flag-tag-filter {
+
+
+  a.unflag-action {
+    @extend .button;
+    @extend .tiny;
+    @extend .success;
+  }
+}
+
+.view-terms-in-group {
+  .views-row {
+    @extend %divider-bottom;
+    width: 100%;
+  }
+}
