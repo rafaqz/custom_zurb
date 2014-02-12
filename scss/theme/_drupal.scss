@@ -161,8 +161,17 @@ article.node-idea.node-teaser {
   }
 }
 
-span.flag-tag-filter {
+// Membership form.
 
+#edit-field-mf-subscription-type .form-type-radio {
+  @extend .columns;
+  @extend .small-12;
+  @extend .large-6;
+}
+
+
+// Tags.
+span.flag-tag-filter {
 
   a.unflag-action {
     @extend .button;
@@ -175,5 +184,12 @@ span.flag-tag-filter {
   .views-row {
     @extend %divider-bottom;
     width: 100%;
+  }
+}
+
+.cke_editable,
+.body.field {
+  li {
+    margin-left: emCalc(30px);
   }
 }
