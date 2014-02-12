@@ -624,7 +624,12 @@ select {
 .header-banner .view-group-users .collapse.header-details > .views-row,
 .view-group-users .header-banner .collapse.header-details > .views-row,
 .header-banner .header-content-tab .view-group-users .collapse.item-list > .views-row,
-.view-group-users .header-banner .header-content-tab .collapse.item-list > .views-row {
+.view-group-users .header-banner .header-content-tab .collapse.item-list > .views-row,
+#edit-field-mf-subscription-type .row.collapse > .form-type-radio,
+.header-banner #edit-field-mf-subscription-type .collapse.header-details > .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .collapse.header-details > .form-type-radio,
+.header-banner .header-content-tab #edit-field-mf-subscription-type .collapse.item-list > .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab .collapse.item-list > .form-type-radio {
   position: relative;
   padding-left: 0;
   padding-right: 0;
@@ -676,7 +681,8 @@ select {
 .columns,
 .header-banner .header-details .header-details-side,
 .header-banner .header-details .header-details-main,
-.view-group-users .views-row {
+.view-group-users .views-row,
+#edit-field-mf-subscription-type .form-type-radio {
   position: relative;
   padding-left: 1em;
   padding-right: 1em;
@@ -690,7 +696,8 @@ select {
   .columns,
   .header-banner .header-details .header-details-side,
   .header-banner .header-details .header-details-main,
-  .view-group-users .views-row {
+  .view-group-users .views-row,
+  #edit-field-mf-subscription-type .form-type-radio {
     position: relative;
     padding-left: 1em;
     padding-right: 1em;
@@ -710,13 +717,13 @@ select {
   }
 
   /* line 140, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-3 {
+  .small-3, .header-banner .header-details .header-details-side {
     position: relative;
     width: 25%;
   }
 
   /* line 140, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-4, .header-banner .header-details .header-details-side {
+  .small-4 {
     position: relative;
     width: 33.33333%;
   }
@@ -740,13 +747,13 @@ select {
   }
 
   /* line 140, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-8, .header-banner .header-details .header-details-main {
+  .small-8 {
     position: relative;
     width: 66.66667%;
   }
 
   /* line 140, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-9 {
+  .small-9, .header-banner .header-details .header-details-main {
     position: relative;
     width: 75%;
   }
@@ -764,7 +771,7 @@ select {
   }
 
   /* line 140, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-12 {
+  .small-12, #edit-field-mf-subscription-type .form-type-radio {
     position: relative;
     width: 100%;
   }
@@ -850,7 +857,8 @@ select {
   .columns.small-centered,
   .header-banner .header-details .small-centered.header-details-side,
   .header-banner .header-details .small-centered.header-details-main,
-  .view-group-users .small-centered.views-row {
+  .view-group-users .small-centered.views-row,
+  #edit-field-mf-subscription-type .small-centered.form-type-radio {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -872,13 +880,13 @@ select {
   }
 
   /* line 158, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-3, .view-group-users .views-row {
+  .large-3, .header-banner .header-details .header-details-side, .view-group-users .views-row {
     position: relative;
     width: 25%;
   }
 
   /* line 158, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-4, .header-banner .header-details .header-details-side {
+  .large-4 {
     position: relative;
     width: 33.33333%;
   }
@@ -890,7 +898,7 @@ select {
   }
 
   /* line 158, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-6 {
+  .large-6, #edit-field-mf-subscription-type .form-type-radio {
     position: relative;
     width: 50%;
   }
@@ -902,13 +910,13 @@ select {
   }
 
   /* line 158, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-8, .header-banner .header-details .header-details-main {
+  .large-8 {
     position: relative;
     width: 66.66667%;
   }
 
   /* line 158, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-9 {
+  .large-9, .header-banner .header-details .header-details-main {
     position: relative;
     width: 75%;
   }
@@ -1162,7 +1170,8 @@ select {
   .columns.large-centered,
   .header-banner .header-details .large-centered.header-details-side,
   .header-banner .header-details .large-centered.header-details-main,
-  .view-group-users .large-centered.views-row {
+  .view-group-users .large-centered.views-row,
+  #edit-field-mf-subscription-type .large-centered.form-type-radio {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1174,7 +1183,8 @@ select {
   .columns.large-uncentered,
   .header-banner .header-details .large-uncentered.header-details-side,
   .header-banner .header-details .large-uncentered.header-details-main,
-  .view-group-users .large-uncentered.views-row {
+  .view-group-users .large-uncentered.views-row,
+  #edit-field-mf-subscription-type .large-uncentered.form-type-radio {
     margin-left: 0;
     margin-right: 0;
     float: left !important;
@@ -1185,7 +1195,8 @@ select {
   .columns.large-uncentered.opposite,
   .header-banner .header-details .large-uncentered.opposite.header-details-side,
   .header-banner .header-details .large-uncentered.opposite.header-details-main,
-  .view-group-users .large-uncentered.opposite.views-row {
+  .view-group-users .large-uncentered.opposite.views-row,
+  #edit-field-mf-subscription-type .large-uncentered.opposite.form-type-radio {
     float: right !important;
   }
 }
@@ -2846,7 +2857,45 @@ form .header-banner .header-content-tab .header-details .item-list .view-group-u
 form .header-banner .header-content-tab .item-list .item-list .view-group-users .views-row,
 .view-group-users form .header-banner .header-content-tab .item-list .item-list .views-row,
 .header-banner .header-content-tab form .item-list .item-list .view-group-users .views-row,
-.view-group-users .header-banner .header-content-tab form .item-list .item-list .views-row {
+.view-group-users .header-banner .header-content-tab form .item-list .item-list .views-row,
+form .row .row #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .row .form-type-radio,
+form .header-banner .header-details .row #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .row .form-type-radio,
+.header-banner form .header-details .row #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .row .form-type-radio,
+form .header-banner .header-content-tab .item-list .row #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .row .form-type-radio,
+.header-banner .header-content-tab form .item-list .row #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .row .form-type-radio,
+form .row .header-banner .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .header-banner .header-details .form-type-radio,
+.header-banner form .row .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .row .header-details .form-type-radio,
+form .header-banner .header-details .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .header-details .form-type-radio,
+.header-banner form .header-details .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .header-details .form-type-radio,
+form .header-banner .header-content-tab .item-list .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .header-details .form-type-radio,
+.header-banner .header-content-tab form .item-list .header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .header-details .form-type-radio,
+form .row .header-banner .header-content-tab .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .header-banner .header-content-tab .item-list .form-type-radio,
+.header-banner .header-content-tab form .row .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .row .item-list .form-type-radio,
+form .header-banner .header-details .header-content-tab .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .header-content-tab .item-list .form-type-radio,
+form .header-banner .header-content-tab .header-details .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .header-details .item-list .form-type-radio,
+.header-banner form .header-details .header-content-tab .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .header-content-tab .item-list .form-type-radio,
+.header-banner .header-content-tab form .header-details .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .header-details .item-list .form-type-radio,
+form .header-banner .header-content-tab .item-list .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .item-list .form-type-radio,
+.header-banner .header-content-tab form .item-list .item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .item-list .form-type-radio {
   padding: 0 0.53333em;
 }
 /* line 73, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
@@ -2957,7 +3006,45 @@ form .header-banner .header-content-tab .header-details .collapse.item-list .vie
 form .header-banner .header-content-tab .item-list .collapse.item-list .view-group-users .views-row,
 .view-group-users form .header-banner .header-content-tab .item-list .collapse.item-list .views-row,
 .header-banner .header-content-tab form .item-list .collapse.item-list .view-group-users .views-row,
-.view-group-users .header-banner .header-content-tab form .item-list .collapse.item-list .views-row {
+.view-group-users .header-banner .header-content-tab form .item-list .collapse.item-list .views-row,
+form .row .row.collapse #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .row.collapse .form-type-radio,
+form .header-banner .header-details .row.collapse #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .row.collapse .form-type-radio,
+.header-banner form .header-details .row.collapse #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .row.collapse .form-type-radio,
+form .header-banner .header-content-tab .item-list .row.collapse #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .row.collapse .form-type-radio,
+.header-banner .header-content-tab form .item-list .row.collapse #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .row.collapse .form-type-radio,
+form .row .header-banner .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .header-banner .collapse.header-details .form-type-radio,
+.header-banner form .row .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .row .collapse.header-details .form-type-radio,
+form .header-banner .header-details .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .collapse.header-details .form-type-radio,
+.header-banner form .header-details .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .collapse.header-details .form-type-radio,
+form .header-banner .header-content-tab .item-list .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .collapse.header-details .form-type-radio,
+.header-banner .header-content-tab form .item-list .collapse.header-details #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .collapse.header-details .form-type-radio,
+form .row .header-banner .header-content-tab .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .row .header-banner .header-content-tab .collapse.item-list .form-type-radio,
+.header-banner .header-content-tab form .row .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .row .collapse.item-list .form-type-radio,
+form .header-banner .header-details .header-content-tab .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details .header-content-tab .collapse.item-list .form-type-radio,
+form .header-banner .header-content-tab .header-details .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .header-details .collapse.item-list .form-type-radio,
+.header-banner form .header-details .header-content-tab .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details .header-content-tab .collapse.item-list .form-type-radio,
+.header-banner .header-content-tab form .header-details .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .header-details .collapse.item-list .form-type-radio,
+form .header-banner .header-content-tab .item-list .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list .collapse.item-list .form-type-radio,
+.header-banner .header-content-tab form .item-list .collapse.item-list #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list .collapse.item-list .form-type-radio {
   padding: 0;
 }
 /* line 77, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
@@ -2992,6 +3079,16 @@ form .header-banner .header-content-tab .item-list .view-group-users input.views
 .view-group-users form .header-banner .header-content-tab .item-list input.views-row,
 .header-banner .header-content-tab form .item-list .view-group-users input.views-row,
 .view-group-users .header-banner .header-content-tab form .item-list input.views-row,
+form .row #edit-field-mf-subscription-type input.form-type-radio,
+#edit-field-mf-subscription-type form .row input.form-type-radio,
+form .header-banner .header-details #edit-field-mf-subscription-type input.form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details input.form-type-radio,
+.header-banner form .header-details #edit-field-mf-subscription-type input.form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details input.form-type-radio,
+form .header-banner .header-content-tab .item-list #edit-field-mf-subscription-type input.form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list input.form-type-radio,
+.header-banner .header-content-tab form .item-list #edit-field-mf-subscription-type input.form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list input.form-type-radio,
 form .row textarea.column,
 form .header-banner .header-details textarea.column,
 .header-banner form .header-details textarea.column,
@@ -3019,7 +3116,17 @@ form .header-banner .header-details .view-group-users textarea.views-row,
 form .header-banner .header-content-tab .item-list .view-group-users textarea.views-row,
 .view-group-users form .header-banner .header-content-tab .item-list textarea.views-row,
 .header-banner .header-content-tab form .item-list .view-group-users textarea.views-row,
-.view-group-users .header-banner .header-content-tab form .item-list textarea.views-row {
+.view-group-users .header-banner .header-content-tab form .item-list textarea.views-row,
+form .row #edit-field-mf-subscription-type textarea.form-type-radio,
+#edit-field-mf-subscription-type form .row textarea.form-type-radio,
+form .header-banner .header-details #edit-field-mf-subscription-type textarea.form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-details textarea.form-type-radio,
+.header-banner form .header-details #edit-field-mf-subscription-type textarea.form-type-radio,
+#edit-field-mf-subscription-type .header-banner form .header-details textarea.form-type-radio,
+form .header-banner .header-content-tab .item-list #edit-field-mf-subscription-type textarea.form-type-radio,
+#edit-field-mf-subscription-type form .header-banner .header-content-tab .item-list textarea.form-type-radio,
+.header-banner .header-content-tab form .item-list #edit-field-mf-subscription-type textarea.form-type-radio,
+#edit-field-mf-subscription-type .header-banner .header-content-tab form .item-list textarea.form-type-radio {
   padding-left: 0.53333em;
 }
 
@@ -5778,7 +5885,9 @@ label.error {
 .reveal-modal .header-banner .header-details .header-details-main,
 .header-banner .header-details .reveal-modal .header-details-main,
 .reveal-modal .view-group-users .views-row,
-.view-group-users .reveal-modal .views-row {
+.view-group-users .reveal-modal .views-row,
+.reveal-modal #edit-field-mf-subscription-type .form-type-radio,
+#edit-field-mf-subscription-type .reveal-modal .form-type-radio {
   min-width: 0;
 }
 /* line 65, ../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_reveal.scss */
@@ -7676,48 +7785,48 @@ article.node, .sidebar section.block, .view-terms-in-group .views-row {
   padding: 0 1em !important;
 }
 
-/* line 13, ../scss/layout/_header.scss */
-.top-bar-section .right {
+/* line 14, ../scss/layout/_header.scss */
+.top-bar-section .right > li {
   font-size: 80%;
 }
-/* line 15, ../scss/layout/_header.scss */
-.top-bar-section .right ul {
-  vertical-align: middle;
-}
 
-/* line 21, ../scss/layout/_header.scss */
+/* line 20, ../scss/layout/_header.scss */
 .top-bar {
   /*background: none repeat scroll 0 0 #FFFFFF;*/
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
 }
+/* line 24, ../scss/layout/_header.scss */
+.top-bar li.name h1 {
+  line-height: 3em;
+}
 
 /*.top-bar-section li a:hover:not(.button) {*/
 /*background: none repeat scroll 0 0 #afbda2;*/
 /*}*/
-/* line 32, ../scss/layout/_header.scss */
+/* line 34, ../scss/layout/_header.scss */
 .l-header-region {
   background-color: #f4ebe6;
 }
 
-/* line 38, ../scss/layout/_header.scss */
+/* line 40, ../scss/layout/_header.scss */
 .header-banner .header-details {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: 0.53333em;
+  padding-bottom: 0.53333em;
 }
-/* line 42, ../scss/layout/_header.scss */
+/* line 44, ../scss/layout/_header.scss */
 .header-banner .header-details h1 {
   display: inline;
 }
-/* line 46, ../scss/layout/_header.scss */
+/* line 48, ../scss/layout/_header.scss */
 .header-banner .header-details p {
   margin-bottom: 0;
 }
-/* line 50, ../scss/layout/_header.scss */
+/* line 52, ../scss/layout/_header.scss */
 .header-banner .header-details img {
   margin-right: 1em;
 }
-/* line 66, ../scss/layout/_header.scss */
+/* line 68, ../scss/layout/_header.scss */
 .header-banner .header-details .privacy-status {
   font-size: 80%;
   background-color: #874646;
@@ -7725,38 +7834,38 @@ article.node, .sidebar section.block, .view-terms-in-group .views-row {
   display: inline;
   top: -0.46667em;
 }
-/* line 74, ../scss/layout/_header.scss */
+/* line 76, ../scss/layout/_header.scss */
 .header-banner .header-details .field-name-group-group {
   padding-top: 2em;
   font-size: 80%;
 }
-/* line 84, ../scss/layout/_header.scss */
+/* line 86, ../scss/layout/_header.scss */
 .header-banner .header-content-tab {
   background-color: #393939;
   width: 100%;
   margin-bottom: 1em;
 }
-/* line 92, ../scss/layout/_header.scss */
+/* line 94, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul {
   padding-top: .3em;
   margin: 1em;
   list-style: none;
 }
-/* line 97, ../scss/layout/_header.scss */
+/* line 99, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li {
   display: inline;
 }
-/* line 100, ../scss/layout/_header.scss */
+/* line 102, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a {
   padding: 1em;
   color: #7d929a;
 }
-/* line 105, ../scss/layout/_header.scss */
+/* line 107, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li a:hover {
   background: #464646;
   color: #fff;
 }
-/* line 111, ../scss/layout/_header.scss */
+/* line 113, ../scss/layout/_header.scss */
 .header-banner .header-content-tab .item-list ul li.active > a {
   color: #464646;
   background: #fff;
@@ -8026,7 +8135,13 @@ article.node-idea.node-teaser .body {
   /*width: auto;*/
 }
 
-/* line 175, ../scss/theme/_drupal.scss */
+/* line 184, ../scss/theme/_drupal.scss */
 .view-terms-in-group .views-row {
   width: 100%;
+}
+
+/* line 192, ../scss/theme/_drupal.scss */
+.cke_editable li,
+.body.field li {
+  margin-left: 2em;
 }
