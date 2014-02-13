@@ -7748,7 +7748,7 @@ a.th {
 }
 
 /* line 24, ../scss/base/_common.scss */
-article.node, .sidebar section.block, .view-terms-in-group .views-row {
+article.node, .sidebar section.block {
   border-bottom: 1px solid #dddddd;
   margin-bottom: 0.53333em;
 }
@@ -8017,14 +8017,20 @@ form.comment-form .field-name-comment-body .form-type-textarea label {
   font-size: 80%;
 }
 
-/* line 32, ../scss/theme/_drupal.scss */
+/* line 33, ../scss/theme/_drupal.scss */
+.cke_editable li,
+.body.field li {
+  margin-left: 2em;
+}
+
+/* line 40, ../scss/theme/_drupal.scss */
 .social-share {
   float: right;
   width: 72px;
   position: relative;
   margin-bottom: 1em;
 }
-/* line 39, ../scss/theme/_drupal.scss */
+/* line 47, ../scss/theme/_drupal.scss */
 .social-share a {
   position: absolute;
   top: 0px;
@@ -8034,110 +8040,106 @@ form.comment-form .field-name-comment-body .form-type-textarea label {
   display: inline-block;
   overflow: hidden;
 }
-/* line 49, ../scss/theme/_drupal.scss */
+/* line 57, ../scss/theme/_drupal.scss */
 .social-share a.social-share-facebook {
   left: 0px;
   padding-left: 12px;
   background: url(../images/facebook.png) no-repeat;
 }
-/* line 53, ../scss/theme/_drupal.scss */
+/* line 61, ../scss/theme/_drupal.scss */
 .social-share a.social-share-facebook:hover {
   background: url(../images/facebook-hover.png) no-repeat;
 }
-/* line 58, ../scss/theme/_drupal.scss */
+/* line 66, ../scss/theme/_drupal.scss */
 .social-share a.social-share-googleplus {
   left: 25px;
   padding-left: 20px;
   background: url(../images/googleplus.png) no-repeat;
 }
-/* line 62, ../scss/theme/_drupal.scss */
+/* line 70, ../scss/theme/_drupal.scss */
 .social-share a.social-share-googleplus:hover {
   background: url(../images/googleplus-hover.png) no-repeat;
 }
-/* line 67, ../scss/theme/_drupal.scss */
+/* line 75, ../scss/theme/_drupal.scss */
 .social-share a.social-share-twitter {
   left: 54px;
   top: 2px;
   padding-left: 18px;
   background: url(../images/twitter.png) no-repeat;
 }
-/* line 72, ../scss/theme/_drupal.scss */
+/* line 80, ../scss/theme/_drupal.scss */
 .social-share a.social-share-twitter:hover {
   background: url(../images/twitter-hover.png) no-repeat;
 }
 
-/* line 81, ../scss/theme/_drupal.scss */
+/* line 89, ../scss/theme/_drupal.scss */
 .view-group-users .views-row {
   padding: 0 0 0.53333em;
 }
 
-/* line 89, ../scss/theme/_drupal.scss */
+/* line 97, ../scss/theme/_drupal.scss */
 .view-subgroups li {
   list-style-type: none;
 }
 
-/* line 95, ../scss/theme/_drupal.scss */
+/* line 103, ../scss/theme/_drupal.scss */
 .message {
   font-size: 80%;
   margin-bottom: 0.53333em;
 }
-/* line 98, ../scss/theme/_drupal.scss */
+/* line 106, ../scss/theme/_drupal.scss */
 .message p {
   margin: 0;
 }
-/* line 101, ../scss/theme/_drupal.scss */
+/* line 109, ../scss/theme/_drupal.scss */
 .message .user-picture, .message form.comment-form .form-item, form.comment-form .message .form-item {
   padding: 0;
   margin-right: .3em;
   float: left;
 }
-/* line 106, ../scss/theme/_drupal.scss */
+/* line 114, ../scss/theme/_drupal.scss */
 .message .message-details {
   padding: 0;
   overflow: hidden;
 }
 
-/* line 117, ../scss/theme/_drupal.scss */
+/* line 125, ../scss/theme/_drupal.scss */
 article.node-idea .flag-outer.flag-outer-idea-vote {
   float: right;
   clear: none;
 }
 
-/* line 124, ../scss/theme/_drupal.scss */
+/* line 132, ../scss/theme/_drupal.scss */
 article.node-idea.node-teaser .node-title {
   float: left;
 }
-/* line 127, ../scss/theme/_drupal.scss */
+/* line 135, ../scss/theme/_drupal.scss */
 article.node-idea.node-teaser .body {
   clear: both;
 }
 
-/* line 134, ../scss/theme/_drupal.scss */
+/* line 142, ../scss/theme/_drupal.scss */
 .view-idea-votes ol {
   margin-left: 2em;
   margin-top: 1em;
 }
 
-/* line 150, ../scss/theme/_drupal.scss */
+/* line 158, ../scss/theme/_drupal.scss */
 .book-navigation {
   clear: both;
 }
-/* line 153, ../scss/theme/_drupal.scss */
+/* line 161, ../scss/theme/_drupal.scss */
 .book-navigation .page-links {
   border: 0;
 }
-/* line 156, ../scss/theme/_drupal.scss */
+/* line 164, ../scss/theme/_drupal.scss */
 .book-navigation .page-links .page-previous, .book-navigation .page-links .page-next {
   /*width: auto;*/
 }
 
-/* line 184, ../scss/theme/_drupal.scss */
-.view-terms-in-group .views-row {
-  width: 100%;
-}
-
 /* line 192, ../scss/theme/_drupal.scss */
-.cke_editable li,
-.body.field li {
-  margin-left: 2em;
+.view-tag-filter .views-row {
+  margin-bottom: 0.53333em;
+  width: auto;
+  float: left;
 }
