@@ -27,6 +27,14 @@
   }
 }
 
+// Bullets and numbering for wysiwyg
+.cke_editable,
+.body.field {
+  li {
+    margin-left: emCalc(30px);
+  }
+}
+
 // Share Feature.
 
 .social-share { 
@@ -161,7 +169,7 @@ article.node-idea.node-teaser {
   }
 }
 
-// Membership form.
+// Membership form feature.
 
 #edit-field-mf-subscription-type .form-type-radio {
   @extend .columns;
@@ -170,7 +178,7 @@ article.node-idea.node-teaser {
 }
 
 
-// Tags.
+// Tags feature.
 span.flag-tag-filter {
 
   a.unflag-action {
@@ -180,16 +188,11 @@ span.flag-tag-filter {
   }
 }
 
-.view-terms-in-group {
+.view-tag-filter {
   .views-row {
-    @extend %divider-bottom;
-    width: 100%;
+    margin-bottom: $vertical-spacer;
+    width: auto;
+    float: left;
   }
 }
 
-.cke_editable,
-.body.field {
-  li {
-    margin-left: emCalc(30px);
-  }
-}
