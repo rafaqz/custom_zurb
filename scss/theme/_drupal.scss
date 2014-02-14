@@ -180,17 +180,20 @@ article.node-idea.node-teaser {
 
 // Tags feature.
 span.flag-tag-filter {
-
-  a.unflag-action {
+  a {
     @extend .button;
     @extend .tiny;
+    @extend .secondary;
+    margin-bottom: $vertical-spacer;
+  }
+  a.unflag-action {
     @extend .success;
+    margin-bottom: $vertical-spacer;
   }
 }
 
 .view-tag-filter {
   .views-row {
-    margin-bottom: $vertical-spacer;
     width: auto;
     float: left;
   }
