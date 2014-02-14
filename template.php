@@ -22,11 +22,11 @@ function custom_zurb_preprocess_page(&$variables) {
     $group_menu = array(
       array(
         '#theme' => 'link',
-        '#below' => $group_links['#items'],
         '#localized_options' => array(),
         '#attributes' => array(),
         '#title' => 'My Groups (' . count($group_links['#items']) . ')', 
         '#href' => '<nolink>',
+        '#below' => $group_links['#items'],
       ),
     );
     if (!empty($group_menu)) {
