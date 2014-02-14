@@ -38,7 +38,7 @@
 ?>
 <div id="comments" class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
-  <h2 class="title"><?php print t('Comments'); ?></h2>
+  <h3 class="title"><?php print t('Comments'); ?></h3>
   <?php print render($title_suffix); ?>
 
   <?php print render($content['comments']); ?>
