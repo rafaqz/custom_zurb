@@ -28,8 +28,14 @@
 }
 
 ul.button-group {
+  a.secondary {
+    background-color: lighten($secondary-color,7%);
+    color: lighten($body-font-color,30%);
+    border-color: #EEE;
+    @extend .tiny;
+  }
   a.secondary.active {
-    background-color: darken($secondary-color,15%);
+    background-color: lighten($secondary-color,4%);
   }
 }
 
