@@ -125,27 +125,29 @@
 
       <?php /*if ($breadcrumb): print $breadcrumb; endif; */ ?>
 
-      
-      <?php if ($show_title): ?>
-        <?php if ($title && !$is_front): ?>
-          <?php print render($title_prefix); ?>
-          <h1 id="page-title" class="title"><?php print $title; ?></h1>
-          <?php print render($title_suffix); ?>
+      <div role="content" class="contextual-links-region">
+
+        <?php if ($show_title): ?>
+          <?php if ($title && !$is_front): ?>
+            <?php print render($title_prefix); ?>
+            <h1 id="page-title" class="title"><?php print $title; ?></h1>
+            <?php print render($title_suffix); ?>
+          <?php endif; ?>
         <?php endif; ?>
-      <?php endif; ?>
 
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
-        <?php if (!empty($tabs2)): print render($tabs2); endif; ?>
-      <?php endif; ?>
+        <?php if (!empty($tabs)): ?>
+          <?php print render($tabs); ?>
+          <?php if (!empty($tabs2)): print render($tabs2); endif; ?>
+        <?php endif; ?>
 
-      <?php if ($action_links): ?>
-        <ul class="action-links">
-          <?php print render($action_links); ?>
-        </ul>
-      <?php endif; ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links">
+            <?php print render($action_links); ?>
+          </ul>
+        <?php endif; ?>
 
-      <?php print render($page['content']); ?>
+        <?php print render($page['content']); ?>
+      </div>
     </div>
     <!--/.main region -->
 
