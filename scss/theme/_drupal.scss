@@ -108,6 +108,7 @@
   }
   .user-picture {
     padding: 0;
+    width: 40px;
     margin-right: .3em;
     float:left;
   }
@@ -117,6 +118,11 @@
   }
   .timestamp {
   }
+}
+
+.view-recent-activity {
+  height: 200px;
+  overflow: auto;
 }
 
 // Idea Feature.
