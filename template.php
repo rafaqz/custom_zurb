@@ -193,8 +193,8 @@ function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
 // }
 
 /**
-* Implements template_preprocess_views_views_fields().
-*/
+ * Implements template_preprocess_views_views_fields().
+ */
 /* Delete me to enable
 function THEMENAME_preprocess_views_view_fields(&$variables) {
  if ($variables['view']->name == 'nodequeue_1') {
@@ -292,3 +292,33 @@ function custom_zurb_field__taxonomy_term_reference($variables) {
 }
 
 
+/**
+ * Implements menu_local_task();
+ *
+ * Tabs in contextual links.
+ */
+function custom_zurb_menu_local_task($variables) {
+  $link = $variables['element']['#link'];
+  $link['localized_options']['html'] = TRUE;
+  return '<li>'.l($link['title'], $link['href'], $link['localized_options']).'</li>'."\n";
+}
+
+/**
+ * Implements menu_local_tasks();
+ *
+ * Tabs in contextual links.
+ */
+function custom_zurb_menu_local_tasks($variables) {
+  $output = '';
+  if (!empty($variables['primary'])) {
+    $variables['primary']['#prefix'] = '<div class="contextual-links-wrapper"><ul class="contextual-links">';
+    $variables['primary']['#suffix'] = '</ul></div>';
+    $output .= drupal_render($variables['primary']);
+  }
+  if (!empty($variables['secondary'])) {
+    $variables['secondary']['#prefix'] = '<ul class="tabs secondary clearfix">';
+    $variables['secondary']['#suffix'] = '</ul>';
+    $output .= drupal_render($variables['secondary']);
+  }
+  return $output;
+}
