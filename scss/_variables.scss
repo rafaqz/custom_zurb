@@ -85,11 +85,11 @@ $horizontal-spacer: emCalc(15);
 
 $default-float: left;
 
-// $body-bg: #fff;
-// $body-font-color: #222;
+$body-bg: #fff;
+$body-font-color: #222;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $body-font-weight: normal;
-// $body-font-style: normal;
+$body-font-weight: normal;
+$body-font-style: normal;
 
 // Font-smoothing
 
@@ -391,8 +391,8 @@ $small-font-size: 80%;
 // We use these to control button text styles.
 
 // $button-font-family: inherit;
-// $button-font-color: #fff;
-// $button-font-color-alt: #333;
+$button-font-color: #fff;
+$button-font-color-alt: #333;
 $button-font-med: emCalc(15);
 $button-font-tny: emCalc(11);
 $button-font-sml: emCalc(13);
