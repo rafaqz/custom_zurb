@@ -27,6 +27,13 @@
   }
 }
 
+div.user-picture {
+  padding: 0;
+  margin-right: .3em;
+  float:left;
+}
+
+
 // Bullets and numbering for wysiwyg
 .cke_editable,
 .body.field {
@@ -99,7 +106,6 @@
 }
 
 // Message Feature.
-
 .message {
   font-size: $small-font-size;
   margin-bottom: $vertical-spacer;
