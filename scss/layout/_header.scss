@@ -6,22 +6,27 @@
 //--------------------------------------------------
 .top-bar-section {
   .has-dropdown > a {
-    padding: 0 2em 0 1em !important;
+     padding: 0 2em 0 1em !important;
   }
 }
-.top-bar-section .left {}
+.top-bar-section .left {
+}
+
 .top-bar-section .right {
-  > li {
+  li {
     font-size: $small-font-size;
+    top: 5px;
+    position: relative;
   }
 }
 
 .top-bar {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   li.name h1 {
-    line-height: emCalc(45);
+    line-height: 2em;
   }
+  overflow: none;
 }
 
 .l-header-region {
@@ -29,7 +34,6 @@
 }
 
 .header-banner {
-
   .header-details {
     padding-top: $vertical-spacer;
     padding-bottom: $vertical-spacer;
@@ -110,4 +114,8 @@
       }
     }
   }
+}
+
+section.l-featured {
+  padding-top: $vertical-spacer;
 }
