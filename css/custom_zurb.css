@@ -7875,39 +7875,34 @@ section.l-featured {
   padding-top: 0.53333em;
 }
 
-/* line 5, ../scss/layout/_main.scss */
-.main {
-  overflow: auto;
-}
-
-/* line 13, ../scss/layout/_main.scss */
+/* line 11, ../scss/layout/_main.scss */
 article.node div.user-picture, article.node form.comment-form div.form-item, form.comment-form article.node div.form-item {
   float: left;
   margin-right: .5em;
 }
-/* line 18, ../scss/layout/_main.scss */
+/* line 16, ../scss/layout/_main.scss */
 article.node div.node-content {
   overflow: hidden;
   clear: none;
 }
-/* line 23, ../scss/layout/_main.scss */
+/* line 21, ../scss/layout/_main.scss */
 article.node .body p {
   margin-bottom: 0.26667em;
 }
 
-/* line 32, ../scss/layout/_main.scss */
+/* line 30, ../scss/layout/_main.scss */
 .field {
   margin-bottom: 0.53333em;
 }
 
-/* line 37, ../scss/layout/_main.scss */
+/* line 35, ../scss/layout/_main.scss */
 ul.links.inline {
   float: right;
   clear: both;
   font-size: 80%;
   margin-bottom: 0.26667em;
 }
-/* line 42, ../scss/layout/_main.scss */
+/* line 40, ../scss/layout/_main.scss */
 ul.links.inline li {
   display: inline;
   list-style-type: none;
@@ -7918,25 +7913,25 @@ ul.links.inline li {
   /*}*/
 }
 
-/* line 59, ../scss/layout/_main.scss */
+/* line 57, ../scss/layout/_main.scss */
 .comment {
   /*margin-bottom:1em;*/
 }
-/* line 62, ../scss/layout/_main.scss */
+/* line 60, ../scss/layout/_main.scss */
 .comment .user-picture img, .comment form.comment-form .form-item img, form.comment-form .comment .form-item img {
   width: 40px;
 }
-/* line 66, ../scss/layout/_main.scss */
+/* line 64, ../scss/layout/_main.scss */
 .comment .content {
   clear: right;
   overflow: hidden;
 }
 
-/* line 79, ../scss/layout/_main.scss */
+/* line 77, ../scss/layout/_main.scss */
 .posted span, .submitted span {
   font-size: 80%;
 }
-/* line 82, ../scss/layout/_main.scss */
+/* line 80, ../scss/layout/_main.scss */
 .posted a.username, .submitted a.username {
   border-right: 1px solid;
   padding: 0 .3em;
