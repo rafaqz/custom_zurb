@@ -168,3 +168,26 @@ span.flag-tag-filter {
   }
 }
 
+// Knowledge Feature.
+form .field-name-field-ko-ref {
+  div.entityconnect-add {
+    height: auto;
+    padding: 5px 0;
+  }
+  button {
+    @extend .small;
+    @extend .secondary;
+  }
+  select,
+  div {
+    clear: both;
+    width: 100%;
+    /*margin: auto;*/
+  }
+  span {
+    display: block;
+  }
+  form .field-name-field-ko-file .tabledrag-toggle-weight-wrapper {
+    display: none;
+  }
+}
