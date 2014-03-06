@@ -235,8 +235,9 @@
     <?php endif; ?>
 
     <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
+      <div class="copyleft large-12 columns">
+        <img src="<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
+        <?php print date('Y') . ' ' . check_plain($site_name)?> <a href="https://creativecommons.org/licenses/by-sa/3.0/"> <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?></a>
       </div>
     <?php endif; ?>
   </footer>
