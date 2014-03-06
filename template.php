@@ -22,29 +22,25 @@ function custom_zurb_preprocess_page(&$variables) {
   $variables['top_bar_groups'] = '';
   if ($group_links = collabco_groups_feature_build_user_groups_list()) {
     $group_menu = array(
+      'links' => array(
       array(
         '#theme' => 'link',
         '#localized_options' => array(),
-        '#attributes' => array(),
         '#title' => 'My Groups (' . count($group_links['#items']) . ')', 
-        '#href' => '<nolink>',
+        '#options' => array(
+          'html' => TRUE,
+        ),
+        '#href' => '#',
         '#below' => $group_links['#items'],
+        ),
+      ),
+      'attributes' => array(
+        'id'    => 'user-groups-menu',
+        'class' => array('secondary', 'link-list'),
       ),
     );
-    if (!empty($group_menu)) {
-      $variables['top_bar_groups'] = theme('links__topbar_groups', array(
-        'links' => $group_menu,
-        'attributes' => array(
-          'id'    => 'user-groups-menu',
-          'class' => array('secondary', 'link-list'),
-        ),
-        'heading' => array(
-          'text' => t('Groups'),
-          'level' => 'h2',
-          'class' => array('element-invisible'),
-        ),
-      ));
-    }
+    $rendered_menu = theme('links__topbar_groups', $group_menu); 
+    $variables['top_bar_groups'] = $rendered_menu;
   }
   // Remove user picture on profile page.
   if (arg(0) == "user" || arg(0) == "users") {
