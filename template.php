@@ -314,8 +314,8 @@ function custom_zurb_menu_local_task($variables) {
 function custom_zurb_menu_local_tasks($variables) {
   $output = '';
   if (!empty($variables['primary'])) {
-    $variables['primary']['#prefix'] = '<div class="contextual-links-wrapper"><ul class="contextual-links">';
-    $variables['primary']['#suffix'] = '</ul></div>';
+    $variables['primary']['#prefix'] = '<ul class="contextual-links">';
+    $variables['primary']['#suffix'] = '</ul>';
     $output .= drupal_render($variables['primary']);
   }
   if (!empty($variables['secondary'])) {
