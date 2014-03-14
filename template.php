@@ -19,6 +19,7 @@
 function custom_zurb_preprocess_page(&$variables) {
   // Alter group menu for top bar. Its a bit hacky would be better to place a
   // block region in the top bar, but the zurb top bar is fickle...
+  global $user;
   $variables['top_bar_groups'] = '';
   if ($group_links = collabco_groups_feature_build_user_groups_list()) {
     $group_menu = array(
@@ -30,7 +31,7 @@ function custom_zurb_preprocess_page(&$variables) {
         '#options' => array(
           'html' => TRUE,
         ),
-        '#href' => '#',
+        '#href' => "user/$user->uid/groups",
         '#below' => $group_links['#items'],
         ),
       ),
