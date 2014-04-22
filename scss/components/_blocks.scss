@@ -1,6 +1,11 @@
 // Blocks
 .block {}
-.block-title {}
+.block-title {
+  color: $success-color;
+  a {
+    color: $success-color;
+  }
+}
 .block-content {}
 
 // Drupal sytem blocks:
