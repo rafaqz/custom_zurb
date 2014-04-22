@@ -72,6 +72,7 @@ ul.links.inline {
 
 // Node and comment submitted/posted string.
 .posted, .submitted {
+  color: $success-color;
   span {
     font-size: $small-font-size;
   }
