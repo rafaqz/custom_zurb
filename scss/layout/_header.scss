@@ -4,6 +4,16 @@
 
 // Top Bar
 //--------------------------------------------------
+.top-bar {
+  text-transform:uppercase;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  /*margin-bottom: 0;*/
+  li.name h1 {
+    line-height: 2em;
+  }
+  overflow: none;
+}
+
 .top-bar-section {
   .has-dropdown > a {
      padding: 0 2em 0 1em !important;
@@ -20,100 +30,7 @@
   }
 }
 
-.top-bar {
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  /*margin-bottom: 0;*/
-  li.name h1 {
-    line-height: 2em;
-  }
-  overflow: none;
-}
-
 .l-header-region {
-  background-color: $header-background;
-}
-
-.header-banner {
-  .header-details {
-    padding-top: $vertical-spacer;
-    padding-bottom: $vertical-spacer;
-    @extend .row;
-    h1 {
-      display: inline;
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-    
-    img {
-      margin-right: $horizontal-spacer;
-    }
-
-    .header-details-side {
-      @extend .columns;
-      @extend .large-3;
-      @extend .small-3;
-    }
-
-    .header-details-main {
-      @extend .columns;
-      @extend .large-9;
-      @extend .small-9;
-    }
-
-    .privacy-status {
-      @extend .label;
-      font-size: $small-font-size;
-      background-color: $success-color; 
-      margin-left: $horizontal-spacer;
-      display: inline;
-      top: emCalc(-7px);
-    }
-    .field-name-group-group {
-      padding-top: 2em;
-      font-size: $small-font-size;
-
-      a {
-        @extend .button;
-      }
-    }
-  }
-
-  .header-content-tab {
-    background-color: $header-bar-background;
-    width: 100%;
-    margin-bottom: 1em;
-
-    .item-list {
-      @extend .row;
-
-      ul {
-        padding-top: .3em;
-        margin: 1em;
-        list-style: none;
-
-        li {
-          display: inline;
-
-          a {
-            padding: 1em;
-            color: #7d929a;
-          }
-
-          a:hover {
-            background: #464646;
-            color: #fff;
-          }
-        }
-
-        li.active > a {
-          color: #464646;
-          background: #fff;
-        }
-      }
-    }
-  }
 }
 
 section.l-featured {
