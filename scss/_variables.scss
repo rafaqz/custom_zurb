@@ -70,12 +70,14 @@ $em-base: 15 !default;
 
 // Custom Variables
 // ------------------------------------------------------
-$comment-pic-width: 40px;
-$header-background: #F4EBE6;//darken($header-background, 15%);
-$header-bar-background: #393939;
+$header-background: #414042;
+$header-bar-background: #E5E6E7;
+$main-stripe-color: #FAAF40;
 
 $vertical-spacer: emCalc(8);
 $horizontal-spacer: emCalc(15);
+
+$comment-pic-width: 40px;
 
 
 // Change whether or not you include browser prefixes
@@ -101,10 +103,10 @@ $body-font-style: normal;
 
 // Colors
 
-$primary-color: #afbda2;
+$primary-color: #31B5D5;
 $secondary-color: #e9e9e9;
 $alert-color: #c60f13;
-$success-color: #874646;
+$success-color: #94403E;
 
 // Make sure border radius matches unless we want it different.
 
@@ -1268,7 +1270,7 @@ $button-font-lrg: emCalc(18);
 
 // Background color for the top bar
 
-$topbar-bg: #fff;
+$topbar-bg: $main-stripe-color;
 
 // Height and margin
 
@@ -1286,18 +1288,18 @@ $topbar-title-font-size: emCalc(15);
 
 // Style the top bar dropdown elements
 
-$topbar-dropdown-bg: #fff;
-$topbar-dropdown-link-color: #393939;
+$topbar-dropdown-bg: $main-stripe-color;
+/*$topbar-dropdown-link-color: #393939;*/
 $topbar-dropdown-link-bg: darken($topbar-bg, 5%);
 $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: #222;
+/*$topbar-dropdown-toggle-color: #222;*/
 $topbar-dropdown-toggle-alpha: 0.5;
 
 // Set the link colors and styles for top-level nav
 
-$topbar-link-color: #393939;
-$topbar-link-color-hover: #222;
-$topbar-link-color-active: #222;
+$topbar-link-color: #fff;
+/*$topbar-link-color-hover: #222;*/
+/*$topbar-link-color-active: #222;*/
 $topbar-link-weight: bold;
 $topbar-link-font-size: emCalc(13);
 $topbar-link-hover-lightness: -30%; // Darken by 30%
