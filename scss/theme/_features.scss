@@ -3,24 +3,20 @@
 
 .social-share { 
   
-  float: right;
-  width: 72px;
-  position: relative;
-  margin-bottom: emCalc(15);
+  float: left;
+  width: 100px;
 
   a {
     // Ugly absolute positioning to keep them behaved...
-    position:absolute;
+    padding-left: 30px;
+    width: 0px;
     top: 0px;
-    height: 19px;                        /* be sure to set height & width */
-    width: 0;
+    height: 20px;                        /* be sure to set height & width */
     display: inline-block;
     overflow: hidden;
   }
   
   a.social-share-facebook {
-    left: 0px;
-    padding-left: 12px;
     background: url(../images/facebook.png) no-repeat;
     &:hover {
       background: url(../images/facebook-hover.png) no-repeat;
@@ -28,8 +24,6 @@
   }
 
   a.social-share-googleplus {
-    left: 25px;
-    padding-left: 20px;
     background: url(../images/googleplus.png) no-repeat;
     &:hover {
       background: url(../images/googleplus-hover.png) no-repeat;
@@ -37,9 +31,6 @@
   }
 
   a.social-share-twitter {
-    left: 54px;
-    top: 2px;
-    padding-left: 18px;
     background: url(../images/twitter.png) no-repeat;
     &:hover {
       background: url(../images/twitter-hover.png) no-repeat;
@@ -191,3 +182,215 @@ form .field-name-field-ko-ref {
     display: none;
   }
 }
+
+// Front Icons Feature
+.view-front-icons {
+  margin-top: emCalc(30);
+  @extend %divider-bottom;
+
+  .view-content {
+    @extend .row;
+  }
+  .views-row {
+    text-align: center;
+    @extend .columns;
+    @extend .large-4;
+  }
+  .views-field-title { 
+    margin: emCalc(35);
+    a {
+      color: $success-color;
+      text-transform: uppercase;
+    }
+  }
+  .views-field-field-fi-slogan { 
+    margin: emCalc(35);
+  }
+}
+
+// Header Feature
+
+.header-banner {
+  background-color: $header-background;
+  color: $topbar-link-color;
+
+  a {
+    color: $topbar-link-color;
+  }
+  .header-details {
+    padding-top: $vertical-spacer;
+    padding-bottom: $vertical-spacer;
+    @extend .row;
+    h1 {
+      display: inline;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+    
+    img {
+      margin-right: $horizontal-spacer;
+    }
+
+    .header-details-side {
+      @extend .columns;
+      @extend .large-3;
+      @extend .small-3;
+    }
+
+    .header-details-main {
+      @extend .columns;
+      @extend .large-9;
+      @extend .small-9;
+    }
+
+    .privacy-status {
+      @extend .label;
+      font-size: $small-font-size;
+      background-color: $success-color; 
+      margin-left: $horizontal-spacer;
+      display: inline;
+    }
+
+    .field-name-group-group {
+      padding-top: 2em;
+      font-size: $small-font-size;
+
+      a {
+        @extend .button;
+      }
+    }
+
+    .member-count {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .header-content-tab {
+    background-color: $header-bar-background;
+    padding-top: emCalc(16);
+    .item-list {
+      @extend .row;
+
+      ul {
+        list-style: none;
+        margin: 0;
+
+        li {
+          display: inline;
+          padding: emCalc(8);
+          a {
+            text-transform: uppercase;
+            padding-left: 30px;
+            height: 30px;
+            color: $body-font-color;
+            font-weight: bold;
+          }
+          .home {
+            background: url(../images/home.png) no-repeat;
+          }
+          .conversations {
+            background: url(../images/conversations.png) no-repeat;
+          }
+          .library {
+            background: url(../images/library.png) no-repeat;
+          }
+          .ideas {
+            background: url(../images/ideas.png) no-repeat;
+          }
+          .wikis {
+            background: url(../images/wikis.png) no-repeat;
+          }
+        }
+
+        li.active {
+          border-radius: 8px 8px 0 0;
+          background: $body-bg;
+        }
+      }
+    }
+  }
+}
+
+$footer-banner-color: #78797C;
+.footer-banner {
+  padding: 10px;
+  background-color: $header-background;
+  color: $footer-banner-color;
+  a {
+    color: $footer-banner-color;
+  }
+  .footer-details {
+    @extend .row;
+    span {
+      @extend .columns;
+      @extend .large-6;
+    }
+  }
+}  
+
+// Profile Feature
+
+#profile-nav-wrapper {
+  .profile-nav {
+    background-color: $body-bg;
+    padding: emCalc(12);
+  }
+  .user-picture a {
+    background-color: $body-bg;
+  }
+  .item-list {
+    clear: both;
+  }
+  .profile-nav-actions {
+    background: $secondary-color;
+    a {
+      background: $secondary-color;
+      color: $primary-color;
+    }
+  }
+}
+
+#site-banner {
+  background: $topbar-bg;
+
+  #site-banner-details {
+    @extend .row;
+  }
+  h1 { 
+    font-size: 48px;
+    text-transform:uppercase;
+    color: $topbar-link-color;
+  }
+  h2 { 
+    color: $topbar-link-color;
+  }
+}
+
+#site-banner-learn-more {
+  @extend .button;
+}
+
+.block-menu-block {
+  background: $main-stripe-color;
+  li {
+    list-style:none;
+  }
+  a {
+    color: $body-bg;
+  }
+  > div > ul {
+    @extend .row;
+
+    > li {
+      @extend .column;
+      @extend .large-3;
+      > a {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
