@@ -93,6 +93,18 @@
     <!--/.l-featured -->
   <?php endif; ?>
 
+  <?php if ($show_title): ?>
+    <?php if ($title && !$is_front): ?>
+      <section class="title-region" >
+        <div class="row">
+          <?php print render($title_prefix); ?>
+            <h1 id="page-title" class="title"><?php print $title; ?></h1>
+          <?php print render($title_suffix); ?>
+        </div>
+      </section>
+    <?php endif; ?>
+  <?php endif; ?>
+
   <?php if ($messages && !$zurb_foundation_messages_modal): ?>
     <!--/.l-messages -->
     <section class="l-messages row">
@@ -126,14 +138,6 @@
       <?php /*if ($breadcrumb): print $breadcrumb; endif; */ ?>
 
       <div role="content" class="contextual-links-region">
-
-        <?php if ($show_title): ?>
-          <?php if ($title && !$is_front): ?>
-            <?php print render($title_prefix); ?>
-            <h1 id="page-title" class="title"><?php print $title; ?></h1>
-            <?php print render($title_suffix); ?>
-          <?php endif; ?>
-        <?php endif; ?>
 
         <?php if (!empty($tabs)): ?>
           <?php print render($tabs); ?>
@@ -234,10 +238,18 @@
       </div>
     <?php endif; ?>
 
-    <?php if ($site_name) :?>
-      <div class="copyleft large-12 columns">
-        <img src="/<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
-        <?php print date('Y') . ' ' . $site_name?> <a href="https://creativecommons.org/licenses/by-sa/3.0/"> <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?></a>
+    <?php if ($linked_site_name) :?>
+      <div class="site-info-wrapper">
+        <div class="site-info-region">
+          <div class="site-info">
+            <?php print $linked_site_name?> 
+            <a class="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/"> 
+              <img src="/<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
+              <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?>
+              <?php print ' ' . date('Y') . ' '?> 
+            </a>
+          </div>
+        </div>
       </div>
     <?php endif; ?>
   </footer>
