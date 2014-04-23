@@ -227,9 +227,9 @@
   <?php endif; ?>
 
   <!--.l-footer-->
-  <footer class="l-footer panel row" role="contentinfo">
+  <footer class="l-footer" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12 columns">
+      <div class="footer">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
@@ -237,7 +237,7 @@
     <?php if ($site_name) :?>
       <div class="copyleft large-12 columns">
         <img src="/<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
-        <?php print date('Y') . ' ' . check_plain($site_name)?> <a href="https://creativecommons.org/licenses/by-sa/3.0/"> <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?></a>
+        <?php print date('Y') . ' ' . $site_name?> <a href="https://creativecommons.org/licenses/by-sa/3.0/"> <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?></a>
       </div>
     <?php endif; ?>
   </footer>
