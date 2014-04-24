@@ -3,6 +3,7 @@
 .l-sidebar {}
 
 .sidebar {
+  margin-top: $vertical-spacer;
   @extend %divider-left;
 
   section.block {

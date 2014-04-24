@@ -39,24 +39,3 @@ ul.button-group {
   }
 }
 
-// Idea feature.
-
-.flag-idea-vote {
-  a {
-    @extend .button;
-    @extend .small;
-    @extend .success;
-    @extend .radius;
-  }
-  a.unflag-action {
-    @extend .secondary;
-  }
-}
-
-// Featured feature.
-
-.flag-featured.flag-edit {
-  @extend .button;
-  @extend .small;
-  @extend .secondary;
-}

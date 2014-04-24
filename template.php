@@ -20,29 +20,27 @@ function custom_zurb_preprocess_page(&$variables) {
   // Alter group menu for top bar. Its a bit hacky would be better to place a
   // block region in the top bar, but the zurb top bar is fickle...
   global $user;
+  global $base_url;
   $variables['top_bar_groups'] = '';
-  if ($group_links = collabco_groups_feature_build_user_groups_list()) {
-    $group_menu = array(
-      'links' => array(
-      array(
-        '#theme' => 'link',
-        '#localized_options' => array(),
-        '#title' => 'My Groups (' . count($group_links['#items']) . ')', 
-        '#options' => array(
-          'html' => TRUE,
-        ),
-        '#href' => "user/$user->uid/groups",
-        '#below' => $group_links['#items'],
-        ),
-      ),
-      'attributes' => array(
-        'id'    => 'user-groups-menu',
-        'class' => array('secondary', 'link-list'),
-      ),
-    );
-    $rendered_menu = theme('links__topbar_groups', $group_menu); 
-    $variables['top_bar_groups'] = $rendered_menu;
+  if ($block = module_invoke('collabco_profile_feature', 'block_view', 'profile_nav')) {
+    $variables['top_bar_groups'] = '
+    <ul id="profile-nav-wrapper" class="secondary link-list right">
+      <li class="last expanded has-dropdown not-click" title="">
+        <a href="/drupal/user" title="">My Account</a>
+        <ul class="dropdown">
+          <li class="first last leaf" title="">' . render($block) . '</li>
+        </ul>
+      </li>
+    </ul>';
   }
+
+  // Rebuild linked_site_name without using l function as it kills html.
+  $variables['linked_site_name'] = '';
+  $title = strip_tags($variables['site_name']) . ' ' . t('Home');
+  if (!empty($variables['site_name'])) {
+    $variables['linked_site_name'] = "<a href='{$base_url}' rel='home' title='{$title}'>{$variables['site_name']}</a>";
+  }
+
   // Remove user picture on profile page.
   if (arg(0) == "user" || arg(0) == "users") {
     unset ($variables['page']['content']['system_main']['user_picture']);

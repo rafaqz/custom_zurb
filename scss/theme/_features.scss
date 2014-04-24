@@ -1,5 +1,7 @@
 
+//////////////////////////////////////////////////////////////////
 // Share Feature.
+//////////////////////////////////////////////////////////////////
 
 .social-share { 
   
@@ -7,7 +9,6 @@
   width: 100px;
 
   a {
-    // Ugly absolute positioning to keep them behaved...
     padding-left: 30px;
     width: 0px;
     top: 0px;
@@ -38,7 +39,9 @@
   }
 }
 
+//////////////////////////////////////////////////////////////////
 // Groups Feature.
+//////////////////////////////////////////////////////////////////
 
 .view-group-users {
   .views-row {
@@ -53,7 +56,10 @@
   list-style-type: none;
 }
 
+//////////////////////////////////////////////////////////////////
 // Message Feature.
+//////////////////////////////////////////////////////////////////
+
 .message {
   font-size: $small-font-size;
   margin-bottom: $vertical-spacer;
@@ -75,11 +81,13 @@
 }
 
 .view-recent-activity {
-  height: 200px;
+  max-height: 300px;
   overflow: auto;
 }
 
+//////////////////////////////////////////////////////////////////
 // Idea Feature.
+//////////////////////////////////////////////////////////////////
 
 article.node-idea {
   .flag-outer.flag-outer-idea-vote {
@@ -105,7 +113,9 @@ article.node-idea.node-teaser {
   }
 }
 
+//////////////////////////////////////////////////////////////////
 // Wiki Feature. 
+//////////////////////////////////////////////////////////////////
 
 .block-book-explorer {
   .book-explorer {
@@ -159,7 +169,11 @@ span.flag-tag-filter {
   }
 }
 
+//////////////////////////////////////////////////////////////////
 // Knowledge Feature.
+//////////////////////////////////////////////////////////////////
+
+// Form styling.
 form .field-name-field-ko-ref {
   div.entityconnect-add {
     height: auto;
@@ -183,7 +197,16 @@ form .field-name-field-ko-ref {
   }
 }
 
+// Display styling.
+.field-name-field-ko-file .file {
+  display: block;
+  margin-bottom: emCalc(12px);
+}
+
+//////////////////////////////////////////////////////////////////
 // Front Icons Feature
+//////////////////////////////////////////////////////////////////
+
 .view-front-icons {
   margin-top: emCalc(30);
   @extend %divider-bottom;
@@ -208,21 +231,23 @@ form .field-name-field-ko-ref {
   }
 }
 
+//////////////////////////////////////////////////////////////////
 // Header Feature
+//////////////////////////////////////////////////////////////////
 
 .header-banner {
-  background-color: $header-background;
+  background-color: $header-bg;
   color: $topbar-link-color;
 
   a {
     color: $topbar-link-color;
   }
   .header-details {
-    padding-top: $vertical-spacer;
-    padding-bottom: $vertical-spacer;
+    @extend %banner-padding;
     @extend .row;
     h1 {
       display: inline;
+      color: $topbar-link-color;
     }
 
     p {
@@ -233,16 +258,22 @@ form .field-name-field-ko-ref {
       margin-right: $horizontal-spacer;
     }
 
-    .header-details-side {
+    .header-details-image {
       @extend .columns;
-      @extend .large-3;
+      @extend .large-2;
       @extend .small-3;
     }
 
     .header-details-main {
       @extend .columns;
-      @extend .large-9;
+      @extend .large-7;
       @extend .small-9;
+    }
+
+    .header-details-side {
+      @extend .columns;
+      @extend .large-3;
+      @extend .small-6;
     }
 
     .privacy-status {
@@ -259,6 +290,7 @@ form .field-name-field-ko-ref {
 
       a {
         @extend .button;
+        @extend .radius;
       }
     }
 
@@ -269,45 +301,45 @@ form .field-name-field-ko-ref {
   }
 
   .header-content-tab {
-    background-color: $header-bar-background;
-    padding-top: emCalc(16);
+    background-color: $header-bar-bg;
+    padding-top: emCalc(12);
     .item-list {
       @extend .row;
 
       ul {
         list-style: none;
-        margin: 0;
+        padding-top: 10px;
 
         li {
+          margin: 0;
           display: inline;
-          padding: emCalc(8);
+          padding: emCalc(20);
           a {
             text-transform: uppercase;
-            padding-left: 30px;
-            height: 30px;
+            padding: 8px 0 8px 40px;
             color: $body-font-color;
             font-weight: bold;
           }
-          .home {
-            background: url(../images/home.png) no-repeat;
-          }
-          .conversations {
-            background: url(../images/conversations.png) no-repeat;
-          }
-          .library {
-            background: url(../images/library.png) no-repeat;
-          }
-          .ideas {
-            background: url(../images/ideas.png) no-repeat;
-          }
-          .wikis {
-            background: url(../images/wikis.png) no-repeat;
-          }
+        }
+        .home a,.profile a {
+          background: url(../images/home.png) no-repeat;
+        }
+        .conversations a {
+          background: url(../images/conversations.png) no-repeat;
+        }
+        .library a {
+          background: url(../images/library.png) no-repeat;
+        }
+        .ideas a {
+          background: url(../images/ideas.png) no-repeat;
+        }
+        .wikis a {
+          background: url(../images/wikis.png) no-repeat;
         }
 
         li.active {
           border-radius: 8px 8px 0 0;
-          background: $body-bg;
+          background-color: $body-bg;
         }
       }
     }
@@ -316,8 +348,8 @@ form .field-name-field-ko-ref {
 
 $footer-banner-color: #78797C;
 .footer-banner {
-  padding: 10px;
-  background-color: $header-background;
+  @extend %banner-padding-small;
+  background-color: $header-bg;
   color: $footer-banner-color;
   a {
     color: $footer-banner-color;
@@ -331,56 +363,90 @@ $footer-banner-color: #78797C;
   }
 }  
 
+//////////////////////////////////////////////////////////////////
 // Profile Feature
+//////////////////////////////////////////////////////////////////
 
 #profile-nav-wrapper {
   .profile-nav {
-    background-color: $body-bg;
-    padding: emCalc(12);
-  }
-  .user-picture a {
-    background-color: $body-bg;
-  }
-  .item-list {
-    clear: both;
-  }
-  .profile-nav-actions {
-    background: $secondary-color;
+    border: $divider; 
+    text-transform: none;
     a {
-      background: $secondary-color;
+      background: none;
       color: $primary-color;
+      padding: 0;
+      margin-bottom: emCalc(3px);
+    }
+    li {
+      float: none;
+    }
+    .profile-nav-info {
+      padding: emCalc(14);
+      background-color: $body-bg;
+      min-width: emCalc(200);
+      .profile-nav-account {
+        margin-bottom: emCalc(10);
+        .user-picture {
+          margin-right: 10px;
+          a {
+            background-color: $body-bg;
+          }
+        }
+        .profile-nav-account-text {
+          overflow: hidden;
+        }
+        .profile-nav-roles {
+          font-size: $small-font-size;
+        }
+      }
+
+      .profile-nav-groups {
+        @extend .row; 
+        ul {
+          background: none;
+        }
+        li {
+          @extend .columns;
+          @extend .large-12;
+          @extend .small-6;
+          margin-top: emCalc(6);
+        }
+        display: block;
+        clear: both;
+      }
+    }
+    .profile-nav-actions {
+      background: $secondary-color;
+      border-top: $divider; 
+      position: relative;
+      height: emCalc(40);
+      a {
+        padding: emCalc(14);
+        font-weight: bold;
+        position:absolute;
+      }
+      a.profile-nav-logout {
+        right: 0px;
+      }
     }
   }
 }
 
-#site-banner {
-  background: $topbar-bg;
-
-  #site-banner-details {
-    @extend .row;
-  }
-  h1 { 
-    font-size: 48px;
-    text-transform:uppercase;
-    color: $topbar-link-color;
-  }
-  h2 { 
-    color: $topbar-link-color;
-  }
-}
-
-#site-banner-learn-more {
-  @extend .button;
-}
-
 .block-menu-block {
-  background: $main-stripe-color;
+  @extend %banner-padding-small;
+  background: $main-stripe-bg;
   li {
     list-style:none;
   }
+  ul {
+    margin: 0; 
+  }
+  // Font styling
   a {
     color: $body-bg;
+    font-size: $large-font-size;
   }
+  // Columns for each 1st level menu item.
   > div > ul {
     @extend .row;
 
@@ -394,3 +460,28 @@ $footer-banner-color: #78797C;
   }
 }
 
+//////////////////////////////////////////////////////////////////
+// Idea feature.
+//////////////////////////////////////////////////////////////////
+
+.flag-idea-vote {
+  a {
+    @extend .button;
+    @extend .small;
+    @extend .success;
+    @extend .radius;
+  }
+  a.unflag-action {
+    @extend .secondary;
+  }
+}
+
+//////////////////////////////////////////////////////////////////
+// Featured feature.
+//////////////////////////////////////////////////////////////////
+
+.flag-featured.flag-edit {
+  @extend .button;
+  @extend .small;
+  @extend .secondary;
+}

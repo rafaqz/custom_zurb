@@ -28,7 +28,7 @@
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
-$base-font-size: 93.75% !default;
+$base-font-size: 100% !default;
 
 // $base-line-height is 24px while $base-font-size is 16px
 // $base-line-height: 150%;
@@ -38,7 +38,7 @@ $base-font-size: 93.75% !default;
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be a different size and not have it effect grid size too,
 // set the value of $em-base to $base-font-size ($em-base: $base-font-size;)
-$em-base: 15 !default;
+$em-base: 16 !default;
 
 // It strips the unit of measure and returns it
 @function strip-unit($num) {
@@ -70,14 +70,16 @@ $em-base: 15 !default;
 
 // Custom Variables
 // ------------------------------------------------------
-$header-background: #414042;
-$header-bar-background: #E5E6E7;
-$main-stripe-color: #FAAF40;
+$header-bg: #414042;
+$header-bar-bg: #E5E6E7;
+$main-stripe-bg: #FAAF40;
 
 $vertical-spacer: emCalc(8);
 $horizontal-spacer: emCalc(15);
 
 $comment-pic-width: 40px;
+$large-font-size: 115%;
+$alt-font-color: #fff;
 
 
 // Change whether or not you include browser prefixes
@@ -1270,11 +1272,11 @@ $button-font-lrg: emCalc(18);
 
 // Background color for the top bar
 
-$topbar-bg: $main-stripe-color;
+$topbar-bg: $main-stripe-bg;
 
 // Height and margin
 
-$topbar-height: emCalc(35);
+$topbar-height: emCalc(40);
 $topbar-margin-bottom: emCalc(0);
 
 // Control Input height for top bar
@@ -1284,12 +1286,12 @@ $topbar-margin-bottom: emCalc(0);
 // Controlling the styles for the title in the top bar
 
 $topbar-title-weight: normal;
-$topbar-title-font-size: emCalc(15);
+$topbar-title-font-size: emCalc(16);
 
 // Style the top bar dropdown elements
 
-$topbar-dropdown-bg: $main-stripe-color;
-/*$topbar-dropdown-link-color: #393939;*/
+$topbar-dropdown-bg: $main-stripe-bg;
+$topbar-dropdown-link-color: $alt-font-color;
 $topbar-dropdown-link-bg: darken($topbar-bg, 5%);
 $topbar-dropdown-toggle-size: 5px;
 /*$topbar-dropdown-toggle-color: #222;*/
@@ -1297,11 +1299,11 @@ $topbar-dropdown-toggle-alpha: 0.5;
 
 // Set the link colors and styles for top-level nav
 
-$topbar-link-color: #fff;
+$topbar-link-color: $alt-font-color;
 /*$topbar-link-color-hover: #222;*/
 /*$topbar-link-color-active: #222;*/
 $topbar-link-weight: bold;
-$topbar-link-font-size: emCalc(13);
+$topbar-link-font-size: emCalc(15);
 $topbar-link-hover-lightness: -30%; // Darken by 30%
 $topbar-link-bg-hover: lighten($topbar-bg, 5%);
 $topbar-link-bg-active: lighten($topbar-bg, 3%);
@@ -1309,11 +1311,11 @@ $topbar-link-bg-active: lighten($topbar-bg, 3%);
 $topbar-dropdown-label-color: #555;
 $topbar-dropdown-label-text-transform: uppercase;
 $topbar-dropdown-label-font-weight: bold;
-$topbar-dropdown-label-font-size: emCalc(10);
+$topbar-dropdown-label-font-size: emCalc(14);
 
 // Top menu icon styles
 
-// $topbar-menu-link-transform: uppercase;
+ $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: emCalc(13);
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
@@ -1324,8 +1326,8 @@ $topbar-dropdown-label-font-size: emCalc(10);
 // Transitions and breakpoint styles
 
 // $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: emCalc(940); // Change to 9999px for always mobile layout
-// $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
+$topbar-breakpoint: emCalc(768); // Change to 9999px for always mobile layout
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles
 

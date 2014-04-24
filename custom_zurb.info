@@ -84,6 +84,7 @@ regions[sidebar_first]       = Left Sidebar
 regions[sidebar_second]      = Right Sidebar
 regions[split_first]         = Left Split
 regions[split_second]        = Right Split
+regions[banner-lower]        = Banner Lower
 regions[triptych_first]      = Callout one
 regions[triptych_middle]     = Callout two
 regions[triptych_last]       = Callout three

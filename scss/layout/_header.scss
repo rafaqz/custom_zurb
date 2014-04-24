@@ -6,12 +6,10 @@
 //--------------------------------------------------
 .top-bar {
   text-transform:uppercase;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  /*margin-bottom: 0;*/
   li.name h1 {
-    line-height: 2em;
+    /*line-height: 2em;*/
   }
-  overflow: none;
+  /*overflow: none;*/
 }
 
 .top-bar-section {
@@ -23,16 +21,83 @@
 }
 
 .top-bar-section .right {
-  li {
-    font-size: $small-font-size;
-    top: 5px;
-    position: relative;
-  }
 }
 
 .l-header-region {
+  margin-bottom: emCalc(10);
 }
 
 section.l-featured {
   padding-top: $vertical-spacer;
 }
+
+.title-region {
+  background: $success-color;
+  @extend %banner-padding;
+  .title {
+    @extend .column;
+    @extend .large-12;
+    color: $alt-font-color;
+  }
+}
+
+section.join-mail {
+  background: $success-color;
+  @extend %banner-padding-small;
+  .join-label { 
+    text-align: right;
+    @extend .columns;
+    @extend .large-10;
+    @extend .small-9;
+    font-size: $large-font-size;
+    color: $alt-font-color;
+    padding-top: emCalc(8);
+    padding-right: emCalc(8);
+  }
+  .join-link-wrapper {
+    @extend .columns;
+    @extend .large-2;
+    @extend .small-3;
+    .join-link {
+      @extend .button;
+      @extend .small;
+      @extend .radius;
+      float: right;
+      margin: 0;
+    }
+  }
+}
+
+section.join-mail.bottom {
+  background: #FCCA81;
+  span { 
+    color: $success-color;
+  }
+}
+
+.site-banner {
+  background: url(../images/banner-image.png) no-repeat left bottom;
+  background-color: $topbar-bg; 
+  background-size: 25%;
+  padding-top: emCalc(40);
+  .site-banner-text {
+    a {
+      color: $alt-font-color;
+    }
+    .site-name { 
+      text-transform: uppercase;
+      font-size: $large-font-size;
+    }
+    .site-slogan {
+      color: $success-color;
+    }
+    .site-learn-more {
+      a {
+        @extend .button;
+        @extend .radius;
+        float: right;
+      }
+    }
+  }
+}
+

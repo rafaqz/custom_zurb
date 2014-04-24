@@ -33,41 +33,50 @@
     <?php endif; ?>
 
     <!-- Title, slogan and menu -->
-    <?php if ($alt_header): ?>
-    <section class="<?php print $alt_header_classes; ?>">
+    <?php if ($is_front || $alt_header): ?>
+    <section class="site-banner <?php if (!empty($alt_header_classes)) { print $alt_header_classes;} ?>">
+      <div class="row">
+        <div class="site-logo columns large-2 large-offset-3 small-3 small-offset-3">
+          <?php if ($linked_logo): print $linked_logo; endif; ?>
+        </div>
+        <div class="site-banner-details columns large-7 small-6">
+          <div class="site-banner-text">
+            <?php if ($site_name): ?>
+              <?php if ($title): ?>
+                <div id="site-name" class="element-invisible">
+                  <strong>
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                  </strong>
+                </div>
+              <?php else: /* Use h1 when the content title is empty */ ?>
+                <h1 id="site-name">
+                  <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                </h1>
+              <?php endif; ?>
+            <?php endif; ?>
 
-      <?php if ($linked_logo): print $linked_logo; endif; ?>
+            <?php if ($site_slogan): ?>
+              <h3 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h3>
+            <?php endif; ?>
 
-      <?php if ($site_name): ?>
-        <?php if ($title): ?>
-          <div id="site-name" class="element-invisible">
-            <strong>
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </strong>
+            <?php if ($site_slogan): ?>
+              <span class="site-learn-more"><a href="<?php global $base_url; print $base_url; ?>/about-us">Learn more</a></span>
+            <?php endif; ?>
+
+            <?php if (!$top_bar && $alt_main_menu): ?>
+              <nav id="main-menu" class="navigation" role="navigation">
+                <?php print ($alt_main_menu); ?>
+              </nav> <!-- /#main-menu -->
+            <?php endif; ?>
+
+            <?php if (!$top_bar && $alt_secondary_menu): ?>
+              <nav id="secondary-menu" class="navigation" role="navigation">
+                <?php print $alt_secondary_menu; ?>
+              </nav> <!-- /#secondary-menu -->
+            <?php endif; ?>
           </div>
-        <?php else: /* Use h1 when the content title is empty */ ?>
-          <h1 id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
-        <?php endif; ?>
-      <?php endif; ?>
-
-      <?php if ($site_slogan): ?>
-        <h2 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h2>
-      <?php endif; ?>
-
-      <?php if ($alt_main_menu): ?>
-        <nav id="main-menu" class="navigation" role="navigation">
-          <?php print ($alt_main_menu); ?>
-        </nav> <!-- /#main-menu -->
-      <?php endif; ?>
-
-      <?php if ($alt_secondary_menu): ?>
-        <nav id="secondary-menu" class="navigation" role="navigation">
-          <?php print $alt_secondary_menu; ?>
-        </nav> <!-- /#secondary-menu -->
-      <?php endif; ?>
-
+        </div>
+      </div>
     </section>
     <?php endif; ?>
     <!-- End title, slogan and menu -->
@@ -83,14 +92,13 @@
   </header>
   <!--/.l-header -->
 
-  <?php if (!empty($page['featured'])): ?>
-    <!--/.featured -->
-    <section class="l-featured row">
-      <div class="large-12 columns">
-        <?php print render($page['featured']); ?>
+  <?php if ($is_front): ?>
+    <section class="join-mail top">
+      <div class="row">
+        <span class="join-label">Join the mailing list</span>
+        <span class="join-link-wrapper"><a class="join-link" href="http://somehwere">Register</a></span>
       </div>
     </section>
-    <!--/.l-featured -->
   <?php endif; ?>
 
   <?php if ($show_title): ?>
@@ -103,6 +111,17 @@
         </div>
       </section>
     <?php endif; ?>
+  <?php endif; ?>
+
+
+  <?php if (!empty($page['featured'])): ?>
+    <!--/.featured -->
+    <section class="l-featured row">
+      <div class="large-12 columns">
+        <?php print render($page['featured']); ?>
+      </div>
+    </section>
+    <!--/.l-featured -->
   <?php endif; ?>
 
   <?php if ($messages && !$zurb_foundation_messages_modal): ?>
@@ -187,6 +206,17 @@
     <!--/.split -->
   <?php endif; ?>
 
+  <!--.banner-lower-->
+  <section class="l-banner-lower" role="contentinfo">
+    <?php if (!empty($page['banner-lower'])): ?>
+      <div class="banner-lower">
+        <?php print render($page['banner-lower']); ?>
+      </div>
+    <?php endif; ?>
+
+  </section>
+  <!--/.banner-lower-->
+
   <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
     <!--.triptych-->
     <section class="l-triptych row">
@@ -230,7 +260,18 @@
     <!--/.footer-columns-->
   <?php endif; ?>
 
-  <!--.l-footer-->
+  <?php if (!$is_front): ?>
+    <section class="join-mail bottom">
+      <div class="row">
+        <div class="large-12 columns">
+          <span class="join-label">Join the mailing list</span>
+          <span class="join-link-wrapper"><a class="join-link" href="http://somehwere">register</a></span>
+        </div>
+      </div>
+    </section>
+  <?php endif; ?>
+
+  <!--.footer-->
   <footer class="l-footer" role="contentinfo">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer">
@@ -240,15 +281,15 @@
 
     <?php if ($linked_site_name) :?>
       <div class="site-info-wrapper">
-        <div class="site-info-region">
-          <div class="site-info">
+        <div class="site-info">
+          <div class="site-name">
             <?php print $linked_site_name?> 
-            <a class="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/"> 
-              <img src="/<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
-              <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?>
-              <?php print ' ' . date('Y') . ' '?> 
-            </a>
           </div>
+          <a class="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/"> 
+            <img src="/<?php print path_to_theme() . '/images/cc.png'?>" width="32" height="32">
+            <?php print t('Creative Commons Attribution ShareAlike (CC-BY-SA 3.0) license'); ?>
+            <?php print ' ' . date('Y') . ' '?> 
+          </a>
         </div>
       </div>
     <?php endif; ?>

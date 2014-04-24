@@ -8,6 +8,9 @@
 
 
 $divider: 1px solid #dddddd;
+$banner-padding: emCalc(30);
+$banner-padding-small: emCalc(10);
+
 %divider-left {
   border-left: $divider; 
 }
@@ -24,5 +27,15 @@ $divider: 1px solid #dddddd;
 %divider-bottom {
   border-bottom: $divider;
   margin-bottom: $vertical-spacer;
+}
+
+%banner-padding {
+  padding-top: $banner-padding;
+  padding-bottom: $banner-padding-small;
+}
+
+%banner-padding-small {
+  padding-top: $banner-padding-small;
+  padding-bottom: $banner-padding-small;
 }
 
