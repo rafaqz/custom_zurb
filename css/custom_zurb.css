@@ -17171,3 +17171,8 @@ form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-w
 .block-menu-block > div > ul > li > a {
   font-weight: bold;
 }
+
+/* line 493, ../scss/theme/_features.scss */
+.node-teaser .image {
+  float: left;
+}
