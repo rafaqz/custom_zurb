@@ -3,12 +3,18 @@
 // Before adding styles be sure to modify variables in the
 // "scss/_variables.scss" file.
 
-.button {}
+.button {
+  @extend .radius;
+}
+
+button {
+  @extend .radius;
+}
+
 
 .add-content {
   margin-bottom: emCalc(5);
   @extend .button;
-  @extend .secondary;
   @extend .dropdown;
 }
 
@@ -19,7 +25,6 @@
   a {
     @extend .small;
     @extend .button;
-    @extend .secondary;
   }
 }
  
