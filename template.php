@@ -41,6 +41,29 @@ function custom_zurb_preprocess_page(&$variables) {
     $variables['linked_site_name'] = "<a href='{$base_url}' rel='home' title='{$title}'>{$variables['site_name']}</a>";
   }
 
+  $variables['favicon_img'] = '';
+  if ($favicon = theme_get_setting('favicon')) {
+    $variables['favicon_img'] = theme('image', array(
+      'path'  => $favicon,
+      'alt'   => strip_tags($variables['site_name']) . ' ' . t('favicon'),
+      'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+      'attributes' => array(
+        'class' => array('favicon'),
+      ),
+    ));
+  }
+
+  $variables['linked_favicon']  = '';
+  if (!empty($variables['favicon_img'])) {
+    $variables['linked_favicon'] = l($variables['favicon_img'], '<front>', array(
+      'attributes' => array(
+        'rel'   => 'home',
+        'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+      ),
+      'html' => TRUE,
+    ));
+  }
+
   // Remove user picture on profile page.
   if (arg(0) == "user" || arg(0) == "users") {
     unset ($variables['page']['content']['system_main']['user_picture']);

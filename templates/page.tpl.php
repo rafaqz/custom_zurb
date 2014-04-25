@@ -11,7 +11,7 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
+            <li class="name"><h1><?php print $linked_site_name ?></h1></li>
             <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
@@ -283,6 +283,7 @@
       <div class="site-info-wrapper">
         <div class="site-info">
           <div class="site-name">
+            <?php if ($linked_favicon) { print $linked_favicon; } ?> 
             <?php print $linked_site_name?> 
           </div>
           <a class="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/"> 
