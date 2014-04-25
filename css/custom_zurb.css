@@ -16530,30 +16530,30 @@ section.join-mail, .site-info-wrapper .site-info, .footer-banner, .block-menu-bl
   padding: 0 2em 0 1em !important;
 }
 
-/* line 26, ../scss/layout/_header.scss */
+/* line 29, ../scss/layout/_header.scss */
 .l-header-region {
   margin-bottom: 0.625em;
 }
 
-/* line 30, ../scss/layout/_header.scss */
+/* line 33, ../scss/layout/_header.scss */
 section.l-featured {
   padding-top: 0.5em;
 }
 
-/* line 34, ../scss/layout/_header.scss */
+/* line 37, ../scss/layout/_header.scss */
 .title-region {
   background: #94403e;
 }
-/* line 37, ../scss/layout/_header.scss */
+/* line 40, ../scss/layout/_header.scss */
 .title-region .title {
   color: white;
 }
 
-/* line 44, ../scss/layout/_header.scss */
+/* line 47, ../scss/layout/_header.scss */
 section.join-mail {
   background: #94403e;
 }
-/* line 47, ../scss/layout/_header.scss */
+/* line 50, ../scss/layout/_header.scss */
 section.join-mail .join-label {
   text-align: right;
   font-size: 115%;
@@ -16561,42 +16561,42 @@ section.join-mail .join-label {
   padding-top: 0.5em;
   padding-right: 0.5em;
 }
-/* line 61, ../scss/layout/_header.scss */
+/* line 64, ../scss/layout/_header.scss */
 section.join-mail .join-link-wrapper .join-link {
   float: right;
   margin: 0;
 }
 
-/* line 71, ../scss/layout/_header.scss */
+/* line 74, ../scss/layout/_header.scss */
 section.join-mail.bottom {
   background: #FCCA81;
 }
-/* line 73, ../scss/layout/_header.scss */
+/* line 76, ../scss/layout/_header.scss */
 section.join-mail.bottom span {
   color: #94403e;
 }
 
-/* line 78, ../scss/layout/_header.scss */
+/* line 81, ../scss/layout/_header.scss */
 .site-banner {
   background: url(../images/banner-image.png) no-repeat left bottom;
   background-color: #faaf40;
   background-size: 25%;
   padding-top: 2.5em;
 }
-/* line 84, ../scss/layout/_header.scss */
+/* line 87, ../scss/layout/_header.scss */
 .site-banner .site-banner-text a {
   color: white;
 }
-/* line 87, ../scss/layout/_header.scss */
+/* line 90, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-name {
   text-transform: uppercase;
   font-size: 115%;
 }
-/* line 91, ../scss/layout/_header.scss */
+/* line 94, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-slogan {
   color: #94403e;
 }
-/* line 95, ../scss/layout/_header.scss */
+/* line 98, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-learn-more a {
   float: right;
 }
