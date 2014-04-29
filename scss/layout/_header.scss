@@ -47,27 +47,26 @@ section.l-featured {
 section.join-mail {
   background: $success-color;
   @extend %banner-padding-small;
-  .join-label { 
-    text-align: right;
+  .join-link-wrapper {
     @extend .columns;
-    @extend .large-10;
-    @extend .small-9;
+    @extend .large-12;
+    @extend .small-12;
+  }
+  .join-label { 
     font-size: $large-font-size;
     color: $alt-font-color;
     padding-top: emCalc(8);
     padding-right: emCalc(8);
+    float: right;
+    clear:none;
   }
-  .join-link-wrapper {
-    @extend .columns;
-    @extend .large-2;
-    @extend .small-3;
-    .join-link {
-      @extend .button;
-      @extend .small;
-      @extend .radius;
-      float: right;
-      margin: 0;
-    }
+  .join-link {
+    @extend .button;
+    @extend .small;
+    @extend .radius;
+    float: right;
+    clear:none;
+    margin: 0;
   }
 }
 

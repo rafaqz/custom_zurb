@@ -21,8 +21,8 @@
             <?php if ($top_bar_secondary_menu) :?>
               <?php print $top_bar_secondary_menu; ?>
             <?php endif; ?>
-            <?php if ($top_bar_groups) :?>
-              <?php print $top_bar_groups; ?>
+            <?php if ($top_bar_profile_nav) :?>
+              <?php print $top_bar_profile_nav; ?>
             <?php endif; ?>
           </section>
         </nav>
@@ -95,8 +95,10 @@
   <?php if ($is_front): ?>
     <section class="join-mail top">
       <div class="row">
-        <span class="join-label">Join the mailing list</span>
-        <span class="join-link-wrapper"><a class="join-link" href="http://somehwere">Register</a></span>
+        <span class="join-link-wrapper">
+          <a class="join-link" href="http://somehwere">Register</a>
+          <span class="join-label">Join the mailing list</span>
+        </span>
       </div>
     </section>
   <?php endif; ?>
