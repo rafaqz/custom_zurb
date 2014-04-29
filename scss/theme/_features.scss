@@ -287,7 +287,9 @@ form .field-name-field-ko-ref {
 
     .privacy-status {
       @extend .label;
-      font-size: $small-font-size;
+      @extend .small;
+      @extend .radius;
+      /*font-size: $small-font-size;*/
       background-color: $success-color; 
       margin-left: $horizontal-spacer;
       display: inline;
@@ -320,7 +322,6 @@ form .field-name-field-ko-ref {
         padding-top: 10px;
 
         li {
-          margin: 0;
           display: inline;
           padding: emCalc(20);
           a {
@@ -329,6 +330,10 @@ form .field-name-field-ko-ref {
             color: $body-font-color;
             font-weight: bold;
           }
+        }
+        li.active {
+          border-radius: 8px 8px 0 0;
+          background-color: $body-bg;
         }
         .home a,.profile a {
           background: url(../images/home.png) no-repeat;
@@ -346,10 +351,6 @@ form .field-name-field-ko-ref {
           background: url(../images/wikis.png) no-repeat;
         }
 
-        li.active {
-          border-radius: 8px 8px 0 0;
-          background-color: $body-bg;
-        }
       }
     }
   }
