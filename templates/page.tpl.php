@@ -265,10 +265,10 @@
   <?php if (!$is_front): ?>
     <section class="join-mail bottom">
       <div class="row">
-        <div class="large-12 columns">
+        <span class="join-link-wrapper">
+          <a class="join-link" href="http://somehwere">Register</a>
           <span class="join-label">Join the mailing list</span>
-          <span class="join-link-wrapper"><a class="join-link" href="http://somehwere">register</a></span>
-        </div>
+        </span>
       </div>
     </section>
   <?php endif; ?>
