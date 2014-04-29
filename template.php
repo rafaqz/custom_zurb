@@ -4,13 +4,20 @@
  * Implements template_preprocess_html().
  *
  */
-//function custom_zurb_preprocess_html(&$variables) {
-//  // Add conditional CSS for IE. To use uncomment below and add IE css file
-//  drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
-//
-//  // Need legacy support for IE downgrade to Foundation 2 or use JS file below
-//  // drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
-//}
+function custom_zurb_preprocess_html(&$variables) {
+  // Add conditional CSS for IE. To use uncomment below and add IE css file
+  //drupal_add_css(path_to_theme() . '/css/ie.css', array('weight' => CSS_THEME, 'browsers' => array('!IE' => FALSE), 'preprocess' => FALSE));
+
+  // Need legacy support for IE downgrade to Foundation 2 or use JS file below
+  // drupal_add_js('http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js', 'external');
+  //
+  
+  if (!empty($variables['head_title'])) {
+    $site_name = strip_tags(variable_get('site_name'));
+    $variables['head_title_array']['name'] = $site_name;
+    $variables['head_title'] = implode(' | ', $variables['head_title_array']);
+  }
+}
 
 /**
  * Implements template_preprocess_page
@@ -21,9 +28,9 @@ function custom_zurb_preprocess_page(&$variables) {
   // block region in the top bar, but the zurb top bar is fickle...
   global $user;
   global $base_url;
-  $variables['top_bar_groups'] = '';
+  $variables['top_bar_profile_nav'] = '';
   if ($block = module_invoke('collabco_profile_feature', 'block_view', 'profile_nav')) {
-    $variables['top_bar_groups'] = '
+    $variables['top_bar_profile_nav'] = '
     <ul id="profile-nav-wrapper" class="secondary link-list right">
       <li class="last expanded has-dropdown not-click" title="">
         <a href="/drupal/user" title="">My Account</a>
@@ -36,17 +43,19 @@ function custom_zurb_preprocess_page(&$variables) {
 
   // Rebuild linked_site_name without using l function as it kills html.
   $variables['linked_site_name'] = '';
-  $title = strip_tags($variables['site_name']) . ' ' . t('Home');
   if (!empty($variables['site_name'])) {
+    $site_name = strip_tags($variables['site_name']);
+    $title = $site_name . ' ' . t('Home');
     $variables['linked_site_name'] = "<a href='{$base_url}' rel='home' title='{$title}'>{$variables['site_name']}</a>";
+    $variables['head_title'] = $site_name . ' | ' . $variables['title'];
   }
 
   $variables['favicon_img'] = '';
   if ($favicon = theme_get_setting('favicon')) {
     $variables['favicon_img'] = theme('image', array(
       'path'  => $favicon,
-      'alt'   => strip_tags($variables['site_name']) . ' ' . t('favicon'),
-      'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+      'alt'   => $site_name . ' ' . t('favicon'),
+      'title' => $title,
       'attributes' => array(
         'class' => array('favicon'),
       ),
@@ -58,7 +67,7 @@ function custom_zurb_preprocess_page(&$variables) {
     $variables['linked_favicon'] = l($variables['favicon_img'], '<front>', array(
       'attributes' => array(
         'rel'   => 'home',
-        'title' => strip_tags($variables['site_name']) . ' ' . t('Home'),
+        'title' => $title,
       ),
       'html' => TRUE,
     ));
