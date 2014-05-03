@@ -96,7 +96,7 @@
     <section class="join-mail top">
       <div class="row">
         <span class="join-link-wrapper">
-          <a class="join-link" href="http://somehwere">Register</a>
+          <a class="join-link" href="<?php global $base_url; print $base_url; ?> /register">Register</a>
           <span class="join-label">Join the mailing list</span>
         </span>
       </div>
