@@ -41,6 +41,7 @@ function custom_zurb_preprocess_page(&$variables) {
     </ul>';
   }
 
+  $title = '';
   // Rebuild linked_site_name without using l function as it kills html.
   $variables['linked_site_name'] = '';
   if (!empty($variables['site_name'])) {
