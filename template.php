@@ -33,7 +33,7 @@ function custom_zurb_preprocess_page(&$variables) {
     $variables['top_bar_profile_nav'] = '
     <ul id="profile-nav-wrapper" class="secondary link-list right">
       <li class="last expanded has-dropdown not-click" title="">
-        <a href="/drupal/user" title="">My Account</a>
+        <a href="' . $base_url . '/user" title="">My Account</a>
         <ul class="dropdown">
           <li class="first last leaf" title="">' . render($block) . '</li>
         </ul>
@@ -47,7 +47,6 @@ function custom_zurb_preprocess_page(&$variables) {
     $site_name = strip_tags($variables['site_name']);
     $title = $site_name . ' ' . t('Home');
     $variables['linked_site_name'] = "<a href='{$base_url}' rel='home' title='{$title}'>{$variables['site_name']}</a>";
-    $variables['head_title'] = $site_name . ' | ' . $variables['title'];
   }
 
   $variables['favicon_img'] = '';
