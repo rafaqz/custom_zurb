@@ -36,7 +36,6 @@ section.l-featured {
 
 .title-region {
   background: $success-color;
-  @extend %banner-padding;
   .title {
     @extend .column;
     @extend .large-12;
@@ -78,11 +77,23 @@ section.join-mail.bottom {
 }
 
 .site-banner {
-  background: url(../images/banner-image.png) no-repeat left bottom;
+  background: url(../images/banner-image.png) no-repeat;
   background-color: $topbar-bg; 
-  background-size: 25%;
-  padding-top: emCalc(40);
+  background-size: 30%;
+  background-position: 3% 100%;
+  padding-top: emCalc(80);
+  padding-bottom: emCalc(20);
+  .site-logo {
+    @extend .columns; 
+    @extend .large-2; 
+    @extend .large-offset-4; 
+    @extend .small-3;
+    @extend .small-offset-4;
+  }
   .site-banner-text {
+    @extend .columns; 
+    @extend .large-6; 
+    @extend .small-5;
     a {
       color: $alt-font-color;
     }
