@@ -17283,7 +17283,7 @@ article.node, .sidebar section.block, .view-front-icons {
 }
 
 /* line 32, ../scss/base/_common.scss */
-.header-banner .header-details {
+.title-region, .header-banner .header-details {
   padding-top: 1.875em;
   padding-bottom: 0.625em;
 }
@@ -17350,16 +17350,16 @@ section.l-featured {
 .title-region {
   background: #94403e;
 }
-/* line 39, ../scss/layout/_header.scss */
+/* line 40, ../scss/layout/_header.scss */
 .title-region .title {
   color: white;
 }
 
-/* line 46, ../scss/layout/_header.scss */
+/* line 47, ../scss/layout/_header.scss */
 section.join-mail {
   background: #94403e;
 }
-/* line 54, ../scss/layout/_header.scss */
+/* line 55, ../scss/layout/_header.scss */
 section.join-mail .join-label {
   font-size: 115%;
   color: white;
@@ -17368,23 +17368,23 @@ section.join-mail .join-label {
   float: right;
   clear: none;
 }
-/* line 62, ../scss/layout/_header.scss */
+/* line 63, ../scss/layout/_header.scss */
 section.join-mail .join-link {
   float: right;
   clear: none;
   margin: 0;
 }
 
-/* line 72, ../scss/layout/_header.scss */
+/* line 73, ../scss/layout/_header.scss */
 section.join-mail.bottom {
   background: #FCCA81;
 }
-/* line 74, ../scss/layout/_header.scss */
+/* line 75, ../scss/layout/_header.scss */
 section.join-mail.bottom span {
   color: #94403e;
 }
 
-/* line 79, ../scss/layout/_header.scss */
+/* line 80, ../scss/layout/_header.scss */
 .site-banner {
   background: url(../images/banner-image.png) no-repeat;
   background-color: #faaf40;
@@ -17393,20 +17393,20 @@ section.join-mail.bottom span {
   padding-top: 5em;
   padding-bottom: 1.25em;
 }
-/* line 97, ../scss/layout/_header.scss */
+/* line 98, ../scss/layout/_header.scss */
 .site-banner .site-banner-text a {
   color: white;
 }
-/* line 100, ../scss/layout/_header.scss */
+/* line 101, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-name {
   text-transform: uppercase;
   font-size: 115%;
 }
-/* line 104, ../scss/layout/_header.scss */
+/* line 105, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-slogan {
   color: #94403e;
 }
-/* line 108, ../scss/layout/_header.scss */
+/* line 109, ../scss/layout/_header.scss */
 .site-banner .site-banner-text .site-learn-more a {
   float: right;
 }
