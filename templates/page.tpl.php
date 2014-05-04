@@ -36,10 +36,10 @@
     <?php if ($is_front || $alt_header): ?>
     <section class="site-banner <?php if (!empty($alt_header_classes)) { print $alt_header_classes;} ?>">
       <div class="row">
-        <div class="site-logo columns large-2 large-offset-3 small-3 small-offset-3">
+        <div class="site-logo">
           <?php if ($linked_logo): print $linked_logo; endif; ?>
         </div>
-        <div class="site-banner-details columns large-7 small-6">
+        <div class="site-banner-details">
           <div class="site-banner-text">
             <?php if ($site_name): ?>
               <?php if ($title): ?>
