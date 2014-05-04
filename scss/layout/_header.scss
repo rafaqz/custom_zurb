@@ -36,6 +36,7 @@ section.l-featured {
 
 .title-region {
   background: $success-color;
+  @extend %banner-padding;
   .title {
     @extend .column;
     @extend .large-12;
