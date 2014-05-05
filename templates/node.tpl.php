@@ -91,6 +91,13 @@
     <?php endif; ?>
     <?php print render($title_suffix); ?>
 
+    <div class="submitted">
+      <?php if ($display_submitted): ?>
+        <?php print $name; ?>
+      <?php endif; ?>
+      <?php print $submitted_date; ?>
+    </div>
+
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
@@ -102,13 +109,6 @@
     <?php if (!empty($content['field_tags']) && !$is_front): ?>
       <?php print render($content['field_tags']) ?>
     <?php endif; ?>
-
-      <div class="submitted">
-        <?php if ($display_submitted): ?>
-          <?php print $name; ?>
-        <?php endif; ?>
-        <?php print $date; ?>
-      </div>
 
     <div class="clearfix">
       <?php print render($content['links']); ?>
