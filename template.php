@@ -92,13 +92,25 @@ function custom_zurb_links__topbar_groups($variables) {
   return '<ul' . drupal_attributes($variables['attributes']) . '>' . $output . '</ul>';
 }
 
+/**
+ * Implements template_links
+ */
+function custom_zurb_node_view_alter(&$build){  
+  if ($build['#view_mode'] == 'teaser'){
+    // Remove "Add new comment" link
+    unset($build['links']['comment']['#links']['comment-add']);
+    // Remove "Read more" link
+    unset($build['links']['node']['#links']['node-readmore']);
+    // Remove "1 comment" link
+    unset($build['links']['comment']['#links']['comment-comments']);
+  }
+}
 
 /**
  * Implements template_preprocess_node
- *
  */
 function custom_zurb_preprocess_node(&$variables) {
-  $variables['submitted_date'] = format_date($variables['node']->created, 'medium');
+  $variables['submitted_date'] = format_date($variables['node']->created, 'custom','d M Y');
 }
 
 function custom_zurb_preprocess_comment(&$variables) {
