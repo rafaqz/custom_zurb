@@ -5,7 +5,6 @@
 
 .social-share { 
   
-  float: left;
   width: 100px;
 
   a {
@@ -78,6 +77,22 @@
   }
   .timestamp {
   }
+
+}
+
+// Buttons for follow flags.
+.flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-wiki {
+  a.flag {
+    @extend .button;
+  }
+  a.unflag-action {
+    /*@extend .success;*/
+  }
+}
+
+// Prevent floated links from being covered by contextual links region.
+.term-listing-heading {
+  min-height: 30px;
 }
 
 .view-recent-activity {
@@ -121,6 +136,7 @@ article.node-idea.node-teaser {
   .book-explorer {
     a.active {
       @extend .label;
+      /*@extend .success;*/
     }
   }
 }
@@ -133,6 +149,7 @@ article.node-idea.node-teaser {
 
     .page-previous, .page-next {
       @extend .button;
+      @extend .secondary;
       @extend .small;
       /*width: auto;*/
     }
