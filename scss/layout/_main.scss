@@ -6,7 +6,11 @@
   padding-top: 1.5em;
 }
 
-// Facebook style layout with picture alone in left column.
+////////////////////////////////////////////
+// Node
+////////////////////////////////////////////
+
+// Facebook style node layout with picture alone in left column.
 article.node {
   @extend %divider-bottom;
 
@@ -29,7 +33,11 @@ article.node {
   margin-bottom: $vertical-spacer;
 }
 
-// Inline links small, lower right.
+////////////////////////////////////////////
+// Links
+////////////////////////////////////////////
+
+// Inline links: small, lower right.
 ul.links.inline {
   float: right;
   clear: both;
@@ -42,14 +50,13 @@ ul.links.inline {
 
     /*a {*/
       /*@extend .button;*/
-      /*@extend .tiny;*/
     /*}*/
   }
 }
 
-//////////////////////
+////////////////////////////////////////////
 // Comments
-//////////////////////
+////////////////////////////////////////////
 
 // Small, tight comment layout.
 .comment {
@@ -73,6 +80,7 @@ ul.links.inline {
 // Node and comment submitted/posted string.
 .posted, .submitted {
   color: $success-color;
+  font-size: $small-font-size;
   span {
     font-size: $small-font-size;
   }
@@ -86,5 +94,6 @@ ul.links.inline {
 .new {
   @extend .label;
   @extend .success;
+  @extend .small;
 }
 
