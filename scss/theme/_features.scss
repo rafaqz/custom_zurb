@@ -88,6 +88,10 @@
   a.unflag-action {
     /*@extend .success;*/
   }
+  // Move message down to make space for button.
+  .flag-message {
+    top: 3em;
+  }
 }
 
 // Prevent floated links from being covered by contextual links region.
