@@ -107,9 +107,15 @@
     <?php if ($title && !$is_front): ?>
       <section class="title-region" >
         <div class="row">
-          <?php print render($title_prefix); ?>
-            <h1 id="page-title" class="title"><?php print $title; ?></h1>
-          <?php print render($title_suffix); ?>
+          <div class='prefix-wrapper'>
+            <?php print render($title_prefix); ?>
+          </div>
+          <div class='title-wrapper large-7 columns'>
+            <h3 id="page-title" class="title"><?php print $title; ?></h3>
+          </div>
+          <div class='suffix-wrapper large-5 columns'>
+            <?php print render($title_suffix); ?>
+          </div>
         </div>
       </section>
     <?php endif; ?>
