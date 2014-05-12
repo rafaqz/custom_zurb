@@ -41,6 +41,8 @@ function custom_zurb_preprocess_page(&$variables) {
     </ul>';
   }
 
+  $variables['title_suffix'] = collabco_message_feature_flag_links();
+
   $title = '';
   // Rebuild linked_site_name without using l function as it kills html.
   $variables['linked_site_name'] = '';
