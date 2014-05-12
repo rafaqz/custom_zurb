@@ -81,7 +81,7 @@
 }
 
 // Buttons for follow flags.
-.flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-wiki {
+.flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-wiki {
   a.flag {
     @extend .button;
   }
@@ -91,6 +91,15 @@
   // Move message down to make space for button.
   .flag-message {
     top: 3em;
+  }
+}
+
+// Smaller follow buttons in views.
+.view {
+  .flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-wiki {
+    a.flag {
+      @extend .tiny;
+    }
   }
 }
 
@@ -353,7 +362,7 @@ form .field-name-field-ko-ref {
           }
         }
         li.active {
-          border-radius: 8px 8px 0 0;
+          border-radius: 8px;
           background-color: $body-bg;
         }
         .home a,.profile a {
