@@ -98,14 +98,12 @@ function custom_zurb_links__topbar_groups($variables) {
  * Implements template_links
  */
 function custom_zurb_node_view_alter(&$build){  
-  if ($build['#view_mode'] == 'teaser'){
     // Remove "Add new comment" link
     unset($build['links']['comment']['#links']['comment-add']);
     // Remove "Read more" link
     unset($build['links']['node']['#links']['node-readmore']);
     // Remove "1 comment" link
     unset($build['links']['comment']['#links']['comment-comments']);
-  }
 }
 
 /**
@@ -118,6 +116,7 @@ function custom_zurb_preprocess_node(&$variables) {
 function custom_zurb_preprocess_comment(&$variables) {
   $date = format_date($variables['comment']->created, 'medium');
   $variables['submitted'] = t('!username !datetime', array('!username' => $variables['author'], '!datetime' => $date));
+  unset($variables['content']['links']['comment']['#links']['comment-reply']);
 }
 
 /**
