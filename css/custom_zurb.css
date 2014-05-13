@@ -17431,29 +17431,34 @@ article.node {
   min-height: 60px;
 }
 /* line 20, ../scss/layout/_main.scss */
-article.node div.user-picture, article.node form.comment-form div.form-item, form.comment-form article.node div.form-item {
+article.node .user-picture, article.node form.comment-form .form-item, form.comment-form article.node .form-item {
   float: left;
   margin-right: .5em;
 }
 /* line 25, ../scss/layout/_main.scss */
-article.node div.node-content {
+article.node .node-content {
   overflow: hidden;
   clear: none;
 }
 
-/* line 35, ../scss/layout/_main.scss */
+/* line 32, ../scss/layout/_main.scss */
+.node-teaser .body > p {
+  margin-bottom: 0;
+}
+
+/* line 41, ../scss/layout/_main.scss */
 .field {
   margin-bottom: 0.5em;
 }
 
-/* line 44, ../scss/layout/_main.scss */
+/* line 50, ../scss/layout/_main.scss */
 ul.links.inline {
   float: right;
   clear: both;
   font-size: 80%;
   margin-bottom: 0.25em;
 }
-/* line 49, ../scss/layout/_main.scss */
+/* line 55, ../scss/layout/_main.scss */
 ul.links.inline li {
   display: inline;
   list-style-type: none;
@@ -17463,30 +17468,30 @@ ul.links.inline li {
   /*}*/
 }
 
-/* line 65, ../scss/layout/_main.scss */
+/* line 71, ../scss/layout/_main.scss */
 .comment {
   /*margin-bottom:1em;*/
 }
-/* line 68, ../scss/layout/_main.scss */
+/* line 74, ../scss/layout/_main.scss */
 .comment .user-picture img, .comment form.comment-form .form-item img, form.comment-form .comment .form-item img {
   width: 40px;
 }
-/* line 72, ../scss/layout/_main.scss */
+/* line 78, ../scss/layout/_main.scss */
 .comment .content {
   clear: right;
   overflow: hidden;
 }
 
-/* line 84, ../scss/layout/_main.scss */
+/* line 90, ../scss/layout/_main.scss */
 .posted, .submitted {
   color: #94403e;
   font-size: 80%;
 }
-/* line 87, ../scss/layout/_main.scss */
+/* line 93, ../scss/layout/_main.scss */
 .posted span, .submitted span {
   font-size: 80%;
 }
-/* line 90, ../scss/layout/_main.scss */
+/* line 96, ../scss/layout/_main.scss */
 .posted a.username, .submitted a.username {
   border-right: 1px solid;
   padding: 0 .3em;
