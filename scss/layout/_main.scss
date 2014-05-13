@@ -17,14 +17,20 @@ article.node {
   // Set minimum height to image height- its usually floated.
   min-height : 60px;
 
-  div.user-picture {
+  .user-picture {
     float: left;
     margin-right: .5em;
   }
 
-  div.node-content {
+  .node-content {
     overflow:hidden;
     clear:none;
+  }
+}
+
+.node-teaser {
+  .body > p {
+    margin-bottom: 0;
   }
 }
 
