@@ -44,6 +44,19 @@ section.l-featured {
   }
 }
 
+.title-wrapper {
+  @extend .columns;
+  @extend .large-7;
+  @extend .small-9;
+}
+
+.suffix-wrapper {
+  @extend .columns;
+  @extend .large-5;
+  @extend .small-3;
+}
+
+
 section.join-mail {
   background: $success-color;
   @extend %banner-padding-small;
