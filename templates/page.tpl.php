@@ -110,10 +110,10 @@
           <div class='prefix-wrapper'>
             <?php print render($title_prefix); ?>
           </div>
-          <div class='title-wrapper large-7 columns'>
+          <div class='title-wrapper'>
             <h3 id="page-title" class="title"><?php print $title; ?></h3>
           </div>
-          <div class='suffix-wrapper large-5 columns'>
+          <div class='suffix-wrapper'>
             <?php print render($title_suffix); ?>
           </div>
         </div>
