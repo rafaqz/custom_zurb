@@ -81,7 +81,7 @@
 }
 
 // Buttons for follow flags.
-.flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-wiki {
+.flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-document {
   a.flag {
     @extend .button;
   }
@@ -96,7 +96,7 @@
 
 // Smaller follow buttons in views.
 .view {
-  .flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-wiki {
+  .flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-document {
     a.flag {
       @extend .tiny;
     }
@@ -142,7 +142,7 @@ article.node-idea.node-teaser {
 }
 
 //////////////////////////////////////////////////////////////////
-// Wiki Feature. 
+// Document Feature. 
 //////////////////////////////////////////////////////////////////
 
 .block-book-explorer {
@@ -377,8 +377,8 @@ form .field-name-field-ko-ref {
         .ideas a {
           background: url(../images/ideas.png) no-repeat;
         }
-        .wikis a {
-          background: url(../images/wikis.png) no-repeat;
+        .Documents a {
+          background: url(../images/documents.png) no-repeat;
         }
 
       }
