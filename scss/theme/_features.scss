@@ -279,107 +279,109 @@ form .field-name-field-ko-ref {
   a {
     color: $topbar-link-color;
   }
-  .header-details {
-    @extend %banner-padding;
-    @extend .row;
-    h1 {
-      display: inline;
-      color: $topbar-link-color;
-    }
+}
 
-    p {
-      margin-bottom: 0;
-    }
-    
-    img {
-      margin-right: $horizontal-spacer;
-    }
+.header-details {
+  @extend %banner-padding;
+  @extend .row;
+  h1 {
+    display: inline;
+    color: $topbar-link-color;
+  }
 
-    .header-details-image {
-      @extend .columns;
-      @extend .large-2;
-      @extend .small-3;
-    }
+  p {
+    margin-bottom: 0;
+  }
+  
+  img {
+    margin-right: $horizontal-spacer;
+  }
 
-    .header-details-main {
-      @extend .columns;
-      @extend .large-7;
-      @extend .small-9;
-    }
+  .header-details-image {
+    @extend .columns;
+    @extend .large-2;
+    @extend .small-3;
+  }
 
-    .header-details-side {
-      @extend .columns;
-      @extend .large-3;
-      @extend .small-6;
-    }
+  .header-details-main {
+    @extend .columns;
+    @extend .large-7;
+    @extend .small-9;
+  }
 
-    .privacy-status {
-      @extend .label;
-      @extend .small;
+  .header-details-side {
+    @extend .columns;
+    @extend .large-3;
+    @extend .small-6;
+  }
+
+  .privacy-status {
+    @extend .label;
+    @extend .small;
+    @extend .radius;
+    /*font-size: $small-font-size;*/
+    background-color: $success-color; 
+    margin-left: $horizontal-spacer;
+    display: inline;
+  }
+
+  .field-name-group-group {
+    padding-top: 2em;
+    font-size: $small-font-size;
+
+    a {
+      @extend .button;
+      @extend .large;
       @extend .radius;
-      /*font-size: $small-font-size;*/
-      background-color: $success-color; 
-      margin-left: $horizontal-spacer;
-      display: inline;
-    }
-
-    .field-name-group-group {
-      padding-top: 2em;
-      font-size: $small-font-size;
-
-      a {
-        @extend .button;
-        @extend .radius;
-      }
-    }
-
-    .member-count {
-      font-weight: bold;
-      text-transform: uppercase;
     }
   }
 
-  .header-content-tab {
-    background-color: $header-bar-bg;
-    padding-top: emCalc(12);
-    .item-list {
-      @extend .row;
+  .member-count {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
 
-      ul {
-        list-style: none;
-        padding-top: 10px;
+.header-content-tab {
+  background-color: $header-bar-bg;
+  padding-top: emCalc(12);
+  .item-list {
+    @extend .row;
 
-        li {
-          display: inline;
-          padding: emCalc(20);
-          a {
-            text-transform: uppercase;
-            padding: 8px 0 8px 40px;
-            color: $body-font-color;
-            font-weight: bold;
-          }
-        }
-        li.active {
-          border-radius: 8px;
-          background-color: $body-bg;
-        }
-        .home a,.profile a {
-          background: url(../images/home.png) no-repeat;
-        }
-        .conversations a {
-          background: url(../images/conversations.png) no-repeat;
-        }
-        .library a {
-          background: url(../images/library.png) no-repeat;
-        }
-        .ideas a {
-          background: url(../images/ideas.png) no-repeat;
-        }
-        .documentation a {
-          background: url(../images/documents.png) no-repeat;
-        }
+    ul {
+      list-style: none;
+      padding-top: 10px;
 
+      li {
+        display: inline;
+        padding: emCalc(20);
+        a {
+          text-transform: uppercase;
+          padding: 8px 0 8px 40px;
+          color: $body-font-color;
+          font-weight: bold;
+        }
       }
+      li.active {
+        border-radius: 8px;
+        background-color: $body-bg;
+      }
+      .home a,.profile a {
+        background: url(../images/home.png) no-repeat;
+      }
+      .conversations a {
+        background: url(../images/conversations.png) no-repeat;
+      }
+      .library a {
+        background: url(../images/library.png) no-repeat;
+      }
+      .ideas a {
+        background: url(../images/ideas.png) no-repeat;
+      }
+      .documentation a {
+        background: url(../images/documents.png) no-repeat;
+      }
+
     }
   }
 }
