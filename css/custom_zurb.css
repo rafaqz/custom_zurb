@@ -15463,7 +15463,7 @@ label.error {
 }
 /* line 144, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
-  font-weight: 500;
+  font-weight: normal;
   color: white;
   width: 50%;
   display: block;
@@ -15567,7 +15567,7 @@ label.error {
   padding: 12px 0 12px 0;
   padding-left: 0.83333em;
   font-size: 0.9375em;
-  font-weight: normal;
+  font-weight: 600;
   background: #faaf40;
 }
 /* line 269, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
@@ -15666,7 +15666,7 @@ label.error {
 }
 /* line 354, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link, .top-bar-section .add-content li a.parent-link {
-  font-weight: normal;
+  font-weight: 600;
 }
 /* line 359, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .add-content li.title h5 {
