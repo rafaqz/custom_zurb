@@ -96,10 +96,8 @@
 
 // Smaller follow buttons in views.
 .view {
-  .flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-document {
-    a.flag {
-      @extend .tiny;
-    }
+  .flag {
+    @extend .tiny;
   }
 }
 
