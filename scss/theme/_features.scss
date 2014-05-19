@@ -326,12 +326,9 @@ form .field-name-field-ko-ref {
   }
 
   .field-name-group-group {
-    padding-top: 2em;
-    font-size: $small-font-size;
 
     a {
       @extend .button;
-      @extend .large;
       @extend .radius;
     }
   }
