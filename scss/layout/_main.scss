@@ -88,7 +88,7 @@ ul.links.inline {
 .posted, .submitted {
   color: $success-color;
   font-size: $small-font-size;
-  margin-bottom: emCalc(5);
+  margin-bottom: $vertical-spacer;
   span {
     font-size: $small-font-size;
   }
