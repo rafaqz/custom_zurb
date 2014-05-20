@@ -16269,7 +16269,7 @@ ul.links.inline li {
 .posted, .submitted {
   color: #94403e;
   font-size: 80%;
-  margin-bottom: 0.3125em;
+  margin-bottom: 0.5em;
 }
 /* line 92, ../scss/layout/_main.scss */
 .posted span, .submitted span {
