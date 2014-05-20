@@ -34,13 +34,11 @@ article.node {
   }
 }
 
-.body {}
-.image {}
-.breadcrumb {}
-
-.field {
+.body {
   margin-bottom: $vertical-spacer;
 }
+.image {}
+.breadcrumb {}
 
 ////////////////////////////////////////////
 // Links
@@ -90,6 +88,7 @@ ul.links.inline {
 .posted, .submitted {
   color: $success-color;
   font-size: $small-font-size;
+  margin-bottom: emCalc(5);
   span {
     font-size: $small-font-size;
   }

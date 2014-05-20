@@ -20,12 +20,14 @@ $banner-padding-small: emCalc(10);
 }
 
 %divider-top {
-  margin-top: emCalc(5px);
   border-top: $divider;
+  margin-top: $vertical-spacer;
+  padding-top: $vertical-spacer;
 }
 
 %divider-bottom {
   border-bottom: $divider;
+  padding-bottom: $vertical-spacer;
   margin-bottom: $vertical-spacer;
 }
 
