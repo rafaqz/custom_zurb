@@ -103,25 +103,6 @@
     </section>
   <?php endif; ?>
 
-  <?php if ($show_title): ?>
-    <?php if ($title && !$is_front): ?>
-      <section class="title-region" >
-        <div class="row">
-          <div class='prefix-wrapper'>
-            <?php print render($title_prefix); ?>
-          </div>
-          <div class='title-wrapper'>
-            <h3 id="page-title" class="title"><?php print $title; ?></h3>
-          </div>
-          <div class='suffix-wrapper'>
-            <?php print render($title_suffix); ?>
-          </div>
-        </div>
-      </section>
-    <?php endif; ?>
-  <?php endif; ?>
-
-
   <?php if (!empty($page['featured'])): ?>
     <!--/.featured -->
     <section class="l-featured row">
@@ -163,6 +144,24 @@
       <a id="main-content"></a>
 
       <?php /*if ($breadcrumb): print $breadcrumb; endif; */ ?>
+      
+      <?php if ($show_title): ?>
+        <?php if ($title && !$is_front): ?>
+          <section class="title-region" >
+            <div class="row">
+              <div class='prefix-wrapper'>
+                <?php print render($title_prefix); ?>
+              </div>
+              <div class='title-wrapper'>
+                <h3 id="page-title" class="title"><?php print $title; ?></h3>
+              </div>
+              <div class='suffix-wrapper'>
+                <?php print render($title_suffix); ?>
+              </div>
+            </div>
+          </section>
+        <?php endif; ?>
+      <?php endif; ?>
 
       <div role="content" class="contextual-links-region">
 
