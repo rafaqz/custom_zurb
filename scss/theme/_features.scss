@@ -49,6 +49,9 @@
      @extend .large-3;
      @extend .small-2;
   }
+  img {
+    margin-right: 1px;
+  }
 }
 
 .view-subgroups li {
@@ -255,6 +258,9 @@ form .field-name-field-ko-ref {
     text-align: center;
     @extend .columns;
     @extend .large-4;
+  }
+  .views-field-body {
+    height: 4.5em;
   }
   .views-field-title { 
     margin: emCalc(35);
