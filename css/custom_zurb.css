@@ -16088,6 +16088,11 @@ section.join-mail, .site-info-wrapper .site-info, .footer-banner, .block-menu-bl
   display: inline-block;
 }
 
+/* line 36, ../scss/base/_drupal.scss */
+input.formautocomplete {
+  background-position: 100% 10px;
+}
+
 /* line 7, ../scss/layout/_header.scss */
 .top-bar {
   text-transform: uppercase;
