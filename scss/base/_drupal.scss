@@ -31,3 +31,9 @@
   margin: 0;
   display: inline-block;
 }
+
+// Fix drupal spinner position for larger text fields.
+input.formautocomplete {
+  background-position: 100% 10px;
+}
+
