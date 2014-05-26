@@ -105,6 +105,17 @@
   }
 }
 
+.followers {
+  .user-picture {
+    display: inline;
+    clear: none;
+    float: none;
+    img {
+      width: 40px;
+    }
+  }
+}
+
 // Prevent floated links from being covered by contextual links region.
 .term-listing-heading {
   min-height: 30px;
