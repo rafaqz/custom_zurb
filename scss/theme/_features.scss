@@ -87,6 +87,7 @@
 .flag-follow-node,.flag-follow-og,.flag-follow-term,.flag-follow-user,.flag-follow-document {
   a.flag {
     @extend .button;
+    @extend .small;
   }
   a.unflag-action {
     /*@extend .success;*/
