@@ -16088,15 +16088,14 @@ section.join-mail, .site-info-wrapper .site-info, .footer-banner, .block-menu-bl
   display: inline-block;
 }
 
-/* line 37, ../scss/base/_drupal.scss */
-html.js input.form-autocomplete {
-  background-position: 100% 10px;
-}
-/* line 40, ../scss/base/_drupal.scss */
-html.js form input.throbbing {
-  background-position: 100% 18px;
-}
-
+/*html.js {*/
+/*input.form-autocomplete {*/
+/*background-position: 100% 10px;*/
+/*}*/
+/*form input.throbbing {*/
+/*background-position: 100% 18px;*/
+/*}*/
+/*}*/
 /* line 7, ../scss/layout/_header.scss */
 .top-bar {
   text-transform: uppercase;
@@ -16512,321 +16511,322 @@ div.user-picture, form.comment-form div.form-item {
   display: inline;
   clear: none;
   float: none;
+  margin: none;
 }
-/* line 113, ../scss/theme/_features.scss */
+/* line 114, ../scss/theme/_features.scss */
 .followers .user-picture img, .followers form.comment-form .form-item img, form.comment-form .followers .form-item img {
   width: 40px;
 }
 
-/* line 120, ../scss/theme/_features.scss */
+/* line 121, ../scss/theme/_features.scss */
 .term-listing-heading {
   min-height: 30px;
 }
 
-/* line 124, ../scss/theme/_features.scss */
+/* line 125, ../scss/theme/_features.scss */
 .view-recent-activity {
   max-height: 300px;
   overflow: auto;
 }
 
-/* line 134, ../scss/theme/_features.scss */
+/* line 135, ../scss/theme/_features.scss */
 article.node-idea .flag-outer.flag-outer-idea-vote {
   float: right;
   clear: none;
 }
 
-/* line 141, ../scss/theme/_features.scss */
+/* line 142, ../scss/theme/_features.scss */
 article.node-idea.node-teaser .node-title {
   float: left;
 }
-/* line 144, ../scss/theme/_features.scss */
+/* line 145, ../scss/theme/_features.scss */
 article.node-idea.node-teaser .body {
   clear: both;
 }
 
-/* line 151, ../scss/theme/_features.scss */
+/* line 152, ../scss/theme/_features.scss */
 .view-idea-votes ol {
   margin-left: 2em;
   margin-top: 1em;
 }
 
-/* line 163, ../scss/theme/_features.scss */
+/* line 164, ../scss/theme/_features.scss */
 .block-book-explorer .book-explorer a.active {
   /*@extend .success;*/
 }
 
-/* line 170, ../scss/theme/_features.scss */
+/* line 171, ../scss/theme/_features.scss */
 .book-navigation {
   clear: both;
 }
-/* line 173, ../scss/theme/_features.scss */
+/* line 174, ../scss/theme/_features.scss */
 .book-navigation .page-links {
   border: 0;
 }
 
-/* line 201, ../scss/theme/_features.scss */
+/* line 202, ../scss/theme/_features.scss */
 span.flag-tag-filter a {
   margin-bottom: 0.5em;
 }
-/* line 207, ../scss/theme/_features.scss */
+/* line 208, ../scss/theme/_features.scss */
 span.flag-tag-filter a.unflag-action {
   margin-bottom: 0.5em;
 }
 
-/* line 214, ../scss/theme/_features.scss */
+/* line 215, ../scss/theme/_features.scss */
 .view-tag-filter .views-row {
   width: auto;
   float: left;
 }
 
-/* line 220, ../scss/theme/_features.scss */
+/* line 221, ../scss/theme/_features.scss */
 .node .field-name-field-tags {
   font-size: 80%;
 }
 
-/* line 230, ../scss/theme/_features.scss */
+/* line 231, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref div.entityconnect-add {
   height: auto;
   padding: 5px 0;
 }
-/* line 239, ../scss/theme/_features.scss */
+/* line 240, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref select,
 form .field-name-field-ko-ref div {
   clear: both;
   width: 100%;
   /*margin: auto;*/
 }
-/* line 244, ../scss/theme/_features.scss */
+/* line 245, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref span {
   display: block;
 }
-/* line 247, ../scss/theme/_features.scss */
+/* line 248, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-weight-wrapper {
   display: none;
 }
 
-/* line 253, ../scss/theme/_features.scss */
+/* line 254, ../scss/theme/_features.scss */
 .field-name-field-ko-file .file {
   display: block;
   margin-bottom: 0.75em;
 }
 
-/* line 262, ../scss/theme/_features.scss */
+/* line 263, ../scss/theme/_features.scss */
 .view-front-icons {
   margin-top: 1.875em;
 }
-/* line 269, ../scss/theme/_features.scss */
+/* line 270, ../scss/theme/_features.scss */
 .view-front-icons .views-row {
   text-align: center;
 }
-/* line 274, ../scss/theme/_features.scss */
+/* line 275, ../scss/theme/_features.scss */
 .view-front-icons .views-field-body {
   height: 4.5em;
 }
-/* line 277, ../scss/theme/_features.scss */
+/* line 278, ../scss/theme/_features.scss */
 .view-front-icons .views-field-title {
   margin: 2.1875em;
 }
-/* line 279, ../scss/theme/_features.scss */
+/* line 280, ../scss/theme/_features.scss */
 .view-front-icons .views-field-title a {
   color: #94403e;
   text-transform: uppercase;
 }
-/* line 284, ../scss/theme/_features.scss */
+/* line 285, ../scss/theme/_features.scss */
 .view-front-icons .views-field-field-fi-slogan {
   margin: 2.1875em;
 }
 
-/* line 293, ../scss/theme/_features.scss */
+/* line 294, ../scss/theme/_features.scss */
 .header-banner {
   background-color: #414042;
   color: white;
 }
-/* line 297, ../scss/theme/_features.scss */
+/* line 298, ../scss/theme/_features.scss */
 .header-banner a {
   color: white;
 }
 
-/* line 305, ../scss/theme/_features.scss */
+/* line 306, ../scss/theme/_features.scss */
 .header-details h1 {
   display: inline;
   color: white;
 }
-/* line 310, ../scss/theme/_features.scss */
+/* line 311, ../scss/theme/_features.scss */
 .header-details p {
   margin-bottom: 0;
 }
-/* line 314, ../scss/theme/_features.scss */
+/* line 315, ../scss/theme/_features.scss */
 .header-details img {
   margin-right: 0.9375em;
 }
-/* line 317, ../scss/theme/_features.scss */
+/* line 318, ../scss/theme/_features.scss */
 .header-details .privacy-status {
   /*font-size: $small-font-size;*/
   background-color: #94403e;
   margin-left: 0.9375em;
   display: inline;
 }
-/* line 335, ../scss/theme/_features.scss */
+/* line 336, ../scss/theme/_features.scss */
 .header-details .member-count {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 360, ../scss/theme/_features.scss */
+/* line 361, ../scss/theme/_features.scss */
 .header-content-tab {
   background-color: #e5e6e7;
   padding-top: 0.75em;
 }
-/* line 366, ../scss/theme/_features.scss */
+/* line 367, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul {
   list-style: none;
   padding-top: 10px;
 }
-/* line 370, ../scss/theme/_features.scss */
+/* line 371, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li {
   display: inline;
   padding: 1.25em;
 }
-/* line 373, ../scss/theme/_features.scss */
+/* line 374, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li a {
   text-transform: uppercase;
   padding: 8px 0 8px 40px;
   color: #222222;
   font-weight: bold;
 }
-/* line 380, ../scss/theme/_features.scss */
+/* line 381, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li.active {
   border-radius: 8px;
   background-color: white;
 }
-/* line 384, ../scss/theme/_features.scss */
+/* line 385, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .home a, .header-content-tab .item-list ul .profile a {
   background: url(../images/home.png) no-repeat;
 }
-/* line 387, ../scss/theme/_features.scss */
+/* line 388, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .conversations a {
   background: url(../images/conversations.png) no-repeat;
 }
-/* line 390, ../scss/theme/_features.scss */
+/* line 391, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .library a {
   background: url(../images/library.png) no-repeat;
 }
-/* line 393, ../scss/theme/_features.scss */
+/* line 394, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .ideas a {
   background: url(../images/ideas.png) no-repeat;
 }
-/* line 396, ../scss/theme/_features.scss */
+/* line 397, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .documentation a {
   background: url(../images/documents.png) no-repeat;
 }
 
-/* line 405, ../scss/theme/_features.scss */
+/* line 406, ../scss/theme/_features.scss */
 .footer-banner {
   background-color: #414042;
   color: #78797c;
 }
-/* line 409, ../scss/theme/_features.scss */
+/* line 410, ../scss/theme/_features.scss */
 .footer-banner a {
   color: #78797c;
 }
 
-/* line 426, ../scss/theme/_features.scss */
+/* line 427, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav {
   border: 1px solid #dddddd;
   text-transform: none;
 }
-/* line 429, ../scss/theme/_features.scss */
+/* line 430, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav a {
   background: none;
   color: #31b5d5;
   padding: 0;
   margin-bottom: 0.1875em;
 }
-/* line 435, ../scss/theme/_features.scss */
+/* line 436, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav li {
   float: none;
 }
-/* line 440, ../scss/theme/_features.scss */
+/* line 441, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-info {
   padding: 0.875em;
   background-color: white;
   min-width: 12.5em;
 }
-/* line 446, ../scss/theme/_features.scss */
+/* line 447, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account {
   margin-bottom: 0.625em;
 }
-/* line 448, ../scss/theme/_features.scss */
+/* line 449, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item {
   margin-right: 10px;
 }
-/* line 450, ../scss/theme/_features.scss */
+/* line 451, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture a, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item a, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item a {
   background-color: white;
 }
-/* line 456, ../scss/theme/_features.scss */
+/* line 457, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account-text {
   overflow: hidden;
 }
-/* line 460, ../scss/theme/_features.scss */
+/* line 461, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-roles {
   font-size: 80%;
 }
-/* line 464, ../scss/theme/_features.scss */
+/* line 465, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups {
   display: block;
   clear: both;
 }
-/* line 466, ../scss/theme/_features.scss */
+/* line 467, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups ul {
   background: none;
 }
-/* line 469, ../scss/theme/_features.scss */
+/* line 470, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups li {
   margin-top: 0.375em;
 }
-/* line 479, ../scss/theme/_features.scss */
+/* line 480, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions {
   background: #e9e9e9;
   border-top: 1px solid #dddddd;
   position: relative;
   height: 2.5em;
 }
-/* line 484, ../scss/theme/_features.scss */
+/* line 485, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a {
   padding: 0.875em;
   font-weight: bold;
   position: absolute;
 }
-/* line 489, ../scss/theme/_features.scss */
+/* line 490, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a.profile-nav-logout {
   right: 0px;
 }
 
-/* line 495, ../scss/theme/_features.scss */
+/* line 496, ../scss/theme/_features.scss */
 .block-menu-block {
   background: #faaf40;
 }
-/* line 498, ../scss/theme/_features.scss */
+/* line 499, ../scss/theme/_features.scss */
 .block-menu-block li {
   list-style: none;
 }
-/* line 501, ../scss/theme/_features.scss */
+/* line 502, ../scss/theme/_features.scss */
 .block-menu-block ul {
   margin: 0;
 }
-/* line 505, ../scss/theme/_features.scss */
+/* line 506, ../scss/theme/_features.scss */
 .block-menu-block a {
   color: white;
   font-size: 115%;
 }
-/* line 516, ../scss/theme/_features.scss */
+/* line 517, ../scss/theme/_features.scss */
 .block-menu-block > div > ul > li > a {
   font-weight: bold;
 }
 
-/* line 553, ../scss/theme/_features.scss */
+/* line 554, ../scss/theme/_features.scss */
 .node-teaser .image {
   float: left;
   margin: 0.3125em 0.625em 0.3125em 0;
