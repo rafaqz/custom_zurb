@@ -127,9 +127,28 @@
   }
 }
 
-.form-item-add-followers label {
-  color: $subtle-font-color;
+.form-item-add-followers { 
+  @extend .columns;
+  @extend .large-8;
+  @extend .small-12;
 }
+
+.form-item-send-notifications {
+  @extend .columns;
+  @extend .large-4;
+  @extend .small-12;
+}
+
+.form-item-title {
+  clear: both;
+}
+
+.form-item-add-followers,.form-item-send-notifications {
+  label {
+    color: $subtle-font-color;
+  }
+}
+
 
 // Prevent floated links from being covered by contextual links region.
 .term-listing-heading {
