@@ -712,6 +712,22 @@ section.join-mail .block-menu-block > div > ul.collapse > .join-link-wrapper,
 #profile-nav-wrapper .view-group-users .collapse.profile-nav-groups > .views-row,
 .view-group-users #profile-nav-wrapper .collapse.profile-nav-groups > .views-row,
 .view-group-users .block-menu-block > div > ul.collapse > .views-row,
+.row.collapse > .form-item-add-followers,
+.site-info-wrapper .collapse.site-info > .form-item-add-followers,
+.view-front-icons .collapse.view-content > .form-item-add-followers,
+.collapse.header-details > .form-item-add-followers,
+.header-content-tab .collapse.item-list > .form-item-add-followers,
+.footer-banner .collapse.footer-details > .form-item-add-followers,
+#profile-nav-wrapper .collapse.profile-nav-groups > .form-item-add-followers,
+.block-menu-block > div > ul.collapse > .form-item-add-followers,
+.row.collapse > .form-item-send-notifications,
+.site-info-wrapper .collapse.site-info > .form-item-send-notifications,
+.view-front-icons .collapse.view-content > .form-item-send-notifications,
+.collapse.header-details > .form-item-send-notifications,
+.header-content-tab .collapse.item-list > .form-item-send-notifications,
+.footer-banner .collapse.footer-details > .form-item-send-notifications,
+#profile-nav-wrapper .collapse.profile-nav-groups > .form-item-send-notifications,
+.block-menu-block > div > ul.collapse > .form-item-send-notifications,
 #edit-field-mf-subscription-type .row.collapse > .form-type-radio,
 .site-info-wrapper #edit-field-mf-subscription-type .collapse.site-info > .form-type-radio,
 #edit-field-mf-subscription-type .site-info-wrapper .collapse.site-info > .form-type-radio,
@@ -842,6 +858,8 @@ section.join-mail .join-link-wrapper,
 .site-info-wrapper .site-name,
 .site-info-wrapper .copyright,
 .view-group-users .views-row,
+.form-item-add-followers,
+.form-item-send-notifications,
 #edit-field-mf-subscription-type .form-type-radio,
 .view-front-icons .views-row,
 .header-details-image,
@@ -868,6 +886,8 @@ section.join-mail .join-link-wrapper,
   .site-info-wrapper .site-name,
   .site-info-wrapper .copyright,
   .view-group-users .views-row,
+  .form-item-add-followers,
+  .form-item-send-notifications,
   #edit-field-mf-subscription-type .form-type-radio,
   .view-front-icons .views-row,
   .header-details-image,
@@ -948,7 +968,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 140, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .small-12, section.join-mail .join-link-wrapper, .site-info-wrapper .site-name, .site-info-wrapper .copyright, #edit-field-mf-subscription-type .form-type-radio {
+  .small-12, section.join-mail .join-link-wrapper, .site-info-wrapper .site-name, .site-info-wrapper .copyright, .form-item-add-followers, .form-item-send-notifications, #edit-field-mf-subscription-type .form-type-radio {
     position: relative;
     width: 100%;
   }
@@ -1040,6 +1060,8 @@ section.join-mail .join-link-wrapper,
   .site-info-wrapper .small-centered.site-name,
   .site-info-wrapper .small-centered.copyright,
   .view-group-users .small-centered.views-row,
+  .small-centered.form-item-add-followers,
+  .small-centered.form-item-send-notifications,
   #edit-field-mf-subscription-type .small-centered.form-type-radio,
   .view-front-icons .small-centered.views-row,
   .small-centered.header-details-image,
@@ -1074,7 +1096,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 158, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-4, .view-front-icons .views-row {
+  .large-4, .form-item-send-notifications, .view-front-icons .views-row {
     position: relative;
     width: 33.33333%;
   }
@@ -1098,7 +1120,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 158, ../../../../../../../../../.gem/ruby/2.1.0/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
-  .large-8 {
+  .large-8, .form-item-add-followers {
     position: relative;
     width: 66.66667%;
   }
@@ -1364,6 +1386,8 @@ section.join-mail .join-link-wrapper,
   .site-info-wrapper .large-centered.site-name,
   .site-info-wrapper .large-centered.copyright,
   .view-group-users .large-centered.views-row,
+  .large-centered.form-item-add-followers,
+  .large-centered.form-item-send-notifications,
   #edit-field-mf-subscription-type .large-centered.form-type-radio,
   .view-front-icons .large-centered.views-row,
   .large-centered.header-details-image,
@@ -1388,6 +1412,8 @@ section.join-mail .join-link-wrapper,
   .site-info-wrapper .large-uncentered.site-name,
   .site-info-wrapper .large-uncentered.copyright,
   .view-group-users .large-uncentered.views-row,
+  .large-uncentered.form-item-add-followers,
+  .large-uncentered.form-item-send-notifications,
   #edit-field-mf-subscription-type .large-uncentered.form-type-radio,
   .view-front-icons .large-uncentered.views-row,
   .large-uncentered.header-details-image,
@@ -1411,6 +1437,8 @@ section.join-mail .join-link-wrapper,
   .site-info-wrapper .large-uncentered.opposite.site-name,
   .site-info-wrapper .large-uncentered.opposite.copyright,
   .view-group-users .large-uncentered.opposite.views-row,
+  .large-uncentered.opposite.form-item-add-followers,
+  .large-uncentered.opposite.form-item-send-notifications,
   #edit-field-mf-subscription-type .large-uncentered.opposite.form-type-radio,
   .view-front-icons .large-uncentered.opposite.views-row,
   .large-uncentered.opposite.header-details-image,
@@ -5283,6 +5311,324 @@ form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul .view
 .view-group-users #profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul .views-row,
 form .block-menu-block > div > ul .block-menu-block > div > ul .view-group-users .views-row,
 .view-group-users form .block-menu-block > div > ul .block-menu-block > div > ul .views-row,
+form .row .row .form-item-add-followers,
+form .site-info-wrapper .site-info .row .form-item-add-followers,
+.site-info-wrapper form .site-info .row .form-item-add-followers,
+form .view-front-icons .view-content .row .form-item-add-followers,
+.view-front-icons form .view-content .row .form-item-add-followers,
+form .header-details .row .form-item-add-followers,
+form .header-content-tab .item-list .row .form-item-add-followers,
+.header-content-tab form .item-list .row .form-item-add-followers,
+form .footer-banner .footer-details .row .form-item-add-followers,
+.footer-banner form .footer-details .row .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .row .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .row .form-item-add-followers,
+form .block-menu-block > div > ul .row .form-item-add-followers,
+form .row .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .row .site-info .form-item-add-followers,
+form .site-info-wrapper .site-info .site-info .form-item-add-followers,
+.site-info-wrapper form .site-info .site-info .form-item-add-followers,
+form .view-front-icons .view-content .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .view-front-icons .view-content .site-info .form-item-add-followers,
+.view-front-icons form .view-content .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper .view-front-icons form .view-content .site-info .form-item-add-followers,
+form .header-details .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .header-details .site-info .form-item-add-followers,
+form .header-content-tab .item-list .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .header-content-tab .item-list .site-info .form-item-add-followers,
+.header-content-tab form .item-list .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper .header-content-tab form .item-list .site-info .form-item-add-followers,
+form .footer-banner .footer-details .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .footer-banner .footer-details .site-info .form-item-add-followers,
+.footer-banner form .footer-details .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper .footer-banner form .footer-details .site-info .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form #profile-nav-wrapper .profile-nav-groups .site-info .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper #profile-nav-wrapper form .profile-nav-groups .site-info .form-item-add-followers,
+form .block-menu-block > div > ul .site-info-wrapper .site-info .form-item-add-followers,
+.site-info-wrapper form .block-menu-block > div > ul .site-info .form-item-add-followers,
+form .row .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .row .view-content .form-item-add-followers,
+form .site-info-wrapper .site-info .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .site-info-wrapper .site-info .view-content .form-item-add-followers,
+.site-info-wrapper form .site-info .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons .site-info-wrapper form .site-info .view-content .form-item-add-followers,
+form .view-front-icons .view-content .view-content .form-item-add-followers,
+.view-front-icons form .view-content .view-content .form-item-add-followers,
+form .header-details .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .header-details .view-content .form-item-add-followers,
+form .header-content-tab .item-list .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .header-content-tab .item-list .view-content .form-item-add-followers,
+.header-content-tab form .item-list .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons .header-content-tab form .item-list .view-content .form-item-add-followers,
+form .footer-banner .footer-details .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .footer-banner .footer-details .view-content .form-item-add-followers,
+.footer-banner form .footer-details .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons .footer-banner form .footer-details .view-content .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form #profile-nav-wrapper .profile-nav-groups .view-content .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons #profile-nav-wrapper form .profile-nav-groups .view-content .form-item-add-followers,
+form .block-menu-block > div > ul .view-front-icons .view-content .form-item-add-followers,
+.view-front-icons form .block-menu-block > div > ul .view-content .form-item-add-followers,
+form .row .header-details .form-item-add-followers,
+form .site-info-wrapper .site-info .header-details .form-item-add-followers,
+.site-info-wrapper form .site-info .header-details .form-item-add-followers,
+form .view-front-icons .view-content .header-details .form-item-add-followers,
+.view-front-icons form .view-content .header-details .form-item-add-followers,
+form .header-details .header-details .form-item-add-followers,
+form .header-content-tab .item-list .header-details .form-item-add-followers,
+.header-content-tab form .item-list .header-details .form-item-add-followers,
+form .footer-banner .footer-details .header-details .form-item-add-followers,
+.footer-banner form .footer-details .header-details .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .header-details .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .header-details .form-item-add-followers,
+form .block-menu-block > div > ul .header-details .form-item-add-followers,
+form .row .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .row .item-list .form-item-add-followers,
+form .site-info-wrapper .site-info .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .site-info-wrapper .site-info .item-list .form-item-add-followers,
+.site-info-wrapper form .site-info .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab .site-info-wrapper form .site-info .item-list .form-item-add-followers,
+form .view-front-icons .view-content .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .view-front-icons .view-content .item-list .form-item-add-followers,
+.view-front-icons form .view-content .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab .view-front-icons form .view-content .item-list .form-item-add-followers,
+form .header-details .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .header-details .item-list .form-item-add-followers,
+form .header-content-tab .item-list .item-list .form-item-add-followers,
+.header-content-tab form .item-list .item-list .form-item-add-followers,
+form .footer-banner .footer-details .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .footer-banner .footer-details .item-list .form-item-add-followers,
+.footer-banner form .footer-details .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab .footer-banner form .footer-details .item-list .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form #profile-nav-wrapper .profile-nav-groups .item-list .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab #profile-nav-wrapper form .profile-nav-groups .item-list .form-item-add-followers,
+form .block-menu-block > div > ul .header-content-tab .item-list .form-item-add-followers,
+.header-content-tab form .block-menu-block > div > ul .item-list .form-item-add-followers,
+form .row .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .row .footer-details .form-item-add-followers,
+form .site-info-wrapper .site-info .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .site-info-wrapper .site-info .footer-details .form-item-add-followers,
+.site-info-wrapper form .site-info .footer-banner .footer-details .form-item-add-followers,
+.footer-banner .site-info-wrapper form .site-info .footer-details .form-item-add-followers,
+form .view-front-icons .view-content .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .view-front-icons .view-content .footer-details .form-item-add-followers,
+.view-front-icons form .view-content .footer-banner .footer-details .form-item-add-followers,
+.footer-banner .view-front-icons form .view-content .footer-details .form-item-add-followers,
+form .header-details .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .header-details .footer-details .form-item-add-followers,
+form .header-content-tab .item-list .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .header-content-tab .item-list .footer-details .form-item-add-followers,
+.header-content-tab form .item-list .footer-banner .footer-details .form-item-add-followers,
+.footer-banner .header-content-tab form .item-list .footer-details .form-item-add-followers,
+form .footer-banner .footer-details .footer-details .form-item-add-followers,
+.footer-banner form .footer-details .footer-details .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form #profile-nav-wrapper .profile-nav-groups .footer-details .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .footer-banner .footer-details .form-item-add-followers,
+.footer-banner #profile-nav-wrapper form .profile-nav-groups .footer-details .form-item-add-followers,
+form .block-menu-block > div > ul .footer-banner .footer-details .form-item-add-followers,
+.footer-banner form .block-menu-block > div > ul .footer-details .form-item-add-followers,
+form .row #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .row .profile-nav-groups .form-item-add-followers,
+form .site-info-wrapper .site-info #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .site-info-wrapper .site-info .profile-nav-groups .form-item-add-followers,
+.site-info-wrapper form .site-info #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .site-info-wrapper form .site-info .profile-nav-groups .form-item-add-followers,
+form .view-front-icons .view-content #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .view-front-icons .view-content .profile-nav-groups .form-item-add-followers,
+.view-front-icons form .view-content #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .view-front-icons form .view-content .profile-nav-groups .form-item-add-followers,
+form .header-details #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .header-details .profile-nav-groups .form-item-add-followers,
+form .header-content-tab .item-list #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .header-content-tab .item-list .profile-nav-groups .form-item-add-followers,
+.header-content-tab form .item-list #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .header-content-tab form .item-list .profile-nav-groups .form-item-add-followers,
+form .footer-banner .footer-details #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .footer-banner .footer-details .profile-nav-groups .form-item-add-followers,
+.footer-banner form .footer-details #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .footer-banner form .footer-details .profile-nav-groups .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .profile-nav-groups .form-item-add-followers,
+form .block-menu-block > div > ul #profile-nav-wrapper .profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .block-menu-block > div > ul .profile-nav-groups .form-item-add-followers,
+form .row .block-menu-block > div > ul .form-item-add-followers,
+form .site-info-wrapper .site-info .block-menu-block > div > ul .form-item-add-followers,
+.site-info-wrapper form .site-info .block-menu-block > div > ul .form-item-add-followers,
+form .view-front-icons .view-content .block-menu-block > div > ul .form-item-add-followers,
+.view-front-icons form .view-content .block-menu-block > div > ul .form-item-add-followers,
+form .header-details .block-menu-block > div > ul .form-item-add-followers,
+form .header-content-tab .item-list .block-menu-block > div > ul .form-item-add-followers,
+.header-content-tab form .item-list .block-menu-block > div > ul .form-item-add-followers,
+form .footer-banner .footer-details .block-menu-block > div > ul .form-item-add-followers,
+.footer-banner form .footer-details .block-menu-block > div > ul .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul .form-item-add-followers,
+form .block-menu-block > div > ul .block-menu-block > div > ul .form-item-add-followers,
+form .row .row .form-item-send-notifications,
+form .site-info-wrapper .site-info .row .form-item-send-notifications,
+.site-info-wrapper form .site-info .row .form-item-send-notifications,
+form .view-front-icons .view-content .row .form-item-send-notifications,
+.view-front-icons form .view-content .row .form-item-send-notifications,
+form .header-details .row .form-item-send-notifications,
+form .header-content-tab .item-list .row .form-item-send-notifications,
+.header-content-tab form .item-list .row .form-item-send-notifications,
+form .footer-banner .footer-details .row .form-item-send-notifications,
+.footer-banner form .footer-details .row .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .row .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .row .form-item-send-notifications,
+form .block-menu-block > div > ul .row .form-item-send-notifications,
+form .row .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .row .site-info .form-item-send-notifications,
+form .site-info-wrapper .site-info .site-info .form-item-send-notifications,
+.site-info-wrapper form .site-info .site-info .form-item-send-notifications,
+form .view-front-icons .view-content .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .view-front-icons .view-content .site-info .form-item-send-notifications,
+.view-front-icons form .view-content .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper .view-front-icons form .view-content .site-info .form-item-send-notifications,
+form .header-details .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .header-details .site-info .form-item-send-notifications,
+form .header-content-tab .item-list .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .header-content-tab .item-list .site-info .form-item-send-notifications,
+.header-content-tab form .item-list .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper .header-content-tab form .item-list .site-info .form-item-send-notifications,
+form .footer-banner .footer-details .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .footer-banner .footer-details .site-info .form-item-send-notifications,
+.footer-banner form .footer-details .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper .footer-banner form .footer-details .site-info .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form #profile-nav-wrapper .profile-nav-groups .site-info .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper #profile-nav-wrapper form .profile-nav-groups .site-info .form-item-send-notifications,
+form .block-menu-block > div > ul .site-info-wrapper .site-info .form-item-send-notifications,
+.site-info-wrapper form .block-menu-block > div > ul .site-info .form-item-send-notifications,
+form .row .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .row .view-content .form-item-send-notifications,
+form .site-info-wrapper .site-info .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .site-info-wrapper .site-info .view-content .form-item-send-notifications,
+.site-info-wrapper form .site-info .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons .site-info-wrapper form .site-info .view-content .form-item-send-notifications,
+form .view-front-icons .view-content .view-content .form-item-send-notifications,
+.view-front-icons form .view-content .view-content .form-item-send-notifications,
+form .header-details .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .header-details .view-content .form-item-send-notifications,
+form .header-content-tab .item-list .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .header-content-tab .item-list .view-content .form-item-send-notifications,
+.header-content-tab form .item-list .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons .header-content-tab form .item-list .view-content .form-item-send-notifications,
+form .footer-banner .footer-details .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .footer-banner .footer-details .view-content .form-item-send-notifications,
+.footer-banner form .footer-details .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons .footer-banner form .footer-details .view-content .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form #profile-nav-wrapper .profile-nav-groups .view-content .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons #profile-nav-wrapper form .profile-nav-groups .view-content .form-item-send-notifications,
+form .block-menu-block > div > ul .view-front-icons .view-content .form-item-send-notifications,
+.view-front-icons form .block-menu-block > div > ul .view-content .form-item-send-notifications,
+form .row .header-details .form-item-send-notifications,
+form .site-info-wrapper .site-info .header-details .form-item-send-notifications,
+.site-info-wrapper form .site-info .header-details .form-item-send-notifications,
+form .view-front-icons .view-content .header-details .form-item-send-notifications,
+.view-front-icons form .view-content .header-details .form-item-send-notifications,
+form .header-details .header-details .form-item-send-notifications,
+form .header-content-tab .item-list .header-details .form-item-send-notifications,
+.header-content-tab form .item-list .header-details .form-item-send-notifications,
+form .footer-banner .footer-details .header-details .form-item-send-notifications,
+.footer-banner form .footer-details .header-details .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .header-details .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .header-details .form-item-send-notifications,
+form .block-menu-block > div > ul .header-details .form-item-send-notifications,
+form .row .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .row .item-list .form-item-send-notifications,
+form .site-info-wrapper .site-info .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .site-info-wrapper .site-info .item-list .form-item-send-notifications,
+.site-info-wrapper form .site-info .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab .site-info-wrapper form .site-info .item-list .form-item-send-notifications,
+form .view-front-icons .view-content .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .view-front-icons .view-content .item-list .form-item-send-notifications,
+.view-front-icons form .view-content .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab .view-front-icons form .view-content .item-list .form-item-send-notifications,
+form .header-details .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .header-details .item-list .form-item-send-notifications,
+form .header-content-tab .item-list .item-list .form-item-send-notifications,
+.header-content-tab form .item-list .item-list .form-item-send-notifications,
+form .footer-banner .footer-details .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .footer-banner .footer-details .item-list .form-item-send-notifications,
+.footer-banner form .footer-details .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab .footer-banner form .footer-details .item-list .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form #profile-nav-wrapper .profile-nav-groups .item-list .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab #profile-nav-wrapper form .profile-nav-groups .item-list .form-item-send-notifications,
+form .block-menu-block > div > ul .header-content-tab .item-list .form-item-send-notifications,
+.header-content-tab form .block-menu-block > div > ul .item-list .form-item-send-notifications,
+form .row .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .row .footer-details .form-item-send-notifications,
+form .site-info-wrapper .site-info .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .site-info-wrapper .site-info .footer-details .form-item-send-notifications,
+.site-info-wrapper form .site-info .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner .site-info-wrapper form .site-info .footer-details .form-item-send-notifications,
+form .view-front-icons .view-content .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .view-front-icons .view-content .footer-details .form-item-send-notifications,
+.view-front-icons form .view-content .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner .view-front-icons form .view-content .footer-details .form-item-send-notifications,
+form .header-details .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .header-details .footer-details .form-item-send-notifications,
+form .header-content-tab .item-list .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .header-content-tab .item-list .footer-details .form-item-send-notifications,
+.header-content-tab form .item-list .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner .header-content-tab form .item-list .footer-details .form-item-send-notifications,
+form .footer-banner .footer-details .footer-details .form-item-send-notifications,
+.footer-banner form .footer-details .footer-details .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form #profile-nav-wrapper .profile-nav-groups .footer-details .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner #profile-nav-wrapper form .profile-nav-groups .footer-details .form-item-send-notifications,
+form .block-menu-block > div > ul .footer-banner .footer-details .form-item-send-notifications,
+.footer-banner form .block-menu-block > div > ul .footer-details .form-item-send-notifications,
+form .row #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .row .profile-nav-groups .form-item-send-notifications,
+form .site-info-wrapper .site-info #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .site-info-wrapper .site-info .profile-nav-groups .form-item-send-notifications,
+.site-info-wrapper form .site-info #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .site-info-wrapper form .site-info .profile-nav-groups .form-item-send-notifications,
+form .view-front-icons .view-content #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .view-front-icons .view-content .profile-nav-groups .form-item-send-notifications,
+.view-front-icons form .view-content #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .view-front-icons form .view-content .profile-nav-groups .form-item-send-notifications,
+form .header-details #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .header-details .profile-nav-groups .form-item-send-notifications,
+form .header-content-tab .item-list #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .header-content-tab .item-list .profile-nav-groups .form-item-send-notifications,
+.header-content-tab form .item-list #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .header-content-tab form .item-list .profile-nav-groups .form-item-send-notifications,
+form .footer-banner .footer-details #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .footer-banner .footer-details .profile-nav-groups .form-item-send-notifications,
+.footer-banner form .footer-details #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .footer-banner form .footer-details .profile-nav-groups .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .profile-nav-groups .form-item-send-notifications,
+form .block-menu-block > div > ul #profile-nav-wrapper .profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .block-menu-block > div > ul .profile-nav-groups .form-item-send-notifications,
+form .row .block-menu-block > div > ul .form-item-send-notifications,
+form .site-info-wrapper .site-info .block-menu-block > div > ul .form-item-send-notifications,
+.site-info-wrapper form .site-info .block-menu-block > div > ul .form-item-send-notifications,
+form .view-front-icons .view-content .block-menu-block > div > ul .form-item-send-notifications,
+.view-front-icons form .view-content .block-menu-block > div > ul .form-item-send-notifications,
+form .header-details .block-menu-block > div > ul .form-item-send-notifications,
+form .header-content-tab .item-list .block-menu-block > div > ul .form-item-send-notifications,
+.header-content-tab form .item-list .block-menu-block > div > ul .form-item-send-notifications,
+form .footer-banner .footer-details .block-menu-block > div > ul .form-item-send-notifications,
+.footer-banner form .footer-details .block-menu-block > div > ul .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul .form-item-send-notifications,
+form .block-menu-block > div > ul .block-menu-block > div > ul .form-item-send-notifications,
 form .row .row #edit-field-mf-subscription-type .form-type-radio,
 #edit-field-mf-subscription-type form .row .row .form-type-radio,
 form .site-info-wrapper .site-info .row #edit-field-mf-subscription-type .form-type-radio,
@@ -9195,6 +9541,324 @@ form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul.colla
 .view-group-users #profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul.collapse .views-row,
 form .block-menu-block > div > ul .block-menu-block > div > ul.collapse .view-group-users .views-row,
 .view-group-users form .block-menu-block > div > ul .block-menu-block > div > ul.collapse .views-row,
+form .row .row.collapse .form-item-add-followers,
+form .site-info-wrapper .site-info .row.collapse .form-item-add-followers,
+.site-info-wrapper form .site-info .row.collapse .form-item-add-followers,
+form .view-front-icons .view-content .row.collapse .form-item-add-followers,
+.view-front-icons form .view-content .row.collapse .form-item-add-followers,
+form .header-details .row.collapse .form-item-add-followers,
+form .header-content-tab .item-list .row.collapse .form-item-add-followers,
+.header-content-tab form .item-list .row.collapse .form-item-add-followers,
+form .footer-banner .footer-details .row.collapse .form-item-add-followers,
+.footer-banner form .footer-details .row.collapse .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .row.collapse .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .row.collapse .form-item-add-followers,
+form .block-menu-block > div > ul .row.collapse .form-item-add-followers,
+form .row .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .row .collapse.site-info .form-item-add-followers,
+form .site-info-wrapper .site-info .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .site-info .collapse.site-info .form-item-add-followers,
+form .view-front-icons .view-content .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .view-front-icons .view-content .collapse.site-info .form-item-add-followers,
+.view-front-icons form .view-content .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper .view-front-icons form .view-content .collapse.site-info .form-item-add-followers,
+form .header-details .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .header-details .collapse.site-info .form-item-add-followers,
+form .header-content-tab .item-list .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .header-content-tab .item-list .collapse.site-info .form-item-add-followers,
+.header-content-tab form .item-list .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper .header-content-tab form .item-list .collapse.site-info .form-item-add-followers,
+form .footer-banner .footer-details .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .footer-banner .footer-details .collapse.site-info .form-item-add-followers,
+.footer-banner form .footer-details .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper .footer-banner form .footer-details .collapse.site-info .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form #profile-nav-wrapper .profile-nav-groups .collapse.site-info .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper #profile-nav-wrapper form .profile-nav-groups .collapse.site-info .form-item-add-followers,
+form .block-menu-block > div > ul .site-info-wrapper .collapse.site-info .form-item-add-followers,
+.site-info-wrapper form .block-menu-block > div > ul .collapse.site-info .form-item-add-followers,
+form .row .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .row .collapse.view-content .form-item-add-followers,
+form .site-info-wrapper .site-info .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .site-info-wrapper .site-info .collapse.view-content .form-item-add-followers,
+.site-info-wrapper form .site-info .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons .site-info-wrapper form .site-info .collapse.view-content .form-item-add-followers,
+form .view-front-icons .view-content .collapse.view-content .form-item-add-followers,
+.view-front-icons form .view-content .collapse.view-content .form-item-add-followers,
+form .header-details .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .header-details .collapse.view-content .form-item-add-followers,
+form .header-content-tab .item-list .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .header-content-tab .item-list .collapse.view-content .form-item-add-followers,
+.header-content-tab form .item-list .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons .header-content-tab form .item-list .collapse.view-content .form-item-add-followers,
+form .footer-banner .footer-details .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .footer-banner .footer-details .collapse.view-content .form-item-add-followers,
+.footer-banner form .footer-details .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons .footer-banner form .footer-details .collapse.view-content .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form #profile-nav-wrapper .profile-nav-groups .collapse.view-content .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons #profile-nav-wrapper form .profile-nav-groups .collapse.view-content .form-item-add-followers,
+form .block-menu-block > div > ul .view-front-icons .collapse.view-content .form-item-add-followers,
+.view-front-icons form .block-menu-block > div > ul .collapse.view-content .form-item-add-followers,
+form .row .collapse.header-details .form-item-add-followers,
+form .site-info-wrapper .site-info .collapse.header-details .form-item-add-followers,
+.site-info-wrapper form .site-info .collapse.header-details .form-item-add-followers,
+form .view-front-icons .view-content .collapse.header-details .form-item-add-followers,
+.view-front-icons form .view-content .collapse.header-details .form-item-add-followers,
+form .header-details .collapse.header-details .form-item-add-followers,
+form .header-content-tab .item-list .collapse.header-details .form-item-add-followers,
+.header-content-tab form .item-list .collapse.header-details .form-item-add-followers,
+form .footer-banner .footer-details .collapse.header-details .form-item-add-followers,
+.footer-banner form .footer-details .collapse.header-details .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .collapse.header-details .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .collapse.header-details .form-item-add-followers,
+form .block-menu-block > div > ul .collapse.header-details .form-item-add-followers,
+form .row .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .row .collapse.item-list .form-item-add-followers,
+form .site-info-wrapper .site-info .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .site-info-wrapper .site-info .collapse.item-list .form-item-add-followers,
+.site-info-wrapper form .site-info .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab .site-info-wrapper form .site-info .collapse.item-list .form-item-add-followers,
+form .view-front-icons .view-content .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .view-front-icons .view-content .collapse.item-list .form-item-add-followers,
+.view-front-icons form .view-content .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab .view-front-icons form .view-content .collapse.item-list .form-item-add-followers,
+form .header-details .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .header-details .collapse.item-list .form-item-add-followers,
+form .header-content-tab .item-list .collapse.item-list .form-item-add-followers,
+.header-content-tab form .item-list .collapse.item-list .form-item-add-followers,
+form .footer-banner .footer-details .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .footer-banner .footer-details .collapse.item-list .form-item-add-followers,
+.footer-banner form .footer-details .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab .footer-banner form .footer-details .collapse.item-list .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form #profile-nav-wrapper .profile-nav-groups .collapse.item-list .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab #profile-nav-wrapper form .profile-nav-groups .collapse.item-list .form-item-add-followers,
+form .block-menu-block > div > ul .header-content-tab .collapse.item-list .form-item-add-followers,
+.header-content-tab form .block-menu-block > div > ul .collapse.item-list .form-item-add-followers,
+form .row .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .row .collapse.footer-details .form-item-add-followers,
+form .site-info-wrapper .site-info .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .site-info-wrapper .site-info .collapse.footer-details .form-item-add-followers,
+.site-info-wrapper form .site-info .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner .site-info-wrapper form .site-info .collapse.footer-details .form-item-add-followers,
+form .view-front-icons .view-content .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .view-front-icons .view-content .collapse.footer-details .form-item-add-followers,
+.view-front-icons form .view-content .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner .view-front-icons form .view-content .collapse.footer-details .form-item-add-followers,
+form .header-details .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .header-details .collapse.footer-details .form-item-add-followers,
+form .header-content-tab .item-list .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .header-content-tab .item-list .collapse.footer-details .form-item-add-followers,
+.header-content-tab form .item-list .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner .header-content-tab form .item-list .collapse.footer-details .form-item-add-followers,
+form .footer-banner .footer-details .collapse.footer-details .form-item-add-followers,
+.footer-banner form .footer-details .collapse.footer-details .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form #profile-nav-wrapper .profile-nav-groups .collapse.footer-details .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner #profile-nav-wrapper form .profile-nav-groups .collapse.footer-details .form-item-add-followers,
+form .block-menu-block > div > ul .footer-banner .collapse.footer-details .form-item-add-followers,
+.footer-banner form .block-menu-block > div > ul .collapse.footer-details .form-item-add-followers,
+form .row #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .row .collapse.profile-nav-groups .form-item-add-followers,
+form .site-info-wrapper .site-info #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .site-info-wrapper .site-info .collapse.profile-nav-groups .form-item-add-followers,
+.site-info-wrapper form .site-info #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .site-info-wrapper form .site-info .collapse.profile-nav-groups .form-item-add-followers,
+form .view-front-icons .view-content #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .view-front-icons .view-content .collapse.profile-nav-groups .form-item-add-followers,
+.view-front-icons form .view-content #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .view-front-icons form .view-content .collapse.profile-nav-groups .form-item-add-followers,
+form .header-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .header-details .collapse.profile-nav-groups .form-item-add-followers,
+form .header-content-tab .item-list #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .header-content-tab .item-list .collapse.profile-nav-groups .form-item-add-followers,
+.header-content-tab form .item-list #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .header-content-tab form .item-list .collapse.profile-nav-groups .form-item-add-followers,
+form .footer-banner .footer-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .footer-banner .footer-details .collapse.profile-nav-groups .form-item-add-followers,
+.footer-banner form .footer-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper .footer-banner form .footer-details .collapse.profile-nav-groups .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .collapse.profile-nav-groups .form-item-add-followers,
+form .block-menu-block > div > ul #profile-nav-wrapper .collapse.profile-nav-groups .form-item-add-followers,
+#profile-nav-wrapper form .block-menu-block > div > ul .collapse.profile-nav-groups .form-item-add-followers,
+form .row .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .site-info-wrapper .site-info .block-menu-block > div > ul.collapse .form-item-add-followers,
+.site-info-wrapper form .site-info .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .view-front-icons .view-content .block-menu-block > div > ul.collapse .form-item-add-followers,
+.view-front-icons form .view-content .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .header-details .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .header-content-tab .item-list .block-menu-block > div > ul.collapse .form-item-add-followers,
+.header-content-tab form .item-list .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .footer-banner .footer-details .block-menu-block > div > ul.collapse .form-item-add-followers,
+.footer-banner form .footer-details .block-menu-block > div > ul.collapse .form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul.collapse .form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .block-menu-block > div > ul .block-menu-block > div > ul.collapse .form-item-add-followers,
+form .row .row.collapse .form-item-send-notifications,
+form .site-info-wrapper .site-info .row.collapse .form-item-send-notifications,
+.site-info-wrapper form .site-info .row.collapse .form-item-send-notifications,
+form .view-front-icons .view-content .row.collapse .form-item-send-notifications,
+.view-front-icons form .view-content .row.collapse .form-item-send-notifications,
+form .header-details .row.collapse .form-item-send-notifications,
+form .header-content-tab .item-list .row.collapse .form-item-send-notifications,
+.header-content-tab form .item-list .row.collapse .form-item-send-notifications,
+form .footer-banner .footer-details .row.collapse .form-item-send-notifications,
+.footer-banner form .footer-details .row.collapse .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .row.collapse .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .row.collapse .form-item-send-notifications,
+form .block-menu-block > div > ul .row.collapse .form-item-send-notifications,
+form .row .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .row .collapse.site-info .form-item-send-notifications,
+form .site-info-wrapper .site-info .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .site-info .collapse.site-info .form-item-send-notifications,
+form .view-front-icons .view-content .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .view-front-icons .view-content .collapse.site-info .form-item-send-notifications,
+.view-front-icons form .view-content .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper .view-front-icons form .view-content .collapse.site-info .form-item-send-notifications,
+form .header-details .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .header-details .collapse.site-info .form-item-send-notifications,
+form .header-content-tab .item-list .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .header-content-tab .item-list .collapse.site-info .form-item-send-notifications,
+.header-content-tab form .item-list .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper .header-content-tab form .item-list .collapse.site-info .form-item-send-notifications,
+form .footer-banner .footer-details .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .footer-banner .footer-details .collapse.site-info .form-item-send-notifications,
+.footer-banner form .footer-details .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper .footer-banner form .footer-details .collapse.site-info .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form #profile-nav-wrapper .profile-nav-groups .collapse.site-info .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper #profile-nav-wrapper form .profile-nav-groups .collapse.site-info .form-item-send-notifications,
+form .block-menu-block > div > ul .site-info-wrapper .collapse.site-info .form-item-send-notifications,
+.site-info-wrapper form .block-menu-block > div > ul .collapse.site-info .form-item-send-notifications,
+form .row .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .row .collapse.view-content .form-item-send-notifications,
+form .site-info-wrapper .site-info .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .site-info-wrapper .site-info .collapse.view-content .form-item-send-notifications,
+.site-info-wrapper form .site-info .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons .site-info-wrapper form .site-info .collapse.view-content .form-item-send-notifications,
+form .view-front-icons .view-content .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .view-content .collapse.view-content .form-item-send-notifications,
+form .header-details .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .header-details .collapse.view-content .form-item-send-notifications,
+form .header-content-tab .item-list .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .header-content-tab .item-list .collapse.view-content .form-item-send-notifications,
+.header-content-tab form .item-list .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons .header-content-tab form .item-list .collapse.view-content .form-item-send-notifications,
+form .footer-banner .footer-details .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .footer-banner .footer-details .collapse.view-content .form-item-send-notifications,
+.footer-banner form .footer-details .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons .footer-banner form .footer-details .collapse.view-content .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form #profile-nav-wrapper .profile-nav-groups .collapse.view-content .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons #profile-nav-wrapper form .profile-nav-groups .collapse.view-content .form-item-send-notifications,
+form .block-menu-block > div > ul .view-front-icons .collapse.view-content .form-item-send-notifications,
+.view-front-icons form .block-menu-block > div > ul .collapse.view-content .form-item-send-notifications,
+form .row .collapse.header-details .form-item-send-notifications,
+form .site-info-wrapper .site-info .collapse.header-details .form-item-send-notifications,
+.site-info-wrapper form .site-info .collapse.header-details .form-item-send-notifications,
+form .view-front-icons .view-content .collapse.header-details .form-item-send-notifications,
+.view-front-icons form .view-content .collapse.header-details .form-item-send-notifications,
+form .header-details .collapse.header-details .form-item-send-notifications,
+form .header-content-tab .item-list .collapse.header-details .form-item-send-notifications,
+.header-content-tab form .item-list .collapse.header-details .form-item-send-notifications,
+form .footer-banner .footer-details .collapse.header-details .form-item-send-notifications,
+.footer-banner form .footer-details .collapse.header-details .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .collapse.header-details .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .collapse.header-details .form-item-send-notifications,
+form .block-menu-block > div > ul .collapse.header-details .form-item-send-notifications,
+form .row .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .row .collapse.item-list .form-item-send-notifications,
+form .site-info-wrapper .site-info .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .site-info-wrapper .site-info .collapse.item-list .form-item-send-notifications,
+.site-info-wrapper form .site-info .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab .site-info-wrapper form .site-info .collapse.item-list .form-item-send-notifications,
+form .view-front-icons .view-content .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .view-front-icons .view-content .collapse.item-list .form-item-send-notifications,
+.view-front-icons form .view-content .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab .view-front-icons form .view-content .collapse.item-list .form-item-send-notifications,
+form .header-details .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .header-details .collapse.item-list .form-item-send-notifications,
+form .header-content-tab .item-list .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .item-list .collapse.item-list .form-item-send-notifications,
+form .footer-banner .footer-details .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .footer-banner .footer-details .collapse.item-list .form-item-send-notifications,
+.footer-banner form .footer-details .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab .footer-banner form .footer-details .collapse.item-list .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form #profile-nav-wrapper .profile-nav-groups .collapse.item-list .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab #profile-nav-wrapper form .profile-nav-groups .collapse.item-list .form-item-send-notifications,
+form .block-menu-block > div > ul .header-content-tab .collapse.item-list .form-item-send-notifications,
+.header-content-tab form .block-menu-block > div > ul .collapse.item-list .form-item-send-notifications,
+form .row .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .row .collapse.footer-details .form-item-send-notifications,
+form .site-info-wrapper .site-info .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .site-info-wrapper .site-info .collapse.footer-details .form-item-send-notifications,
+.site-info-wrapper form .site-info .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner .site-info-wrapper form .site-info .collapse.footer-details .form-item-send-notifications,
+form .view-front-icons .view-content .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .view-front-icons .view-content .collapse.footer-details .form-item-send-notifications,
+.view-front-icons form .view-content .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner .view-front-icons form .view-content .collapse.footer-details .form-item-send-notifications,
+form .header-details .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .header-details .collapse.footer-details .form-item-send-notifications,
+form .header-content-tab .item-list .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .header-content-tab .item-list .collapse.footer-details .form-item-send-notifications,
+.header-content-tab form .item-list .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner .header-content-tab form .item-list .collapse.footer-details .form-item-send-notifications,
+form .footer-banner .footer-details .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .footer-details .collapse.footer-details .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form #profile-nav-wrapper .profile-nav-groups .collapse.footer-details .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner #profile-nav-wrapper form .profile-nav-groups .collapse.footer-details .form-item-send-notifications,
+form .block-menu-block > div > ul .footer-banner .collapse.footer-details .form-item-send-notifications,
+.footer-banner form .block-menu-block > div > ul .collapse.footer-details .form-item-send-notifications,
+form .row #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .row .collapse.profile-nav-groups .form-item-send-notifications,
+form .site-info-wrapper .site-info #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .site-info-wrapper .site-info .collapse.profile-nav-groups .form-item-send-notifications,
+.site-info-wrapper form .site-info #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .site-info-wrapper form .site-info .collapse.profile-nav-groups .form-item-send-notifications,
+form .view-front-icons .view-content #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .view-front-icons .view-content .collapse.profile-nav-groups .form-item-send-notifications,
+.view-front-icons form .view-content #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .view-front-icons form .view-content .collapse.profile-nav-groups .form-item-send-notifications,
+form .header-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .header-details .collapse.profile-nav-groups .form-item-send-notifications,
+form .header-content-tab .item-list #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .header-content-tab .item-list .collapse.profile-nav-groups .form-item-send-notifications,
+.header-content-tab form .item-list #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .header-content-tab form .item-list .collapse.profile-nav-groups .form-item-send-notifications,
+form .footer-banner .footer-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .footer-banner .footer-details .collapse.profile-nav-groups .form-item-send-notifications,
+.footer-banner form .footer-details #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper .footer-banner form .footer-details .collapse.profile-nav-groups .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .collapse.profile-nav-groups .form-item-send-notifications,
+form .block-menu-block > div > ul #profile-nav-wrapper .collapse.profile-nav-groups .form-item-send-notifications,
+#profile-nav-wrapper form .block-menu-block > div > ul .collapse.profile-nav-groups .form-item-send-notifications,
+form .row .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .site-info-wrapper .site-info .block-menu-block > div > ul.collapse .form-item-send-notifications,
+.site-info-wrapper form .site-info .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .view-front-icons .view-content .block-menu-block > div > ul.collapse .form-item-send-notifications,
+.view-front-icons form .view-content .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .header-details .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .header-content-tab .item-list .block-menu-block > div > ul.collapse .form-item-send-notifications,
+.header-content-tab form .item-list .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .footer-banner .footer-details .block-menu-block > div > ul.collapse .form-item-send-notifications,
+.footer-banner form .footer-details .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups .block-menu-block > div > ul.collapse .form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups .block-menu-block > div > ul.collapse .form-item-send-notifications,
+form .block-menu-block > div > ul .block-menu-block > div > ul.collapse .form-item-send-notifications,
 form .row .row.collapse #edit-field-mf-subscription-type .form-type-radio,
 #edit-field-mf-subscription-type form .row .row.collapse .form-type-radio,
 form .site-info-wrapper .site-info .row.collapse #edit-field-mf-subscription-type .form-type-radio,
@@ -11008,6 +11672,32 @@ form #profile-nav-wrapper .profile-nav-groups .view-group-users input.views-row,
 .view-group-users #profile-nav-wrapper form .profile-nav-groups input.views-row,
 form .block-menu-block > div > ul .view-group-users input.views-row,
 .view-group-users form .block-menu-block > div > ul input.views-row,
+form .row input.form-item-add-followers,
+form .site-info-wrapper .site-info input.form-item-add-followers,
+.site-info-wrapper form .site-info input.form-item-add-followers,
+form .view-front-icons .view-content input.form-item-add-followers,
+.view-front-icons form .view-content input.form-item-add-followers,
+form .header-details input.form-item-add-followers,
+form .header-content-tab .item-list input.form-item-add-followers,
+.header-content-tab form .item-list input.form-item-add-followers,
+form .footer-banner .footer-details input.form-item-add-followers,
+.footer-banner form .footer-details input.form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups input.form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups input.form-item-add-followers,
+form .block-menu-block > div > ul input.form-item-add-followers,
+form .row input.form-item-send-notifications,
+form .site-info-wrapper .site-info input.form-item-send-notifications,
+.site-info-wrapper form .site-info input.form-item-send-notifications,
+form .view-front-icons .view-content input.form-item-send-notifications,
+.view-front-icons form .view-content input.form-item-send-notifications,
+form .header-details input.form-item-send-notifications,
+form .header-content-tab .item-list input.form-item-send-notifications,
+.header-content-tab form .item-list input.form-item-send-notifications,
+form .footer-banner .footer-details input.form-item-send-notifications,
+.footer-banner form .footer-details input.form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups input.form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups input.form-item-send-notifications,
+form .block-menu-block > div > ul input.form-item-send-notifications,
 form .row #edit-field-mf-subscription-type input.form-type-radio,
 #edit-field-mf-subscription-type form .row input.form-type-radio,
 form .site-info-wrapper .site-info #edit-field-mf-subscription-type input.form-type-radio,
@@ -11301,6 +11991,32 @@ form #profile-nav-wrapper .profile-nav-groups .view-group-users textarea.views-r
 .view-group-users #profile-nav-wrapper form .profile-nav-groups textarea.views-row,
 form .block-menu-block > div > ul .view-group-users textarea.views-row,
 .view-group-users form .block-menu-block > div > ul textarea.views-row,
+form .row textarea.form-item-add-followers,
+form .site-info-wrapper .site-info textarea.form-item-add-followers,
+.site-info-wrapper form .site-info textarea.form-item-add-followers,
+form .view-front-icons .view-content textarea.form-item-add-followers,
+.view-front-icons form .view-content textarea.form-item-add-followers,
+form .header-details textarea.form-item-add-followers,
+form .header-content-tab .item-list textarea.form-item-add-followers,
+.header-content-tab form .item-list textarea.form-item-add-followers,
+form .footer-banner .footer-details textarea.form-item-add-followers,
+.footer-banner form .footer-details textarea.form-item-add-followers,
+form #profile-nav-wrapper .profile-nav-groups textarea.form-item-add-followers,
+#profile-nav-wrapper form .profile-nav-groups textarea.form-item-add-followers,
+form .block-menu-block > div > ul textarea.form-item-add-followers,
+form .row textarea.form-item-send-notifications,
+form .site-info-wrapper .site-info textarea.form-item-send-notifications,
+.site-info-wrapper form .site-info textarea.form-item-send-notifications,
+form .view-front-icons .view-content textarea.form-item-send-notifications,
+.view-front-icons form .view-content textarea.form-item-send-notifications,
+form .header-details textarea.form-item-send-notifications,
+form .header-content-tab .item-list textarea.form-item-send-notifications,
+.header-content-tab form .item-list textarea.form-item-send-notifications,
+form .footer-banner .footer-details textarea.form-item-send-notifications,
+.footer-banner form .footer-details textarea.form-item-send-notifications,
+form #profile-nav-wrapper .profile-nav-groups textarea.form-item-send-notifications,
+#profile-nav-wrapper form .profile-nav-groups textarea.form-item-send-notifications,
+form .block-menu-block > div > ul textarea.form-item-send-notifications,
 form .row #edit-field-mf-subscription-type textarea.form-type-radio,
 #edit-field-mf-subscription-type form .row textarea.form-type-radio,
 form .site-info-wrapper .site-info #edit-field-mf-subscription-type textarea.form-type-radio,
@@ -14171,6 +14887,8 @@ section.join-mail .reveal-modal .join-link-wrapper,
 .site-info-wrapper .reveal-modal .copyright,
 .reveal-modal .view-group-users .views-row,
 .view-group-users .reveal-modal .views-row,
+.reveal-modal .form-item-add-followers,
+.reveal-modal .form-item-send-notifications,
 .reveal-modal #edit-field-mf-subscription-type .form-type-radio,
 #edit-field-mf-subscription-type .reveal-modal .form-type-radio,
 .reveal-modal .view-front-icons .views-row,
@@ -16533,320 +17251,325 @@ div.user-picture, form.comment-form div.form-item {
   width: 40px;
 }
 
-/* line 130, ../scss/theme/_features.scss */
-.form-item-add-followers label {
+/* line 142, ../scss/theme/_features.scss */
+.form-item-title {
+  clear: both;
+}
+
+/* line 147, ../scss/theme/_features.scss */
+.form-item-add-followers label, .form-item-send-notifications label {
   color: #aaaaaa;
 }
 
-/* line 135, ../scss/theme/_features.scss */
+/* line 154, ../scss/theme/_features.scss */
 .term-listing-heading {
   min-height: 30px;
 }
 
-/* line 139, ../scss/theme/_features.scss */
+/* line 158, ../scss/theme/_features.scss */
 .view-recent-activity {
   max-height: 300px;
   overflow: auto;
 }
 
-/* line 149, ../scss/theme/_features.scss */
+/* line 168, ../scss/theme/_features.scss */
 article.node-idea .flag-outer.flag-outer-idea-vote {
   float: right;
   clear: none;
 }
 
-/* line 156, ../scss/theme/_features.scss */
+/* line 175, ../scss/theme/_features.scss */
 article.node-idea.node-teaser .node-title {
   float: left;
 }
-/* line 159, ../scss/theme/_features.scss */
+/* line 178, ../scss/theme/_features.scss */
 article.node-idea.node-teaser .body {
   clear: both;
 }
 
-/* line 166, ../scss/theme/_features.scss */
+/* line 185, ../scss/theme/_features.scss */
 .view-idea-votes ol {
   margin-left: 2em;
   margin-top: 1em;
 }
 
-/* line 178, ../scss/theme/_features.scss */
+/* line 197, ../scss/theme/_features.scss */
 .block-book-explorer .book-explorer a.active {
   /*@extend .success;*/
 }
 
-/* line 185, ../scss/theme/_features.scss */
+/* line 204, ../scss/theme/_features.scss */
 .book-navigation {
   clear: both;
 }
-/* line 188, ../scss/theme/_features.scss */
+/* line 207, ../scss/theme/_features.scss */
 .book-navigation .page-links {
   border: 0;
 }
 
-/* line 216, ../scss/theme/_features.scss */
+/* line 235, ../scss/theme/_features.scss */
 span.flag-tag-filter a {
   margin-bottom: 0.5em;
 }
-/* line 222, ../scss/theme/_features.scss */
+/* line 241, ../scss/theme/_features.scss */
 span.flag-tag-filter a.unflag-action {
   margin-bottom: 0.5em;
 }
 
-/* line 229, ../scss/theme/_features.scss */
+/* line 248, ../scss/theme/_features.scss */
 .view-tag-filter .views-row {
   width: auto;
   float: left;
 }
 
-/* line 235, ../scss/theme/_features.scss */
+/* line 254, ../scss/theme/_features.scss */
 .node .field-name-field-tags {
   font-size: 80%;
 }
 
-/* line 245, ../scss/theme/_features.scss */
+/* line 264, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref div.entityconnect-add {
   height: auto;
   padding: 5px 0;
 }
-/* line 254, ../scss/theme/_features.scss */
+/* line 273, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref select,
 form .field-name-field-ko-ref div {
   clear: both;
   width: 100%;
   /*margin: auto;*/
 }
-/* line 259, ../scss/theme/_features.scss */
+/* line 278, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref span {
   display: block;
 }
-/* line 262, ../scss/theme/_features.scss */
+/* line 281, ../scss/theme/_features.scss */
 form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-weight-wrapper {
   display: none;
 }
 
-/* line 268, ../scss/theme/_features.scss */
+/* line 287, ../scss/theme/_features.scss */
 .field-name-field-ko-file .file {
   display: block;
   margin-bottom: 0.75em;
 }
 
-/* line 277, ../scss/theme/_features.scss */
+/* line 296, ../scss/theme/_features.scss */
 .view-front-icons {
   margin-top: 1.875em;
 }
-/* line 284, ../scss/theme/_features.scss */
+/* line 303, ../scss/theme/_features.scss */
 .view-front-icons .views-row {
   text-align: center;
 }
-/* line 289, ../scss/theme/_features.scss */
+/* line 308, ../scss/theme/_features.scss */
 .view-front-icons .views-field-body {
   height: 4.5em;
 }
-/* line 292, ../scss/theme/_features.scss */
+/* line 311, ../scss/theme/_features.scss */
 .view-front-icons .views-field-title {
   margin: 2.1875em;
 }
-/* line 294, ../scss/theme/_features.scss */
+/* line 313, ../scss/theme/_features.scss */
 .view-front-icons .views-field-title a {
   color: #94403e;
   text-transform: uppercase;
 }
-/* line 299, ../scss/theme/_features.scss */
+/* line 318, ../scss/theme/_features.scss */
 .view-front-icons .views-field-field-fi-slogan {
   margin: 2.1875em;
 }
 
-/* line 308, ../scss/theme/_features.scss */
+/* line 327, ../scss/theme/_features.scss */
 .header-banner {
   background-color: #414042;
   color: white;
 }
-/* line 312, ../scss/theme/_features.scss */
+/* line 331, ../scss/theme/_features.scss */
 .header-banner a {
   color: white;
 }
 
-/* line 320, ../scss/theme/_features.scss */
+/* line 339, ../scss/theme/_features.scss */
 .header-details h1 {
   display: inline;
   color: white;
 }
-/* line 325, ../scss/theme/_features.scss */
+/* line 344, ../scss/theme/_features.scss */
 .header-details p {
   margin-bottom: 0;
 }
-/* line 329, ../scss/theme/_features.scss */
+/* line 348, ../scss/theme/_features.scss */
 .header-details img {
   margin-right: 0.9375em;
 }
-/* line 332, ../scss/theme/_features.scss */
+/* line 351, ../scss/theme/_features.scss */
 .header-details .privacy-status {
   /*font-size: $small-font-size;*/
   background-color: #94403e;
   margin-left: 0.9375em;
   display: inline;
 }
-/* line 350, ../scss/theme/_features.scss */
+/* line 369, ../scss/theme/_features.scss */
 .header-details .member-count {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 375, ../scss/theme/_features.scss */
+/* line 394, ../scss/theme/_features.scss */
 .header-content-tab {
   background-color: #e5e6e7;
   padding-top: 0.75em;
 }
-/* line 381, ../scss/theme/_features.scss */
+/* line 400, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul {
   list-style: none;
   padding-top: 10px;
 }
-/* line 385, ../scss/theme/_features.scss */
+/* line 404, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li {
   display: inline;
   padding: 1.25em;
 }
-/* line 388, ../scss/theme/_features.scss */
+/* line 407, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li a {
   text-transform: uppercase;
   padding: 8px 0 8px 40px;
   color: #222222;
   font-weight: bold;
 }
-/* line 395, ../scss/theme/_features.scss */
+/* line 414, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li.active {
   border-radius: 8px;
   background-color: white;
 }
-/* line 399, ../scss/theme/_features.scss */
+/* line 418, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .home a, .header-content-tab .item-list ul .profile a {
   background: url(../images/home.png) no-repeat;
 }
-/* line 402, ../scss/theme/_features.scss */
+/* line 421, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .conversations a {
   background: url(../images/conversations.png) no-repeat;
 }
-/* line 405, ../scss/theme/_features.scss */
+/* line 424, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .library a {
   background: url(../images/library.png) no-repeat;
 }
-/* line 408, ../scss/theme/_features.scss */
+/* line 427, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .ideas a {
   background: url(../images/ideas.png) no-repeat;
 }
-/* line 411, ../scss/theme/_features.scss */
+/* line 430, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .documentation a {
   background: url(../images/documents.png) no-repeat;
 }
 
-/* line 420, ../scss/theme/_features.scss */
+/* line 439, ../scss/theme/_features.scss */
 .footer-banner {
   background-color: #414042;
   color: #78797c;
 }
-/* line 424, ../scss/theme/_features.scss */
+/* line 443, ../scss/theme/_features.scss */
 .footer-banner a {
   color: #78797c;
 }
 
-/* line 441, ../scss/theme/_features.scss */
+/* line 460, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav {
   border: 1px solid #dddddd;
   text-transform: none;
 }
-/* line 444, ../scss/theme/_features.scss */
+/* line 463, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav a {
   background: none;
   color: #31b5d5;
   padding: 0;
   margin-bottom: 0.1875em;
 }
-/* line 450, ../scss/theme/_features.scss */
+/* line 469, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav li {
   float: none;
 }
-/* line 455, ../scss/theme/_features.scss */
+/* line 474, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-info {
   padding: 0.875em;
   background-color: white;
   min-width: 12.5em;
 }
-/* line 461, ../scss/theme/_features.scss */
+/* line 480, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account {
   margin-bottom: 0.625em;
 }
-/* line 463, ../scss/theme/_features.scss */
+/* line 482, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item {
   margin-right: 10px;
 }
-/* line 465, ../scss/theme/_features.scss */
+/* line 484, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture a, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item a, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item a {
   background-color: white;
 }
-/* line 471, ../scss/theme/_features.scss */
+/* line 490, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account-text {
   overflow: hidden;
 }
-/* line 475, ../scss/theme/_features.scss */
+/* line 494, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-roles {
   font-size: 80%;
 }
-/* line 479, ../scss/theme/_features.scss */
+/* line 498, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups {
   display: block;
   clear: both;
 }
-/* line 481, ../scss/theme/_features.scss */
+/* line 500, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups ul {
   background: none;
 }
-/* line 484, ../scss/theme/_features.scss */
+/* line 503, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups li {
   margin-top: 0.375em;
 }
-/* line 494, ../scss/theme/_features.scss */
+/* line 513, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions {
   background: #e9e9e9;
   border-top: 1px solid #dddddd;
   position: relative;
   height: 2.5em;
 }
-/* line 499, ../scss/theme/_features.scss */
+/* line 518, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a {
   padding: 0.875em;
   font-weight: bold;
   position: absolute;
 }
-/* line 504, ../scss/theme/_features.scss */
+/* line 523, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a.profile-nav-logout {
   right: 0px;
 }
 
-/* line 510, ../scss/theme/_features.scss */
+/* line 529, ../scss/theme/_features.scss */
 .block-menu-block {
   background: #faaf40;
 }
-/* line 513, ../scss/theme/_features.scss */
+/* line 532, ../scss/theme/_features.scss */
 .block-menu-block li {
   list-style: none;
 }
-/* line 516, ../scss/theme/_features.scss */
+/* line 535, ../scss/theme/_features.scss */
 .block-menu-block ul {
   margin: 0;
 }
-/* line 520, ../scss/theme/_features.scss */
+/* line 539, ../scss/theme/_features.scss */
 .block-menu-block a {
   color: white;
   font-size: 115%;
 }
-/* line 531, ../scss/theme/_features.scss */
+/* line 550, ../scss/theme/_features.scss */
 .block-menu-block > div > ul > li > a {
   font-weight: bold;
 }
 
-/* line 568, ../scss/theme/_features.scss */
+/* line 587, ../scss/theme/_features.scss */
 .node-teaser .image {
   float: left;
   margin: 0.3125em 0.625em 0.3125em 0;
