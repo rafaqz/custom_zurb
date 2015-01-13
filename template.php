@@ -29,7 +29,7 @@ function custom_zurb_preprocess_page(&$variables) {
   global $user;
   global $base_url;
   $variables['top_bar_profile_nav'] = '';
-  if ($block = module_invoke('collabco_profile_feature', 'block_view', 'profile_nav')) {
+  if ($block = module_invoke('profile_feature', 'block_view', 'profile_nav')) {
     $variables['top_bar_profile_nav'] = '
     <ul id="profile-nav-wrapper" class="secondary link-list right">
       <li class="last expanded has-dropdown not-click" title="">
@@ -41,7 +41,7 @@ function custom_zurb_preprocess_page(&$variables) {
     </ul>';
   }
 
-  $variables['title_suffix'] = collabco_message_feature_flag_links();
+  $variables['title_suffix'] = message_feature_flag_links();
 
   $title = '';
   // Rebuild linked_site_name without using l function as it kills html.
@@ -224,7 +224,7 @@ function custom_zurb_form_comment_form_alter(&$form, &$form_state) {
   $label = t('new label');
   if (isset($form['author']['_author'])) {
     $language = $form['comment_body']['und']['#language'];
-    $form['author']['_author']['#markup'] = collabco_profile_feature_load_user_picture($user);
+    $form['author']['_author']['#markup'] = profile_feature_load_user_picture($user);
     $form['author']['_author']['#title'] = '';
     $form['comment_body'][$language][0]['value']['#attributes']['placeholder'] = 'Add your comment';
 
