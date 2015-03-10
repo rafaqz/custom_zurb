@@ -391,28 +391,32 @@ form .field-name-field-ko-ref {
   @extend .small-6;
 }
 
+$tab-radius: 8px;
+
 .header-content-tab {
   background-color: $header-bar-bg;
-  padding-top: emCalc(12);
+  padding-top: $tab-radius;
   .item-list {
     @extend .row;
 
     ul {
       list-style: none;
-      padding-top: 10px;
+      margin-bottom: 0;
 
       li {
-        display: inline;
+        display: inline-block;
         padding: emCalc(20);
+        margin-bottom: -$tab-radius;
+
         a {
           text-transform: uppercase;
-          padding: 8px 0 8px 40px;
+          padding: $tab-radius 0 $tab-radius 40px;
           color: $body-font-color;
           font-weight: bold;
         }
       }
       li.active {
-        border-radius: 8px;
+        border-radius: $tab-radius;
         background-color: $body-bg;
       }
       .home a,.profile a {
