@@ -381,14 +381,14 @@ form .field-name-field-ko-ref {
 
 .header-details-main {
   @extend .columns;
-  @extend .large-7;
-  @extend .small-9;
+  @extend .large-8;
+  @extend .small-12;
 }
 
 .header-details-side {
   @extend .columns;
-  @extend .large-3;
-  @extend .small-6;
+  @extend .large-4;
+  @extend .small-12;
 }
 
 $tab-radius: 8px;

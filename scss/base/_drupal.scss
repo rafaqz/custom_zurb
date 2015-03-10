@@ -33,12 +33,12 @@
 }
 
 // Fix drupal spinner position for larger text fields.
-/*html.js {*/
-  /*input.form-autocomplete {*/
-    /*background-position: 100% 10px;*/
-  /*}*/
-  /*form input.throbbing {*/
-    /*background-position: 100% 18px;*/
-  /*}*/
-/*}*/
+html.js {
+  input.form-autocomplete {
+    background-position: 100% 7px;
+  }
+  form input.throbbing {
+    background-position: 100% -12px;
+  }
+}
 
