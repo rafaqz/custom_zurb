@@ -379,42 +379,38 @@ form .field-name-field-ko-ref {
 
 .header-details-main {
   @extend .columns;
-  @extend .large-8;
-  @extend .small-12;
+  @extend .large-7;
+  @extend .small-9;
 }
 
 .header-details-side {
   @extend .columns;
-  @extend .large-4;
-  @extend .small-12;
+  @extend .large-3;
+  @extend .small-6;
 }
-
-$tab-radius: 8px;
 
 .header-content-tab {
   background-color: $header-bar-bg;
-  padding-top: $tab-radius;
+  padding-top: emCalc(12);
   .item-list {
     @extend .row;
 
     ul {
       list-style: none;
-      margin-bottom: 0;
+      padding-top: 10px;
 
       li {
-        display: inline-block;
+        display: inline;
         padding: emCalc(20);
-        margin-bottom: -$tab-radius;
-
         a {
           text-transform: uppercase;
-          padding: $tab-radius 0 $tab-radius 40px;
+          padding: 8px 0 8px 40px;
           color: $body-font-color;
           font-weight: bold;
         }
       }
       li.active {
-        border-radius: $tab-radius;
+        border-radius: 8px;
         background-color: $body-bg;
       }
       .home a,.profile a {
@@ -524,34 +520,6 @@ $footer-banner-color: #78797C;
     }
     a.profile-nav-logout {
       right: 0px;
-    }
-  }
-}
-
-.block-menu-block {
-  @extend %banner-padding-small;
-  background: $main-stripe-bg;
-  li {
-    list-style:none;
-  }
-  ul {
-    margin: 0; 
-  }
-  // Font styling
-  a {
-    color: $body-bg;
-    font-size: $large-font-size;
-  }
-  // Columns for each 1st level menu item.
-  > div > ul {
-    @extend .row;
-
-    > li {
-      @extend .column;
-      @extend .large-3;
-      > a {
-        font-weight: bold;
-      }
     }
   }
 }
