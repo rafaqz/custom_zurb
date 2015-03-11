@@ -77,8 +77,9 @@ scripts[] = js/foundation.min.js
 
 regions[header]              = Header
 regions[help]                = Help
-regions[highlighted]         = Highlighted
 regions[featured]            = Featured
+regions[banner-middle]       = Banner Middle
+regions[highlighted]         = Highlighted
 regions[content]             = Content
 regions[sidebar_first]       = Left Sidebar
 regions[sidebar_second]      = Right Sidebar
