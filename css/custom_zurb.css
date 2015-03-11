@@ -944,7 +944,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 138, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-6, #profile-nav-wrapper .profile-nav-groups li {
+  .small-6, .header-details-side, #profile-nav-wrapper .profile-nav-groups li {
     position: relative;
     width: 50%;
   }
@@ -962,7 +962,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 138, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-9, .title-wrapper {
+  .small-9, .title-wrapper, .header-details-main {
     position: relative;
     width: 75%;
   }
@@ -980,7 +980,7 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 138, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .small-12, section.join-mail .join-link-wrapper, .site-info-wrapper .site-name, .site-info-wrapper .copyright, .form-item-add-followers, .form-item-send-notifications, #edit-field-mf-subscription-type .form-type-radio, .header-details-main, .header-details-side {
+  .small-12, section.join-mail .join-link-wrapper, .site-info-wrapper .site-name, .site-info-wrapper .copyright, .form-item-add-followers, .form-item-send-notifications, #edit-field-mf-subscription-type .form-type-radio {
     position: relative;
     width: 100%;
   }
@@ -1102,13 +1102,13 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 156, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-3, .site-info-wrapper .site-name, .block-menu-block > div > ul > li, .view-group-users .views-row {
+  .large-3, .site-info-wrapper .site-name, .block-menu-block > div > ul > li, .view-group-users .views-row, .header-details-side {
     position: relative;
     width: 25%;
   }
 
   /* line 156, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-4, .form-item-send-notifications, .view-front-icons .views-row, .header-details-side {
+  .large-4, .form-item-send-notifications, .view-front-icons .views-row {
     position: relative;
     width: 33.33333%;
   }
@@ -1126,13 +1126,13 @@ section.join-mail .join-link-wrapper,
   }
 
   /* line 156, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-7, .title-wrapper {
+  .large-7, .title-wrapper, .header-details-main {
     position: relative;
     width: 58.33333%;
   }
 
   /* line 156, ../../../../../../../../../../../usr/lib/ruby/gems/2.2.0/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
-  .large-8, .form-item-add-followers, .header-details-main {
+  .large-8, .form-item-add-followers {
     position: relative;
     width: 66.66667%;
   }
@@ -17419,161 +17419,138 @@ form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-w
   text-transform: uppercase;
 }
 
-/* line 394, ../scss/theme/_features.scss */
+/* line 392, ../scss/theme/_features.scss */
 .header-content-tab {
   background-color: #e5e6e7;
-  padding-top: 8px;
+  padding-top: 0.75em;
 }
-/* line 400, ../scss/theme/_features.scss */
+/* line 398, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul {
   list-style: none;
-  margin-bottom: 0;
+  padding-top: 10px;
 }
-/* line 404, ../scss/theme/_features.scss */
+/* line 402, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li {
-  display: inline-block;
+  display: inline;
   padding: 1.25em;
-  margin-bottom: -8px;
 }
-/* line 409, ../scss/theme/_features.scss */
+/* line 405, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li a {
   text-transform: uppercase;
   padding: 8px 0 8px 40px;
   color: #222222;
   font-weight: bold;
 }
-/* line 416, ../scss/theme/_features.scss */
+/* line 412, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul li.active {
   border-radius: 8px;
   background-color: white;
 }
-/* line 420, ../scss/theme/_features.scss */
+/* line 416, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .home a, .header-content-tab .item-list ul .profile a {
   background: url(../images/home.png) no-repeat;
 }
-/* line 423, ../scss/theme/_features.scss */
+/* line 419, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .conversations a {
   background: url(../images/conversations.png) no-repeat;
 }
-/* line 426, ../scss/theme/_features.scss */
+/* line 422, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .library a {
   background: url(../images/library.png) no-repeat;
 }
-/* line 429, ../scss/theme/_features.scss */
+/* line 425, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .ideas a {
   background: url(../images/ideas.png) no-repeat;
 }
-/* line 432, ../scss/theme/_features.scss */
+/* line 428, ../scss/theme/_features.scss */
 .header-content-tab .item-list ul .documentation a {
   background: url(../images/documents.png) no-repeat;
 }
 
-/* line 441, ../scss/theme/_features.scss */
+/* line 437, ../scss/theme/_features.scss */
 .footer-banner {
   background-color: #414042;
   color: #78797c;
 }
-/* line 445, ../scss/theme/_features.scss */
+/* line 441, ../scss/theme/_features.scss */
 .footer-banner a {
   color: #78797c;
 }
 
-/* line 462, ../scss/theme/_features.scss */
+/* line 458, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav {
   border: 1px solid #dddddd;
   text-transform: none;
 }
-/* line 465, ../scss/theme/_features.scss */
+/* line 461, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav a {
   background: none;
   color: #31b5d5;
   padding: 0;
   margin-bottom: 0.1875em;
 }
-/* line 471, ../scss/theme/_features.scss */
+/* line 467, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav li {
   float: none;
 }
-/* line 476, ../scss/theme/_features.scss */
+/* line 472, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-info {
   padding: 0.875em;
   background-color: white;
   min-width: 12.5em;
 }
-/* line 482, ../scss/theme/_features.scss */
+/* line 478, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account {
   margin-bottom: 0.625em;
 }
-/* line 484, ../scss/theme/_features.scss */
+/* line 480, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item {
   margin-right: 10px;
 }
-/* line 486, ../scss/theme/_features.scss */
+/* line 482, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account .user-picture a, #profile-nav-wrapper .profile-nav-account form.comment-form .form-item a, form.comment-form #profile-nav-wrapper .profile-nav-account .form-item a {
   background-color: white;
 }
-/* line 492, ../scss/theme/_features.scss */
+/* line 488, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-account-text {
   overflow: hidden;
 }
-/* line 496, ../scss/theme/_features.scss */
+/* line 492, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-roles {
   font-size: 80%;
 }
-/* line 500, ../scss/theme/_features.scss */
+/* line 496, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups {
   display: block;
   clear: both;
 }
-/* line 502, ../scss/theme/_features.scss */
+/* line 498, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups ul {
   background: none;
 }
-/* line 505, ../scss/theme/_features.scss */
+/* line 501, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-groups li {
   margin-top: 0.375em;
 }
-/* line 515, ../scss/theme/_features.scss */
+/* line 511, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions {
   background: #e9e9e9;
   border-top: 1px solid #dddddd;
   position: relative;
   height: 2.5em;
 }
-/* line 520, ../scss/theme/_features.scss */
+/* line 516, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a {
   padding: 0.875em;
   font-weight: bold;
   position: absolute;
 }
-/* line 525, ../scss/theme/_features.scss */
+/* line 521, ../scss/theme/_features.scss */
 #profile-nav-wrapper .profile-nav-actions a.profile-nav-logout {
   right: 0px;
 }
 
-/* line 531, ../scss/theme/_features.scss */
-.block-menu-block {
-  background: #faaf40;
-}
-/* line 534, ../scss/theme/_features.scss */
-.block-menu-block li {
-  list-style: none;
-}
-/* line 537, ../scss/theme/_features.scss */
-.block-menu-block ul {
-  margin: 0;
-}
-/* line 541, ../scss/theme/_features.scss */
-.block-menu-block a {
-  color: white;
-  font-size: 115%;
-}
-/* line 552, ../scss/theme/_features.scss */
-.block-menu-block > div > ul > li > a {
-  font-weight: bold;
-}
-
-/* line 589, ../scss/theme/_features.scss */
+/* line 557, ../scss/theme/_features.scss */
 .node-teaser .image {
   float: left;
   margin: 0.3125em 0.625em 0.3125em 0;
