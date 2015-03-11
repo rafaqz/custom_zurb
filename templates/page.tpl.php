@@ -56,11 +56,7 @@
             <?php endif; ?>
 
             <?php if ($site_slogan): ?>
-              <h3 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h3>
-            <?php endif; ?>
-
-            <?php if ($site_slogan): ?>
-              <span class="site-learn-more"><a href="<?php global $base_url; print $base_url; ?>/about-us">Learn more</a></span>
+              <h2 title="<?php print $site_slogan; ?>" class="site-slogan"><?php print $site_slogan; ?></h2>
             <?php endif; ?>
 
             <?php if (!$top_bar && $alt_main_menu): ?>
@@ -113,6 +109,14 @@
     <!--/.l-featured -->
   <?php endif; ?>
 
+  <?php if (!empty($page['banner-middle'])): ?>
+    <!--/.featured -->
+    <section class="l-banner-middle">
+      <?php print render($page['banner-middle']); ?>
+    </section>
+    <!--/.l-featured -->
+  <?php endif; ?>
+
   <?php if ($messages && !$zurb_foundation_messages_modal): ?>
     <!--/.l-messages -->
     <section class="l-messages row">
@@ -121,16 +125,6 @@
       </div>
     </section>
     <!--/.l-messages -->
-  <?php endif; ?>
-
-  <?php if (!empty($page['help'])): ?>
-    <!--/.l-help -->
-    <section class="l-help row">
-      <div class="large-12 columns">
-        <?php print render($page['help']); ?>
-      </div>
-    </section>
-    <!--/.l-help -->
   <?php endif; ?>
 
   <main role="main" class="row l-main">

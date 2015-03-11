@@ -73,15 +73,14 @@ $em-base: 16 !default;
 $header-bg: #414042;
 $header-bar-bg: #E5E6E7;
 $main-stripe-bg: #FAAF40;
+$alt-font-color: #fff;
+$subtle-font-color: #aaa;
 
 $vertical-spacer: emCalc(8);
 $horizontal-spacer: emCalc(15);
 
 $comment-pic-width: 40px;
 $large-font-size: 115%;
-$alt-font-color: #fff;
-$subtle-font-color: #aaa;
-
 
 // Change whether or not you include browser prefixes
 // $experimental: true;

@@ -1,0 +1,105 @@
+////////////////////////////////////////////
+// Banner
+////////////////////////////////////////////
+
+.site-banner {
+  background: url(../images/artichokes_bkgrd.jpg) no-repeat;
+  background-color: $topbar-bg; 
+  @media #{$screen} { 
+    padding: emCalc(45) 0;
+    background-size: 150%;
+  }
+  @media #{$small} { 
+    padding: emCalc(90) 0;
+    background-size: 100%;
+  }
+  .site-logo {
+    @extend .columns; 
+    @extend .large-2; 
+    @extend .small-2;
+  }
+  .site-banner-text {
+    @extend .columns; 
+    @extend .large-10; 
+    @extend .small-10;
+    a {
+      color: $alt-font-color;
+    }
+    .site-slogan {
+      color: $alt-font-color;
+    }
+  }
+  #site-name { 
+    text-transform: uppercase;
+   
+    @media #{$small} { 
+      font-size: emCalc(58);
+    }
+  }
+}
+
+////////////////////////////////////////////
+// Join
+////////////////////////////////////////////
+
+section.join-mail {
+  background: $success-color;
+  @extend %banner-padding-small;
+  .join-link-wrapper {
+    @extend .columns;
+    @extend .large-12;
+
+    @extend .small-12;
+  }
+  .join-label { 
+    font-size: $large-font-size;
+    color: $alt-font-color;
+    padding-top: emCalc(6);
+    padding-right: emCalc(8);
+    float: right;
+    clear:none;
+  }
+  .join-link {
+    @extend .button;
+    @extend .small;
+    @extend .radius;
+    float: right;
+    clear:none;
+    margin: 0;
+  }
+}
+
+section.join-mail.bottom {
+  background: #FCCA81;
+  span { 
+    color: $success-color;
+  }
+}
+
+////////////////////////////////////////////
+// Learn More
+////////////////////////////////////////////
+
+.site-learn-more {
+  text-align: right;
+  a {
+    @extend .button;
+    @extend .radius;
+    margin: emCalc(18px)
+  }
+}
+
+.l-featured .block {
+  text-align: center;
+  margin-top: emCalc(70);
+  margin-bottom: emCalc(40);
+}
+
+////////////////////////////////////////////
+// Icons banner
+////////////////////////////////////////////
+
+.block-views-front-icons-block {
+  padding-top: emCalc(40);
+  background-color: $header-bar-bg;
+}

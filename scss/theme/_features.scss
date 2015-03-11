@@ -294,8 +294,6 @@ form .field-name-field-ko-ref {
 //////////////////////////////////////////////////////////////////
 
 .view-front-icons {
-  margin-top: emCalc(30);
-  @extend %divider-bottom;
 
   .view-content {
     @extend .row;
