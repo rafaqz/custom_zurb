@@ -18,7 +18,12 @@
   .has-dropdown > a {
      padding: 0 2em 0 1em !important;
   }
+  // bugfix for black topbar menus, this shouldnt need to be here
+  li a:not(.button):hover {
+	background: $topbar-link-bg-hover;
+  }
 }
+
 .top-bar-section .left {
 }
 

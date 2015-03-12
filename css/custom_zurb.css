@@ -16758,12 +16758,13 @@ section.join-mail, .site-info-wrapper .site-info, .block-menu-block, .footer-ban
 }
 
 /* line 37, ../scss/base/_drupal.scss */
-html.js input.form-autocomplete {
-  background-position: 100% 7px;
+html.js form input.form-autocomplete {
+  background-image: url("../images/throbber.gif");
+  background-position: 100% 9px;
 }
-/* line 40, ../scss/base/_drupal.scss */
+/* line 41, ../scss/base/_drupal.scss */
 html.js form input.throbbing {
-  background-position: 100% -12px;
+  background-position: 100% -22px;
 }
 
 /* line 9, ../scss/layout/_header.scss */
@@ -16780,13 +16781,17 @@ html.js form input.throbbing {
 .top-bar-section .has-dropdown > a {
   padding: 0 2em 0 1em !important;
 }
+/* line 22, ../scss/layout/_header.scss */
+.top-bar-section li a:not(.button):hover {
+  background: #fbb959;
+}
 
-/* line 31, ../scss/layout/_header.scss */
+/* line 36, ../scss/layout/_header.scss */
 .l-messages {
   margin-top: 0.5em;
 }
 
-/* line 35, ../scss/layout/_header.scss */
+/* line 40, ../scss/layout/_header.scss */
 section.l-featured {
   padding-top: 0.5em;
 }
@@ -17554,4 +17559,17 @@ form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-w
 .node-teaser .image {
   float: left;
   margin: 0.3125em 0.625em 0.3125em 0;
+}
+
+/* line 566, ../scss/theme/_features.scss */
+.section-container.tabs > .section > .content {
+  border: 0px;
+}
+/* line 569, ../scss/theme/_features.scss */
+.section-container.tabs > .section > .content .views-field-name {
+  margin: 0.9375em 0;
+}
+/* line 573, ../scss/theme/_features.scss */
+.section-container.tabs > .section > .content .views-field-description {
+  margin: 0.9375em 0 2.1875em;
 }

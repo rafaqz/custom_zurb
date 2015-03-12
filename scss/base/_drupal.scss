@@ -34,11 +34,12 @@
 
 // Fix drupal spinner position for larger text fields.
 html.js {
-  input.form-autocomplete {
-    background-position: 100% 7px;
+  form input.form-autocomplete {
+    background-image: url("../images/throbber.gif");
+    background-position: 100% 9px;
   }
   form input.throbbing {
-    background-position: 100% -12px;
+    background-position: 100% -22px;
   }
 }
 

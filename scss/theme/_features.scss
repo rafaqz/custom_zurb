@@ -558,3 +558,19 @@ $footer-banner-color: #78797C;
   float: left;
   margin: emCalc(5) emCalc(10) emCalc(5) 0;
 }
+
+//////////////////////////////////////////////////////////////////
+// Project feature.
+//////////////////////////////////////////////////////////////////
+
+.section-container.tabs > .section > .content {
+    border: 0px;
+
+    .views-field-name {
+       margin: emCalc(15) 0;
+    }
+
+    .views-field-description {
+       margin: emCalc(15) 0 emCalc(35);
+    }
+}
