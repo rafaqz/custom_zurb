@@ -17563,13 +17563,14 @@ form .field-name-field-ko-ref form .field-name-field-ko-file .tabledrag-toggle-w
 
 /* line 566, ../scss/theme/_features.scss */
 .section-container.tabs > .section > .content {
-  border: 0px;
+  border: 0;
+  padding: 0;
 }
-/* line 569, ../scss/theme/_features.scss */
+/* line 570, ../scss/theme/_features.scss */
 .section-container.tabs > .section > .content .views-field-name {
   margin: 0.9375em 0;
 }
-/* line 573, ../scss/theme/_features.scss */
+/* line 574, ../scss/theme/_features.scss */
 .section-container.tabs > .section > .content .views-field-description {
   margin: 0.9375em 0 2.1875em;
 }
