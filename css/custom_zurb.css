@@ -16863,23 +16863,19 @@ section.join-mail.bottom span {
   color: #94403e;
 }
 
-/* line 83, ../scss/layout/_front.scss */
-.site-learn-more {
-  text-align: right;
-}
-/* line 85, ../scss/layout/_front.scss */
+/* line 84, ../scss/layout/_front.scss */
 .site-learn-more a {
   margin: 1.125em;
 }
 
-/* line 92, ../scss/layout/_front.scss */
+/* line 91, ../scss/layout/_front.scss */
 .l-featured .block {
   text-align: center;
   margin-top: 4.375em;
   margin-bottom: 2.5em;
 }
 
-/* line 102, ../scss/layout/_front.scss */
+/* line 101, ../scss/layout/_front.scss */
 .block-views-front-icons-block {
   padding-top: 2.5em;
   background-color: #e5e6e7;
